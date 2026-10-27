@@ -9,6 +9,15 @@ include_titles = [
   "(ml|machine learning|ai).*(scientist|biolog)",
   "scientist.*(computational|data|machine learning|\\bml\\b|\\bai\\b)",
   "data scientist",
+  "computational (scientist|biologist)",
+  "biostatistic|statistician",
+  "(genomic|genetic).*(scientist|analyst|engineer)",
+  "(machine learning|\\bml\\b|\\bai\\b).*(engineer|researcher).*(bio|drug|protein|genom|molecul|omics|clinical)",
+  "(bio|genom|omics).*data (engineer|analyst|curator)",
+  "data (engineer|analyst|curator).*(bio|genom|omics)",
+  "research scientist.*(bio|genom|protein|drug|molecul|omics|machine learning|\\bml\\b)",
+  "proteomic|transcriptomic|multi-?omic|\\bomics\\b",
+  "scientific software|research software engineer",
 ]
 exclude_titles = ["\\bintern\\b", "internship", "co-?op\\b", "postdoc", "student"]
 
