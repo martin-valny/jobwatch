@@ -1,0 +1,6615 @@
+{
+ "learned": {
+  "ashby:10xteam": {
+   "ats": "ashby",
+   "company": "10xteam",
+   "example": "Data Scientist - AI Trainer - Freelance - 8-20hr p/w - Remote",
+   "first_seen": "2026-10-27",
+   "slug": "10xteam",
+   "via": "discovered boards"
+  },
+  "ashby:absentia-labs": {
+   "ats": "ashby",
+   "company": "absentia-labs",
+   "example": "AI Research Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "absentia-labs",
+   "via": "discovered boards"
+  },
+  "ashby:achira": {
+   "ats": "ashby",
+   "company": "achira",
+   "example": "ML Research Scientist (MLRS) - Generative AI",
+   "first_seen": "2026-10-27",
+   "slug": "achira",
+   "via": "discovered boards"
+  },
+  "ashby:adjoe": {
+   "ats": "ashby",
+   "company": "adjoe",
+   "example": "Senior ML Research Scientist \u2013 AI & Generative Recommendation (f/m/d)",
+   "first_seen": "2026-10-27",
+   "slug": "adjoe",
+   "via": "discovered boards"
+  },
+  "ashby:adonis": {
+   "ats": "ashby",
+   "company": "adonis",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "adonis",
+   "via": "discovered boards"
+  },
+  "ashby:agentio": {
+   "ats": "ashby",
+   "company": "agentio",
+   "example": "Founding Research Scientist, Applied AI",
+   "first_seen": "2026-10-27",
+   "slug": "agentio",
+   "via": "discovered boards"
+  },
+  "ashby:allium": {
+   "ats": "ashby",
+   "company": "allium",
+   "example": "Blockchain Data Wizard, Analyst or Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "allium",
+   "via": "discovered boards"
+  },
+  "ashby:almedia": {
+   "ats": "ashby",
+   "company": "almedia",
+   "example": "Founding Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "almedia",
+   "via": "discovered boards"
+  },
+  "ashby:anyone-ai": {
+   "ats": "ashby",
+   "company": "anyone-ai",
+   "example": "Bioinformatics Expert",
+   "first_seen": "2026-10-27",
+   "slug": "anyone-ai",
+   "via": "discovered boards"
+  },
+  "ashby:arena": {
+   "ats": "ashby",
+   "company": "arena",
+   "example": "Machine Learning Scientist - ML Research",
+   "first_seen": "2026-10-27",
+   "slug": "arena",
+   "via": "discovered boards"
+  },
+  "ashby:arlo": {
+   "ats": "ashby",
+   "company": "Arlo",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Arlo",
+   "via": "discovered boards"
+  },
+  "ashby:arq": {
+   "ats": "ashby",
+   "company": "arq",
+   "example": "Senior Data Scientist, FinCrime",
+   "first_seen": "2026-10-27",
+   "slug": "arq",
+   "via": "discovered boards"
+  },
+  "ashby:arrive": {
+   "ats": "ashby",
+   "company": "arrive",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "arrive",
+   "via": "discovered boards"
+  },
+  "ashby:astera": {
+   "ats": "ashby",
+   "company": "astera",
+   "example": "Research Assistant - Structural Bioinformatics (CURRENTLY NOT ACCEPTING APPLICATIONS)",
+   "first_seen": "2026-10-27",
+   "slug": "astera",
+   "via": "discovered boards"
+  },
+  "ashby:audiohook": {
+   "ats": "ashby",
+   "company": "audiohook",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "audiohook",
+   "via": "discovered boards"
+  },
+  "ashby:autoscience": {
+   "ats": "ashby",
+   "company": "autoscience",
+   "example": "Machine Learning Research Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "autoscience",
+   "via": "discovered boards"
+  },
+  "ashby:aven": {
+   "ats": "ashby",
+   "company": "aven",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "aven",
+   "via": "discovered boards"
+  },
+  "ashby:backmarket": {
+   "ats": "ashby",
+   "company": "backmarket",
+   "example": "Senior Data Scientist - Pricing",
+   "first_seen": "2026-10-27",
+   "slug": "backmarket",
+   "via": "discovered boards"
+  },
+  "ashby:baseten": {
+   "ats": "ashby",
+   "company": "baseten",
+   "example": "Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "baseten",
+   "via": "discovered boards"
+  },
+  "ashby:basis-research": {
+   "ats": "ashby",
+   "company": "basis-research",
+   "example": "Research Scientist, Machine Learning / AI",
+   "first_seen": "2026-10-27",
+   "slug": "basis-research",
+   "via": "discovered boards"
+  },
+  "ashby:batoncorporation": {
+   "ats": "ashby",
+   "company": "batoncorporation",
+   "example": "Staff Data Scientist - Growth & Marketing ($400k - $500k)",
+   "first_seen": "2026-10-27",
+   "slug": "batoncorporation",
+   "via": "discovered boards"
+  },
+  "ashby:bayesianhealth": {
+   "ats": "ashby",
+   "company": "bayesianhealth",
+   "example": "Senior/Staff Machine Learning Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "bayesianhealth",
+   "via": "discovered boards"
+  },
+  "ashby:beamery": {
+   "ats": "ashby",
+   "company": "beamery",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "beamery",
+   "via": "discovered boards"
+  },
+  "ashby:bedrock-robotics": {
+   "ats": "ashby",
+   "company": "bedrock-robotics",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "bedrock-robotics",
+   "via": "discovered boards"
+  },
+  "ashby:belvo": {
+   "ats": "ashby",
+   "company": "belvo",
+   "example": "Senior Applied Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "belvo",
+   "via": "discovered boards"
+  },
+  "ashby:betterup": {
+   "ats": "ashby",
+   "company": "betterup",
+   "example": "Senior Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "betterup",
+   "via": "discovered boards"
+  },
+  "ashby:biggergames": {
+   "ats": "ashby",
+   "company": "biggergames",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "biggergames",
+   "via": "discovered boards"
+  },
+  "ashby:bio": {
+   "ats": "ashby",
+   "company": "bio",
+   "example": "Computational Biologist",
+   "first_seen": "2026-10-27",
+   "slug": "bio",
+   "via": "discovered boards"
+  },
+  "ashby:bonfireanalytics": {
+   "ats": "ashby",
+   "company": "bonfireanalytics",
+   "example": "Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "bonfireanalytics",
+   "via": "discovered boards"
+  },
+  "ashby:branchlab": {
+   "ats": "ashby",
+   "company": "BranchLab",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "BranchLab",
+   "via": "discovered boards"
+  },
+  "ashby:build-ai": {
+   "ats": "ashby",
+   "company": "build-ai",
+   "example": "Data Scientist, Marketplace Incentives",
+   "first_seen": "2026-10-27",
+   "slug": "build-ai",
+   "via": "discovered boards"
+  },
+  "ashby:bureau": {
+   "ats": "ashby",
+   "company": "bureau",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "bureau",
+   "via": "discovered boards"
+  },
+  "ashby:carwow": {
+   "ats": "ashby",
+   "company": "Carwow",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Carwow",
+   "via": "discovered boards"
+  },
+  "ashby:centerfield": {
+   "ats": "ashby",
+   "company": "centerfield",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "centerfield",
+   "via": "discovered boards"
+  },
+  "ashby:cerebras": {
+   "ats": "ashby",
+   "company": "cerebras",
+   "example": "Applied AI/ML Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "cerebras",
+   "via": "discovered boards"
+  },
+  "ashby:chainalysis-careers": {
+   "ats": "ashby",
+   "company": "chainalysis-careers",
+   "example": "Staff Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "chainalysis-careers",
+   "via": "discovered boards"
+  },
+  "ashby:checkout.com": {
+   "ats": "ashby",
+   "company": "checkout.com",
+   "example": "Senior Data Scientist I",
+   "first_seen": "2026-10-27",
+   "slug": "checkout.com",
+   "via": "discovered boards"
+  },
+  "ashby:claylabs": {
+   "ats": "ashby",
+   "company": "claylabs",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "claylabs",
+   "via": "discovered boards"
+  },
+  "ashby:clubhouse": {
+   "ats": "ashby",
+   "company": "clubhouse",
+   "example": "\ud83d\udcc8 Data Scientist (Staff)",
+   "first_seen": "2026-10-27",
+   "slug": "clubhouse",
+   "via": "discovered boards"
+  },
+  "ashby:cogent-security": {
+   "ats": "ashby",
+   "company": "cogent-security",
+   "example": "AI Research Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "cogent-security",
+   "via": "discovered boards"
+  },
+  "ashby:cohere": {
+   "ats": "ashby",
+   "company": "Cohere",
+   "example": "Lead Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Cohere",
+   "via": "discovered boards"
+  },
+  "ashby:comind": {
+   "ats": "ashby",
+   "company": "comind",
+   "example": "Principal Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "comind",
+   "via": "discovered boards"
+  },
+  "ashby:confido": {
+   "ats": "ashby",
+   "company": "confido",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "confido",
+   "via": "discovered boards"
+  },
+  "ashby:coreflow": {
+   "ats": "ashby",
+   "company": "coreflow",
+   "example": "Staff Data Scientist (Product)",
+   "first_seen": "2026-10-27",
+   "slug": "coreflow",
+   "via": "discovered boards"
+  },
+  "ashby:cuesta-partners": {
+   "ats": "ashby",
+   "company": "cuesta-partners",
+   "example": "Data Scientist | Latam",
+   "first_seen": "2026-10-27",
+   "slug": "cuesta-partners",
+   "via": "discovered boards"
+  },
+  "ashby:cygnify": {
+   "ats": "ashby",
+   "company": "cygnify",
+   "example": "Data Scientist \u2013 AI Fintech",
+   "first_seen": "2026-10-27",
+   "slug": "cygnify",
+   "via": "discovered boards"
+  },
+  "ashby:dandelionhealth": {
+   "ats": "ashby",
+   "company": "dandelionhealth",
+   "example": "NLP / LLM Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "dandelionhealth",
+   "via": "discovered boards"
+  },
+  "ashby:datafold": {
+   "ats": "ashby",
+   "company": "datafold",
+   "example": "Data Scientist - Migration Intelligence ",
+   "first_seen": "2026-10-27",
+   "slug": "datafold",
+   "via": "discovered boards"
+  },
+  "ashby:dave": {
+   "ats": "ashby",
+   "company": "dave",
+   "example": "Lead Machine Learning Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "dave",
+   "via": "discovered boards"
+  },
+  "ashby:decagon": {
+   "ats": "ashby",
+   "company": "decagon",
+   "example": "Agent Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "decagon",
+   "via": "discovered boards"
+  },
+  "ashby:deepgram": {
+   "ats": "ashby",
+   "company": "Deepgram",
+   "example": "Senior Data Scientist, Audio",
+   "first_seen": "2026-10-27",
+   "slug": "Deepgram",
+   "via": "discovered boards"
+  },
+  "ashby:demandbase": {
+   "ats": "ashby",
+   "company": "demandbase",
+   "example": "Applied AI Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "demandbase",
+   "via": "discovered boards"
+  },
+  "ashby:deposco": {
+   "ats": "ashby",
+   "company": "deposco",
+   "example": "Senior Data Scientist - AI Focus",
+   "first_seen": "2026-10-27",
+   "slug": "deposco",
+   "via": "discovered boards"
+  },
+  "ashby:divineresearch": {
+   "ats": "ashby",
+   "company": "DivineResearch",
+   "example": "Data Scientist - Credit & Risk",
+   "first_seen": "2026-10-27",
+   "slug": "DivineResearch",
+   "via": "discovered boards"
+  },
+  "ashby:duck-duck-go": {
+   "ats": "ashby",
+   "company": "duck-duck-go",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "duck-duck-go",
+   "via": "discovered boards"
+  },
+  "ashby:elevenlabs": {
+   "ats": "ashby",
+   "company": "elevenlabs",
+   "example": "Finance Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "elevenlabs",
+   "via": "discovered boards"
+  },
+  "ashby:eli": {
+   "ats": "ashby",
+   "company": "eli",
+   "example": "Machine Learning Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "eli",
+   "via": "discovered boards"
+  },
+  "ashby:ellipsis-health": {
+   "ats": "ashby",
+   "company": "ellipsis-health",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "ellipsis-health",
+   "via": "discovered boards"
+  },
+  "ashby:embedding-vc": {
+   "ats": "ashby",
+   "company": "embedding-vc",
+   "example": "AI Research Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "embedding-vc",
+   "via": "discovered boards"
+  },
+  "ashby:empirical-security": {
+   "ats": "ashby",
+   "company": "empirical-security",
+   "example": "Forward Deployed Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "empirical-security",
+   "via": "discovered boards"
+  },
+  "ashby:epistemix": {
+   "ats": "ashby",
+   "company": "Epistemix",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Epistemix",
+   "via": "discovered boards"
+  },
+  "ashby:evvy": {
+   "ats": "ashby",
+   "company": "Evvy",
+   "example": "Translational ML Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Evvy",
+   "via": "discovered boards"
+  },
+  "ashby:extropic": {
+   "ats": "ashby",
+   "company": "extropic",
+   "example": "Research Scientist - Machine Learning",
+   "first_seen": "2026-10-27",
+   "slug": "extropic",
+   "via": "discovered boards"
+  },
+  "ashby:faculty": {
+   "ats": "ashby",
+   "company": "faculty",
+   "example": "Senior Research Scientist - AI Safety",
+   "first_seen": "2026-10-27",
+   "slug": "faculty",
+   "via": "discovered boards"
+  },
+  "ashby:forus": {
+   "ats": "ashby",
+   "company": "forus",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "forus",
+   "via": "discovered boards"
+  },
+  "ashby:foundational": {
+   "ats": "ashby",
+   "company": "foundational",
+   "example": "Geodetic Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "foundational",
+   "via": "discovered boards"
+  },
+  "ashby:fundamental": {
+   "ats": "ashby",
+   "company": "Fundamental",
+   "example": "Forward Deployed - Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Fundamental",
+   "via": "discovered boards"
+  },
+  "ashby:fuse": {
+   "ats": "ashby",
+   "company": "Fuse",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Fuse",
+   "via": "discovered boards"
+  },
+  "ashby:gamma": {
+   "ats": "ashby",
+   "company": "Gamma",
+   "example": "AI Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Gamma",
+   "via": "discovered boards"
+  },
+  "ashby:gen-digital": {
+   "ats": "ashby",
+   "company": "gen-digital",
+   "example": "Lead AI Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "gen-digital",
+   "via": "discovered boards"
+  },
+  "ashby:genpeach": {
+   "ats": "ashby",
+   "company": "genpeach",
+   "example": "Founding Member of Technical Staff \u2013 AI Research Scientist (Image/Video Foundation Models)",
+   "first_seen": "2026-10-27",
+   "slug": "genpeach",
+   "via": "discovered boards"
+  },
+  "ashby:gigaton": {
+   "ats": "ashby",
+   "company": "gigaton",
+   "example": "Research Scientist - Control & Machine Learning",
+   "first_seen": "2026-10-27",
+   "slug": "gigaton",
+   "via": "discovered boards"
+  },
+  "ashby:goaly": {
+   "ats": "ashby",
+   "company": "goaly",
+   "example": "AI Research Scientist - Early Career (PHD/MS)",
+   "first_seen": "2026-10-27",
+   "slug": "goaly",
+   "via": "discovered boards"
+  },
+  "ashby:gradient-labs": {
+   "ats": "ashby",
+   "company": "gradient-labs",
+   "example": "Lead Product Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "gradient-labs",
+   "via": "discovered boards"
+  },
+  "ashby:graphite": {
+   "ats": "ashby",
+   "company": "graphite",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "graphite",
+   "via": "discovered boards"
+  },
+  "ashby:gt-hq": {
+   "ats": "ashby",
+   "company": "gt-hq",
+   "example": "Senior Data Scientist / ML Engineer (Forecasting) | NDA",
+   "first_seen": "2026-10-27",
+   "slug": "gt-hq",
+   "via": "discovered boards"
+  },
+  "ashby:handshake": {
+   "ats": "ashby",
+   "company": "handshake",
+   "example": "Data Scientist, Handshake AI",
+   "first_seen": "2026-10-27",
+   "slug": "handshake",
+   "via": "discovered boards"
+  },
+  "ashby:happyrobot.ai": {
+   "ats": "ashby",
+   "company": "happyrobot.ai",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "happyrobot.ai",
+   "via": "discovered boards"
+  },
+  "ashby:harvey": {
+   "ats": "ashby",
+   "company": "harvey",
+   "example": "Data Scientist, Product",
+   "first_seen": "2026-10-27",
+   "slug": "harvey",
+   "via": "discovered boards"
+  },
+  "ashby:hawk": {
+   "ats": "ashby",
+   "company": "hawk",
+   "example": "Customer Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "hawk",
+   "via": "discovered boards"
+  },
+  "ashby:headway": {
+   "ats": "ashby",
+   "company": "headway",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "headway",
+   "via": "discovered boards"
+  },
+  "ashby:helion": {
+   "ats": "ashby",
+   "company": "helion",
+   "example": "Principal Applied Plasma Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "helion",
+   "via": "discovered boards"
+  },
+  "ashby:higgsfieldai": {
+   "ats": "ashby",
+   "company": "higgsfieldai",
+   "example": "Data Scientist, Product",
+   "first_seen": "2026-10-27",
+   "slug": "higgsfieldai",
+   "via": "discovered boards"
+  },
+  "ashby:hims-and-hers": {
+   "ats": "ashby",
+   "company": "hims-and-hers",
+   "example": "Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "hims-and-hers",
+   "via": "discovered boards"
+  },
+  "ashby:hinge-health": {
+   "ats": "ashby",
+   "company": "hinge-health",
+   "example": "Senior Growth Data Scientist - New Products",
+   "first_seen": "2026-10-27",
+   "slug": "hinge-health",
+   "via": "discovered boards"
+  },
+  "ashby:hyphametrics": {
+   "ats": "ashby",
+   "company": "hyphametrics",
+   "example": "Data Scientist Lead (Contract to FTE) ",
+   "first_seen": "2026-10-27",
+   "slug": "hyphametrics",
+   "via": "discovered boards"
+  },
+  "ashby:ibotta": {
+   "ats": "ashby",
+   "company": "ibotta",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "ibotta",
+   "via": "discovered boards"
+  },
+  "ashby:imprint": {
+   "ats": "ashby",
+   "company": "imprint",
+   "example": "Data Scientist, Risk",
+   "first_seen": "2026-10-27",
+   "slug": "imprint",
+   "via": "discovered boards"
+  },
+  "ashby:ironcladhq": {
+   "ats": "ashby",
+   "company": "ironcladhq",
+   "example": "Staff Data Scientist - Product Analytics",
+   "first_seen": "2026-10-27",
+   "slug": "ironcladhq",
+   "via": "discovered boards"
+  },
+  "ashby:iwoca.co.uk": {
+   "ats": "ashby",
+   "company": "iwoca.co.uk",
+   "example": "Data Scientist - Broker Flow",
+   "first_seen": "2026-10-27",
+   "slug": "iwoca.co.uk",
+   "via": "discovered boards"
+  },
+  "ashby:january": {
+   "ats": "ashby",
+   "company": "january",
+   "example": "Senior Data Scientist, Product Analytics",
+   "first_seen": "2026-10-27",
+   "slug": "january",
+   "via": "discovered boards"
+  },
+  "ashby:jerry.ai": {
+   "ats": "ashby",
+   "company": "Jerry.ai",
+   "example": "Associate Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Jerry.ai",
+   "via": "discovered boards"
+  },
+  "ashby:jobber": {
+   "ats": "ashby",
+   "company": "jobber",
+   "example": "Staff Data Scientist, Applied ML ",
+   "first_seen": "2026-10-27",
+   "slug": "jobber",
+   "via": "discovered boards"
+  },
+  "ashby:jobs-valence": {
+   "ats": "ashby",
+   "company": "jobs-valence",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "jobs-valence",
+   "via": "discovered boards"
+  },
+  "ashby:junior": {
+   "ats": "ashby",
+   "company": "junior",
+   "example": "Data Scientist - Commercial Analytics",
+   "first_seen": "2026-10-27",
+   "slug": "junior",
+   "via": "discovered boards"
+  },
+  "ashby:kalshi": {
+   "ats": "ashby",
+   "company": "kalshi",
+   "example": "Data Scientist (Product)",
+   "first_seen": "2026-10-27",
+   "slug": "kalshi",
+   "via": "discovered boards"
+  },
+  "ashby:kantiv": {
+   "ats": "ashby",
+   "company": "kantiv",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "kantiv",
+   "via": "discovered boards"
+  },
+  "ashby:kayak": {
+   "ats": "ashby",
+   "company": "kayak",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "kayak",
+   "via": "discovered boards"
+  },
+  "ashby:koahlabs": {
+   "ats": "ashby",
+   "company": "koahlabs",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "koahlabs",
+   "via": "discovered boards"
+  },
+  "ashby:laurel": {
+   "ats": "ashby",
+   "company": "laurel",
+   "example": "Sr. Analytics Engineer/ Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "laurel",
+   "via": "discovered boards"
+  },
+  "ashby:ledger": {
+   "ats": "ashby",
+   "company": "ledger",
+   "example": "Data Scientist & Analytics Engineer",
+   "first_seen": "2026-10-27",
+   "slug": "ledger",
+   "via": "discovered boards"
+  },
+  "ashby:legora": {
+   "ats": "ashby",
+   "company": "legora",
+   "example": "Senior Data Scientist - Product",
+   "first_seen": "2026-10-27",
+   "slug": "legora",
+   "via": "discovered boards"
+  },
+  "ashby:lemonade": {
+   "ats": "ashby",
+   "company": "Lemonade",
+   "example": "Sr. Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Lemonade",
+   "via": "discovered boards"
+  },
+  "ashby:lendable": {
+   "ats": "ashby",
+   "company": "lendable",
+   "example": "Data Scientist (AI) ",
+   "first_seen": "2026-10-27",
+   "slug": "lendable",
+   "via": "discovered boards"
+  },
+  "ashby:liquid-ai": {
+   "ats": "ashby",
+   "company": "liquid-ai",
+   "example": "Member of Technical Staff - ML Scientist, Japanese Multimodal",
+   "first_seen": "2026-10-27",
+   "slug": "liquid-ai",
+   "via": "discovered boards"
+  },
+  "ashby:lovable": {
+   "ats": "ashby",
+   "company": "lovable",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "lovable",
+   "via": "discovered boards"
+  },
+  "ashby:loveholidays": {
+   "ats": "ashby",
+   "company": "loveholidays",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "loveholidays",
+   "via": "discovered boards"
+  },
+  "ashby:lunar-solar-group": {
+   "ats": "ashby",
+   "company": "lunar-solar-group",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "lunar-solar-group",
+   "via": "discovered boards"
+  },
+  "ashby:maintainx": {
+   "ats": "ashby",
+   "company": "maintainx",
+   "example": "Senior Product Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "maintainx",
+   "via": "discovered boards"
+  },
+  "ashby:marianaminerals": {
+   "ats": "ashby",
+   "company": "marianaminerals",
+   "example": "Sr. Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "marianaminerals",
+   "via": "discovered boards"
+  },
+  "ashby:maxinsights": {
+   "ats": "ashby",
+   "company": "maxinsights",
+   "example": "Applied Scientist / Research Engineer \u2014 Data Quality & Evaluation",
+   "first_seen": "2026-10-27",
+   "slug": "maxinsights",
+   "via": "discovered boards"
+  },
+  "ashby:melotech": {
+   "ats": "ashby",
+   "company": "melotech",
+   "example": "Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "melotech",
+   "via": "discovered boards"
+  },
+  "ashby:mercor": {
+   "ats": "ashby",
+   "company": "mercor",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "mercor",
+   "via": "discovered boards"
+  },
+  "ashby:metamorphic": {
+   "ats": "ashby",
+   "company": "metamorphic",
+   "example": "ML Research Scientist (Embodied AI & Reinforcement Learning)",
+   "first_seen": "2026-10-27",
+   "slug": "metamorphic",
+   "via": "discovered boards"
+  },
+  "ashby:mexdigital": {
+   "ats": "ashby",
+   "company": "mexdigital",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "mexdigital",
+   "via": "discovered boards"
+  },
+  "ashby:middesk": {
+   "ats": "ashby",
+   "company": "middesk",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "middesk",
+   "via": "discovered boards"
+  },
+  "ashby:minerva": {
+   "ats": "ashby",
+   "company": "minerva",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "minerva",
+   "via": "discovered boards"
+  },
+  "ashby:mirage": {
+   "ats": "ashby",
+   "company": "mirage",
+   "example": "Data Scientist, Product",
+   "first_seen": "2026-10-27",
+   "slug": "mirage",
+   "via": "discovered boards"
+  },
+  "ashby:mistral.ai": {
+   "ats": "ashby",
+   "company": "mistral.ai",
+   "example": "AI Scientist - Agentic Engineering",
+   "first_seen": "2026-10-27",
+   "slug": "mistral.ai",
+   "via": "discovered boards"
+  },
+  "ashby:monday.com": {
+   "ats": "ashby",
+   "company": "monday.com",
+   "example": "AI Research Scientist (Harmony)",
+   "first_seen": "2026-10-27",
+   "slug": "monday.com",
+   "via": "discovered boards"
+  },
+  "ashby:mudflap": {
+   "ats": "ashby",
+   "company": "mudflap",
+   "example": "Senior Data Scientist, Product ",
+   "first_seen": "2026-10-27",
+   "slug": "mudflap",
+   "via": "discovered boards"
+  },
+  "ashby:nash": {
+   "ats": "ashby",
+   "company": "nash",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "nash",
+   "via": "discovered boards"
+  },
+  "ashby:neara": {
+   "ats": "ashby",
+   "company": "neara",
+   "example": "Data Scientist, Geospatial",
+   "first_seen": "2026-10-27",
+   "slug": "neara",
+   "via": "discovered boards"
+  },
+  "ashby:nectar-social": {
+   "ats": "ashby",
+   "company": "nectar-social",
+   "example": "Founding Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "nectar-social",
+   "via": "discovered boards"
+  },
+  "ashby:neo-tax": {
+   "ats": "ashby",
+   "company": "neo-tax",
+   "example": "Senior Data Scientist + Machine Learning Engineer",
+   "first_seen": "2026-10-27",
+   "slug": "neo-tax",
+   "via": "discovered boards"
+  },
+  "ashby:nexxen": {
+   "ats": "ashby",
+   "company": "nexxen",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "nexxen",
+   "via": "discovered boards"
+  },
+  "ashby:niantic-spatial": {
+   "ats": "ashby",
+   "company": "niantic-spatial",
+   "example": "Research Scientist, Embodied AI",
+   "first_seen": "2026-10-27",
+   "slug": "niantic-spatial",
+   "via": "discovered boards"
+  },
+  "ashby:nightfall-ai": {
+   "ats": "ashby",
+   "company": "nightfall-ai",
+   "example": "Sr. ML Scientist/Engineer, AI Platform",
+   "first_seen": "2026-10-27",
+   "slug": "nightfall-ai",
+   "via": "discovered boards"
+  },
+  "ashby:notion": {
+   "ats": "ashby",
+   "company": "notion",
+   "example": "Data Scientist, Growth",
+   "first_seen": "2026-10-27",
+   "slug": "notion",
+   "via": "discovered boards"
+  },
+  "ashby:obrio": {
+   "ats": "ashby",
+   "company": "OBRIO",
+   "example": "Senior/Lead Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "OBRIO",
+   "via": "discovered boards"
+  },
+  "ashby:omnifold": {
+   "ats": "ashby",
+   "company": "omnifold",
+   "example": "MTS - ML Research Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "omnifold",
+   "via": "discovered boards"
+  },
+  "ashby:onepot": {
+   "ats": "ashby",
+   "company": "onepot",
+   "example": "Research Scientist, Machine Learning",
+   "first_seen": "2026-10-27",
+   "slug": "onepot",
+   "via": "discovered boards"
+  },
+  "ashby:onoshealth": {
+   "ats": "ashby",
+   "company": "onoshealth",
+   "example": "Lead Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "onoshealth",
+   "via": "discovered boards"
+  },
+  "ashby:openai": {
+   "ats": "ashby",
+   "company": "OpenAI",
+   "example": "Data Scientist, Safety",
+   "first_seen": "2026-10-27",
+   "slug": "openai",
+   "via": "investor board thrive"
+  },
+  "ashby:openart": {
+   "ats": "ashby",
+   "company": "openart",
+   "example": "Marketing Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "openart",
+   "via": "discovered boards"
+  },
+  "ashby:opusclip": {
+   "ats": "ashby",
+   "company": "opusclip",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "opusclip",
+   "via": "discovered boards"
+  },
+  "ashby:oratomic": {
+   "ats": "ashby",
+   "company": "oratomic",
+   "example": "AI Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "oratomic",
+   "via": "discovered boards"
+  },
+  "ashby:oscilar": {
+   "ats": "ashby",
+   "company": "oscilar",
+   "example": "Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "oscilar",
+   "via": "discovered boards"
+  },
+  "ashby:outtake": {
+   "ats": "ashby",
+   "company": "outtake",
+   "example": "Founding Applied Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "outtake",
+   "via": "discovered boards"
+  },
+  "ashby:palladio": {
+   "ats": "ashby",
+   "company": "palladio",
+   "example": "Founding Data Scientist / Machine Learning Engineer",
+   "first_seen": "2026-10-27",
+   "slug": "palladio",
+   "via": "discovered boards"
+  },
+  "ashby:parafin": {
+   "ats": "ashby",
+   "company": "parafin",
+   "example": "Data Scientist, Underwriting",
+   "first_seen": "2026-10-27",
+   "slug": "parafin",
+   "via": "discovered boards"
+  },
+  "ashby:pear-vc": {
+   "ats": "ashby",
+   "company": "Pear-VC",
+   "example": "Founding AI Research Scientist - Optexity (USA)",
+   "first_seen": "2026-10-27",
+   "slug": "Pear-VC",
+   "via": "discovered boards"
+  },
+  "ashby:peec": {
+   "ats": "ashby",
+   "company": "Peec",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Peec",
+   "via": "discovered boards"
+  },
+  "ashby:periodic-labs": {
+   "ats": "ashby",
+   "company": "periodic-labs",
+   "example": "Research Scientist, Data",
+   "first_seen": "2026-10-27",
+   "slug": "periodic-labs",
+   "via": "discovered boards"
+  },
+  "ashby:perplexity": {
+   "ats": "ashby",
+   "company": "Perplexity",
+   "example": "Member of Data Staff (Data Scientist)",
+   "first_seen": "2026-10-27",
+   "slug": "Perplexity",
+   "via": "discovered boards"
+  },
+  "ashby:petra-labs": {
+   "ats": "ashby",
+   "company": "petra-labs",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "petra-labs",
+   "via": "discovered boards"
+  },
+  "ashby:pika": {
+   "ats": "ashby",
+   "company": "pika",
+   "example": "Research Scientist, Data",
+   "first_seen": "2026-10-27",
+   "slug": "pika",
+   "via": "discovered boards"
+  },
+  "ashby:pilgrim": {
+   "ats": "ashby",
+   "company": "pilgrim",
+   "example": "Bioinformatics Engineer",
+   "first_seen": "2026-10-27",
+   "slug": "pilgrim",
+   "via": "discovered boards"
+  },
+  "ashby:plaid": {
+   "ats": "ashby",
+   "company": "plaid",
+   "example": "Staff Machine Learning Engineer (Research Scientist) - DFAI",
+   "first_seen": "2026-10-27",
+   "slug": "plaid",
+   "via": "discovered boards"
+  },
+  "ashby:polarsteps": {
+   "ats": "ashby",
+   "company": "Polarsteps",
+   "example": "Growth Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Polarsteps",
+   "via": "discovered boards"
+  },
+  "ashby:polymarket": {
+   "ats": "ashby",
+   "company": "polymarket",
+   "example": "Senior Data Scientist / Analyst, Growth",
+   "first_seen": "2026-10-27",
+   "slug": "polymarket",
+   "via": "discovered boards"
+  },
+  "ashby:possible-finance": {
+   "ats": "ashby",
+   "company": "possible-finance",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "possible-finance",
+   "via": "discovered boards"
+  },
+  "ashby:pramaana-labs": {
+   "ats": "ashby",
+   "company": "pramaana-labs",
+   "example": "Research Scientist, AI",
+   "first_seen": "2026-10-27",
+   "slug": "pramaana-labs",
+   "via": "discovered boards"
+  },
+  "ashby:preply": {
+   "ats": "ashby",
+   "company": "preply",
+   "example": "Senior Applied AI Scientist (AI Marketplace)",
+   "first_seen": "2026-10-27",
+   "slug": "preply",
+   "via": "discovered boards"
+  },
+  "ashby:prior-labs": {
+   "ats": "ashby",
+   "company": "prior-labs",
+   "example": "Applied Scientist, Data Science",
+   "first_seen": "2026-10-27",
+   "slug": "prior-labs",
+   "via": "discovered boards"
+  },
+  "ashby:proxima-fusion": {
+   "ats": "ashby",
+   "company": "proxima-fusion",
+   "example": "Scientist, Model Validation and Experimental Data Analysis",
+   "first_seen": "2026-10-27",
+   "slug": "proxima-fusion",
+   "via": "discovered boards"
+  },
+  "ashby:pyyne": {
+   "ats": "ashby",
+   "company": "Pyyne",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Pyyne",
+   "via": "discovered boards"
+  },
+  "ashby:radai": {
+   "ats": "ashby",
+   "company": "radai",
+   "example": "Staff ML Research Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "radai",
+   "via": "discovered boards"
+  },
+  "ashby:rain": {
+   "ats": "ashby",
+   "company": "rain",
+   "example": "Financial Crimes Risk Senior Data Analyst/Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "rain",
+   "via": "discovered boards"
+  },
+  "ashby:ramp": {
+   "ats": "ashby",
+   "company": "Ramp",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "Ramp",
+   "via": "discovered boards"
+  },
+  "ashby:reflow": {
+   "ats": "ashby",
+   "company": "reflow",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "reflow",
+   "via": "discovered boards"
+  },
+  "ashby:remarcable-inc": {
+   "ats": "ashby",
+   "company": "remarcable-inc",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "remarcable-inc",
+   "via": "discovered boards"
+  },
+  "ashby:render": {
+   "ats": "ashby",
+   "company": "render",
+   "example": "Senior/Staff Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "render",
+   "via": "discovered boards"
+  },
+  "ashby:revelrobotics": {
+   "ats": "ashby",
+   "company": "revelrobotics",
+   "example": "sEMG / Biosignal ML Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "revelrobotics",
+   "via": "discovered boards"
+  },
+  "ashby:revenuecat": {
+   "ats": "ashby",
+   "company": "revenuecat",
+   "example": "Senior Data Scientist, Product",
+   "first_seen": "2026-10-27",
+   "slug": "revenuecat",
+   "via": "discovered boards"
+  },
+  "ashby:rho": {
+   "ats": "ashby",
+   "company": "rho",
+   "example": "Senior Data Scientist/ML",
+   "first_seen": "2026-10-27",
+   "slug": "rho",
+   "via": "discovered boards"
+  },
+  "ashby:sandboxaq": {
+   "ats": "ashby",
+   "company": "sandboxaq",
+   "example": "Machine Learning Scientist \u2013 Generative Molecular Design",
+   "first_seen": "2026-10-27",
+   "slug": "sandboxaq",
+   "via": "discovered boards"
+  },
+  "ashby:sardine": {
+   "ats": "ashby",
+   "company": "sardine",
+   "example": "Senior Data Scientist  ",
+   "first_seen": "2026-10-27",
+   "slug": "sardine",
+   "via": "discovered boards"
+  },
+  "ashby:sarvam": {
+   "ats": "ashby",
+   "company": "sarvam",
+   "example": "Data Scientist - Evaluations, Chanakya",
+   "first_seen": "2026-10-27",
+   "slug": "sarvam",
+   "via": "discovered boards"
+  },
+  "ashby:scribdinc": {
+   "ats": "ashby",
+   "company": "ScribdInc",
+   "example": "Data Scientist II",
+   "first_seen": "2026-10-27",
+   "slug": "ScribdInc",
+   "via": "discovered boards"
+  },
+  "ashby:sentilink": {
+   "ats": "ashby",
+   "company": "sentilink",
+   "example": "Senior Data Scientist, Full Stack",
+   "first_seen": "2026-10-27",
+   "slug": "sentilink",
+   "via": "discovered boards"
+  },
+  "ashby:sentra": {
+   "ats": "ashby",
+   "company": "sentra",
+   "example": "Machine Learning Research Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "sentra",
+   "via": "discovered boards"
+  },
+  "ashby:siteminder": {
+   "ats": "ashby",
+   "company": "siteminder",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "siteminder",
+   "via": "discovered boards"
+  },
+  "ashby:snowflake": {
+   "ats": "ashby",
+   "company": "snowflake",
+   "example": "Senior Data Scientist - Product",
+   "first_seen": "2026-10-27",
+   "slug": "snowflake",
+   "via": "discovered boards"
+  },
+  "ashby:socure": {
+   "ats": "ashby",
+   "company": "socure",
+   "example": "Staff Data Scientist - Fraud & Risk",
+   "first_seen": "2026-10-27",
+   "slug": "socure",
+   "via": "discovered boards"
+  },
+  "ashby:solace": {
+   "ats": "ashby",
+   "company": "solace",
+   "example": "Associate Data Scientist (College Grad 2027)",
+   "first_seen": "2026-10-27",
+   "slug": "solace",
+   "via": "discovered boards"
+  },
+  "ashby:solvd": {
+   "ats": "ashby",
+   "company": "Solvd",
+   "example": "Senior Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "Solvd",
+   "via": "discovered boards"
+  },
+  "ashby:sprinter-health": {
+   "ats": "ashby",
+   "company": "sprinter-health",
+   "example": "AI Research Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "sprinter-health",
+   "via": "discovered boards"
+  },
+  "ashby:strava": {
+   "ats": "ashby",
+   "company": "Strava",
+   "example": "Lead Data Scientist, Data Products ",
+   "first_seen": "2026-10-27",
+   "slug": "Strava",
+   "via": "discovered boards"
+  },
+  "ashby:sunday": {
+   "ats": "ashby",
+   "company": "sunday",
+   "example": "Machine Learning Research Engineer/Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "sunday",
+   "via": "discovered boards"
+  },
+  "ashby:suno": {
+   "ats": "ashby",
+   "company": "suno",
+   "example": "Machine Learning Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "suno",
+   "via": "discovered boards"
+  },
+  "ashby:sunset": {
+   "ats": "ashby",
+   "company": "sunset",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "sunset",
+   "via": "discovered boards"
+  },
+  "ashby:super.com": {
+   "ats": "ashby",
+   "company": "super.com",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "super.com",
+   "via": "discovered boards"
+  },
+  "ashby:swarmer": {
+   "ats": "ashby",
+   "company": "swarmer",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "swarmer",
+   "via": "discovered boards"
+  },
+  "ashby:sweatpals": {
+   "ats": "ashby",
+   "company": "sweatpals",
+   "example": "Senior Machine Learning Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "sweatpals",
+   "via": "discovered boards"
+  },
+  "ashby:talkiatry": {
+   "ats": "ashby",
+   "company": "talkiatry",
+   "example": "Senior Product Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "talkiatry",
+   "via": "discovered boards"
+  },
+  "ashby:tavily": {
+   "ats": "ashby",
+   "company": "tavily",
+   "example": "Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "tavily",
+   "via": "discovered boards"
+  },
+  "ashby:teamworks": {
+   "ats": "ashby",
+   "company": "teamworks",
+   "example": "Data Scientist II (Soccer)",
+   "first_seen": "2026-10-27",
+   "slug": "teamworks",
+   "via": "discovered boards"
+  },
+  "ashby:tenex": {
+   "ats": "ashby",
+   "company": "tenex",
+   "example": "Senior Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "tenex",
+   "via": "discovered boards"
+  },
+  "ashby:teya": {
+   "ats": "ashby",
+   "company": "teya",
+   "example": "Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "teya",
+   "via": "discovered boards"
+  },
+  "ashby:thumbtack": {
+   "ats": "ashby",
+   "company": "thumbtack",
+   "example": "Sr. Data Scientist, Business Analytics",
+   "first_seen": "2026-10-27",
+   "slug": "thumbtack",
+   "via": "discovered boards"
+  },
+  "ashby:tiny-health": {
+   "ats": "ashby",
+   "company": "tiny-health",
+   "example": "Microbiome Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "tiny-health",
+   "via": "discovered boards"
+  },
+  "ashby:trainline": {
+   "ats": "ashby",
+   "company": "trainline",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "trainline",
+   "via": "discovered boards"
+  },
+  "ashby:triumph-arcade": {
+   "ats": "ashby",
+   "company": "triumph-arcade",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "triumph-arcade",
+   "via": "discovered boards"
+  },
+  "ashby:trm-labs": {
+   "ats": "ashby",
+   "company": "trm-labs",
+   "example": "Senior Data Scientist, Full Stack",
+   "first_seen": "2026-10-27",
+   "slug": "trm-labs",
+   "via": "discovered boards"
+  },
+  "ashby:uipath": {
+   "ats": "ashby",
+   "company": "uipath",
+   "example": "Principal Applied Scientist - AI",
+   "first_seen": "2026-10-27",
+   "slug": "uipath",
+   "via": "discovered boards"
+  },
+  "ashby:valiussciences": {
+   "ats": "ashby",
+   "company": "Valius Sciences",
+   "example": "Computational Biologist",
+   "first_seen": "2026-10-27",
+   "slug": "valiussciences",
+   "via": "investor board 8vc"
+  },
+  "ashby:valthos": {
+   "ats": "ashby",
+   "company": "valthos",
+   "example": "Member of Technical Staff - Computational Biologist",
+   "first_seen": "2026-10-27",
+   "slug": "valthos",
+   "via": "discovered boards"
+  },
+  "ashby:vanta": {
+   "ats": "ashby",
+   "company": "vanta",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "vanta",
+   "via": "discovered boards"
+  },
+  "ashby:viktor": {
+   "ats": "ashby",
+   "company": "viktor",
+   "example": "Data Scientist (Growth)",
+   "first_seen": "2026-10-27",
+   "slug": "viktor",
+   "via": "discovered boards"
+  },
+  "ashby:voleon": {
+   "ats": "ashby",
+   "company": "voleon",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "voleon",
+   "via": "discovered boards"
+  },
+  "ashby:voodoo": {
+   "ats": "ashby",
+   "company": "voodoo",
+   "example": "Lead Data Scientist - BI Prediction",
+   "first_seen": "2026-10-27",
+   "slug": "voodoo",
+   "via": "discovered boards"
+  },
+  "ashby:vrey": {
+   "ats": "ashby",
+   "company": "VREY",
+   "example": "(Junior) Energy Data Scientist \u2013 Energiedaten & Automatisierung (MSB) (m/w/d)",
+   "first_seen": "2026-10-27",
+   "slug": "VREY",
+   "via": "discovered boards"
+  },
+  "ashby:wayve": {
+   "ats": "ashby",
+   "company": "wayve",
+   "example": "Data Scientist, Data Quality & Provenance",
+   "first_seen": "2026-10-27",
+   "slug": "wayve",
+   "via": "discovered boards"
+  },
+  "ashby:wealthsimple": {
+   "ats": "ashby",
+   "company": "wealthsimple",
+   "example": "Sr Data Scientist, Finance, Brokerage & Market Risk",
+   "first_seen": "2026-10-27",
+   "slug": "wealthsimple",
+   "via": "discovered boards"
+  },
+  "ashby:webai": {
+   "ats": "ashby",
+   "company": "webai",
+   "example": "AI Research Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "webai",
+   "via": "discovered boards"
+  },
+  "ashby:whoop": {
+   "ats": "ashby",
+   "company": "whoop",
+   "example": "Staff Applied Machine Learning Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "whoop",
+   "via": "discovered boards"
+  },
+  "ashby:wispr-flow": {
+   "ats": "ashby",
+   "company": "wispr-flow",
+   "example": "ML Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "wispr-flow",
+   "via": "discovered boards"
+  },
+  "ashby:writer": {
+   "ats": "ashby",
+   "company": "WRITER",
+   "example": "AI research scientist",
+   "first_seen": "2026-10-27",
+   "slug": "WRITER",
+   "via": "discovered boards"
+  },
+  "greenhouse:2k": {
+   "ats": "greenhouse",
+   "company": "2k",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "2k",
+   "via": "discovered boards"
+  },
+  "greenhouse:6sense": {
+   "ats": "greenhouse",
+   "company": "6sense",
+   "example": "Sr. Data Scientist, Forward-Deployed",
+   "first_seen": "2026-10-27",
+   "slug": "6sense",
+   "via": "discovered boards"
+  },
+  "greenhouse:adyen": {
+   "ats": "greenhouse",
+   "company": "adyen",
+   "example": "Senior Machine Learning Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "adyen",
+   "via": "discovered boards"
+  },
+  "greenhouse:air": {
+   "ats": "greenhouse",
+   "company": "air",
+   "example": "Forward Deployed Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "air",
+   "via": "discovered boards"
+  },
+  "greenhouse:airbnb": {
+   "ats": "greenhouse",
+   "company": "airbnb",
+   "example": "Senior Data Scientist, People Analytics & Research",
+   "first_seen": "2026-10-27",
+   "slug": "airbnb",
+   "via": "discovered boards"
+  },
+  "greenhouse:aisquared": {
+   "ats": "greenhouse",
+   "company": "AISquared",
+   "example": "Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "AISquared",
+   "via": "discovered boards"
+  },
+  "greenhouse:allenintegratedsolutions": {
+   "ats": "greenhouse",
+   "company": "allenintegratedsolutions",
+   "example": "Data Scientist - Expert - #914",
+   "first_seen": "2026-10-27",
+   "slug": "allenintegratedsolutions",
+   "via": "discovered boards"
+  },
+  "greenhouse:alpaca": {
+   "ats": "greenhouse",
+   "company": "alpaca",
+   "example": "Senior Data Scientist AI Evaluation",
+   "first_seen": "2026-10-27",
+   "slug": "alpaca",
+   "via": "discovered boards"
+  },
+  "greenhouse:altaresourcetechnologiesinc": {
+   "ats": "greenhouse",
+   "company": "altaresourcetechnologiesinc",
+   "example": "Head of Computational Biology",
+   "first_seen": "2026-10-27",
+   "slug": "altaresourcetechnologiesinc",
+   "via": "discovered boards"
+  },
+  "greenhouse:alxafrica": {
+   "ats": "greenhouse",
+   "company": "alxafrica",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "alxafrica",
+   "via": "discovered boards"
+  },
+  "greenhouse:americaninstitutesforresearch": {
+   "ats": "greenhouse",
+   "company": "americaninstitutesforresearch",
+   "example": "Data Scientist, Project Success and Innovation",
+   "first_seen": "2026-10-27",
+   "slug": "americaninstitutesforresearch",
+   "via": "discovered boards"
+  },
+  "greenhouse:anaplan": {
+   "ats": "greenhouse",
+   "company": "anaplan",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "anaplan",
+   "via": "discovered boards"
+  },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Research Scientist, Life Sciences (Computational)",
+   "first_seen": "2026-10-27",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
+  },
+  "greenhouse:apartmentiq": {
+   "ats": "greenhouse",
+   "company": "apartmentiq",
+   "example": "Data Scientist - Multifamily Analytics ",
+   "first_seen": "2026-10-27",
+   "slug": "apartmentiq",
+   "via": "discovered boards"
+  },
+  "greenhouse:apolloio": {
+   "ats": "greenhouse",
+   "company": "apolloio",
+   "example": "Senior Data Scientist - Product",
+   "first_seen": "2026-10-27",
+   "slug": "apolloio",
+   "via": "discovered boards"
+  },
+  "greenhouse:applovin": {
+   "ats": "greenhouse",
+   "company": "applovin",
+   "example": "Data Scientist \u2013 Analytics ",
+   "first_seen": "2026-10-27",
+   "slug": "applovin",
+   "via": "discovered boards"
+  },
+  "greenhouse:appsflyer": {
+   "ats": "greenhouse",
+   "company": "appsflyer",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "appsflyer",
+   "via": "discovered boards"
+  },
+  "greenhouse:archer56": {
+   "ats": "greenhouse",
+   "company": "archer56",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "archer56",
+   "via": "discovered boards"
+  },
+  "greenhouse:asana": {
+   "ats": "greenhouse",
+   "company": "asana",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "asana",
+   "via": "discovered boards"
+  },
+  "greenhouse:ascend21": {
+   "ats": "greenhouse",
+   "company": "ascend21",
+   "example": "Data Scientist, Product",
+   "first_seen": "2026-10-27",
+   "slug": "ascend21",
+   "via": "discovered boards"
+  },
+  "greenhouse:avride": {
+   "ats": "greenhouse",
+   "company": "avride",
+   "example": "Data Scientist \u2013 AV Metrics & Evaluation Analytics",
+   "first_seen": "2026-10-27",
+   "slug": "avride",
+   "via": "discovered boards"
+  },
+  "greenhouse:awin": {
+   "ats": "greenhouse",
+   "company": "awin",
+   "example": "Senior Data Scientist (f/m/d)",
+   "first_seen": "2026-10-27",
+   "slug": "awin",
+   "via": "discovered boards"
+  },
+  "greenhouse:axle": {
+   "ats": "greenhouse",
+   "company": "axle",
+   "example": "AI/ML Scientist/Developer",
+   "first_seen": "2026-10-27",
+   "slug": "axle",
+   "via": "discovered boards"
+  },
+  "greenhouse:bettyjobboard": {
+   "ats": "greenhouse",
+   "company": "bettyjobboard",
+   "example": "Senior Data Scientist | Betty CA",
+   "first_seen": "2026-10-27",
+   "slug": "bettyjobboard",
+   "via": "discovered boards"
+  },
+  "greenhouse:biohub": {
+   "ats": "greenhouse",
+   "company": "EvolutionaryScale",
+   "example": "Computational Biologist, Immune Cell Repolarization",
+   "first_seen": "2026-10-27",
+   "slug": "biohub",
+   "via": "investor board lux"
+  },
+  "greenhouse:blackcanyonconsulting": {
+   "ats": "greenhouse",
+   "company": "blackcanyonconsulting",
+   "example": "Computational Biologist (SRA Bioinformatics)",
+   "first_seen": "2026-10-27",
+   "slug": "blackcanyonconsulting",
+   "via": "discovered boards"
+  },
+  "greenhouse:blinkhealth": {
+   "ats": "greenhouse",
+   "company": "blinkhealth",
+   "example": "Principal Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "blinkhealth",
+   "via": "discovered boards"
+  },
+  "greenhouse:bloomreach": {
+   "ats": "greenhouse",
+   "company": "bloomreach",
+   "example": "Senior Data Scientist - Personalization & Predictions",
+   "first_seen": "2026-10-27",
+   "slug": "bloomreach",
+   "via": "discovered boards"
+  },
+  "greenhouse:bluefishai": {
+   "ats": "greenhouse",
+   "company": "bluefishai",
+   "example": "Senior/Staff Data Scientist, Analytics",
+   "first_seen": "2026-10-27",
+   "slug": "bluefishai",
+   "via": "discovered boards"
+  },
+  "greenhouse:blueroseresearch": {
+   "ats": "greenhouse",
+   "company": "blueroseresearch",
+   "example": "Machine Learning Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "blueroseresearch",
+   "via": "discovered boards"
+  },
+  "greenhouse:boulevard": {
+   "ats": "greenhouse",
+   "company": "boulevard",
+   "example": "Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "boulevard",
+   "via": "discovered boards"
+  },
+  "greenhouse:brex": {
+   "ats": "greenhouse",
+   "company": "brex",
+   "example": "Data Scientist II, Applied ML",
+   "first_seen": "2026-10-27",
+   "slug": "brex",
+   "via": "discovered boards"
+  },
+  "greenhouse:c3iot": {
+   "ats": "greenhouse",
+   "company": "c3iot",
+   "example": "Data Scientist - Defence ",
+   "first_seen": "2026-10-27",
+   "slug": "c3iot",
+   "via": "discovered boards"
+  },
+  "greenhouse:cabify": {
+   "ats": "greenhouse",
+   "company": "cabify",
+   "example": "Data Scientist, Applied Science",
+   "first_seen": "2026-10-27",
+   "slug": "cabify",
+   "via": "discovered boards"
+  },
+  "greenhouse:calyxo": {
+   "ats": "greenhouse",
+   "company": "calyxo",
+   "example": "Data Scientist (Biostatistics) - Remote, USA",
+   "first_seen": "2026-10-27",
+   "slug": "calyxo",
+   "via": "discovered boards"
+  },
+  "greenhouse:celonis": {
+   "ats": "greenhouse",
+   "company": "celonis",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "celonis",
+   "via": "discovered boards"
+  },
+  "greenhouse:chaosindustries": {
+   "ats": "greenhouse",
+   "company": "chaosindustries",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "chaosindustries",
+   "via": "discovered boards"
+  },
+  "greenhouse:chime": {
+   "ats": "greenhouse",
+   "company": "chime",
+   "example": "Lead Data Scientist, Credit Risk",
+   "first_seen": "2026-10-27",
+   "slug": "chime",
+   "via": "discovered boards"
+  },
+  "greenhouse:clara": {
+   "ats": "greenhouse",
+   "company": "clara",
+   "example": "Data Scientist (Cient\u00edfico de Datos) - Hybrid",
+   "first_seen": "2026-10-27",
+   "slug": "clara",
+   "via": "discovered boards"
+  },
+  "greenhouse:clearscoretechnologylimited": {
+   "ats": "greenhouse",
+   "company": "clearscoretechnologylimited",
+   "example": "Senior Data Scientist - Full Stack ",
+   "first_seen": "2026-10-27",
+   "slug": "clearscoretechnologylimited",
+   "via": "discovered boards"
+  },
+  "greenhouse:clearstreet": {
+   "ats": "greenhouse",
+   "company": "clearstreet",
+   "example": "Senior Growth Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "clearstreet",
+   "via": "discovered boards"
+  },
+  "greenhouse:cloverhealth": {
+   "ats": "greenhouse",
+   "company": "cloverhealth",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "cloverhealth",
+   "via": "discovered boards"
+  },
+  "greenhouse:cobblestoneenergy": {
+   "ats": "greenhouse",
+   "company": "cobblestoneenergy",
+   "example": "Commercial Graduate Scheme, Junior Data Scientist - Dubai, UAE",
+   "first_seen": "2026-10-27",
+   "slug": "cobblestoneenergy",
+   "via": "discovered boards"
+  },
+  "greenhouse:cobblestoneenergy4": {
+   "ats": "greenhouse",
+   "company": "cobblestoneenergy4",
+   "example": "Commercial Graduate Scheme, Junior Data Scientist - Dubai, UAE",
+   "first_seen": "2026-10-27",
+   "slug": "cobblestoneenergy4",
+   "via": "discovered boards"
+  },
+  "greenhouse:coderoad": {
+   "ats": "greenhouse",
+   "company": "coderoad",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "coderoad",
+   "via": "discovered boards"
+  },
+  "greenhouse:cognite": {
+   "ats": "greenhouse",
+   "company": "cognite",
+   "example": "Academy Engineer - (Data Scientist- Training)",
+   "first_seen": "2026-10-27",
+   "slug": "cognite",
+   "via": "discovered boards"
+  },
+  "greenhouse:coherehealth": {
+   "ats": "greenhouse",
+   "company": "coherehealth",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "coherehealth",
+   "via": "discovered boards"
+  },
+  "greenhouse:coinbase": {
+   "ats": "greenhouse",
+   "company": "coinbase",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "coinbase",
+   "via": "discovered boards"
+  },
+  "greenhouse:conviva": {
+   "ats": "greenhouse",
+   "company": "conviva",
+   "example": "Senior Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "conviva",
+   "via": "discovered boards"
+  },
+  "greenhouse:coreone": {
+   "ats": "greenhouse",
+   "company": "coreone",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "coreone",
+   "via": "discovered boards"
+  },
+  "greenhouse:coursera": {
+   "ats": "greenhouse",
+   "company": "coursera",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "coursera",
+   "via": "discovered boards"
+  },
+  "greenhouse:credible": {
+   "ats": "greenhouse",
+   "company": "credible",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "credible",
+   "via": "discovered boards"
+  },
+  "greenhouse:customerio": {
+   "ats": "greenhouse",
+   "company": "customerio",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "customerio",
+   "via": "discovered boards"
+  },
+  "greenhouse:decathlontechnology": {
+   "ats": "greenhouse",
+   "company": "decathlontechnology",
+   "example": "Senior Data Scientist - Demand Forecast (f/m/d)",
+   "first_seen": "2026-10-27",
+   "slug": "decathlontechnology",
+   "via": "discovered boards"
+  },
+  "greenhouse:definitivehc": {
+   "ats": "greenhouse",
+   "company": "definitivehc",
+   "example": "Data Scientist, Applied AI",
+   "first_seen": "2026-10-27",
+   "slug": "definitivehc",
+   "via": "discovered boards"
+  },
+  "greenhouse:deliveroo": {
+   "ats": "greenhouse",
+   "company": "deliveroo",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "deliveroo",
+   "via": "discovered boards"
+  },
+  "greenhouse:dept": {
+   "ats": "greenhouse",
+   "company": "dept",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "dept",
+   "via": "discovered boards"
+  },
+  "greenhouse:descript": {
+   "ats": "greenhouse",
+   "company": "descript",
+   "example": "Applied Research Scientist, AI Research",
+   "first_seen": "2026-10-27",
+   "slug": "descript",
+   "via": "discovered boards"
+  },
+  "greenhouse:discord": {
+   "ats": "greenhouse",
+   "company": "discord",
+   "example": "Data Scientist - Client Platform",
+   "first_seen": "2026-10-27",
+   "slug": "discord",
+   "via": "discovered boards"
+  },
+  "greenhouse:doximity": {
+   "ats": "greenhouse",
+   "company": "doximity",
+   "example": "Commercial Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "doximity",
+   "via": "discovered boards"
+  },
+  "greenhouse:duolingo": {
+   "ats": "greenhouse",
+   "company": "duolingo",
+   "example": "Senior Data Scientist, Growth Forecasting",
+   "first_seen": "2026-10-27",
+   "slug": "duolingo",
+   "via": "discovered boards"
+  },
+  "greenhouse:ebury": {
+   "ats": "greenhouse",
+   "company": "ebury",
+   "example": "Senior Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "ebury",
+   "via": "discovered boards"
+  },
+  "greenhouse:edmentum": {
+   "ats": "greenhouse",
+   "company": "edmentum",
+   "example": "Research Scientist, Applied AI Research",
+   "first_seen": "2026-10-27",
+   "slug": "edmentum",
+   "via": "discovered boards"
+  },
+  "greenhouse:eikontherapeutics": {
+   "ats": "greenhouse",
+   "company": "eikontherapeutics",
+   "example": "Scientist, Computational Biology",
+   "first_seen": "2026-10-27",
+   "slug": "eikontherapeutics",
+   "via": "discovered boards"
+  },
+  "greenhouse:eleoshealth": {
+   "ats": "greenhouse",
+   "company": "eleoshealth",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "eleoshealth",
+   "via": "discovered boards"
+  },
+  "greenhouse:energyhub": {
+   "ats": "greenhouse",
+   "company": "energyhub",
+   "example": "Energy Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "energyhub",
+   "via": "discovered boards"
+  },
+  "greenhouse:engine": {
+   "ats": "greenhouse",
+   "company": "engine",
+   "example": "Senior Data Scientist - Content",
+   "first_seen": "2026-10-27",
+   "slug": "engine",
+   "via": "discovered boards"
+  },
+  "greenhouse:enigmaio": {
+   "ats": "greenhouse",
+   "company": "enigmaio",
+   "example": "Staff/Senior Data Scientist, Entity Resolution Team",
+   "first_seen": "2026-10-27",
+   "slug": "enigmaio",
+   "via": "discovered boards"
+  },
+  "greenhouse:enova": {
+   "ats": "greenhouse",
+   "company": "enova",
+   "example": "Data Scientist - Portfolio Consumer (Hybrid)",
+   "first_seen": "2026-10-27",
+   "slug": "enova",
+   "via": "discovered boards"
+  },
+  "greenhouse:eonio": {
+   "ats": "greenhouse",
+   "company": "eonio",
+   "example": "Senior Research Scientist, AI & Data Systems",
+   "first_seen": "2026-10-27",
+   "slug": "eonio",
+   "via": "discovered boards"
+  },
+  "greenhouse:epicgames": {
+   "ats": "greenhouse",
+   "company": "epicgames",
+   "example": "Senior Data Scientist, Transparency & Regulatory",
+   "first_seen": "2026-10-27",
+   "slug": "epicgames",
+   "via": "discovered boards"
+  },
+  "greenhouse:eucalyptus": {
+   "ats": "greenhouse",
+   "company": "eucalyptus",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "eucalyptus",
+   "via": "discovered boards"
+  },
+  "greenhouse:evio": {
+   "ats": "greenhouse",
+   "company": "evio",
+   "example": "Applied Real World Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "evio",
+   "via": "discovered boards"
+  },
+  "greenhouse:evolutioniq": {
+   "ats": "greenhouse",
+   "company": "evolutioniq",
+   "example": "Staff Data Scientist (Insurance Tech)",
+   "first_seen": "2026-10-27",
+   "slug": "evolutioniq",
+   "via": "discovered boards"
+  },
+  "greenhouse:extend": {
+   "ats": "greenhouse",
+   "company": "extend",
+   "example": "Senior Data Scientist, Revenue & Risk Analytics",
+   "first_seen": "2026-10-27",
+   "slug": "extend",
+   "via": "discovered boards"
+  },
+  "greenhouse:extrahopnetworks": {
+   "ats": "greenhouse",
+   "company": "extrahopnetworks",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "extrahopnetworks",
+   "via": "discovered boards"
+  },
+  "greenhouse:faire": {
+   "ats": "greenhouse",
+   "company": "faire",
+   "example": "Senior Applied AI/ML Scientist - Brand Growth",
+   "first_seen": "2026-10-27",
+   "slug": "faire",
+   "via": "discovered boards"
+  },
+  "greenhouse:fetch": {
+   "ats": "greenhouse",
+   "company": "fetch",
+   "example": "Actuarial Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "fetch",
+   "via": "discovered boards"
+  },
+  "greenhouse:figma": {
+   "ats": "greenhouse",
+   "company": "figma",
+   "example": "AI Applied Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "figma",
+   "via": "discovered boards"
+  },
+  "greenhouse:flagshippioneeringinc": {
+   "ats": "greenhouse",
+   "company": "flagshippioneeringinc",
+   "example": "Lead Bioinformatics Engineer",
+   "first_seen": "2026-10-27",
+   "slug": "flagshippioneeringinc",
+   "via": "discovered boards"
+  },
+  "greenhouse:fleetio": {
+   "ats": "greenhouse",
+   "company": "fleetio",
+   "example": "Senior Applied Data Scientist, Fleet Intelligence",
+   "first_seen": "2026-10-27",
+   "slug": "fleetio",
+   "via": "discovered boards"
+  },
+  "greenhouse:flex": {
+   "ats": "greenhouse",
+   "company": "flex",
+   "example": "Sr Staff Data Scientist, New Verticals ",
+   "first_seen": "2026-10-27",
+   "slug": "flex",
+   "via": "discovered boards"
+  },
+  "greenhouse:flexport": {
+   "ats": "greenhouse",
+   "company": "flexport",
+   "example": "Senior Applied Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "flexport",
+   "via": "discovered boards"
+  },
+  "greenhouse:flyzipline": {
+   "ats": "greenhouse",
+   "company": "flyzipline",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "flyzipline",
+   "via": "discovered boards"
+  },
+  "greenhouse:focalsystems": {
+   "ats": "greenhouse",
+   "company": "focalsystems",
+   "example": "Data Scientist - UK",
+   "first_seen": "2026-10-27",
+   "slug": "focalsystems",
+   "via": "discovered boards"
+  },
+  "greenhouse:fourkites": {
+   "ats": "greenhouse",
+   "company": "fourkites",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "fourkites",
+   "via": "discovered boards"
+  },
+  "greenhouse:gametimeunited": {
+   "ats": "greenhouse",
+   "company": "gametimeunited",
+   "example": "Senior Data Scientist, Mobile Marketing Analytics",
+   "first_seen": "2026-10-27",
+   "slug": "gametimeunited",
+   "via": "discovered boards"
+  },
+  "greenhouse:gleanwork": {
+   "ats": "greenhouse",
+   "company": "gleanwork",
+   "example": "Senior Data Scientist, Growth",
+   "first_seen": "2026-10-27",
+   "slug": "gleanwork",
+   "via": "discovered boards"
+  },
+  "greenhouse:gofasti": {
+   "ats": "greenhouse",
+   "company": "gofasti",
+   "example": "1172 - Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "gofasti",
+   "via": "discovered boards"
+  },
+  "greenhouse:gofundme": {
+   "ats": "greenhouse",
+   "company": "gofundme",
+   "example": "Staff Data Scientist (Pricing)",
+   "first_seen": "2026-10-27",
+   "slug": "gofundme",
+   "via": "discovered boards"
+  },
+  "greenhouse:gongio": {
+   "ats": "greenhouse",
+   "company": "gongio",
+   "example": "Senior Data Scientist - AI Research & Reliability\u00a0",
+   "first_seen": "2026-10-27",
+   "slug": "gongio",
+   "via": "discovered boards"
+  },
+  "greenhouse:gradientai": {
+   "ats": "greenhouse",
+   "company": "gradientai",
+   "example": "Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "gradientai",
+   "via": "discovered boards"
+  },
+  "greenhouse:gusto": {
+   "ats": "greenhouse",
+   "company": "gusto",
+   "example": "Data Scientist, Risk ",
+   "first_seen": "2026-10-27",
+   "slug": "gusto",
+   "via": "discovered boards"
+  },
+  "greenhouse:heartflowinc": {
+   "ats": "greenhouse",
+   "company": "heartflowinc",
+   "example": "Senior Data Scientist, Medical Imaging",
+   "first_seen": "2026-10-27",
+   "slug": "heartflowinc",
+   "via": "discovered boards"
+  },
+  "greenhouse:hippo70": {
+   "ats": "greenhouse",
+   "company": "hippo70",
+   "example": "Actuarial Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "hippo70",
+   "via": "discovered boards"
+  },
+  "greenhouse:honor": {
+   "ats": "greenhouse",
+   "company": "honor",
+   "example": "Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "honor",
+   "via": "discovered boards"
+  },
+  "greenhouse:hut8": {
+   "ats": "greenhouse",
+   "company": "hut8",
+   "example": "Data Scientist, Principal",
+   "first_seen": "2026-10-27",
+   "slug": "hut8",
+   "via": "discovered boards"
+  },
+  "greenhouse:impact": {
+   "ats": "greenhouse",
+   "company": "impact",
+   "example": "Data Scientist, Next Gen Recommendation Systems",
+   "first_seen": "2026-10-27",
+   "slug": "impact",
+   "via": "discovered boards"
+  },
+  "greenhouse:integra": {
+   "ats": "greenhouse",
+   "company": "integra",
+   "example": "Data Analyst / Associate Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "integra",
+   "via": "discovered boards"
+  },
+  "greenhouse:inter": {
+   "ats": "greenhouse",
+   "company": "inter",
+   "example": "DATA SCIENTIST III | DATA ENGINEERING & SCIENCE",
+   "first_seen": "2026-10-27",
+   "slug": "inter",
+   "via": "discovered boards"
+  },
+  "greenhouse:intercom": {
+   "ats": "greenhouse",
+   "company": "intercom",
+   "example": "Forward Deployed Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "intercom",
+   "via": "discovered boards"
+  },
+  "greenhouse:invisibletech": {
+   "ats": "greenhouse",
+   "company": "invisibletech",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "invisibletech",
+   "via": "discovered boards"
+  },
+  "greenhouse:judihealth": {
+   "ats": "greenhouse",
+   "company": "judihealth",
+   "example": "Senior Applied AI/ML Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "judihealth",
+   "via": "discovered boards"
+  },
+  "greenhouse:justworks": {
+   "ats": "greenhouse",
+   "company": "justworks",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "justworks",
+   "via": "discovered boards"
+  },
+  "greenhouse:kikoff": {
+   "ats": "greenhouse",
+   "company": "kikoff",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "kikoff",
+   "via": "discovered boards"
+  },
+  "greenhouse:knowbe4": {
+   "ats": "greenhouse",
+   "company": "knowbe4",
+   "example": "Graduate Data Scientist - Cyber Analytics (Position located in Cheltenham, United Kingdom)",
+   "first_seen": "2026-10-27",
+   "slug": "knowbe4",
+   "via": "discovered boards"
+  },
+  "greenhouse:koboldmetals": {
+   "ats": "greenhouse",
+   "company": "koboldmetals",
+   "example": "Data Scientist - (Global)",
+   "first_seen": "2026-10-27",
+   "slug": "koboldmetals",
+   "via": "discovered boards"
+  },
+  "greenhouse:kodiak": {
+   "ats": "greenhouse",
+   "company": "kodiak",
+   "example": "World Model Research Scientist- Physical AI",
+   "first_seen": "2026-10-27",
+   "slug": "kodiak",
+   "via": "discovered boards"
+  },
+  "greenhouse:krafton": {
+   "ats": "greenhouse",
+   "company": "krafton",
+   "example": "[AI Research Div.] Research Scientist - Foundation Models (2\ub144 \uc774\uc0c1 / \uacc4\uc57d\uc9c1)",
+   "first_seen": "2026-10-27",
+   "slug": "krafton",
+   "via": "discovered boards"
+  },
+  "greenhouse:layerhealth": {
+   "ats": "greenhouse",
+   "company": "layerhealth",
+   "example": "Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "layerhealth",
+   "via": "discovered boards"
+  },
+  "greenhouse:lendingtree": {
+   "ats": "greenhouse",
+   "company": "lendingtree",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "lendingtree",
+   "via": "discovered boards"
+  },
+  "greenhouse:lgelectronics": {
+   "ats": "greenhouse",
+   "company": "lgelectronics",
+   "example": "Data Scientist / AI Engineer",
+   "first_seen": "2026-10-27",
+   "slug": "lgelectronics",
+   "via": "discovered boards"
+  },
+  "greenhouse:life360": {
+   "ats": "greenhouse",
+   "company": "life360",
+   "example": "Lead Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "life360",
+   "via": "discovered boards"
+  },
+  "greenhouse:lightningai": {
+   "ats": "greenhouse",
+   "company": "lightningai",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "lightningai",
+   "via": "discovered boards"
+  },
+  "greenhouse:lyft": {
+   "ats": "greenhouse",
+   "company": "lyft",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "lyft",
+   "via": "discovered boards"
+  },
+  "greenhouse:maymobility": {
+   "ats": "greenhouse",
+   "company": "maymobility",
+   "example": "Senior Data Scientist - Metrics",
+   "first_seen": "2026-10-27",
+   "slug": "maymobility",
+   "via": "discovered boards"
+  },
+  "greenhouse:melio": {
+   "ats": "greenhouse",
+   "company": "melio",
+   "example": "Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "melio",
+   "via": "discovered boards"
+  },
+  "greenhouse:mercury": {
+   "ats": "greenhouse",
+   "company": "mercury",
+   "example": "Senior Data Scientist - Growth",
+   "first_seen": "2026-10-27",
+   "slug": "mercury",
+   "via": "discovered boards"
+  },
+  "greenhouse:metropolis": {
+   "ats": "greenhouse",
+   "company": "metropolis",
+   "example": "Senior Data Scientist, Growth Marketing",
+   "first_seen": "2026-10-27",
+   "slug": "metropolis",
+   "via": "discovered boards"
+  },
+  "greenhouse:midihealth": {
+   "ats": "greenhouse",
+   "company": "midihealth",
+   "example": "Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "midihealth",
+   "via": "discovered boards"
+  },
+  "greenhouse:missionlane": {
+   "ats": "greenhouse",
+   "company": "missionlane",
+   "example": "Senior Data Scientist, Credit",
+   "first_seen": "2026-10-27",
+   "slug": "missionlane",
+   "via": "discovered boards"
+  },
+  "greenhouse:mixpanel": {
+   "ats": "greenhouse",
+   "company": "mixpanel",
+   "example": "Senior Data Scientist, AI Product Insights",
+   "first_seen": "2026-10-27",
+   "slug": "mixpanel",
+   "via": "discovered boards"
+  },
+  "greenhouse:moniepoint": {
+   "ats": "greenhouse",
+   "company": "moniepoint",
+   "example": "Senior Data Scientist (Credit)",
+   "first_seen": "2026-10-27",
+   "slug": "moniepoint",
+   "via": "discovered boards"
+  },
+  "greenhouse:monks": {
+   "ats": "greenhouse",
+   "company": "monks",
+   "example": "Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "monks",
+   "via": "discovered boards"
+  },
+  "greenhouse:monzo": {
+   "ats": "greenhouse",
+   "company": "monzo",
+   "example": "Lead Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "monzo",
+   "via": "discovered boards"
+  },
+  "greenhouse:monzoreferrals": {
+   "ats": "greenhouse",
+   "company": "monzoreferrals",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "monzoreferrals",
+   "via": "discovered boards"
+  },
+  "greenhouse:morsecorp": {
+   "ats": "greenhouse",
+   "company": "morsecorp",
+   "example": "Bayesian Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "morsecorp",
+   "via": "discovered boards"
+  },
+  "greenhouse:mozilla": {
+   "ats": "greenhouse",
+   "company": "mozilla",
+   "example": "Staff Data Scientist, Ads",
+   "first_seen": "2026-10-27",
+   "slug": "mozilla",
+   "via": "discovered boards"
+  },
+  "greenhouse:muonspace": {
+   "ats": "greenhouse",
+   "company": "muonspace",
+   "example": "Remote Sensing Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "muonspace",
+   "via": "discovered boards"
+  },
+  "greenhouse:natera": {
+   "ats": "greenhouse",
+   "company": "natera",
+   "example": "Associate Director of Bioinformatics (Women's Health and Organ Health)",
+   "first_seen": "2026-10-27",
+   "slug": "natera",
+   "via": "discovered boards"
+  },
+  "greenhouse:netlify": {
+   "ats": "greenhouse",
+   "company": "netlify",
+   "example": "Senior Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "netlify",
+   "via": "discovered boards"
+  },
+  "greenhouse:newsbreak": {
+   "ats": "greenhouse",
+   "company": "newsbreak",
+   "example": "Growth Data Scientist \u2014 Measurement Lead",
+   "first_seen": "2026-10-27",
+   "slug": "newsbreak",
+   "via": "discovered boards"
+  },
+  "greenhouse:nextinsurance66": {
+   "ats": "greenhouse",
+   "company": "nextinsurance66",
+   "example": "Data Scientist, Growth \u2013 Partnerships & Customer Experience",
+   "first_seen": "2026-10-27",
+   "slug": "nextinsurance66",
+   "via": "discovered boards"
+  },
+  "greenhouse:nice": {
+   "ats": "greenhouse",
+   "company": "nice",
+   "example": "Senior Data Scientist, Actimize",
+   "first_seen": "2026-10-27",
+   "slug": "nice",
+   "via": "discovered boards"
+  },
+  "greenhouse:nift": {
+   "ats": "greenhouse",
+   "company": "nift",
+   "example": "Applied Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "nift",
+   "via": "discovered boards"
+  },
+  "greenhouse:northbeam": {
+   "ats": "greenhouse",
+   "company": "northbeam",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "northbeam",
+   "via": "discovered boards"
+  },
+  "greenhouse:opentable": {
+   "ats": "greenhouse",
+   "company": "opentable",
+   "example": "Applied Machine Learning Scientist II",
+   "first_seen": "2026-10-27",
+   "slug": "opentable",
+   "via": "discovered boards"
+  },
+  "greenhouse:orcristtechnologies": {
+   "ats": "greenhouse",
+   "company": "orcristtechnologies",
+   "example": "Geospatial Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "orcristtechnologies",
+   "via": "discovered boards"
+  },
+  "greenhouse:oscar": {
+   "ats": "greenhouse",
+   "company": "oscar",
+   "example": "Data Scientist II",
+   "first_seen": "2026-10-27",
+   "slug": "oscar",
+   "via": "discovered boards"
+  },
+  "greenhouse:oura": {
+   "ats": "greenhouse",
+   "company": "oura",
+   "example": "Senior Data Scientist - Marketing",
+   "first_seen": "2026-10-27",
+   "slug": "oura",
+   "via": "discovered boards"
+  },
+  "greenhouse:parabilismed": {
+   "ats": "greenhouse",
+   "company": "Fogpharma",
+   "example": "Principal Scientist, Translational Data Science",
+   "first_seen": "2026-10-27",
+   "slug": "parabilismed",
+   "via": "investor board generalcatalyst"
+  },
+  "greenhouse:paveakatroveinformationtechnologies": {
+   "ats": "greenhouse",
+   "company": "paveakatroveinformationtechnologies",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "paveakatroveinformationtechnologies",
+   "via": "discovered boards"
+  },
+  "greenhouse:payoneer": {
+   "ats": "greenhouse",
+   "company": "payoneer",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "payoneer",
+   "via": "discovered boards"
+  },
+  "greenhouse:pdtpartners": {
+   "ats": "greenhouse",
+   "company": "pdtpartners",
+   "example": "Applied ML Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "pdtpartners",
+   "via": "discovered boards"
+  },
+  "greenhouse:pfm": {
+   "ats": "greenhouse",
+   "company": "pfm",
+   "example": "Principal/Senior Clinical Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "pfm",
+   "via": "discovered boards"
+  },
+  "greenhouse:phaidra": {
+   "ats": "greenhouse",
+   "company": "phaidra",
+   "example": "Senior AI Research Scientist (Model-based RL)",
+   "first_seen": "2026-10-27",
+   "slug": "phaidra",
+   "via": "discovered boards"
+  },
+  "greenhouse:phasev": {
+   "ats": "greenhouse",
+   "company": "phasev",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "phasev",
+   "via": "discovered boards"
+  },
+  "greenhouse:physicsx": {
+   "ats": "greenhouse",
+   "company": "physicsx",
+   "example": "Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "physicsx",
+   "via": "discovered boards"
+  },
+  "greenhouse:planetlabs": {
+   "ats": "greenhouse",
+   "company": "planetlabs",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "planetlabs",
+   "via": "discovered boards"
+  },
+  "greenhouse:platformscience": {
+   "ats": "greenhouse",
+   "company": "PlatformScience",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "PlatformScience",
+   "via": "discovered boards"
+  },
+  "greenhouse:plume": {
+   "ats": "greenhouse",
+   "company": "plume",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "plume",
+   "via": "discovered boards"
+  },
+  "greenhouse:point72": {
+   "ats": "greenhouse",
+   "company": "point72",
+   "example": "AI Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "point72",
+   "via": "discovered boards"
+  },
+  "greenhouse:precisionmedicinegroup": {
+   "ats": "greenhouse",
+   "company": "precisionmedicinegroup",
+   "example": "Principal/Senior Clinical Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "precisionmedicinegroup",
+   "via": "discovered boards"
+  },
+  "greenhouse:predictiveindex": {
+   "ats": "greenhouse",
+   "company": "predictiveindex",
+   "example": "Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "predictiveindex",
+   "via": "discovered boards"
+  },
+  "greenhouse:prenuvo": {
+   "ats": "greenhouse",
+   "company": "prenuvo",
+   "example": "Senior AI Applied Scientist II ",
+   "first_seen": "2026-10-27",
+   "slug": "prenuvo",
+   "via": "discovered boards"
+  },
+  "greenhouse:prove": {
+   "ats": "greenhouse",
+   "company": "prove",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "prove",
+   "via": "discovered boards"
+  },
+  "greenhouse:purestorage": {
+   "ats": "greenhouse",
+   "company": "purestorage",
+   "example": "Data Scientist Engineer, Digital Experience",
+   "first_seen": "2026-10-27",
+   "slug": "purestorage",
+   "via": "discovered boards"
+  },
+  "greenhouse:quince": {
+   "ats": "greenhouse",
+   "company": "quince",
+   "example": "Senior Data Scientist ( Data Scientist III : Supply Chain Operations Research)",
+   "first_seen": "2026-10-27",
+   "slug": "quince",
+   "via": "discovered boards"
+  },
+  "greenhouse:racapitalmanagementllc": {
+   "ats": "greenhouse",
+   "company": "racapitalmanagementllc",
+   "example": "Applied AI Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "racapitalmanagementllc",
+   "via": "discovered boards"
+  },
+  "greenhouse:reddit": {
+   "ats": "greenhouse",
+   "company": "reddit",
+   "example": "Principal Data Scientist, Ads",
+   "first_seen": "2026-10-27",
+   "slug": "reddit",
+   "via": "discovered boards"
+  },
+  "greenhouse:ripple": {
+   "ats": "greenhouse",
+   "company": "ripple",
+   "example": "Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "ripple",
+   "via": "discovered boards"
+  },
+  "greenhouse:robinhood": {
+   "ats": "greenhouse",
+   "company": "robinhood",
+   "example": "Senior Data Scientist, Product",
+   "first_seen": "2026-10-27",
+   "slug": "robinhood",
+   "via": "discovered boards"
+  },
+  "greenhouse:roblox": {
+   "ats": "greenhouse",
+   "company": "roblox",
+   "example": "Principal Data Scientist - Safety",
+   "first_seen": "2026-10-27",
+   "slug": "roblox",
+   "via": "discovered boards"
+  },
+  "greenhouse:robotsandpencils": {
+   "ats": "greenhouse",
+   "company": "robotsandpencils",
+   "example": "Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "robotsandpencils",
+   "via": "discovered boards"
+  },
+  "greenhouse:rockstargames": {
+   "ats": "greenhouse",
+   "company": "rockstargames",
+   "example": "Senior Data Scientist, Web/Marketing Analytics",
+   "first_seen": "2026-10-27",
+   "slug": "rockstargames",
+   "via": "discovered boards"
+  },
+  "greenhouse:roku": {
+   "ats": "greenhouse",
+   "company": "roku",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "roku",
+   "via": "discovered boards"
+  },
+  "greenhouse:scaleai": {
+   "ats": "greenhouse",
+   "company": "scaleai",
+   "example": "Machine Learning Research Scientist, Evaluations",
+   "first_seen": "2026-10-27",
+   "slug": "scaleai",
+   "via": "discovered boards"
+  },
+  "greenhouse:schonfeld": {
+   "ats": "greenhouse",
+   "company": "schonfeld",
+   "example": "AI Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "schonfeld",
+   "via": "discovered boards"
+  },
+  "greenhouse:schrdinger": {
+   "ats": "greenhouse",
+   "company": "schrdinger",
+   "example": "Machine Learning Force Field Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "schrdinger",
+   "via": "discovered boards"
+  },
+  "greenhouse:scopely": {
+   "ats": "greenhouse",
+   "company": "scopely",
+   "example": "Senior Data Scientist, Marketing",
+   "first_seen": "2026-10-27",
+   "slug": "scopely",
+   "via": "discovered boards"
+  },
+  "greenhouse:shakepay": {
+   "ats": "greenhouse",
+   "company": "shakepay",
+   "example": "Senior Data Scientist, Growth",
+   "first_seen": "2026-10-27",
+   "slug": "shakepay",
+   "via": "discovered boards"
+  },
+  "greenhouse:shifttechnology": {
+   "ats": "greenhouse",
+   "company": "shifttechnology",
+   "example": "Data Scientist / Deployment Engineer",
+   "first_seen": "2026-10-27",
+   "slug": "shifttechnology",
+   "via": "discovered boards"
+  },
+  "greenhouse:similarweb": {
+   "ats": "greenhouse",
+   "company": "similarweb",
+   "example": "Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "similarweb",
+   "via": "discovered boards"
+  },
+  "greenhouse:sirenopt": {
+   "ats": "greenhouse",
+   "company": "sirenopt",
+   "example": "Metrology Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "sirenopt",
+   "via": "discovered boards"
+  },
+  "greenhouse:sixgeninc": {
+   "ats": "greenhouse",
+   "company": "sixgeninc",
+   "example": "Data Scientist (TS/SCI w/ Poly)",
+   "first_seen": "2026-10-27",
+   "slug": "sixgeninc",
+   "via": "discovered boards"
+  },
+  "greenhouse:smartsheet": {
+   "ats": "greenhouse",
+   "company": "smartsheet",
+   "example": "Sr. Data Scientist II (Remote Eligible)",
+   "first_seen": "2026-10-27",
+   "slug": "smartsheet",
+   "via": "discovered boards"
+  },
+  "greenhouse:snorkelai": {
+   "ats": "greenhouse",
+   "company": "snorkelai",
+   "example": "Research Scientist - Human-AI Systems",
+   "first_seen": "2026-10-27",
+   "slug": "snorkelai",
+   "via": "discovered boards"
+  },
+  "greenhouse:sonyinteractiveentertainmentglobal": {
+   "ats": "greenhouse",
+   "company": "sonyinteractiveentertainmentglobal",
+   "example": "Data Scientist - Forecasting",
+   "first_seen": "2026-10-27",
+   "slug": "sonyinteractiveentertainmentglobal",
+   "via": "discovered boards"
+  },
+  "greenhouse:sproutsocial": {
+   "ats": "greenhouse",
+   "company": "sproutsocial",
+   "example": "Sr. Applied AI/ML Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "sproutsocial",
+   "via": "discovered boards"
+  },
+  "greenhouse:ssreferrals": {
+   "ats": "greenhouse",
+   "company": "ssreferrals",
+   "example": "Sr. Applied AI/ML Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "ssreferrals",
+   "via": "discovered boards"
+  },
+  "greenhouse:stackadapt": {
+   "ats": "greenhouse",
+   "company": "stackadapt",
+   "example": "Senior/Staff Applied Machine Learning Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "stackadapt",
+   "via": "discovered boards"
+  },
+  "greenhouse:stone": {
+   "ats": "greenhouse",
+   "company": "stone",
+   "example": "Data Scientist II | Estrat\u00e9gia e Cr\u00e9dito",
+   "first_seen": "2026-10-27",
+   "slug": "stone",
+   "via": "discovered boards"
+  },
+  "greenhouse:summittherapeutics": {
+   "ats": "greenhouse",
+   "company": "summittherapeutics",
+   "example": " Sr. Clinical Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "summittherapeutics",
+   "via": "discovered boards"
+  },
+  "greenhouse:swayable": {
+   "ats": "greenhouse",
+   "company": "swayable",
+   "example": "Research Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "swayable",
+   "via": "discovered boards"
+  },
+  "greenhouse:taboola": {
+   "ats": "greenhouse",
+   "company": "taboola",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "taboola",
+   "via": "discovered boards"
+  },
+  "greenhouse:tanium": {
+   "ats": "greenhouse",
+   "company": "tanium",
+   "example": "AI Research Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "tanium",
+   "via": "discovered boards"
+  },
+  "greenhouse:taskrabbit": {
+   "ats": "greenhouse",
+   "company": "taskrabbit",
+   "example": "Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "taskrabbit",
+   "via": "discovered boards"
+  },
+  "greenhouse:teads1": {
+   "ats": "greenhouse",
+   "company": "teads1",
+   "example": "Senior Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "teads1",
+   "via": "discovered boards"
+  },
+  "greenhouse:textnowinc": {
+   "ats": "greenhouse",
+   "company": "textnowinc",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "textnowinc",
+   "via": "discovered boards"
+  },
+  "greenhouse:theknotworldwide": {
+   "ats": "greenhouse",
+   "company": "theknotworldwide",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "theknotworldwide",
+   "via": "discovered boards"
+  },
+  "greenhouse:tipaltisolutions": {
+   "ats": "greenhouse",
+   "company": "tipaltisolutions",
+   "example": "Applied AI Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "tipaltisolutions",
+   "via": "discovered boards"
+  },
+  "greenhouse:tomorrow": {
+   "ats": "greenhouse",
+   "company": "tomorrow",
+   "example": "Meteorological Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "tomorrow",
+   "via": "discovered boards"
+  },
+  "greenhouse:tripadvisor": {
+   "ats": "greenhouse",
+   "company": "tripadvisor",
+   "example": "Lead/Principal Machine Learning Scientist - Recommendation Systems",
+   "first_seen": "2026-10-27",
+   "slug": "tripadvisor",
+   "via": "discovered boards"
+  },
+  "greenhouse:tripledotstudios": {
+   "ats": "greenhouse",
+   "company": "tripledotstudios",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "tripledotstudios",
+   "via": "discovered boards"
+  },
+  "greenhouse:tubitv": {
+   "ats": "greenhouse",
+   "company": "tubitv",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "tubitv",
+   "via": "discovered boards"
+  },
+  "greenhouse:twistbioscience": {
+   "ats": "greenhouse",
+   "company": "twistbioscience",
+   "example": "Bioinformatics Application Scientist, NGS - AMER",
+   "first_seen": "2026-10-27",
+   "slug": "twistbioscience",
+   "via": "discovered boards"
+  },
+  "greenhouse:twosixtechnologies": {
+   "ats": "greenhouse",
+   "company": "twosixtechnologies",
+   "example": "Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "twosixtechnologies",
+   "via": "discovered boards"
+  },
+  "greenhouse:upgrade": {
+   "ats": "greenhouse",
+   "company": "upgrade",
+   "example": "Senior Data Scientist - Flex Pay",
+   "first_seen": "2026-10-27",
+   "slug": "upgrade",
+   "via": "discovered boards"
+  },
+  "greenhouse:upshop": {
+   "ats": "greenhouse",
+   "company": "upshop",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "upshop",
+   "via": "discovered boards"
+  },
+  "greenhouse:usenourish": {
+   "ats": "greenhouse",
+   "company": "usenourish",
+   "example": "Staff Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "usenourish",
+   "via": "discovered boards"
+  },
+  "greenhouse:valtech": {
+   "ats": "greenhouse",
+   "company": "valtech",
+   "example": "Senior Data Scientist ",
+   "first_seen": "2026-10-27",
+   "slug": "valtech",
+   "via": "discovered boards"
+  },
+  "greenhouse:vonage": {
+   "ats": "greenhouse",
+   "company": "vonage",
+   "example": "Marketing Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "vonage",
+   "via": "discovered boards"
+  },
+  "greenhouse:wallapop": {
+   "ats": "greenhouse",
+   "company": "wallapop",
+   "example": "Staff Data Scientist, Experimentation",
+   "first_seen": "2026-10-27",
+   "slug": "wallapop",
+   "via": "discovered boards"
+  },
+  "greenhouse:wavemm1": {
+   "ats": "greenhouse",
+   "company": "wavemm1",
+   "example": "Applied AI Scientist - LLMs & Voice",
+   "first_seen": "2026-10-27",
+   "slug": "wavemm1",
+   "via": "discovered boards"
+  },
+  "greenhouse:wheely": {
+   "ats": "greenhouse",
+   "company": "wheely",
+   "example": "Associate Data Scientist - Operations Research",
+   "first_seen": "2026-10-27",
+   "slug": "wheely",
+   "via": "discovered boards"
+  },
+  "greenhouse:wikimedia": {
+   "ats": "greenhouse",
+   "company": "wikimedia",
+   "example": "Senior Data Scientist, Safety & Security",
+   "first_seen": "2026-10-27",
+   "slug": "wikimedia",
+   "via": "discovered boards"
+  },
+  "greenhouse:wildlifestudios": {
+   "ats": "greenhouse",
+   "company": "wildlifestudios",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "wildlifestudios",
+   "via": "discovered boards"
+  },
+  "greenhouse:wizinc": {
+   "ats": "greenhouse",
+   "company": "wizinc",
+   "example": "Applied Data Scientist Expert ",
+   "first_seen": "2026-10-27",
+   "slug": "wizinc",
+   "via": "discovered boards"
+  },
+  "greenhouse:wpp": {
+   "ats": "greenhouse",
+   "company": "wpp",
+   "example": "Data Scientist Team Lead",
+   "first_seen": "2026-10-27",
+   "slug": "wpp",
+   "via": "discovered boards"
+  },
+  "greenhouse:wrike": {
+   "ats": "greenhouse",
+   "company": "wrike",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "wrike",
+   "via": "discovered boards"
+  },
+  "greenhouse:xometry": {
+   "ats": "greenhouse",
+   "company": "xometry",
+   "example": "Principal Data Scientist - Gen AI",
+   "first_seen": "2026-10-27",
+   "slug": "xometry",
+   "via": "discovered boards"
+  },
+  "greenhouse:yoodliinc": {
+   "ats": "greenhouse",
+   "company": "yoodliinc",
+   "example": "Principal Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "yoodliinc",
+   "via": "discovered boards"
+  },
+  "greenhouse:zambold": {
+   "ats": "greenhouse",
+   "company": "zambold",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "zambold",
+   "via": "discovered boards"
+  },
+  "greenhouse:zetaglobal": {
+   "ats": "greenhouse",
+   "company": "zetaglobal",
+   "example": "Senior Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "zetaglobal",
+   "via": "discovered boards"
+  },
+  "greenhouse:zipcolimited": {
+   "ats": "greenhouse",
+   "company": "zipcolimited",
+   "example": "Senior Data Scientist I",
+   "first_seen": "2026-10-27",
+   "slug": "zipcolimited",
+   "via": "discovered boards"
+  },
+  "greenhouse:zocdoc": {
+   "ats": "greenhouse",
+   "company": "zocdoc",
+   "example": "Senior Data Scientist, Marketing",
+   "first_seen": "2026-10-27",
+   "slug": "zocdoc",
+   "via": "discovered boards"
+  },
+  "lever:airalo": {
+   "ats": "lever",
+   "company": "airalo",
+   "example": "Staff Data Scientist, Pricing",
+   "first_seen": "2026-10-27",
+   "slug": "airalo",
+   "via": "discovered boards"
+  },
+  "lever:brillio-2": {
+   "ats": "lever",
+   "company": "brillio-2",
+   "example": "Data Scientist - R01542454",
+   "first_seen": "2026-10-27",
+   "slug": "brillio-2",
+   "via": "discovered boards"
+  },
+  "lever:despegar": {
+   "ats": "lever",
+   "company": "despegar",
+   "example": "Sr Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "despegar",
+   "via": "discovered boards"
+  },
+  "lever:egenesisbio": {
+   "ats": "lever",
+   "company": "EGenesis",
+   "example": "Scientist II, Computational Biology (Single Cell & Spatial)",
+   "first_seen": "2026-10-27",
+   "slug": "egenesisbio",
+   "via": "investor board lux"
+  },
+  "lever:ekimetrics": {
+   "ats": "lever",
+   "company": "ekimetrics",
+   "example": "Business Scientist, Data Science and Marketing Effectiveness",
+   "first_seen": "2026-10-27",
+   "slug": "ekimetrics",
+   "via": "discovered boards"
+  },
+  "lever:eqbank": {
+   "ats": "lever",
+   "company": "eqbank",
+   "example": "Data Scientist, Growth (12 month contract)",
+   "first_seen": "2026-10-27",
+   "slug": "eqbank",
+   "via": "discovered boards"
+  },
+  "lever:farfetch": {
+   "ats": "lever",
+   "company": "farfetch",
+   "example": "Data Scientist \u2013 Experimentation Platform",
+   "first_seen": "2026-10-27",
+   "slug": "farfetch",
+   "via": "discovered boards"
+  },
+  "lever:gotogroup": {
+   "ats": "lever",
+   "company": "GoToGroup",
+   "example": "Data Scientist - Computer Vision & AI",
+   "first_seen": "2026-10-27",
+   "slug": "GoToGroup",
+   "via": "discovered boards"
+  },
+  "lever:jumpcloud": {
+   "ats": "lever",
+   "company": "jumpcloud",
+   "example": "Staff Data Scientist, Machine Learning - India",
+   "first_seen": "2026-10-27",
+   "slug": "jumpcloud",
+   "via": "discovered boards"
+  },
+  "lever:meesho": {
+   "ats": "lever",
+   "company": "meesho",
+   "example": "Data Scientist III",
+   "first_seen": "2026-10-27",
+   "slug": "meesho",
+   "via": "discovered boards"
+  },
+  "lever:megaport": {
+   "ats": "lever",
+   "company": "megaport",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "megaport",
+   "via": "discovered boards"
+  },
+  "lever:outreach": {
+   "ats": "lever",
+   "company": "outreach",
+   "example": "Senior Applied Scientist - Knowledge Graphs & AI",
+   "first_seen": "2026-10-27",
+   "slug": "outreach",
+   "via": "discovered boards"
+  },
+  "lever:pigment": {
+   "ats": "lever",
+   "company": "pigment",
+   "example": "Senior AI Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "pigment",
+   "via": "discovered boards"
+  },
+  "lever:quantco-": {
+   "ats": "lever",
+   "company": "quantco-",
+   "example": "AI Applied Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "quantco-",
+   "via": "discovered boards"
+  },
+  "lever:sonarsource": {
+   "ats": "lever",
+   "company": "sonarsource",
+   "example": "Data Scientist, Product Analytics",
+   "first_seen": "2026-10-27",
+   "slug": "sonarsource",
+   "via": "discovered boards"
+  },
+  "lever:spotify": {
+   "ats": "lever",
+   "company": "spotify",
+   "example": "Data Scientist  - Business Analytics",
+   "first_seen": "2026-10-27",
+   "slug": "spotify",
+   "via": "discovered boards"
+  },
+  "lever:tahoebio-ai": {
+   "ats": "lever",
+   "company": "Vevo Therapeutics",
+   "example": "Senior Machine Learning Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "tahoebio-ai",
+   "via": "investor board generalcatalyst"
+  },
+  "lever:theathletic": {
+   "ats": "lever",
+   "company": "theathletic",
+   "example": "Data Scientist (Remote)",
+   "first_seen": "2026-10-27",
+   "slug": "theathletic",
+   "via": "discovered boards"
+  },
+  "lever:wealthfront": {
+   "ats": "lever",
+   "company": "wealthfront",
+   "example": "Senior Data Scientist, Home Lending",
+   "first_seen": "2026-10-27",
+   "slug": "wealthfront",
+   "via": "discovered boards"
+  },
+  "lever:woven-by-toyota": {
+   "ats": "lever",
+   "company": "woven-by-toyota",
+   "example": "Data Scientist, ML Perception & Data Pipelines",
+   "first_seen": "2026-10-27",
+   "slug": "woven-by-toyota",
+   "via": "discovered boards"
+  },
+  "lever:xsolla": {
+   "ats": "lever",
+   "company": "xsolla",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "xsolla",
+   "via": "discovered boards"
+  },
+  "lever:yassir": {
+   "ats": "lever",
+   "company": "Yassir",
+   "example": "Data Scientist - Pricing",
+   "first_seen": "2026-10-27",
+   "slug": "Yassir",
+   "via": "discovered boards"
+  },
+  "lever:zoox": {
+   "ats": "lever",
+   "company": "zoox",
+   "example": "Data Scientist - Perception Verification and Validation",
+   "first_seen": "2026-10-27",
+   "slug": "zoox",
+   "via": "discovered boards"
+  },
+  "lever_eu:prima": {
+   "ats": "lever_eu",
+   "company": "prima",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "prima",
+   "via": "discovered boards"
+  },
+  "lever_eu:sportalliance": {
+   "ats": "lever_eu",
+   "company": "sportalliance",
+   "example": "Senior Data Scientist (m/f/d)",
+   "first_seen": "2026-10-27",
+   "slug": "sportalliance",
+   "via": "discovered boards"
+  },
+  "lever_eu:tomtom": {
+   "ats": "lever_eu",
+   "company": "tomtom",
+   "example": "Data Scientist - II ( 3- 5 Yrs, Databricks, Pyspark, Statistical Analysis, ML, DL)",
+   "first_seen": "2026-10-27",
+   "slug": "tomtom",
+   "via": "discovered boards"
+  },
+  "lever_eu:westernacher": {
+   "ats": "lever_eu",
+   "company": "westernacher",
+   "example": "AI Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "westernacher",
+   "via": "discovered boards"
+  },
+  "lever_eu:xm": {
+   "ats": "lever_eu",
+   "company": "xm",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "xm",
+   "via": "discovered boards"
+  },
+  "personio:7learnings": {
+   "ats": "personio",
+   "company": "7learnings",
+   "example": "Data Scientist - Remote Freelance Sydney (m/f/d) - Sydney Team",
+   "first_seen": "2026-10-27",
+   "slug": "7learnings",
+   "via": "discovered boards"
+  },
+  "personio:alexander-thamm-gmbh": {
+   "ats": "personio",
+   "company": "alexander-thamm-gmbh",
+   "example": "Principal Data Scientist (m/w/d)",
+   "first_seen": "2026-10-27",
+   "slug": "alexander-thamm-gmbh",
+   "via": "discovered boards"
+  },
+  "personio:dida": {
+   "ats": "personio",
+   "company": "dida",
+   "example": "Machine Learning Scientist (all genders) - Hybrid, Berlin",
+   "first_seen": "2026-10-27",
+   "slug": "dida",
+   "via": "discovered boards"
+  },
+  "personio:entrix": {
+   "ats": "personio",
+   "company": "entrix",
+   "example": "Staff Data Scientist - Trading (d/f/m)",
+   "first_seen": "2026-10-27",
+   "slug": "entrix",
+   "via": "discovered boards"
+  },
+  "personio:pair": {
+   "ats": "personio",
+   "company": "pair",
+   "example": "Data Scientist (f/m/d)",
+   "first_seen": "2026-10-27",
+   "slug": "pair",
+   "via": "discovered boards"
+  },
+  "personio_com:7learnings": {
+   "ats": "personio_com",
+   "company": "7learnings",
+   "example": "Data Scientist - Remote Freelance Sydney (m/f/d) - Sydney Team",
+   "first_seen": "2026-10-27",
+   "slug": "7learnings",
+   "via": "discovered boards"
+  },
+  "personio_com:apheris": {
+   "ats": "personio_com",
+   "company": "apheris",
+   "example": "Principal ML Scientist \u2013 Predictive Toxicology",
+   "first_seen": "2026-10-27",
+   "slug": "apheris",
+   "via": "discovered boards"
+  },
+  "personio_com:athebio": {
+   "ats": "personio_com",
+   "company": "athebio",
+   "example": "Senior Scientist \u2013 AI Lead (f/m/d) 80-100%",
+   "first_seen": "2026-10-27",
+   "slug": "athebio",
+   "via": "discovered boards"
+  },
+  "personio_com:digitalchargingsolutions-gmbh": {
+   "ats": "personio_com",
+   "company": "digitalchargingsolutions-gmbh",
+   "example": "Senior Data Scientist (f/d/m)",
+   "first_seen": "2026-10-27",
+   "slug": "digitalchargingsolutions-gmbh",
+   "via": "discovered boards"
+  },
+  "personio_com:edri": {
+   "ats": "personio_com",
+   "company": "edri",
+   "example": "Senior Data Scientist (m/f/d)",
+   "first_seen": "2026-10-27",
+   "slug": "edri",
+   "via": "discovered boards"
+  },
+  "personio_com:element61": {
+   "ats": "personio_com",
+   "company": "element61",
+   "example": "(Junior) Data Scientist/Analyst",
+   "first_seen": "2026-10-27",
+   "slug": "element61",
+   "via": "discovered boards"
+  },
+  "personio_com:eurowings-holidays": {
+   "ats": "personio_com",
+   "company": "eurowings-holidays",
+   "example": "Data Scientist (AI & Decision Intelligence)",
+   "first_seen": "2026-10-27",
+   "slug": "eurowings-holidays",
+   "via": "discovered boards"
+  },
+  "personio_com:flexa": {
+   "ats": "personio_com",
+   "company": "flexa",
+   "example": "Staff Data Scientist - Trading & Quant (d/f/m)",
+   "first_seen": "2026-10-27",
+   "slug": "flexa",
+   "via": "discovered boards"
+  },
+  "recruitee:optics11": {
+   "ats": "recruitee",
+   "company": "optics11",
+   "example": "Partial Discharge Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "optics11",
+   "via": "discovered boards"
+  },
+  "workable:abtrace": {
+   "ats": "workable",
+   "company": "abtrace",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "abtrace",
+   "via": "discovered boards"
+  },
+  "workable:adia": {
+   "ats": "workable",
+   "company": "adia",
+   "example": "ADIA Lab - Senior Computational Scientist - Trustworthy AI",
+   "first_seen": "2026-10-27",
+   "slug": "adia",
+   "via": "discovered boards"
+  },
+  "workable:agilytic": {
+   "ats": "workable",
+   "company": "agilytic",
+   "example": "Data Scientist - Consulting & AI Delivery",
+   "first_seen": "2026-10-27",
+   "slug": "agilytic",
+   "via": "discovered boards"
+  },
+  "workable:ajaia": {
+   "ats": "workable",
+   "company": "ajaia",
+   "example": "Data Scientist (Research & Evaluation)",
+   "first_seen": "2026-10-27",
+   "slug": "ajaia",
+   "via": "discovered boards"
+  },
+  "workable:algaecal": {
+   "ats": "workable",
+   "company": "algaecal",
+   "example": "Associate Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "algaecal",
+   "via": "discovered boards"
+  },
+  "workable:allucent": {
+   "ats": "workable",
+   "company": "allucent",
+   "example": "Regulatory Affairs Scientist I",
+   "first_seen": "2026-10-27",
+   "slug": "allucent",
+   "via": "discovered boards"
+  },
+  "workable:alphax": {
+   "ats": "workable",
+   "company": "alphax",
+   "example": "Principal Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "alphax",
+   "via": "discovered boards"
+  },
+  "workable:alten-mexico-1": {
+   "ats": "workable",
+   "company": "alten-mexico-1",
+   "example": "(0168) AI Reliability Data Scientist Manufacturing Intelligence & Predictive Mod",
+   "first_seen": "2026-10-27",
+   "slug": "alten-mexico-1",
+   "via": "discovered boards"
+  },
+  "workable:applied-physics-1": {
+   "ats": "workable",
+   "company": "applied-physics-1",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "applied-physics-1",
+   "via": "discovered boards"
+  },
+  "workable:araic": {
+   "ats": "workable",
+   "company": "araic",
+   "example": "Senior Machine Learning Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "araic",
+   "via": "discovered boards"
+  },
+  "workable:atria-health": {
+   "ats": "workable",
+   "company": "atria-health",
+   "example": "Senior AI Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "atria-health",
+   "via": "discovered boards"
+  },
+  "workable:avalore": {
+   "ats": "workable",
+   "company": "avalore",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "avalore",
+   "via": "discovered boards"
+  },
+  "workable:avomind": {
+   "ats": "workable",
+   "company": "avomind",
+   "example": "(Senior) Data Scientist (m/f/d)",
+   "first_seen": "2026-10-27",
+   "slug": "avomind",
+   "via": "discovered boards"
+  },
+  "workable:azumo": {
+   "ats": "workable",
+   "company": "azumo",
+   "example": "Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "azumo",
+   "via": "discovered boards"
+  },
+  "workable:berry-street": {
+   "ats": "workable",
+   "company": "berry-street",
+   "example": "Senior Data Scientist, Growth",
+   "first_seen": "2026-10-27",
+   "slug": "berry-street",
+   "via": "discovered boards"
+  },
+  "workable:blankslate-partners": {
+   "ats": "workable",
+   "company": "blankslate-partners",
+   "example": "Lead Applied Scientist - Signal Processing & Machine Learning- AquaEye",
+   "first_seen": "2026-10-27",
+   "slug": "blankslate-partners",
+   "via": "discovered boards"
+  },
+  "workable:dacodes-mx": {
+   "ats": "workable",
+   "company": "dacodes-mx",
+   "example": "Senior Data Scientist con IA Aplicada- LATAM Only",
+   "first_seen": "2026-10-27",
+   "slug": "dacodes-mx",
+   "via": "discovered boards"
+  },
+  "workable:digital-zone": {
+   "ats": "workable",
+   "company": "digital-zone",
+   "example": "Lead Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "digital-zone",
+   "via": "discovered boards"
+  },
+  "workable:eramtalent-1": {
+   "ats": "workable",
+   "company": "eramtalent-1",
+   "example": "Associate Data Scientist (Saudi Arabia)",
+   "first_seen": "2026-10-27",
+   "slug": "eramtalent-1",
+   "via": "discovered boards"
+  },
+  "workable:european-dynamics": {
+   "ats": "workable",
+   "company": "european-dynamics",
+   "example": "Data Scientist - Text mining / NLP",
+   "first_seen": "2026-10-27",
+   "slug": "european-dynamics",
+   "via": "discovered boards"
+  },
+  "workable:eva-pharma": {
+   "ats": "workable",
+   "company": "eva-pharma",
+   "example": "Data Scientist II",
+   "first_seen": "2026-10-27",
+   "slug": "eva-pharma",
+   "via": "discovered boards"
+  },
+  "workable:orchard-therapeutics": {
+   "ats": "workable",
+   "company": "orchard-therapeutics",
+   "example": "Senior Scientist - ELN & Data Specialist, Global Technical Development",
+   "first_seen": "2026-10-27",
+   "slug": "orchard-therapeutics",
+   "via": "discovered boards"
+  },
+  "workable:our-future-health": {
+   "ats": "workable",
+   "company": "our-future-health",
+   "example": "Senior Data Scientist - (Privacy & Security Controls)",
+   "first_seen": "2026-10-27",
+   "slug": "our-future-health",
+   "via": "discovered boards"
+  },
+  "workable:unisongroup": {
+   "ats": "workable",
+   "company": "unisongroup",
+   "example": "AI Data Scientist",
+   "first_seen": "2026-10-27",
+   "slug": "unisongroup",
+   "via": "discovered boards"
+  }
+ },
+ "resolved": {
+  "10x Genomics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "10x Science": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "1849 bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "1910": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "64x Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "ACX": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "ALT TEX": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "AOA Dx": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "AbInitio Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Abalone Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Absci": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 7,
+   "sample": [
+    "Senior Director, Inspection Readiness",
+    "Senior/Staff AI Scientist, Antibody Design ",
+    "Staff/Principal AI Scientist - Virtual Tissue"
+   ],
+   "slug": "absci",
+   "via": "website"
+  },
+  "Adaptyv": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 34,
+   "sample": [
+    "Forward Deployed Scientist",
+    "Scientific Account Executive",
+    "Scientific Account Executive"
+   ],
+   "slug": "adaptyv",
+   "via": "website"
+  },
+  "Adialante": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Adravision": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Adventris Pharmaceuticals": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Akoya Biosciences": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Alga Biosciences": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Algen Biotechnologies": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Alixia": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Altay Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Altos Labs": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 17,
+   "sample": [
+    "Business and Laboratory Operations Manager, Drug Discovery & Development Sciences",
+    "Deputy General Counsel and Vice President, Intellectual Property",
+    "Director / Senior Director, Lab-in-the-Loop"
+   ],
+   "slug": "altoslabs",
+   "via": "website"
+  },
+  "AminoAnalytica": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Andson Biotech": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Ansa Biotechnologies": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 7,
+   "sample": [
+    "Director of Field Application Specialist",
+    "Head of Inside Sales",
+    "Manufacturing Associate, DNA Synthesis : Sunday - Wednesday, Swing Shift"
+   ],
+   "slug": "ansabiotechnologies",
+   "via": "website"
+  },
+  "Anthrogen": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 8,
+   "sample": [
+    "Research Associate (RL Environments)",
+    "Member of Technical Staff (Research Scientist)",
+    "Member of Technical Staff (Research Engineer)"
+   ],
+   "slug": "anthrogen",
+   "via": "website"
+  },
+  "Anto Biosciences": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Aqemia": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Arc Institute": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 26,
+   "sample": [
+    "Biosafety Manager",
+    "Chief of Staff",
+    "Director, Machine Learning, Alzheimer's Disease Initiative"
+   ],
+   "slug": "arcinstitute",
+   "via": "website"
+  },
+  "Ardigen": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Arpeggio Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Asher Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Asimov": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 8,
+   "sample": [
+    "Senior Scientist, Biologics Cell Line Development",
+    "Principal Scientist, Biologics Cell Line Development",
+    "Scientist, Viral Vector Process Development"
+   ],
+   "slug": "asimov",
+   "via": "website"
+  },
+  "Astek Diagnostics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Atlas Discovery": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 2,
+   "sample": [
+    "Founding Applied AI Engineer",
+    "Senior Product Designer (Internal Tools)"
+   ],
+   "slug": "atlas"
+  },
+  "Atomic AI": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "atomai",
+   "via": "website"
+  },
+  "Avro Life Science": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "BLUUMBIO": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Basecamp Research": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 16,
+   "sample": [
+    "Senior Research Engineer",
+    "Senior Research Scientist",
+    "Production Sequencing Lead"
+   ],
+   "slug": "basecamp-research",
+   "via": "website"
+  },
+  "BenevolentAI": {
+   "ats": "workable",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "benevolentai",
+   "via": "website"
+  },
+  "BigHat Biosciences": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Biocartesian": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Biodock": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Biomodal": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "biomodal"
+  },
+  "Bioptimus": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Birch Biosciences": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Blank Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Boltz": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "BrainKey": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Bramante": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Brown Foods": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "C16 Biosciences": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "CHARM Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Caire Health": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": false,
+   "exact": false,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "caire"
+  },
+  "Catena Biosciences": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 4,
+   "sample": [
+    "Senior Software Engineer",
+    "Forward Deployed Engineer",
+    "BSA Operations Manager"
+   ],
+   "slug": "catena"
+  },
+  "CellChorus": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "CellType": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Cellarity": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 2,
+   "sample": [
+    "Director, Pharmacology",
+    "Senior / Principal Computational Biologist"
+   ],
+   "slug": "cellarity"
+  },
+  "Character Biosciences": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 13,
+   "sample": [
+    "Machine Learning Infrastructure Engineer",
+    "Research Engineer, Post-Training (All Industry Levels)",
+    "Software Engineer, Core Product"
+   ],
+   "slug": "character"
+  },
+  "Circumvent": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Cisterna Biologics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Clear Gene": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Cofactor Genomics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Congenica": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Constructive Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Convexia": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Culture Biosciences": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 4,
+   "sample": [
+    "Manufacturing Engineer / Sr. Manufacturing Engineer ",
+    "Marketing Coordinator",
+    "Senior Software Engineer "
+   ],
+   "slug": "culturebiosciences",
+   "via": "website"
+  },
+  "DNAnexus": {
+   "ats": "smartrecruiters",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 2,
+   "sample": [
+    "Billing Specialist (Fixed-term contract)",
+    "Sr. Product Manager, Population Genomics Research Platform"
+   ],
+   "slug": "dnanexus"
+  },
+  "Darmiyan": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Data Driven Bioscience": {
+   "ats": "smartrecruiters",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 3,
+   "sample": [
+    "Test Connect",
+    "Test",
+    "Test"
+   ],
+   "slug": "datadriven"
+  },
+  "Deep Genomics": {
+   "ats": "lever",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 4,
+   "sample": [
+    "Research Scientist In Vitro Pharmacology",
+    "Senior Research Associate, in vivo Pharmacology",
+    "Senior Research Scientist, Machine Learning (BioFM)"
+   ],
+   "slug": "deepgenomics",
+   "via": "website"
+  },
+  "Delee": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Delineate": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Diffuse Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Digistain": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Ditto Biosciences": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 9,
+   "sample": [
+    "Senior Technical Program Manager",
+    "Director, FP&A",
+    "Product Manager, Maintain Ops"
+   ],
+   "slug": "ditto"
+  },
+  "Dotmatics": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 37,
+   "sample": [
+    "Alliance Partner Manager (SaaS) | Luma ",
+    "Alliance Partner Manager (SaaS) | Luma ",
+    "Associate Account Manager | Luma | Benelux & Nordics"
+   ],
+   "slug": "dotmatics"
+  },
+  "Dyno Therapeutics": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 1,
+   "sample": [
+    "Sr. Machine Learning Engineer - Machine Learning"
+   ],
+   "slug": "dynotherapeutics",
+   "via": "website"
+  },
+  "Eden": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Element Biosciences": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 15,
+   "sample": [
+    "Associate Director, Product Management \u2013 Software, Multiomics Data Partnerships",
+    "Channel Account Manager - Italy",
+    "Contracts Manager"
+   ],
+   "slug": "elementbiosciences",
+   "via": "website"
+  },
+  "Elucidata": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Enjamb Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Entelexo Biotherapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Enveda": {
+   "ats": "lever",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 7,
+   "sample": [
+    "Assoc. Director, Medicinal Chemistry",
+    "Asst. VP, Medicinal Chemistry",
+    "Director, ADME"
+   ],
+   "slug": "enveda"
+  },
+  "Epinoma": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Equator Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Eris Biotech": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Eugit Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "EvolutionaryScale": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Evolvere BioSciences": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Excepgen": {
+   "ats": "smartrecruiters",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 1,
+   "sample": [
+    "Research Associate"
+   ],
+   "slug": "excepgen"
+  },
+  "Exin Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Exonic": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "FinalDose": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Forever Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Form Bio": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 1,
+   "sample": [
+    "Join Form Bio"
+   ],
+   "slug": "formbio",
+   "via": "website"
+  },
+  "Formation Bio": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 21,
+   "sample": [
+    "Associate Director, Bioanalytical Development",
+    "Associate Director, Business Development - Search & Evaluation",
+    "Associate Director, Data Engineering"
+   ],
+   "slug": "formationbio"
+  },
+  "Frekil": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Future Fields": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "FutureHouse": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "futurehouse"
+  },
+  "GEn1E Lifesciences": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Gamgee": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Genecis Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "General Proximity": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 8,
+   "sample": [
+    "Lab Operations Manager",
+    "Other Positions",
+    "Scientist, Mechanistic Biology"
+   ],
+   "slug": "generalproximity",
+   "via": "website"
+  },
+  "Generate Biomedicines": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 19,
+   "sample": [
+    "Associate Director, Biotherapeutic Production and Characterization",
+    "Careers@GenerateBiomedicines",
+    "Director, Clinical Scientist (Respiratory indications)"
+   ],
+   "slug": "generatebiomedicines"
+  },
+  "Genesis Therapeutics": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 10,
+   "sample": [
+    "ML Research Engineer, Foundation Models (Senior / Staff / Principal)",
+    "Applied ML Scientist (Staff / Principal)",
+    "ML Research Scientist, Foundation Models (Senior / Staff / Principal)"
+   ],
+   "slug": "genesis-molecular-ai",
+   "via": "website"
+  },
+  "Genomelink": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Gilgamesh Pharmaceuticals": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Gleam": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "GloGlo": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Grail": {
+   "ats": "lever",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 12,
+   "sample": [
+    "Director, Regulatory Affairs - Advertising, Promotional and Labeling #4810",
+    "GRAIL Galleri Consultant 1 (Fairfax, VA) # 4996",
+    "Health System Partnerships Associate Director #4931 (Western U.S.)"
+   ],
+   "slug": "grailbio",
+   "via": "website"
+  },
+  "Granza Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Guardant Health": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Guardian Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Gutgutgoose": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Halmos Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Haplotype Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Harmonic Discovery": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 9,
+   "sample": [
+    "Research Engineer",
+    "Software Engineer",
+    "Research Engineer, Formal Methods"
+   ],
+   "slug": "harmonic"
+  },
+  "Healx": {
+   "ats": "lever",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 1,
+   "sample": [
+    "Software Engineer (Agentic Systems)"
+   ],
+   "slug": "healx"
+  },
+  "Helix Nanotechnologies": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Hepatx": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "HistoWiz": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Human Dx": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Humane Genomics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Iambic Therapeutics": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 30,
+   "sample": [
+    "Associate Medical Director/Medical Director",
+    "Senior Clinical Trial Manager, Clinical Operations",
+    " Research Scientist II/Senior, Discovery Machine Learning"
+   ],
+   "slug": "iambic-therapeutics",
+   "via": "website"
+  },
+  "Iktos": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Illume Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Immunity Project": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "InVision Medical Technology": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Inceptive": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 8,
+   "sample": [
+    "Accelerating impact through partnerships",
+    "Advancing Inceptive's commercial strategy",
+    "Computational design of biological experiments for model development"
+   ],
+   "slug": "inceptive",
+   "via": "website"
+  },
+  "Indee Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Industrial Microbes": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Infera": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 1,
+   "sample": [
+    "Full-Stack Engineer"
+   ],
+   "slug": "infera"
+  },
+  "Insilico Medicine": {
+   "ats": "workable",
+   "checked": "2026-10-27",
+   "confident": false,
+   "exact": false,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "insilico"
+  },
+  "InstaDeep": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Instapath Inc.": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Intact Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Invert": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 6,
+   "sample": [
+    "Implementation Manager ",
+    "Senior Software Engineer (EU) ",
+    "Senior Software Engineer (North America)"
+   ],
+   "slug": "invert",
+   "via": "website"
+  },
+  "Invitris": {
+   "ats": "personio",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 3,
+   "sample": [
+    "Initiative application (Full time)",
+    "SEO Marketing Manager",
+    "Social Media (Werkstudent)"
+   ],
+   "slug": "invitris"
+  },
+  "Isabl": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Isomorphic Labs": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 31,
+   "sample": [
+    "Application Support Engineer (Third Party Systems), London",
+    "Associate Director, Clinical Supply Chain, Cambridge, MA",
+    "Associate Director, Translational Medicine, Oncology, Cambridge, MA "
+   ],
+   "slug": "isomorphiclabs",
+   "via": "website"
+  },
+  "Junction Bioscience": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 11,
+   "sample": [
+    "Product Engineer",
+    "Product Engineer, Support",
+    "Account Executive"
+   ],
+   "slug": "junction"
+  },
+  "KemNet": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Kern Systems": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Kernal Biologics": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 4,
+   "sample": [
+    "Associate Director/Director of Preclinical Development",
+    "Co-op, Synthetic Biology (mRNA Therapeutics)",
+    "Director, LNP Formulation"
+   ],
+   "slug": "kernalbio",
+   "via": "website"
+  },
+  "Keylika": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Kingdom": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 4,
+   "sample": [
+    "Looking for another scientific role?",
+    "Looking for another business/operational role?",
+    "Senior Manager, Customer Engagement"
+   ],
+   "slug": "Kingdom",
+   "via": "website"
+  },
+  "Kiwi Biosciences": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 6,
+   "sample": [
+    "Product Manager",
+    "Product Analyst",
+    "Senior Backend Engineer"
+   ],
+   "slug": "kiwi"
+  },
+  "Kopra Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "LEAH Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "LabGenius": {
+   "ats": "workable",
+   "checked": "2026-10-27",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "labgenius"
+  },
+  "Lamin": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "LatchBio": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 25,
+   "sample": [
+    "Research Partnerships Lead",
+    "Technical Recruiter",
+    "Manager, Special Projects"
+   ],
+   "slug": "LatchBio",
+   "via": "website"
+  },
+  "Ligo Biosciences": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Lila Sciences": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 120,
+   "sample": [
+    "Associate Director, App   ",
+    "Associate Director/Director, Commercial Counsel ",
+    "Associate Director / Director, Customer Program Management, Life Sciences"
+   ],
+   "slug": "lilasciences",
+   "via": "website"
+  },
+  "Living Carbon": {
+   "ats": "lever",
+   "checked": "2026-10-27",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "livingcarbon"
+  },
+  "Lucy Goods, Inc": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Lygos": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "MICSI": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Macromoltek": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Manifold Bio": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 8,
+   "sample": [
+    "AI/ML Research Engineer",
+    "Associate Scientist/Senior Associate Scientist, In Vivo Pharmacology \u2013 Study Coordinator",
+    "Computational Scientist, Assay Development"
+   ],
+   "slug": "manifoldbio",
+   "via": "website"
+  },
+  "Matrubials": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Maven Bio": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 3,
+   "sample": [
+    "Partnerships Lead, Maven for Business",
+    "Senior Software Engineer",
+    "Growth Lead"
+   ],
+   "slug": "maven"
+  },
+  "Medium Biosciences": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 2,
+   "sample": [
+    "Senior Android Engineer",
+    "Staff Product Designer"
+   ],
+   "slug": "medium"
+  },
+  "Menten AI": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Mind Emulation Foundation": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Mindstate Design Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Miracle": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Mission Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Modulari-T": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Moichor": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Molagri": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Monte Rosa Therapeutics": {
+   "ats": "workable",
+   "checked": "2026-10-27",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "monte-rosa-therapeutics"
+  },
+  "Mytos": {
+   "ats": "lever",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 13,
+   "sample": [
+    "Associate Scientist",
+    "Business Development Manager",
+    "Chief of Staff"
+   ],
+   "slug": "mytos",
+   "via": "website"
+  },
+  "Nabla Bio": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 9,
+   "sample": [
+    "Mid-Market Account Executive",
+    "Enterprise Sales Director",
+    "Partnership Director"
+   ],
+   "slug": "nabla"
+  },
+  "Nanograb": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "nanograb"
+  },
+  "Nautilus Biotechnology": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Nectome": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Nephrogen": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Nest Genomics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Neuromorphic": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "New Limit": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 17,
+   "sample": [
+    "Director / Senior Director, Clinical Operations",
+    "Executive Assistant",
+    "Group Lead, Immunology"
+   ],
+   "slug": "newlimit",
+   "via": "website"
+  },
+  "Noetik": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 4,
+   "sample": [
+    "Interested in Artificial Intelligence?",
+    "Interested in Engineering?",
+    "Interested in Lab?"
+   ],
+   "slug": "noetikprospects",
+   "via": "website"
+  },
+  "Nomic Bio": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 7,
+   "sample": [
+    "Data Scientist/Data Engineer (Mid to Sr Levels)",
+    "Profiling Lab Operations Associate I",
+    "Flow Cytometry Systems Engineer"
+   ],
+   "slug": "nomic",
+   "via": "website"
+  },
+  "Novelcare": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Nucleome Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Numen": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Numerion Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Nuntius Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Nurix Therapeutics": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 35,
+   "sample": [
+    "Administrative Assistant, Clinical Development (Contract)",
+    "Administrative Assistant, CMC (Contract)",
+    "Associate Director, Chemical Engineering"
+   ],
+   "slug": "nurix",
+   "via": "website"
+  },
+  "Nxtcure Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Ochre Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Ohmic Biosciences": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": false,
+   "exact": false,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "ohmic"
+  },
+  "Olio Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Oncobox": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "OpenBiome": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Opentrons": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Orange Health Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Origami Therapeutics, Inc.": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Origin": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 10,
+   "sample": [
+    "Senior Security Researcher (AI)",
+    "Senior Account Executive",
+    "Sales / Business Development Representative (SDR / BDR)"
+   ],
+   "slug": "originhq"
+  },
+  "Osseus": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Output Labs": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 8,
+   "sample": [
+    "Member of the Technical Staff, Interpretability",
+    "Member of the Technical Staff, Pretraining",
+    "Head of Biology"
+   ],
+   "slug": "output"
+  },
+  "Owkin": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 7,
+   "sample": [
+    "Software Engineer ",
+    "Scientist II Machine Learning Engineer (LLM & GenAI Specialist)",
+    "Customer Support Specialist"
+   ],
+   "slug": "owkin",
+   "via": "website"
+  },
+  "Oxford Nanopore Technologies": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Paceline Bio": {
+   "ats": "lever",
+   "checked": "2026-10-27",
+   "confident": false,
+   "exact": false,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "paceline"
+  },
+  "Pando Bioscience": {
+   "ats": "personio",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 2,
+   "sample": [
+    "Primary Market Research Project Lead",
+    "Product Designer"
+   ],
+   "slug": "pando"
+  },
+  "Panoptive": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Parallel Bio": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 27,
+   "sample": [
+    "GTM, Enterprise",
+    "Product Designer",
+    "Member of Technical Staff, Back-end & API"
+   ],
+   "slug": "parallel"
+  },
+  "ParcelBio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Parse Biosciences": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 7,
+   "sample": [
+    "Director, Business Development (Genomics)",
+    "Director, GigaLab & Genomics Services",
+    "General Application for Future Consideration"
+   ],
+   "slug": "parsebiosciences",
+   "via": "website"
+  },
+  "PathAI": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 15,
+   "sample": [
+    "Associate Director, MLOps Engineering",
+    "Clinical Trial Associate",
+    "Implementation Engineer, Digital Diagnostics (DDx)"
+   ],
+   "slug": "pathai"
+  },
+  "Peptone": {
+   "ats": "workable",
+   "checked": "2026-10-27",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "peptone"
+  },
+  "Perlara": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Persephone Biosciences": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Perseus": {
+   "ats": "personio",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 5,
+   "sample": [
+    "Account- und Partnermanager (m/w/d) \u2013 Cybersecurity & Insurance Ecosystem",
+    "Cyber Incident Coordinator  (m/w/d)",
+    "People & Culture Manager (w/m/d)"
+   ],
+   "slug": "perseus"
+  },
+  "Persist AI": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Pirouette Pharma": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "PostEra": {
+   "ats": "lever",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 2,
+   "sample": [
+    "General Interest",
+    "Machine Learning Researcher - Agentic Science"
+   ],
+   "slug": "postera"
+  },
+  "Primordiant": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Probably Genetic": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 3,
+   "sample": [
+    "Senior Data Scientist",
+    "Head of Community Marketing",
+    "Senior Product Manager"
+   ],
+   "slug": "probablygenetic"
+  },
+  "Profluent": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 13,
+   "sample": [
+    "Associate Scientist/Scientist I,  Molecular Function",
+    "Creative Director ",
+    "Director, Software and Data Engineering"
+   ],
+   "slug": "profluent",
+   "via": "website"
+  },
+  "Promakhos Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Quinn": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Qvin": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Rarebird": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Rasyn": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Raycaster": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Rebellyous Foods": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Recursion": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 13,
+   "sample": [
+    "Associate Director, Computational Biology \u2013 Early Discovery",
+    "Don't see what you're looking for?",
+    "Executive Director, Chemical Biology"
+   ],
+   "slug": "recursionpharmaceuticals",
+   "via": "website"
+  },
+  "Redcliffe Lifetech": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Rejuvenation Technologies Inc.": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Relation Therapeutics": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 11,
+   "sample": [
+    "Talent Pool",
+    "Platform Engineer",
+    "Machine Learning Scientist, Generative Modelling"
+   ],
+   "slug": "relationrx",
+   "via": "website"
+  },
+  "Relevium Medical": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Reshape Biotech": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Reticular": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Retro Biosciences": {
+   "ats": "lever",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 7,
+   "sample": [
+    "Analytical Sciences, Small Molecule",
+    "Head of Quality, Cell Therapy",
+    "Histotechnologist"
+   ],
+   "slug": "retro",
+   "via": "website"
+  },
+  "Rev Genomics": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 1,
+   "sample": [
+    "Director, Design"
+   ],
+   "slug": "rev"
+  },
+  "RonanRx Inc.": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Rosebud Biosciences": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 14,
+   "sample": [
+    "Backend Engineer",
+    "Copy of Customer Success Manager",
+    "   Customer Success Manager"
+   ],
+   "slug": "rosebud"
+  },
+  "SafeBeat": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Scanbase": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Scienta Lab": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Scoop": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Scout": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "scout"
+  },
+  "Seer": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 1,
+   "sample": [
+    "Regional Business Manager, DC/Baltimore"
+   ],
+   "slug": "seer"
+  },
+  "Segmed": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Sensible Biotechnologies": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Seqera": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 7,
+   "sample": [
+    "Technical Solutions Architect ",
+    "Technical Solutions Architect",
+    "Technical Solutions Architect"
+   ],
+   "slug": "seqera.io",
+   "via": "website"
+  },
+  "Sequence Bio": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 8,
+   "sample": [
+    "Senior Product Engineer (Backend) - London",
+    "Senior Product Engineer (Backend) - NYC",
+    "Senior Product Designer - NYC"
+   ],
+   "slug": "sequence"
+  },
+  "Serinus Biosciences": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Serna Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Shift Bioscience": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 15,
+   "sample": [
+    "Head of Payment Operations ",
+    "Commercial Credit Analyst ",
+    "Client Onboarding Specialist"
+   ],
+   "slug": "shift"
+  },
+  "Shiru": {
+   "ats": "lever",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 1,
+   "sample": [
+    "Don't see a position that fits? Tell us more."
+   ],
+   "slug": "shiru"
+  },
+  "Sigma Genetics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Signatur Biosciences": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Sixfold Bioscience": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 3,
+   "sample": [
+    "Software Engineer, Product",
+    "Staff Data Engineer",
+    "VP, Product"
+   ],
+   "slug": "sixfold"
+  },
+  "Solugen": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Somite.ai": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 3,
+   "sample": [
+    "Director, Marketing Communications ",
+    "Senior Bioinformatics Scientist",
+    "Infrastructure Engineer"
+   ],
+   "slug": "cellular-intelligence",
+   "via": "website"
+  },
+  "Sophia Genetics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Spectre Intelligence": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Spot Health": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Standard BioTools": {
+   "ats": "recruitee",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 2,
+   "sample": [
+    "Recruiter*in (Muster)",
+    "Senior Marketer (Muster)"
+   ],
+   "slug": "standard"
+  },
+  "Starling": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Strand AI": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Synkrino Biotherapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "SynsoryBio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Synthio Labs": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Synvivia": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Tahoe Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Talus Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Tamarind Bio": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 7,
+   "sample": [
+    "Founding Forward Deployed Engineer ",
+    "Founding GTM, BD ",
+    "Founding Software Engineer"
+   ],
+   "slug": "tamarindbio",
+   "via": "website"
+  },
+  "TareBio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Tempus": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Terray Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Torpedo Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Tradewind BioScience": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Trestle Biotherapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "TwentyTwo": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 25,
+   "sample": [
+    "Research Partnerships Lead",
+    "Technical Recruiter",
+    "Manager, Special Projects"
+   ],
+   "slug": "LatchBio",
+   "via": "website"
+  },
+  "Ultima Genomics": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 16,
+   "sample": [
+    "Associate Strategic Accounts Director, Pharma and Biotech",
+    "Electrical Engineer II",
+    "Field Service Engineer I, Development Program"
+   ],
+   "slug": "ultimagenomics"
+  },
+  "Uncommon Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Undermind": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Unlearn": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 6,
+   "sample": [
+    "Product Manager",
+    "Clinical Data Scientist",
+    "AI Engineer"
+   ],
+   "slug": "Unlearn",
+   "via": "website"
+  },
+  "UrbanKisaan": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Valink Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Valo Health": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 2,
+   "sample": [
+    "Staff Data Scientist, Computational Biology",
+    "Staff Data Scientist, Machine Learning in Epidemiology and Patient Data Products"
+   ],
+   "slug": "valohealth",
+   "via": "website"
+  },
+  "VedaBio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Velorum Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Verge Genomics": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 2,
+   "sample": [
+    "Executive Assistant to CEO (2026)",
+    "Business Development Consultant"
+   ],
+   "slug": "verge-labs",
+   "via": "website"
+  },
+  "Vizgen": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Volta Labs, Inc.": {
+   "ats": "lever",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 3,
+   "sample": [
+    "Join our Talent Community",
+    "Lab Technician- Quality Control",
+    "Manufacturing Assembly Technician"
+   ],
+   "slug": "voltalabs",
+   "via": "website"
+  },
+  "WhiteLab Genomics": {
+   "ats": "smartrecruiters",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 1,
+   "sample": [
+    "Senior Electronics and Hardware Engineer"
+   ],
+   "slug": "whitelab"
+  },
+  "WonderTx": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "X-Zell": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "XGenomes": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "Xaira Therapeutics": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 31,
+   "sample": [
+    "AI in Residence",
+    "AI in Residence, Computational Protein Design",
+    "AI Scientist, BioMedical AI"
+   ],
+   "slug": "xairatherapeutics",
+   "via": "website"
+  },
+  "Yemaachi Biotechnology": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "YourChoice Therapeutics": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "ZBiotics": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 2,
+   "sample": [
+    "Marketing Analytics Lead ",
+    "Senior Associate, Affiliate Growth Marketing"
+   ],
+   "slug": "zbioticscompany",
+   "via": "website"
+  },
+  "b12 Labs": {
+   "ats": "greenhouse",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": false,
+   "n_jobs": 4,
+   "sample": [
+    "Marketing Manager",
+    "Staff Software Engineer",
+    "Web Design and Marketing Partners "
+   ],
+   "slug": "b12"
+  },
+  "inSoma Bio": {
+   "ats": null,
+   "checked": "2026-10-27"
+  },
+  "insitro": {
+   "ats": "ashby",
+   "checked": "2026-10-27",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 14,
+   "sample": [
+    "Full Stack Software Engineer, Lab Platform (LIMS)",
+    "Senior Director, Project & Portfolio Management",
+    "Senior Machine Learning Scientist, Imaging"
+   ],
+   "slug": "insitro"
+  },
+  "\u00c5ngstr\u00f6m AI": {
+   "ats": null,
+   "checked": "2026-10-27"
+  }
+ },
+ "seen": {
+  "ashby:10xteam:1eb4b369-891b-45f8-b413-98059b0876ba": "2026-10-27",
+  "ashby:10xteam:428bf33f-749b-4653-86cb-aeb05104bb68": "2026-10-27",
+  "ashby:10xteam:49e0599b-fa12-428a-8e12-40c9aa698428": "2026-10-27",
+  "ashby:10xteam:a42018aa-86cc-4b54-bb46-570e675ebff5": "2026-10-27",
+  "ashby:10xteam:f149d2d2-c2b0-4282-8940-e4167a2b0b3d": "2026-10-27",
+  "ashby:BranchLab:645f8972-6ee6-4d46-8a96-b4961d0d1f01": "2026-10-27",
+  "ashby:Carwow:287c20ff-3c19-4d21-b929-cea7bd3c9d40": "2026-10-27",
+  "ashby:Character Biosciences:df95a7a5-87ca-4f51-85fd-4bb595a47a55": "2026-10-27",
+  "ashby:DivineResearch:ca551089-7027-4918-9f52-f1e6a20d06b5": "2026-10-27",
+  "ashby:Epistemix:2cf258de-d6ff-4c32-9f78-a4d9f2913b61": "2026-10-27",
+  "ashby:Fundamental:11f7810f-926f-4f9a-b59f-2a7542169cde": "2026-10-27",
+  "ashby:Genesis Therapeutics:b239a6b5-40f2-41fd-93e6-3b7ca2c7eac7": "2026-10-27",
+  "ashby:Genesis Therapeutics:c1c47745-4e5c-4e0e-9d71-16d7ea28895a": "2026-10-27",
+  "ashby:Iambic Therapeutics:1232cf39-832c-494f-99b9-1b4ee7266a42": "2026-10-27",
+  "ashby:Iambic Therapeutics:50be2fab-54c1-4310-8cec-3fe6123b8a8f": "2026-10-27",
+  "ashby:Jerry.ai:271b73bc-2b1a-4be6-b3dc-d72d806b8e35": "2026-10-27",
+  "ashby:Jerry.ai:74b5781f-8834-4e74-be8d-8be0fe895b99": "2026-10-27",
+  "ashby:LatchBio:08d47716-b878-4364-ba31-79ec681ec14c": "2026-10-27",
+  "ashby:LatchBio:1714598f-f274-4457-be04-861ba7cde7e4": "2026-10-27",
+  "ashby:LatchBio:24ae1dd7-e025-4e73-89c1-8c9dd1cc613c": "2026-10-27",
+  "ashby:LatchBio:b60fddff-1079-487e-808f-accdff3522f6": "2026-10-27",
+  "ashby:LatchBio:ba71439b-6f26-48b5-af5c-5449289274e0": "2026-10-27",
+  "ashby:LatchBio:d4a8c4d4-e118-4dc7-a134-0180936e4148": "2026-10-27",
+  "ashby:LatchBio:d8c04604-21db-4715-a476-14d9fb581e0f": "2026-10-27",
+  "ashby:Latent Labs:110a5e8d-bb5b-4148-a398-97f025feb53b": "2026-10-27",
+  "ashby:Lemonade:db4cc9bb-e4c3-4b1a-b287-0d52d99a248c": "2026-10-27",
+  "ashby:OBRIO:aef6f2ab-df56-459d-a0b5-b7ee7d613e95": "2026-10-27",
+  "ashby:Owkin:df08e875-432e-420f-ac18-543c07e0ee1b": "2026-10-27",
+  "ashby:Owkin:f588cde0-efa9-4dc1-9501-a24525110450": "2026-10-27",
+  "ashby:Polarsteps:b31dfe4d-d4f1-45fa-8c86-61697142ffe9": "2026-10-27",
+  "ashby:Probably Genetic:38b04bbc-0526-44f6-9502-07772f3a1164": "2026-10-27",
+  "ashby:Proxima:2443af21-e439-4ec7-910e-0a5872e1749a": "2026-10-27",
+  "ashby:Proxima:b6e64420-4055-42c7-8a87-b9648a906203": "2026-10-27",
+  "ashby:Pyyne:96085095-908a-47a0-9cea-15beb53c80b3": "2026-10-27",
+  "ashby:Pyyne:dfbe0e7d-750c-4978-bf8e-92de7b58a4f6": "2026-10-27",
+  "ashby:Ramp:aa5512b1-d973-4d74-9d10-d56446ecf803": "2026-10-27",
+  "ashby:ScribdInc:5c1fd186-f4e7-40d0-ae0a-d55bc4a1a47d": "2026-10-27",
+  "ashby:Seqera:293aac10-51c3-4af1-9eff-7dcc07e3f7f9": "2026-10-27",
+  "ashby:Solvd:83c2fba7-da71-4a75-a364-ec1dc6adc92f": "2026-10-27",
+  "ashby:Solvd:f2bd28d6-d0e4-4e10-8c52-8aec532f2952": "2026-10-27",
+  "ashby:Strava:09ab60f0-de73-4bde-9de2-f5b6809f8dce": "2026-10-27",
+  "ashby:Strava:f39b4232-33e1-4853-af84-163d1bcdef69": "2026-10-27",
+  "ashby:Unlearn:a7e00671-b40e-407b-9774-ad68cb89fbc6": "2026-10-27",
+  "ashby:WRITER:c21128b0-28cd-424c-b1a8-27b1ead69d97": "2026-10-27",
+  "ashby:absentia-labs:f8cb711d-2f7e-457a-856e-c455fa541ddc": "2026-10-27",
+  "ashby:achira:083f473d-0204-4822-a62b-ea2dcfab50d4": "2026-10-27",
+  "ashby:achira:fd1bf203-29bc-454a-9140-378a21bbc173": "2026-10-27",
+  "ashby:adjoe:147d4798-84f3-4110-b7c4-3ffb2106bb51": "2026-10-27",
+  "ashby:adonis:c1f731b4-b32c-4997-9181-8902856f195b": "2026-10-27",
+  "ashby:allium:6ad02951-721e-48a6-8a95-95a9139393a9": "2026-10-27",
+  "ashby:anyone-ai:225bdb3a-e0d5-443f-a8b5-f93bc648706c": "2026-10-27",
+  "ashby:anyone-ai:a7b215b1-fbed-4c3d-af32-897c0d700a3e": "2026-10-27",
+  "ashby:anyone-ai:eba1ffe5-9e97-45ee-92e3-46babd584645": "2026-10-27",
+  "ashby:arq:9b53bbd7-98dc-477a-b215-09e8f635b00d": "2026-10-27",
+  "ashby:arq:bbaf8b97-e7a0-4a1d-810d-abab04f45250": "2026-10-27",
+  "ashby:astera:387a65a4-5b77-49df-b6ca-58c07d01f925": "2026-10-27",
+  "ashby:astera:968b4dbf-4944-402c-8233-343410a73c86": "2026-10-27",
+  "ashby:backmarket:9eae3809-5941-40d1-bc5a-9f1871618191": "2026-10-27",
+  "ashby:backmarket:b49338f8-e864-463f-8f60-2561d0eac8aa": "2026-10-27",
+  "ashby:baseten:f160637f-b6bf-4f69-a8bd-862a3a3a8b0d": "2026-10-27",
+  "ashby:beamery:09782106-a132-437d-b771-d8e3443b9d17": "2026-10-27",
+  "ashby:bedrock-robotics:4bd2e282-a7d5-4605-9483-8bfa89e567f6": "2026-10-27",
+  "ashby:belvo:161cfb0e-5ee2-4655-b45b-460c066d6c73": "2026-10-27",
+  "ashby:betterup:a925dee4-52c5-4971-9f60-4c2f9af2f27c": "2026-10-27",
+  "ashby:bio:1cb97c53-0538-4275-895d-20898376f32d": "2026-10-27",
+  "ashby:centerfield:600782a4-45ae-424f-ade2-f8217825ae32": "2026-10-27",
+  "ashby:chainalysis-careers:a4e87036-8214-4c66-9d9b-c8a956edf387": "2026-10-27",
+  "ashby:claylabs:f257525f-dfe1-4a88-9bb5-f14891dc37e5": "2026-10-27",
+  "ashby:cogent-security:ce972e7a-d724-46a5-873c-9b2ba8397bb8": "2026-10-27",
+  "ashby:cuesta-partners:0c715680-1684-42b1-b4e9-29528015ae3a": "2026-10-27",
+  "ashby:dandelionhealth:1c0f71a9-6519-4d0f-bb79-5c55022335e4": "2026-10-27",
+  "ashby:dandelionhealth:90056e96-44ad-4deb-a3a7-56e3f691eb10": "2026-10-27",
+  "ashby:demandbase:7dbe602e-c291-4d3b-b6e1-6ad51441eb84": "2026-10-27",
+  "ashby:duck-duck-go:a447e823-fd8f-438f-909e-db1f6ced8c97": "2026-10-27",
+  "ashby:elevenlabs:257f24da-83db-4bad-a6dc-37793a1a0bac": "2026-10-27",
+  "ashby:elevenlabs:41b892ba-b530-44cb-9ae1-178908fc324c": "2026-10-27",
+  "ashby:ellipsis-health:ae914a61-0b1a-42e3-a2b4-fd1b1cc753ca": "2026-10-27",
+  "ashby:empirical-security:99125a1c-ea07-499e-a056-5ae0848f58b7": "2026-10-27",
+  "ashby:faculty:0b6ad03f-8633-47ef-9dec-a8eb3cebf9b2": "2026-10-27",
+  "ashby:faculty:188ecaba-2f9c-4a15-a86b-dc2f369f03bd": "2026-10-27",
+  "ashby:faculty:1f2cb0a2-4aa5-4ce3-b9fd-b90990076b6d": "2026-10-27",
+  "ashby:faculty:52287849-e7c4-43ac-adda-480dedd87f5f": "2026-10-27",
+  "ashby:faculty:54729948-5b4a-404c-bea4-cec5759768b5": "2026-10-27",
+  "ashby:faculty:61c1d7d5-6bb1-4a22-a950-bbf26e59d675": "2026-10-27",
+  "ashby:faculty:6ad13f20-8a65-454f-b7c7-4d5260f306bf": "2026-10-27",
+  "ashby:faculty:6c0abf94-8d61-459b-b094-49307a595c60": "2026-10-27",
+  "ashby:faculty:92c892cd-1f6c-443d-9cd8-e4902f9b7fb6": "2026-10-27",
+  "ashby:faculty:95a1a01f-aee6-4887-8256-b45f5a034336": "2026-10-27",
+  "ashby:faculty:b84b4736-cd44-465a-9e80-6737e1f93076": "2026-10-27",
+  "ashby:faculty:d15d6073-1925-46eb-9464-8b22cd8de6a6": "2026-10-27",
+  "ashby:faculty:efa8d13e-5166-4ae2-bf10-b1392afd3528": "2026-10-27",
+  "ashby:faculty:fd99c104-65b4-4fca-b68e-0ab9170da31f": "2026-10-27",
+  "ashby:gen-digital:911e6e86-7da1-455e-ad49-310bee6e35a5": "2026-10-27",
+  "ashby:gen-digital:c35bae67-de6c-45b7-b116-4c30a8c6ac73": "2026-10-27",
+  "ashby:gen-digital:e67de4da-fec5-40fa-b58e-277c24073cfd": "2026-10-27",
+  "ashby:gen-digital:e68a4dac-ca1d-43a1-a56a-6e45da05dc88": "2026-10-27",
+  "ashby:genpeach:b4061342-7902-4cb3-9e66-2430b36b3843": "2026-10-27",
+  "ashby:gigaton:f4e56f06-08bf-4a26-bf8a-2256cb1361a9": "2026-10-27",
+  "ashby:gradient-labs:1e0470c7-734e-401a-9fb6-03f64cb2121d": "2026-10-27",
+  "ashby:gt-hq:0f4084fe-b775-44a7-b3b2-9eb3c80d1ab2": "2026-10-27",
+  "ashby:gt-hq:ed10572c-5904-4140-a283-29b02c4f2037": "2026-10-27",
+  "ashby:harvey:1321b20d-d6f8-4bdb-b2de-ec33c0948b53": "2026-10-27",
+  "ashby:headway:307f5c55-2e9d-44c0-85e8-3cdfe09e0bb6": "2026-10-27",
+  "ashby:hims-and-hers:03e3a815-465e-4dab-9efe-f6d14f336fea": "2026-10-27",
+  "ashby:hims-and-hers:959afd49-33fe-424d-8ed4-b6c7b24b3f3c": "2026-10-27",
+  "ashby:hinge-health:e3db30d5-f105-48dc-aead-05228b7da997": "2026-10-27",
+  "ashby:hyphametrics:862d5998-0ea5-423f-94ec-70fdb105e4b3": "2026-10-27",
+  "ashby:imprint:3277b37e-4972-4152-a379-9c58c000b08e": "2026-10-27",
+  "ashby:insitro:2cbd914b-7156-494d-8e15-772ed63d88d3": "2026-10-27",
+  "ashby:ironcladhq:787067e0-87b3-4bfa-9e4d-d0ace4ccee1f": "2026-10-27",
+  "ashby:iwoca.co.uk:6d4ca2ff-b279-4500-9695-cabff46653a1": "2026-10-27",
+  "ashby:iwoca.co.uk:92dc2370-c6fd-48c2-b2f6-6feeb68f8af1": "2026-10-27",
+  "ashby:iwoca.co.uk:c097d2a9-aa18-4e49-85ba-70a5b9f2b3bb": "2026-10-27",
+  "ashby:iwoca.co.uk:d6239e27-9b0c-4792-9322-3f58cd1d1ee2": "2026-10-27",
+  "ashby:iwoca.co.uk:dc2fdef7-d5b1-486d-ba77-044f7c44f980": "2026-10-27",
+  "ashby:january:848623c1-47a0-4877-a516-a60b7d070ed1": "2026-10-27",
+  "ashby:jobber:8f77d17e-203e-46c1-b06a-42b7005b94d2": "2026-10-27",
+  "ashby:jobs-valence:180e5965-04b1-4054-988f-5fa6deab5ff7": "2026-10-27",
+  "ashby:kantiv:02fa27cf-29e5-4995-89d2-24247cccfd86": "2026-10-27",
+  "ashby:kayak:0c1aad83-c097-4464-ad6b-2cfc46c2cc3c": "2026-10-27",
+  "ashby:kayak:b50015a4-b1c0-4220-b098-f752cfec826c": "2026-10-27",
+  "ashby:laurel:e1b5286e-a3de-406d-9858-006ce3643ab4": "2026-10-27",
+  "ashby:ledger:490a806d-48da-4279-82d1-5d4bdaf10bd4": "2026-10-27",
+  "ashby:lendable:3079e2d2-545b-4873-8f82-133b96c4cd0e": "2026-10-27",
+  "ashby:lendable:502163b8-ddd4-48dc-9464-68b24056baac": "2026-10-27",
+  "ashby:liquid-ai:24b6d654-d703-4a49-941b-3461f2d7c28e": "2026-10-27",
+  "ashby:loveholidays:14674b40-f333-483e-9c68-6c0dd09f4c1b": "2026-10-27",
+  "ashby:melotech:35bdfd24-a05f-4c2d-8c55-79d7b394499f": "2026-10-27",
+  "ashby:middesk:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174": "2026-10-27",
+  "ashby:middesk:f0da59d3-43fa-460b-88ea-4fc9c052b28c": "2026-10-27",
+  "ashby:mistral.ai:9873f968-d5b2-4fb0-b268-7a274a4a2029": "2026-10-27",
+  "ashby:mistral.ai:9fc579c8-784c-4b91-bcd0-392f35d13100": "2026-10-27",
+  "ashby:mistral.ai:bc659575-b7c2-406c-825b-fdd58c503594": "2026-10-27",
+  "ashby:mistral.ai:f090ef1d-372e-40dc-bf46-ce0bf2850204": "2026-10-27",
+  "ashby:monday.com:9de6a3e3-2b7d-4208-949f-b3b9de936bd3": "2026-10-27",
+  "ashby:monday.com:c63d83ff-8462-48f6-8c27-692f903c28a5": "2026-10-27",
+  "ashby:mudflap:d9f674f7-a443-4211-adb8-31a689972086": "2026-10-27",
+  "ashby:nash:472354ab-cc88-4716-8663-896da3f1e5b0": "2026-10-27",
+  "ashby:nectar-social:d97fb7f3-227a-4d0f-807e-8edfab627b10": "2026-10-27",
+  "ashby:neo-tax:7133d265-02d2-415d-b355-98f63222406f": "2026-10-27",
+  "ashby:nexxen:0240fa9a-f638-4870-9566-e3d0c812bbe1": "2026-10-27",
+  "ashby:niantic-spatial:823adbcc-d5c4-4807-8104-bc05fe8c57c9": "2026-10-27",
+  "ashby:nightfall-ai:8649ba81-c541-4d9e-921f-c3d521d4d97b": "2026-10-27",
+  "ashby:notion:9fc52821-c394-4a80-85ba-5f1d7c36fb2b": "2026-10-27",
+  "ashby:onoshealth:725910e1-eeac-4306-a270-857db0fd6eea": "2026-10-27",
+  "ashby:openart:94ec0c86-8fd2-435f-9203-42e39921cd95": "2026-10-27",
+  "ashby:palladio:84e364ec-0287-49b3-8196-cbf78a6fee78": "2026-10-27",
+  "ashby:parafin:92807f0c-0c67-4516-bbf2-dc809516de14": "2026-10-27",
+  "ashby:parafin:cb15e569-764f-4304-a2cd-41a11fe9e008": "2026-10-27",
+  "ashby:plaid:172bb8e8-7dc8-4fdc-ae20-525456989ff4": "2026-10-27",
+  "ashby:plaid:361c4725-ab72-4895-a3aa-9b642f4927a9": "2026-10-27",
+  "ashby:plaid:5e56c0a6-3caa-4255-8c63-95c29cbc2a32": "2026-10-27",
+  "ashby:plaid:c85370cf-7391-4307-9757-42f2ee25b98a": "2026-10-27",
+  "ashby:plaid:dab31ae8-1e25-4b63-8008-d6930ff72369": "2026-10-27",
+  "ashby:possible-finance:1e178106-fd21-4630-b03a-3310a399ff34": "2026-10-27",
+  "ashby:preply:092dcfa8-7224-4e56-9872-83e997db38ec": "2026-10-27",
+  "ashby:preply:2002a394-44aa-48dd-8228-cae78d0033fd": "2026-10-27",
+  "ashby:preply:2e125c5e-420e-4026-8e2f-f4f46b1d1672": "2026-10-27",
+  "ashby:preply:53eb1609-baaf-47f1-8c84-0bb466ddd5bb": "2026-10-27",
+  "ashby:preply:56258789-bb1b-452a-8353-a352099d6e9f": "2026-10-27",
+  "ashby:preply:60937dae-35b9-413c-9299-fba63874bf89": "2026-10-27",
+  "ashby:preply:64abe943-b897-4c31-93f1-90d4cb1b6ce0": "2026-10-27",
+  "ashby:preply:750c71f3-a5a2-4440-bcd8-37ef40fdf29e": "2026-10-27",
+  "ashby:preply:7dd8c669-72ad-4e36-b66e-ead1a375a7e7": "2026-10-27",
+  "ashby:preply:85b3fdd5-e99c-4ca8-a5e7-5b3abfd47994": "2026-10-27",
+  "ashby:preply:8ef9f0c3-84a8-4a22-939c-12880006f9f0": "2026-10-27",
+  "ashby:preply:97b2dfae-bfbc-488a-9a01-a596dada4924": "2026-10-27",
+  "ashby:preply:b208c4e1-8b65-412f-af09-aeb53c8f6fbd": "2026-10-27",
+  "ashby:preply:cfb54a73-ce09-418f-8d77-9dc3883ab7ed": "2026-10-27",
+  "ashby:preply:e51600bd-c014-4b1b-8d52-14a8ee6bb58f": "2026-10-27",
+  "ashby:preply:e593140e-1ddc-4ab0-8584-96b26c2132de": "2026-10-27",
+  "ashby:preply:f285ee51-61fa-4b78-aecb-8e9cc3f21824": "2026-10-27",
+  "ashby:preply:f523d3f8-1b3a-4711-a378-2796943d4298": "2026-10-27",
+  "ashby:preply:f6853afa-618f-4387-a184-f6b0fffce9f9": "2026-10-27",
+  "ashby:rain:d801cb1d-0500-487f-8732-39a4afe3c741": "2026-10-27",
+  "ashby:reflow:9ee81d3e-3cbc-4cb2-907a-4958f7bbc5e4": "2026-10-27",
+  "ashby:remarcable-inc:51302674-25d6-462f-96ab-0756d9f5fb2a": "2026-10-27",
+  "ashby:revenuecat:22cccdd0-817d-460f-9f9d-a3d0ab3e6e2b": "2026-10-27",
+  "ashby:rho:a6461b59-ddde-4d07-8399-8d63cf678514": "2026-10-27",
+  "ashby:siteminder:13fe3bcb-0852-4036-ab9a-dfee21b3bf1f": "2026-10-27",
+  "ashby:socure:00bb129a-db80-4186-90fe-2279be6aa922": "2026-10-27",
+  "ashby:socure:05533c4e-1c59-4ae8-b12c-6acad3757a77": "2026-10-27",
+  "ashby:socure:095be3e2-8fbc-49c6-84cb-1d765d0a8576": "2026-10-27",
+  "ashby:socure:188b635a-5534-4e1b-bdaf-1e6dfea86aad": "2026-10-27",
+  "ashby:socure:2d652fb5-55b0-42d0-a75d-dd7511721441": "2026-10-27",
+  "ashby:socure:37ee4c0c-2b5b-4fc0-a485-f921c40a7861": "2026-10-27",
+  "ashby:socure:5337e747-bc84-4c2d-8f5e-042cf64bc80e": "2026-10-27",
+  "ashby:socure:5ee37ea6-a36a-472c-90a9-73067f6d6dac": "2026-10-27",
+  "ashby:socure:620b7759-fee1-41f4-ba74-592c1d063e55": "2026-10-27",
+  "ashby:socure:ab44e053-e58c-4e11-bf63-cdb27778c3d9": "2026-10-27",
+  "ashby:socure:e0da1919-2b9d-4b07-820b-4daa0f8f3309": "2026-10-27",
+  "ashby:sprinter-health:707e8513-866d-4ac4-861a-b9c05cc9c00c": "2026-10-27",
+  "ashby:sprinter-health:7c0cb244-0fa0-439d-b7dd-d24fc18e6d26": "2026-10-27",
+  "ashby:sprinter-health:fa973aac-eb78-4d14-884f-6a6871e4b31f": "2026-10-27",
+  "ashby:swarmer:168331f3-fe33-4e3c-b91a-383cf4ab8819": "2026-10-27",
+  "ashby:sweatpals:45d01293-c1d1-4aec-b4ac-d87a0c5cc3c2": "2026-10-27",
+  "ashby:teamworks:04a58306-fe35-40eb-a59d-cac677c5f23e": "2026-10-27",
+  "ashby:tenex:92439d53-0749-4486-b50b-dc908169676f": "2026-10-27",
+  "ashby:teya:ee402538-d23e-47b8-8da8-69e6b1d35e1a": "2026-10-27",
+  "ashby:thumbtack:5c82c34a-9cbc-4073-99fc-bacfc2ef8853": "2026-10-27",
+  "ashby:trainline:2757aa18-5e60-45cf-ac9d-be11dee1afe2": "2026-10-27",
+  "ashby:trainline:ce591ff8-7272-4e1a-8a61-1769e0342249": "2026-10-27",
+  "ashby:trm-labs:0efa86f5-3b07-40b5-92e4-7f0df54e6639": "2026-10-27",
+  "ashby:voleon:5c966855-af8b-4bf5-9f58-6701e1cc2238": "2026-10-27",
+  "ashby:voodoo:5b63cabf-a47a-4dcc-a34b-2059cde1cda2": "2026-10-27",
+  "ashby:webai:ae55a0c3-7c11-43f3-a158-ca9dffbf3064": "2026-10-27",
+  "greenhouse:Freenome:8627491002": "2026-10-27",
+  "greenhouse:Freenome:8638413002": "2026-10-27",
+  "greenhouse:Freenome:8658763002": "2026-10-27",
+  "greenhouse:Freenome:8658848002": "2026-10-27",
+  "greenhouse:Freenome:8752452002": "2026-10-27",
+  "greenhouse:alxafrica:8046119": "2026-10-27",
+  "greenhouse:apartmentiq:8049313": "2026-10-27",
+  "greenhouse:axle:5175582007": "2026-10-27",
+  "greenhouse:axle:5274568007": "2026-10-27",
+  "greenhouse:axle:5274573007": "2026-10-27",
+  "greenhouse:bluefishai:5286942008": "2026-10-27",
+  "greenhouse:clearstreet:8223266": "2026-10-27",
+  "greenhouse:clearstreet:8296144": "2026-10-27",
+  "greenhouse:coderoad:4458093009": "2026-10-27",
+  "greenhouse:coinbase:8147917": "2026-10-27",
+  "greenhouse:coinbase:8206668": "2026-10-27",
+  "greenhouse:evio:4723802005": "2026-10-27",
+  "greenhouse:faire:7953217002": "2026-10-27",
+  "greenhouse:faire:8610263002": "2026-10-27",
+  "greenhouse:faire:8610312002": "2026-10-27",
+  "greenhouse:faire:8618124002": "2026-10-27",
+  "greenhouse:faire:8618151002": "2026-10-27",
+  "greenhouse:faire:8660923002": "2026-10-27",
+  "greenhouse:faire:8747498002": "2026-10-27",
+  "greenhouse:faire:8801507002": "2026-10-27",
+  "greenhouse:faire:8831888002": "2026-10-27",
+  "greenhouse:faire:8832899002": "2026-10-27",
+  "greenhouse:faire:8845103002": "2026-10-27",
+  "greenhouse:faire:8856357002": "2026-10-27",
+  "greenhouse:focalsystems:6016008004": "2026-10-27",
+  "greenhouse:fourkites:8146559": "2026-10-27",
+  "greenhouse:gofasti:6227581004": "2026-10-27",
+  "greenhouse:gradientai:7826343003": "2026-10-27",
+  "greenhouse:gusto:7656216": "2026-10-27",
+  "greenhouse:honor:8531886002": "2026-10-27",
+  "greenhouse:moniepoint:4808999101": "2026-10-27",
+  "greenhouse:moniepoint:5008330101": "2026-10-27",
+  "greenhouse:monzo:6180814": "2026-10-27",
+  "greenhouse:monzo:6369658": "2026-10-27",
+  "greenhouse:monzo:8041029": "2026-10-27",
+  "greenhouse:monzo:8050756": "2026-10-27",
+  "greenhouse:monzo:8103509": "2026-10-27",
+  "greenhouse:monzo:8121191": "2026-10-27",
+  "greenhouse:monzo:8232732": "2026-10-27",
+  "greenhouse:monzoreferrals:5636930": "2026-10-27",
+  "greenhouse:monzoreferrals:5774781": "2026-10-27",
+  "greenhouse:monzoreferrals:7861417": "2026-10-27",
+  "greenhouse:monzoreferrals:7861424": "2026-10-27",
+  "greenhouse:muonspace:5255167007": "2026-10-27",
+  "greenhouse:muonspace:5256146007": "2026-10-27",
+  "greenhouse:netlify:8859322002": "2026-10-27",
+  "greenhouse:nift:5176532007": "2026-10-27",
+  "greenhouse:orcristtechnologies:4976566101": "2026-10-27",
+  "greenhouse:oura:4419167009": "2026-10-27",
+  "greenhouse:pfm:6218075004": "2026-10-27",
+  "greenhouse:phaidra:4725937005": "2026-10-27",
+  "greenhouse:plume:8777884002": "2026-10-27",
+  "greenhouse:precisionmedicinegroup:5843517004": "2026-10-27",
+  "greenhouse:robotsandpencils:5457403008": "2026-10-27",
+  "greenhouse:sproutsocial:7861888": "2026-10-27",
+  "greenhouse:sproutsocial:8260823": "2026-10-27",
+  "greenhouse:ssreferrals:8156297": "2026-10-27",
+  "greenhouse:ssreferrals:8312707": "2026-10-27",
+  "greenhouse:swayable:5053179007": "2026-10-27",
+  "greenhouse:swayable:5056112007": "2026-10-27",
+  "greenhouse:swayable:5056114007": "2026-10-27",
+  "greenhouse:twosixtechnologies:6112014004": "2026-10-27",
+  "greenhouse:vonage:8540318002": "2026-10-27",
+  "greenhouse:wavemm1:5779974004": "2026-10-27",
+  "greenhouse:wavemm1:6222404004": "2026-10-27",
+  "greenhouse:wpp:8764213002": "2026-10-27",
+  "greenhouse:wrike:4713775005": "2026-10-27",
+  "greenhouse:wrike:4713777005": "2026-10-27",
+  "lever:Yassir:9ca82566-8bac-471e-9545-baa8ef759d1f": "2026-10-27",
+  "lever:Yassir:9caf7e04-195a-4011-9b55-e1105615c0a2": "2026-10-27",
+  "lever:airalo:dd4643aa-12f5-47fe-a30c-741f4e8d03df": "2026-10-27",
+  "lever:brillio-2:11ec26f4-eb09-40fb-bb7b-d3458ab93e58": "2026-10-27",
+  "lever:jumpcloud:60f9796e-9f63-416e-8c7b-8e16cd2ee3dc": "2026-10-27",
+  "lever:outreach:4ef30219-4dd5-4f40-b3b8-76c3c2277ebb": "2026-10-27",
+  "lever:outreach:cc0715d3-8bbf-4a5c-bd32-7d12c243e2c9": "2026-10-27",
+  "lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d": "2026-10-27",
+  "lever_eu:sportalliance:a0b01f5c-42e8-47ab-9b2e-4278c1ba3401": "2026-10-27",
+  "lever_eu:sportalliance:f0595641-411d-4761-8403-1e366650dee6": "2026-10-27",
+  "lever_eu:westernacher:20daba5c-3e04-4dc4-b474-d64ff67caaf5": "2026-10-27",
+  "personio:7learnings:2675894": "2026-10-27",
+  "personio:7learnings:2793420": "2026-10-27",
+  "personio:7learnings:2819017": "2026-10-27",
+  "personio_com:7learnings:2675894": "2026-10-27",
+  "personio_com:7learnings:2793420": "2026-10-27",
+  "personio_com:7learnings:2819017": "2026-10-27",
+  "personio_com:apheris:2739261": "2026-10-27",
+  "personio_com:edri:2848914": "2026-10-27",
+  "url:https://7learnings.jobs.personio.com/job/2675894": "2026-10-27",
+  "url:https://7learnings.jobs.personio.com/job/2793420": "2026-10-27",
+  "url:https://7learnings.jobs.personio.com/job/2819017": "2026-10-27",
+  "url:https://7learnings.jobs.personio.de/job/2675894": "2026-10-27",
+  "url:https://7learnings.jobs.personio.de/job/2793420": "2026-10-27",
+  "url:https://7learnings.jobs.personio.de/job/2819017": "2026-10-27",
+  "url:https://apheris.jobs.personio.com/job/2739261": "2026-10-27",
+  "url:https://apply.workable.com/j/2D0DC00EF9": "2026-10-27",
+  "url:https://apply.workable.com/j/4E2B222E88": "2026-10-27",
+  "url:https://apply.workable.com/j/FFE8159B05": "2026-10-27",
+  "url:https://boards.greenhouse.io/faire/jobs/7953217002": "2026-10-27",
+  "url:https://boards.greenhouse.io/faire/jobs/8610263002": "2026-10-27",
+  "url:https://boards.greenhouse.io/faire/jobs/8610312002": "2026-10-27",
+  "url:https://boards.greenhouse.io/faire/jobs/8618124002": "2026-10-27",
+  "url:https://boards.greenhouse.io/faire/jobs/8618151002": "2026-10-27",
+  "url:https://boards.greenhouse.io/faire/jobs/8660923002": "2026-10-27",
+  "url:https://boards.greenhouse.io/faire/jobs/8747498002": "2026-10-27",
+  "url:https://boards.greenhouse.io/faire/jobs/8801507002": "2026-10-27",
+  "url:https://boards.greenhouse.io/faire/jobs/8831888002": "2026-10-27",
+  "url:https://boards.greenhouse.io/faire/jobs/8832899002": "2026-10-27",
+  "url:https://boards.greenhouse.io/faire/jobs/8845103002": "2026-10-27",
+  "url:https://boards.greenhouse.io/faire/jobs/8856357002": "2026-10-27",
+  "url:https://boards.greenhouse.io/honor/jobs/8531886002": "2026-10-27",
+  "url:https://careers.gofasti.com/job-application/6227581004": "2026-10-27",
+  "url:https://edri.jobs.personio.com/job/2848914": "2026-10-27",
+  "url:https://job-boards.eu.greenhouse.io/moniepoint/jobs/4808999101": "2026-10-27",
+  "url:https://job-boards.eu.greenhouse.io/moniepoint/jobs/5008330101": "2026-10-27",
+  "url:https://job-boards.eu.greenhouse.io/orcristtechnologies/jobs/4976566101": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/alxafrica/jobs/8046119": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/apartmentiq/jobs/8049313": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/axle/jobs/5175582007": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/axle/jobs/5274568007": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/axle/jobs/5274573007": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/bluefishai/jobs/5286942008": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/clearstreet/jobs/8223266": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/clearstreet/jobs/8296144": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/coderoad/jobs/4458093009": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/evio/jobs/4723802005": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/focalsystems/jobs/6016008004": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/fourkites/jobs/8146559": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/freenome/jobs/8627491002": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/freenome/jobs/8638413002": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/freenome/jobs/8658763002": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/freenome/jobs/8658848002": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/freenome/jobs/8752452002": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/gradientai/jobs/7826343003": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/gusto/jobs/7656216": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/monzo/jobs/6180814": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/monzo/jobs/6369658": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/monzo/jobs/8041029": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/monzo/jobs/8050756": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/monzo/jobs/8103509": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/monzo/jobs/8121191": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/monzo/jobs/8232732": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/monzoreferrals/jobs/5636930": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/monzoreferrals/jobs/5774781": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/monzoreferrals/jobs/7861417": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/monzoreferrals/jobs/7861424": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/muonspace/jobs/5255167007": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/muonspace/jobs/5256146007": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/netlify/jobs/8859322002": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/nift/jobs/5176532007": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/oura/jobs/4419167009": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/pfm/jobs/6218075004": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/phaidra/jobs/4725937005": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/precisionmedicinegroup/jobs/5843517004": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/robotsandpencils/jobs/5457403008": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/swayable/jobs/5053179007": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/swayable/jobs/5056112007": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/swayable/jobs/5056114007": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/twosixtechnologies/jobs/6112014004": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/vonage/jobs/8540318002": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/wpp/jobs/8764213002": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/wrike/jobs/4713775005": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/wrike/jobs/4713777005": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/10xteam/1eb4b369-891b-45f8-b413-98059b0876ba": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/10xteam/428bf33f-749b-4653-86cb-aeb05104bb68": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/10xteam/49e0599b-fa12-428a-8e12-40c9aa698428": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/10xteam/a42018aa-86cc-4b54-bb46-570e675ebff5": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/10xteam/f149d2d2-c2b0-4282-8940-e4167a2b0b3d": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/BranchLab/645f8972-6ee6-4d46-8a96-b4961d0d1f01": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Carwow/287c20ff-3c19-4d21-b929-cea7bd3c9d40": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/DivineResearch/ca551089-7027-4918-9f52-f1e6a20d06b5": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Epistemix/2cf258de-d6ff-4c32-9f78-a4d9f2913b61": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Fundamental/11f7810f-926f-4f9a-b59f-2a7542169cde": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Jerry.ai/271b73bc-2b1a-4be6-b3dc-d72d806b8e35": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Jerry.ai/74b5781f-8834-4e74-be8d-8be0fe895b99": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/LatchBio/08d47716-b878-4364-ba31-79ec681ec14c": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/LatchBio/1714598f-f274-4457-be04-861ba7cde7e4": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/LatchBio/24ae1dd7-e025-4e73-89c1-8c9dd1cc613c": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/LatchBio/b60fddff-1079-487e-808f-accdff3522f6": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/LatchBio/ba71439b-6f26-48b5-af5c-5449289274e0": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/LatchBio/d4a8c4d4-e118-4dc7-a134-0180936e4148": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/LatchBio/d8c04604-21db-4715-a476-14d9fb581e0f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Lemonade/db4cc9bb-e4c3-4b1a-b287-0d52d99a248c": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/OBRIO/aef6f2ab-df56-459d-a0b5-b7ee7d613e95": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Polarsteps/b31dfe4d-d4f1-45fa-8c86-61697142ffe9": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Pyyne/96085095-908a-47a0-9cea-15beb53c80b3": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Pyyne/dfbe0e7d-750c-4978-bf8e-92de7b58a4f6": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Ramp/aa5512b1-d973-4d74-9d10-d56446ecf803": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/ScribdInc/5c1fd186-f4e7-40d0-ae0a-d55bc4a1a47d": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Solvd/83c2fba7-da71-4a75-a364-ec1dc6adc92f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Solvd/f2bd28d6-d0e4-4e10-8c52-8aec532f2952": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Strava/09ab60f0-de73-4bde-9de2-f5b6809f8dce": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Strava/f39b4232-33e1-4853-af84-163d1bcdef69": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Unlearn/a7e00671-b40e-407b-9774-ad68cb89fbc6": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/WRITER/c21128b0-28cd-424c-b1a8-27b1ead69d97": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/absentia-labs/f8cb711d-2f7e-457a-856e-c455fa541ddc": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/achira/083f473d-0204-4822-a62b-ea2dcfab50d4": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/achira/fd1bf203-29bc-454a-9140-378a21bbc173": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/adjoe/147d4798-84f3-4110-b7c4-3ffb2106bb51": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/adonis/c1f731b4-b32c-4997-9181-8902856f195b": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/allium/6ad02951-721e-48a6-8a95-95a9139393a9": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/anyone-ai/225bdb3a-e0d5-443f-a8b5-f93bc648706c": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/anyone-ai/a7b215b1-fbed-4c3d-af32-897c0d700a3e": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/anyone-ai/eba1ffe5-9e97-45ee-92e3-46babd584645": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/arq/9b53bbd7-98dc-477a-b215-09e8f635b00d": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/arq/bbaf8b97-e7a0-4a1d-810d-abab04f45250": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/astera/387a65a4-5b77-49df-b6ca-58c07d01f925": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/astera/968b4dbf-4944-402c-8233-343410a73c86": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/backmarket/9eae3809-5941-40d1-bc5a-9f1871618191": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/backmarket/b49338f8-e864-463f-8f60-2561d0eac8aa": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/baseten/f160637f-b6bf-4f69-a8bd-862a3a3a8b0d": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/beamery/09782106-a132-437d-b771-d8e3443b9d17": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/bedrock-robotics/4bd2e282-a7d5-4605-9483-8bfa89e567f6": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/belvo/161cfb0e-5ee2-4655-b45b-460c066d6c73": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/betterup/a925dee4-52c5-4971-9f60-4c2f9af2f27c": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/bio/1cb97c53-0538-4275-895d-20898376f32d": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/centerfield/600782a4-45ae-424f-ade2-f8217825ae32": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/chainalysis-careers/a4e87036-8214-4c66-9d9b-c8a956edf387": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/character/df95a7a5-87ca-4f51-85fd-4bb595a47a55": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/claylabs/f257525f-dfe1-4a88-9bb5-f14891dc37e5": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/cogent-security/ce972e7a-d724-46a5-873c-9b2ba8397bb8": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/cuesta-partners/0c715680-1684-42b1-b4e9-29528015ae3a": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/dandelionhealth/1c0f71a9-6519-4d0f-bb79-5c55022335e4": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/dandelionhealth/90056e96-44ad-4deb-a3a7-56e3f691eb10": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/demandbase/7dbe602e-c291-4d3b-b6e1-6ad51441eb84": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/duck-duck-go/a447e823-fd8f-438f-909e-db1f6ced8c97": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/elevenlabs/257f24da-83db-4bad-a6dc-37793a1a0bac": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/elevenlabs/41b892ba-b530-44cb-9ae1-178908fc324c": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/ellipsis-health/ae914a61-0b1a-42e3-a2b4-fd1b1cc753ca": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/empirical-security/99125a1c-ea07-499e-a056-5ae0848f58b7": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/0b6ad03f-8633-47ef-9dec-a8eb3cebf9b2": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/188ecaba-2f9c-4a15-a86b-dc2f369f03bd": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/1f2cb0a2-4aa5-4ce3-b9fd-b90990076b6d": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/52287849-e7c4-43ac-adda-480dedd87f5f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/54729948-5b4a-404c-bea4-cec5759768b5": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/61c1d7d5-6bb1-4a22-a950-bbf26e59d675": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/6ad13f20-8a65-454f-b7c7-4d5260f306bf": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/6c0abf94-8d61-459b-b094-49307a595c60": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/92c892cd-1f6c-443d-9cd8-e4902f9b7fb6": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/95a1a01f-aee6-4887-8256-b45f5a034336": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/b84b4736-cd44-465a-9e80-6737e1f93076": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/d15d6073-1925-46eb-9464-8b22cd8de6a6": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/efa8d13e-5166-4ae2-bf10-b1392afd3528": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/faculty/fd99c104-65b4-4fca-b68e-0ab9170da31f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/gen-digital/911e6e86-7da1-455e-ad49-310bee6e35a5": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/gen-digital/c35bae67-de6c-45b7-b116-4c30a8c6ac73": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/gen-digital/e67de4da-fec5-40fa-b58e-277c24073cfd": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/gen-digital/e68a4dac-ca1d-43a1-a56a-6e45da05dc88": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/genesis-molecular-ai/b239a6b5-40f2-41fd-93e6-3b7ca2c7eac7": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/genesis-molecular-ai/c1c47745-4e5c-4e0e-9d71-16d7ea28895a": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/genpeach/b4061342-7902-4cb3-9e66-2430b36b3843": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/gigaton/f4e56f06-08bf-4a26-bf8a-2256cb1361a9": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/gradient-labs/1e0470c7-734e-401a-9fb6-03f64cb2121d": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/gt-hq/0f4084fe-b775-44a7-b3b2-9eb3c80d1ab2": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/gt-hq/ed10572c-5904-4140-a283-29b02c4f2037": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/harvey/1321b20d-d6f8-4bdb-b2de-ec33c0948b53": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/headway/307f5c55-2e9d-44c0-85e8-3cdfe09e0bb6": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/hims-and-hers/03e3a815-465e-4dab-9efe-f6d14f336fea": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/hims-and-hers/959afd49-33fe-424d-8ed4-b6c7b24b3f3c": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/hinge-health/e3db30d5-f105-48dc-aead-05228b7da997": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/hyphametrics/862d5998-0ea5-423f-94ec-70fdb105e4b3": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/iambic-therapeutics/1232cf39-832c-494f-99b9-1b4ee7266a42": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/iambic-therapeutics/50be2fab-54c1-4310-8cec-3fe6123b8a8f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/imprint/3277b37e-4972-4152-a379-9c58c000b08e": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/insitro/2cbd914b-7156-494d-8e15-772ed63d88d3": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/ironcladhq/787067e0-87b3-4bfa-9e4d-d0ace4ccee1f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/iwoca.co.uk/6d4ca2ff-b279-4500-9695-cabff46653a1": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/iwoca.co.uk/92dc2370-c6fd-48c2-b2f6-6feeb68f8af1": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/iwoca.co.uk/c097d2a9-aa18-4e49-85ba-70a5b9f2b3bb": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/iwoca.co.uk/d6239e27-9b0c-4792-9322-3f58cd1d1ee2": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/iwoca.co.uk/dc2fdef7-d5b1-486d-ba77-044f7c44f980": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/january/848623c1-47a0-4877-a516-a60b7d070ed1": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/jobber/8f77d17e-203e-46c1-b06a-42b7005b94d2": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/jobs-valence/180e5965-04b1-4054-988f-5fa6deab5ff7": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/kantiv/02fa27cf-29e5-4995-89d2-24247cccfd86": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/kayak/0c1aad83-c097-4464-ad6b-2cfc46c2cc3c": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/kayak/b50015a4-b1c0-4220-b098-f752cfec826c": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/latentlabs/110a5e8d-bb5b-4148-a398-97f025feb53b": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/laurel/e1b5286e-a3de-406d-9858-006ce3643ab4": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/ledger/490a806d-48da-4279-82d1-5d4bdaf10bd4": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/lendable/3079e2d2-545b-4873-8f82-133b96c4cd0e": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/lendable/502163b8-ddd4-48dc-9464-68b24056baac": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/liquid-ai/24b6d654-d703-4a49-941b-3461f2d7c28e": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/loveholidays/14674b40-f333-483e-9c68-6c0dd09f4c1b": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/melotech/35bdfd24-a05f-4c2d-8c55-79d7b394499f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/middesk/7fd5aeb2-c33c-4f0a-ad3d-2161201bc174": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/middesk/f0da59d3-43fa-460b-88ea-4fc9c052b28c": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/mistral.ai/9873f968-d5b2-4fb0-b268-7a274a4a2029": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/mistral.ai/9fc579c8-784c-4b91-bcd0-392f35d13100": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/mistral.ai/bc659575-b7c2-406c-825b-fdd58c503594": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/mistral.ai/f090ef1d-372e-40dc-bf46-ce0bf2850204": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/monday.com/9de6a3e3-2b7d-4208-949f-b3b9de936bd3": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/monday.com/c63d83ff-8462-48f6-8c27-692f903c28a5": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/mudflap/d9f674f7-a443-4211-adb8-31a689972086": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/nash/472354ab-cc88-4716-8663-896da3f1e5b0": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/nectar-social/d97fb7f3-227a-4d0f-807e-8edfab627b10": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/neo-tax/7133d265-02d2-415d-b355-98f63222406f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/nexxen/0240fa9a-f638-4870-9566-e3d0c812bbe1": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/niantic-spatial/823adbcc-d5c4-4807-8104-bc05fe8c57c9": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/nightfall-ai/8649ba81-c541-4d9e-921f-c3d521d4d97b": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/notion/9fc52821-c394-4a80-85ba-5f1d7c36fb2b": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/onoshealth/725910e1-eeac-4306-a270-857db0fd6eea": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/openart/94ec0c86-8fd2-435f-9203-42e39921cd95": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/owkin/df08e875-432e-420f-ac18-543c07e0ee1b": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/owkin/f588cde0-efa9-4dc1-9501-a24525110450": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/palladio/84e364ec-0287-49b3-8196-cbf78a6fee78": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/parafin/92807f0c-0c67-4516-bbf2-dc809516de14": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/parafin/cb15e569-764f-4304-a2cd-41a11fe9e008": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/plaid/172bb8e8-7dc8-4fdc-ae20-525456989ff4": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/plaid/361c4725-ab72-4895-a3aa-9b642f4927a9": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/plaid/5e56c0a6-3caa-4255-8c63-95c29cbc2a32": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/plaid/c85370cf-7391-4307-9757-42f2ee25b98a": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/plaid/dab31ae8-1e25-4b63-8008-d6930ff72369": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/possible-finance/1e178106-fd21-4630-b03a-3310a399ff34": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/092dcfa8-7224-4e56-9872-83e997db38ec": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/2002a394-44aa-48dd-8228-cae78d0033fd": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/2e125c5e-420e-4026-8e2f-f4f46b1d1672": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/53eb1609-baaf-47f1-8c84-0bb466ddd5bb": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/56258789-bb1b-452a-8353-a352099d6e9f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/60937dae-35b9-413c-9299-fba63874bf89": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/64abe943-b897-4c31-93f1-90d4cb1b6ce0": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/750c71f3-a5a2-4440-bcd8-37ef40fdf29e": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/7dd8c669-72ad-4e36-b66e-ead1a375a7e7": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/85b3fdd5-e99c-4ca8-a5e7-5b3abfd47994": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/8ef9f0c3-84a8-4a22-939c-12880006f9f0": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/97b2dfae-bfbc-488a-9a01-a596dada4924": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/b208c4e1-8b65-412f-af09-aeb53c8f6fbd": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/cfb54a73-ce09-418f-8d77-9dc3883ab7ed": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/e51600bd-c014-4b1b-8d52-14a8ee6bb58f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/e593140e-1ddc-4ab0-8584-96b26c2132de": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/f285ee51-61fa-4b78-aecb-8e9cc3f21824": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/f523d3f8-1b3a-4711-a378-2796943d4298": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/preply/f6853afa-618f-4387-a184-f6b0fffce9f9": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/probablygenetic/38b04bbc-0526-44f6-9502-07772f3a1164": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/proxima/2443af21-e439-4ec7-910e-0a5872e1749a": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/proxima/b6e64420-4055-42c7-8a87-b9648a906203": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/rain/d801cb1d-0500-487f-8732-39a4afe3c741": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/reflow/9ee81d3e-3cbc-4cb2-907a-4958f7bbc5e4": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/remarcable-inc/51302674-25d6-462f-96ab-0756d9f5fb2a": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/revenuecat/22cccdd0-817d-460f-9f9d-a3d0ab3e6e2b": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/rho/a6461b59-ddde-4d07-8399-8d63cf678514": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/seqera.io/293aac10-51c3-4af1-9eff-7dcc07e3f7f9": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/siteminder/13fe3bcb-0852-4036-ab9a-dfee21b3bf1f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/socure/00bb129a-db80-4186-90fe-2279be6aa922": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/socure/05533c4e-1c59-4ae8-b12c-6acad3757a77": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/socure/095be3e2-8fbc-49c6-84cb-1d765d0a8576": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/socure/188b635a-5534-4e1b-bdaf-1e6dfea86aad": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/socure/2d652fb5-55b0-42d0-a75d-dd7511721441": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/socure/37ee4c0c-2b5b-4fc0-a485-f921c40a7861": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/socure/5337e747-bc84-4c2d-8f5e-042cf64bc80e": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/socure/5ee37ea6-a36a-472c-90a9-73067f6d6dac": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/socure/620b7759-fee1-41f4-ba74-592c1d063e55": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/socure/ab44e053-e58c-4e11-bf63-cdb27778c3d9": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/socure/e0da1919-2b9d-4b07-820b-4daa0f8f3309": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/sprinter-health/707e8513-866d-4ac4-861a-b9c05cc9c00c": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/sprinter-health/7c0cb244-0fa0-439d-b7dd-d24fc18e6d26": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/sprinter-health/fa973aac-eb78-4d14-884f-6a6871e4b31f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/swarmer/168331f3-fe33-4e3c-b91a-383cf4ab8819": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/sweatpals/45d01293-c1d1-4aec-b4ac-d87a0c5cc3c2": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/teamworks/04a58306-fe35-40eb-a59d-cac677c5f23e": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/tenex/92439d53-0749-4486-b50b-dc908169676f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/teya/ee402538-d23e-47b8-8da8-69e6b1d35e1a": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/thumbtack/5c82c34a-9cbc-4073-99fc-bacfc2ef8853": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/trainline/2757aa18-5e60-45cf-ac9d-be11dee1afe2": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/trainline/ce591ff8-7272-4e1a-8a61-1769e0342249": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/trm-labs/0efa86f5-3b07-40b5-92e4-7f0df54e6639": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/voleon/5c966855-af8b-4bf5-9f58-6701e1cc2238": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/voodoo/5b63cabf-a47a-4dcc-a34b-2059cde1cda2": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/webai/ae55a0c3-7c11-43f3-a158-ca9dffbf3064": "2026-10-27",
+  "url:https://jobs.eu.lever.co/sportalliance/a0b01f5c-42e8-47ab-9b2e-4278c1ba3401": "2026-10-27",
+  "url:https://jobs.eu.lever.co/sportalliance/f0595641-411d-4761-8403-1e366650dee6": "2026-10-27",
+  "url:https://jobs.eu.lever.co/westernacher/20daba5c-3e04-4dc4-b474-d64ff67caaf5": "2026-10-27",
+  "url:https://jobs.lever.co/Yassir/9ca82566-8bac-471e-9545-baa8ef759d1f": "2026-10-27",
+  "url:https://jobs.lever.co/Yassir/9caf7e04-195a-4011-9b55-e1105615c0a2": "2026-10-27",
+  "url:https://jobs.lever.co/airalo/dd4643aa-12f5-47fe-a30c-741f4e8d03df": "2026-10-27",
+  "url:https://jobs.lever.co/brillio-2/11ec26f4-eb09-40fb-bb7b-d3458ab93e58": "2026-10-27",
+  "url:https://jobs.lever.co/jumpcloud/60f9796e-9f63-416e-8c7b-8e16cd2ee3dc": "2026-10-27",
+  "url:https://jobs.lever.co/outreach/4ef30219-4dd5-4f40-b3b8-76c3c2277ebb": "2026-10-27",
+  "url:https://jobs.lever.co/outreach/cc0715d3-8bbf-4a5c-bd32-7d12c243e2c9": "2026-10-27",
+  "url:https://jobs.lever.co/spotify/56ea6f2e-f20b-4e46-ab94-d3eb0a89482d": "2026-10-27",
+  "url:https://sproutsocial.com/careers/open-positions/7861888": "2026-10-27",
+  "url:https://sproutsocial.com/careers/open-positions/8156297": "2026-10-27",
+  "url:https://sproutsocial.com/careers/open-positions/8260823": "2026-10-27",
+  "url:https://sproutsocial.com/careers/open-positions/8312707": "2026-10-27",
+  "url:https://www.coinbase.com/careers/positions/8147917": "2026-10-27",
+  "url:https://www.coinbase.com/careers/positions/8206668": "2026-10-27",
+  "url:https://www.plume.com/career-opportunities": "2026-10-27",
+  "url:https://www.wave.com/en/careers/job/5779974004": "2026-10-27",
+  "url:https://www.wave.com/en/careers/job/6222404004": "2026-10-27",
+  "workable:azumo:2D0DC00EF9": "2026-10-27",
+  "workable:dacodes-mx:4E2B222E88": "2026-10-27",
+  "workable:digital-zone:FFE8159B05": "2026-10-27"
+ }
+}
