@@ -1,0 +1,496 @@
+# jobwatch config. Title patterns are Python regexes, matched case-insensitively.
+
+[filters]
+include_titles = [
+  "computational biolog",
+  "bioinformatic",
+  "single[- ]cell",
+  "systems biolog",
+  "(ml|machine learning|ai).*(scientist|biolog)",
+  "scientist.*(computational|data|machine learning|\\bml\\b|\\bai\\b)",
+  "data scientist",
+]
+exclude_titles = ["\\bintern\\b", "internship", "co-?op\\b", "postdoc", "student"]
+
+# Which verdicts to report:
+#   europe-remote   remote + a Europe signal in location or description
+#   remote-unclear  remote, no region stated (ask the recruiter)
+#   europe-onsite   European office, not flagged remote
+#   us-remote       remote but US-only wording
+verdicts = ["europe-remote", "remote-unclear"]
+
+[settings]
+max_workers = 16   # parallel requests when checking boards
+
+# Boards found by `python jobwatch.py discover` (Common Crawl). Thousands of
+# companies, mostly general tech; the title filter keeps only relevant roles.
+[discovery]
+enabled = true
+file = ".jobwatch/discovered.json"
+
+
+# Extra company lists, loaded alongside the companies below (entries here win on
+# duplicates). companies_yc.toml is regenerated monthly by `import-yc`.
+[sources]
+company_files = ["companies_yc.toml"]
+
+# Investor portfolio job boards (Getro). Each is searched with these keywords
+# every run; matching roles are reported, and their companies are learned and
+# checked directly from then on. To add a board: open the investor's jobs page;
+# if the footer says "Powered by Getro", add its address below. Consider-powered
+# boards (a16z, Sequoia, Greylock, ...) currently reject automated requests.
+[vc_boards]
+enabled = true
+keywords = ["computational biology", "bioinformatics", "single cell", "machine learning biology"]
+
+[[vc_board]]
+id = "lux"
+name = "Lux Capital"
+url = "https://jobs.luxcapital.com"
+
+[[vc_board]]
+id = "khosla"
+name = "Khosla Ventures"
+url = "https://jobs.khoslaventures.com"
+
+[[vc_board]]
+id = "generalcatalyst"
+name = "General Catalyst"
+url = "https://jobs.generalcatalyst.com"
+
+[[vc_board]]
+id = "8vc"
+name = "8VC"
+url = "https://jobs.8vc.com"
+
+[[vc_board]]
+id = "index"
+name = "Index Ventures"
+url = "https://indexventures.getro.com"
+
+[[vc_board]]
+id = "accel"
+name = "Accel"
+url = "https://jobs.accel.com"
+
+[[vc_board]]
+id = "hv"
+name = "HV Capital"
+url = "https://hv.getro.com"
+
+[[vc_board]]
+id = "insight"
+name = "Insight Partners"
+url = "https://jobs.insightpartners.com"
+
+[[vc_board]]
+id = "menlo"
+name = "Menlo Ventures"
+url = "https://jobs.menlovc.com"
+
+[[vc_board]]
+id = "thrive"
+name = "Thrive Capital"
+url = "https://jobs.thrivecap.com"
+
+[[vc_board]]
+id = "getrocommunity"
+name = "Getro Community (several networks)"
+url = "https://community.getro.com"
+
+# ---------------------------------------------------------------------------
+# Named companies: always checked, and any failure is listed in the report.
+# Give ats + slug if you know them, from the careers URL (see the table in
+# README.md). ats is one of: ashby, greenhouse, lever, lever_eu,
+# smartrecruiters, workable, recruitee, personio, personio_com.
+# Without ats + slug, the first run looks for a job-board link on the company's
+# website (homepage, then its careers pages); if there is none, it guesses
+# from the name. Either way it reports the result under "Board detection";
+# check it, then pin ats + slug. Entries marked "verified"
+# were confirmed from the company's live job pages or an open board registry;
+# the rest are a starting list to auto-detect. Edit freely.
+
+[[company]]
+name = "Proxima"
+ats = "ashby"
+slug = "proxima"
+
+# --- AI drug discovery, protein and molecular ML
+
+[[company]]
+name = "Isomorphic Labs"
+website = "https://isomorphiclabs.com"
+
+[[company]]
+name = "Xaira Therapeutics"
+website = "https://xaira.com"
+
+[[company]]
+name = "Generate Biomedicines"
+website = "https://generatebiomedicines.com"
+
+[[company]]
+name = "Absci"
+website = "https://absci.com"
+
+[[company]]
+name = "Chai Discovery"
+website = "https://chaidiscovery.com"
+ats = "ashby"
+slug = "chaidiscovery"   # verified: postings at jobs.ashbyhq.com/chaidiscovery
+
+[[company]]
+name = "EvolutionaryScale"
+website = "https://evolutionaryscale.ai"
+
+[[company]]
+name = "Profluent"
+website = "https://profluent.bio"
+
+[[company]]
+name = "Cradle"
+website = "https://cradle.bio"
+ats = "ashby"
+slug = "cradlebio"   # verified: postings at jobs.ashbyhq.com/cradlebio
+
+[[company]]
+name = "Latent Labs"
+website = "https://latentlabs.com"
+ats = "ashby"
+slug = "latentlabs"   # verified: postings at jobs.ashbyhq.com/latentlabs
+
+[[company]]
+name = "Iambic Therapeutics"
+website = "https://iambic.ai"
+
+[[company]]
+name = "Genesis Therapeutics"
+website = "https://genesistherapeutics.ai"   # from memory, unverified
+
+[[company]]
+name = "Terray Therapeutics"
+website = "https://terraytx.com"
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Recursion"
+website = "https://recursion.com"
+
+[[company]]
+name = "insitro"
+website = "https://insitro.com"
+
+[[company]]
+name = "Valo Health"
+website = "https://valohealth.com"
+
+[[company]]
+name = "Insilico Medicine"
+website = "https://insilico.com"
+
+[[company]]
+name = "BenevolentAI"
+website = "https://benevolent.com"
+
+[[company]]
+name = "Aqemia"
+website = "https://aqemia.com"
+
+[[company]]
+name = "Iktos"
+website = "https://iktos.ai"
+
+[[company]]
+name = "Healx"
+website = "https://healx.ai"   # from memory, unverified
+
+[[company]]
+name = "LabGenius"
+website = "https://labgeni.us"
+
+[[company]]
+name = "CHARM Therapeutics"
+website = "https://charmtx.com"
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Boltz"
+website = "https://boltz.bio"
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Atomic AI"
+website = "https://atomic.ai"
+
+[[company]]
+name = "BigHat Biosciences"
+website = "https://bighatbio.com"
+
+[[company]]
+name = "Manifold Bio"
+website = "https://manifold.bio"
+
+[[company]]
+name = "Dyno Therapeutics"
+website = "https://dynotx.com"
+
+[[company]]
+name = "Inceptive"
+website = "https://inceptive.life"
+
+[[company]]
+name = "Enveda"
+website = "https://envedabio.com"
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Formation Bio"
+website = "https://formation.bio"
+
+[[company]]
+name = "Lila Sciences"
+website = "https://lila.ai"
+
+[[company]]
+name = "Monte Rosa Therapeutics"
+website = "https://monterosatx.com"
+
+[[company]]
+name = "Nurix Therapeutics"
+website = "https://nurixtx.com"
+
+[[company]]
+name = "Ardigen"
+website = "https://ardigen.com"
+
+[[company]]
+name = "InstaDeep"
+website = "https://instadeep.com"
+
+[[company]]
+name = "Peptone"
+website = "https://peptone.io"
+
+[[company]]
+name = "Basecamp Research"
+website = "https://basecamp-research.com"
+
+# --- Single-cell, genomics, cell models and bio foundation models
+
+[[company]]
+name = "Noetik"
+website = "https://noetik.ai"
+
+[[company]]
+name = "Tahoe Therapeutics"
+website = "https://tahoebio.ai"
+
+[[company]]
+name = "Cellarity"
+website = "https://cellarity.com"
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Arc Institute"
+website = "https://arcinstitute.org"
+
+[[company]]
+name = "Altos Labs"
+website = "https://altoslabs.com"
+
+[[company]]
+name = "Retro Biosciences"
+website = "https://retro.bio"
+
+[[company]]
+name = "New Limit"
+website = "https://newlimit.com"
+
+[[company]]
+name = "Bioptimus"
+website = "https://bioptimus.com"
+
+[[company]]
+name = "Owkin"
+website = "https://owkin.com"
+
+[[company]]
+name = "Relation Therapeutics"
+website = "https://relationrx.com"   # from memory, unverified
+
+[[company]]
+name = "Shift Bioscience"
+website = "https://shiftbioscience.com"
+
+[[company]]
+name = "bit.bio"
+website = "https://bit.bio"
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Character Biosciences"
+website = "https://characterbio.com"
+
+[[company]]
+name = "Deep Genomics"
+website = "https://deepgenomics.com"
+
+[[company]]
+name = "Somite.ai"
+website = "https://somite.ai"
+
+[[company]]
+name = "Ochre Bio"
+website = "https://ochre-bio.com"
+
+[[company]]
+name = "Constructive Bio"
+website = "https://constructive.bio"
+
+[[company]]
+name = "Nucleome Therapeutics"
+website = "https://nucleome.com"   # from memory, unverified
+
+[[company]]
+name = "FutureHouse"
+website = "https://futurehouse.org"
+
+[[company]]
+name = "Scienta Lab"
+website = "https://scientalab.com"
+
+[[company]]
+name = "Biomodal"
+website = "https://biomodal.com"
+
+# --- Sequencing, spatial, proteomics and lab tools
+
+[[company]]
+name = "10x Genomics"
+website = "https://10xgenomics.com"
+
+[[company]]
+name = "Parse Biosciences"
+website = "https://parsebiosciences.com"
+
+[[company]]
+name = "Mission Bio"
+website = "https://missionbio.com"
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Element Biosciences"
+website = "https://elementbiosciences.com"
+
+[[company]]
+name = "Ultima Genomics"
+website = "https://ultimagenomics.com"
+
+[[company]]
+name = "Vizgen"
+website = "https://vizgen.com"
+
+[[company]]
+name = "Akoya Biosciences"
+website = "https://akoyabio.com"
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Seer"
+website = "https://seer.bio"
+
+[[company]]
+name = "Nautilus Biotechnology"
+website = "https://nautilus.bio"
+
+[[company]]
+name = "Oxford Nanopore Technologies"
+website = "https://nanoporetech.com"
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Standard BioTools"
+website = "https://standardbio.com"
+
+[[company]]
+name = "Nuclera"
+website = "https://nuclera.com"
+
+# --- Clinical and diagnostics data
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Tempus"
+website = "https://tempus.com"
+
+[[company]]
+name = "Freenome"
+website = "https://freenome.com"
+ats = "greenhouse"
+slug = "freenome"   # verified: open-jobs-data registry
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Grail"
+website = "https://grail.com"
+
+[[company]]
+name = "Guardant Health"
+website = "https://guardanthealth.com"
+
+[[company]]
+name = "PathAI"
+website = "https://pathai.com"
+
+[[company]]
+name = "Paige"
+website = "https://paige.ai"
+ats = "greenhouse"
+slug = "paige"   # verified: careers page at job-boards.greenhouse.io/paige
+
+[[company]]
+name = "Sophia Genetics"
+website = "https://sophiagenetics.com"
+
+[[company]]
+name = "Congenica"
+website = "https://congenica.com"
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Unlearn"
+website = "https://unlearn.ai"
+
+# --- Bioinformatics platforms and software (often remote-friendly)
+
+[[company]]
+name = "Seqera"
+website = "https://seqera.io"
+
+[[company]]
+name = "Benchling"
+website = "https://benchling.com"
+ats = "ashby"
+slug = "benchling"   # verified: ashby-job-scraper registry
+
+[[company]]
+name = "DNAnexus"
+website = "https://dnanexus.com"
+
+[[company]]
+name = "Velsera"
+website = "https://velsera.com"
+
+[[company]]
+name = "LatchBio"
+website = "https://latch.bio"
+
+[[company]]
+name = "Form Bio"
+website = "https://formbio.com"
+
+[[company]]
+name = "Elucidata"
+website = "https://elucidata.io"
+
+[[company]]
+name = "Dotmatics"
+website = "https://dotmatics.com"
+
+[[company]]
+name = "Ginkgo Bioworks"
+website = "https://ginkgobioworks.com"
+ats = "greenhouse"
+slug = "ginkgobioworks"   # verified: open-jobs-data registry
+
+[[company]]   # common-word name: if found by guessing, check the board carefully
+name = "Asimov"
+website = "https://asimov.com"

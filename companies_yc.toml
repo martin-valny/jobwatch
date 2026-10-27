@@ -1,0 +1,1122 @@
+# generated: 2026-10-20 by `python jobwatch.py import-yc` from the open yc-oss
+# dataset of Y Combinator's directory. Regenerated monthly; edit companies.toml instead.
+
+# YC Winter 2026: The AI-native platform for next-generation protein characterization.
+[[company]]
+name = "10x Science"
+website = "https://10xscience.com"
+
+# YC Summer 2024: Engineering microbes for miners to unlock billions in trapped metal
+[[company]]
+name = "1849 bio"
+website = "https://www.1849.bio"
+
+# YC Winter 2019: Multimodal AI Platform for Modality Agnostic Drug Discovery™
+[[company]]
+name = "1910"
+website = "http://1910.ai"
+
+# YC Summer 2018: Enabling next generation medicines. A comprehensive platform and…
+[[company]]
+name = "64x Bio"
+website = "http://www.64xbio.com"
+
+# YC Winter 2020: We create activating antibodies to treat diseases others can’t.
+[[company]]
+name = "Abalone Bio"
+website = "https://www.abalonebio.com"
+
+# YC Spring 2026: The Intelligence layer for Drug Manufacturing
+[[company]]
+name = "AbInitio Bio"
+website = "https://www.abinitio-bio.com"
+
+# YC Summer 2024: Next-generation biocides for sustainable agriculture at scale
+[[company]]
+name = "ACX"
+website = "https://www.acxtherapeutics.com/"
+
+# YC Summer 2021: We're building fully automated labs for protein engineering
+[[company]]
+name = "Adaptyv"
+website = "https://www.adaptyvbio.com/"
+
+# YC Spring 2026: Cancer screening without barriers
+[[company]]
+name = "Adialante"
+website = "http://www.adialante.com"
+
+# YC Summer 2021: Automation for dental clinics and insurance companies.
+[[company]]
+name = "Adravision"
+website = "https://www.adra.ai"
+
+# YC Winter 2023: Adventris makes cancer vaccines
+[[company]]
+name = "Adventris Pharmaceuticals"
+website = "https://adventris.com"
+
+# YC Winter 2022: We stop cows from burping methane.
+[[company]]
+name = "Alga Biosciences"
+website = "https://www.alga.bio/"
+
+# YC Winter 2020: Using CRISPR to find treatments for cancer and inflammation
+[[company]]
+name = "Algen Biotechnologies"
+website = "https://www.algenbio.com/"
+
+# YC Winter 2022: Targeting the Tumor Ecosystem to address cancer drug resistance.
+[[company]]
+name = "Alixia"
+website = "http://www.alixia.com"
+
+# YC Summer 2022: Biodegradable and carbon neutral textiles, engineered from food waste.
+[[company]]
+name = "ALT TEX"
+website = "https://thealttex.com/"
+
+# YC Winter 2020: Altay develops disease-modifying therapies targeting transcription…
+[[company]]
+name = "Altay Therapeutics"
+website = "http://www.altaytherapeutics.com"
+
+# YC Summer 2024: The AI scientist for always-on biodefense
+[[company]]
+name = "AminoAnalytica"
+website = "https://www.aminoanalytica.com"
+
+# YC Winter 2022: Empowering Mass Spec for Biotech and Beyond
+[[company]]
+name = "Andson Biotech"
+website = "http://www.andsonbiotech.com"
+
+# YC Winter 2020: Next-generation DNA synthesis using enzymes
+[[company]]
+name = "Ansa Biotechnologies"
+website = "http://ansabio.com"
+
+# YC Summer 2024: We work on generalizable tools for the next era of biotech. 
+[[company]]
+name = "Anthrogen"
+website = "https://anthrogen.com"
+
+# YC Fall 2025: A Foundation Model for Microbial Communities.
+[[company]]
+name = "Anto Biosciences"
+website = "https://www.anto.bio/"
+
+# YC Summer 2021: Blood Test for Early Detection of Ovarian Cancer 
+[[company]]
+name = "AOA Dx"
+website = "https://www.aoadx.com/"
+
+# YC Summer 2019: Arpeggio Bio develops drugs targeting transcription factors using AI…
+[[company]]
+name = "Arpeggio Bio"
+website = "http://www.arpeggiobio.com"
+
+# YC Summer 2019: We build better immunotherapies
+[[company]]
+name = "Asher Bio"
+website = "https://www.asherbio.com/"
+
+# YC Summer 2021: One-hour antibiotic sensitivity testing
+[[company]]
+name = "Astek Diagnostics"
+website = "http://astekdx.com"
+
+# YC Summer 2026: AI-native pharma company
+[[company]]
+name = "Atlas Discovery"
+website = "https://atlasdiscovery.bio"
+
+# YC Winter 2018: Skin patches for generic drug delivery. 
+[[company]]
+name = "Avro Life Science"
+website = "http://avrolifesci.com"
+
+# YC Summer 2025: Making hard molecules for Pharma and Biotech
+[[company]]
+name = "b12 Labs"
+website = "https://b12-labs.com/"
+
+# YC Summer 2024: Converting biology into digital molecular maps
+[[company]]
+name = "Biocartesian"
+website = "https://www.biocartesian.com"
+
+# YC Winter 2021: Cloud AI microscopy automation
+[[company]]
+name = "Biodock"
+website = "https://www.biodock.ai"
+
+# YC Summer 2022: We recycle plastic using engineered enzymes
+[[company]]
+name = "Birch Biosciences"
+website = "http://www.birchbiosciences.com"
+
+# YC Summer 2025: RNA intelligence for precision medicine
+[[company]]
+name = "Blank Bio"
+website = "http://blank.bio/"
+
+# YC Summer 2021: We make bacteria and plants that clean up pollution.
+[[company]]
+name = "BLUUMBIO"
+website = "http://www.bluumbio.com"
+
+# YC Winter 2019: Brain Longevity
+[[company]]
+name = "BrainKey"
+website = "https://www.brainkey.ai/"
+
+# YC Spring 2025: Life sciences reagents and software
+[[company]]
+name = "Bramante"
+website = "https://www.bramantebio.com"
+
+# YC Winter 2022: Making 'REAL' Cow and Human Milk!
+[[company]]
+name = "Brown Foods"
+website = "https://unrealmilk.com/"
+
+# YC Summer 2018: Next-gen ingredients to decarbonize consumer products, starting w/…
+[[company]]
+name = "C16 Biosciences"
+website = "https://www.c16bio.com/"
+
+# YC Summer 2021: Semi-Autonomous Diagnostics for Emergent Care
+[[company]]
+name = "Caire Health"
+website = "http://cairehealthinc.com"
+
+# YC Summer 2021: Using protein coupling to build new therapies
+[[company]]
+name = "Catena Biosciences"
+website = "https://www.catenabiosciences.com/"
+
+# YC Summer 2018: Fermentation-derived natural products to solve health problems 
+[[company]]
+name = "CB Therapeutics"
+website = "http://www.cbthera.com"
+
+# YC Summer 2021: The dynamic single-cell analysis company
+[[company]]
+name = "CellChorus"
+website = "https://cellchorus.com"
+
+# YC Winter 2026: The agentic drug company. We simulate human biology.
+[[company]]
+name = "CellType"
+website = "https://www.celltype.com"
+
+# YC Summer 2018: Utilizing monogenic disorders to inform and solve highly complex…
+[[company]]
+name = "Circumvent"
+website = "https://www.circumventpharmaceuticals.com/"
+
+# YC Summer 2022: High quality mRNA for therapeutic application
+[[company]]
+name = "Cisterna Biologics"
+website = "http://www.cisternabx.com"
+
+# YC Summer 2018: Our tests help eradicate cancer by telling doctors whether they got…
+[[company]]
+name = "Clear Gene"
+website = "https://cleargene.com"
+
+# YC Summer 2015: Cofactor closes the precision medicine gap with predictive diagnostics
+[[company]]
+name = "Cofactor Genomics"
+website = "http://cofactorgenomics.com"
+
+# YC Summer 2025: The world's first AI-maximalist pharma company
+[[company]]
+name = "Convexia"
+website = "https://convexia.bio"
+
+# YC Winter 2018: We grow cells for biotech companies.
+[[company]]
+name = "Culture Biosciences"
+website = "https://culturebiosciences.com"
+
+# YC Summer 2017: Early detection of Alzheimer's disease
+[[company]]
+name = "Darmiyan"
+website = "https://www.darmiyan.com/"
+
+# YC Summer 2018: Cancer Diagnosis 10X faster, 10X cheaper
+[[company]]
+name = "Data Driven Bioscience"
+website = "http://datadrivenbioscience.com"
+
+# YC Winter 2017: Blood testing device for early diagnosis of cancer and treatment…
+[[company]]
+name = "Delee"
+website = "http://www.delee.co    "
+
+# YC Winter 2025: Agents for Accelerated Clinical Trial Design
+[[company]]
+name = "Delineate"
+website = "https://delineate.pro/"
+
+# YC Winter 2023: Generative AI for protein design
+[[company]]
+name = "Diffuse Bio"
+website = "http://diffuse.bio"
+
+# YC Summer 2021: Pioneering Breast Cancer Diagnostics for a Healthier Tomorrow
+[[company]]
+name = "Digistain"
+website = "https://digistain.co.uk/"
+
+# YC Winter 2026: Evolutionary intelligence for autoimmune disease
+[[company]]
+name = "Ditto Biosciences"
+website = "https://www.dittobio.com/"
+
+# YC Summer 2018: Building Clinical Superintelligence.
+[[company]]
+name = "Eden"
+website = "https://edenmed.com"
+
+# YC Spring 2026: The AI Workforce for Biopharma
+[[company]]
+name = "Enjamb Labs"
+website = "https://www.enjamb.ai"
+
+# YC Winter 2021: Creating a New Class of Drugs to Address Incurable Autoimmune Diseases
+[[company]]
+name = "Entelexo Biotherapeutics"
+website = "https://www.entelexo.com/"
+
+# YC Summer 2021: We engineer proteins that control the operating system of biology. 
+[[company]]
+name = "Epinoma"
+website = "https://www.epinoma.com/"
+
+# YC Winter 2020: We are developing a drug to burn calories and increase metabolism…
+[[company]]
+name = "Equator Therapeutics"
+website = "https://equatortherapeutics.com/"
+
+# YC Winter 2024: Our drugs engage the immune system to fight tumors
+[[company]]
+name = "Eris Biotech"
+website = "http://www.erisbio.com"
+
+# YC Summer 2022: Enabling Tissue Targeting of Therapies
+[[company]]
+name = "Eugit Therapeutics"
+website = "http://www.eugittx.com"
+
+# YC Summer 2024: Making Next-Generation Antibiotics that Outpace Bacterial Evolution
+[[company]]
+name = "Evolvere BioSciences"
+website = "https://www.evolverebiosciences.com/"
+
+# YC Winter 2019: 
+[[company]]
+name = "Excepgen"
+website = "http://www.excepgen.com"
+
+# YC Winter 2025: AI drug discovery platform for neurotherapeutics
+[[company]]
+name = "Exin Therapeutics"
+website = "https://www.exintherapeutics.com/"
+
+# YC Fall 2025: Exonic is an AI-native cell and gene therapeutics company. 
+[[company]]
+name = "Exonic"
+website = "https://exonic.ai"
+
+# YC Spring 2026: Programmable DNA drug destroying all cancers, unlocking 80% of targets
+[[company]]
+name = "FinalDose"
+website = "https://finaldose.ai/"
+
+# YC Summer 2017: We bank your stem cells to help you live healthier, longer.
+[[company]]
+name = "Forever Labs"
+website = "https://foreverlabs.com"
+
+# YC Spring 2025: RWE Generation in minutes
+[[company]]
+name = "Frekil"
+website = "https://www.frekil.com"
+
+# YC Summer 2020: We make unmakeable proteins with radical advanced biomanufacturing. 
+[[company]]
+name = "Future Fields"
+website = "https://www.futurefields.io/about"
+
+# YC Summer 2026: Curing cancer. Starting with dogs.
+[[company]]
+name = "Gamgee"
+website = "https://gamgee.io/"
+
+# YC Summer 2019: AI platform accelerating therapies for rare & inflammatory diseases.
+[[company]]
+name = "GEn1E Lifesciences"
+website = "https://www.gen1e.com"
+
+# YC Winter 2020: Makes guilt-free plastics from food waste
+[[company]]
+name = "Genecis Bio"
+website = "https://www.genecis.co/"
+
+# YC Winter 2020: The next generation of induced-proximity medicines.
+[[company]]
+name = "General Proximity"
+website = "https://www.generalproximity.bio/"
+
+# YC Summer 2021: DNA App Store
+[[company]]
+name = "Genomelink"
+website = "https://genomelink.io/"
+
+# YC Summer 2020: Gilgamesh Pharmaceuticals, a Clinical stage biotechnology company…
+[[company]]
+name = "Gilgamesh Pharmaceuticals"
+website = "https://www.gilgameshpharmaceutical.com"
+
+# YC Summer 2023: Automating Data Entry for Clinical Trials
+[[company]]
+name = "Gleam"
+website = "https://joingleam.com"
+
+# YC Winter 2024: Curing and preventing type 1 diabetes
+[[company]]
+name = "GloGlo"
+website = "https://gloglo.com"
+
+# YC Winter 2024: Building programmable therapeutics for the immune system
+[[company]]
+name = "Granza Bio"
+website = "https://www.granzabio.com/"
+
+# YC Summer 2022: Dendritic cell-based platform for cancer therapy 
+[[company]]
+name = "Guardian Bio"
+website = "http://www.guardian-bio.com"
+
+# YC Summer 2026: We sequence your gut and build the probiotics it’s missing
+[[company]]
+name = "Gutgutgoose"
+website = "https://gutgutgoose.com/"
+
+# YC Fall 2026: Maximum information per experiment, minimum experiments per conclusion
+[[company]]
+name = "Halmos Labs"
+website = "https://halmoslabs.com/"
+
+# YC Winter 2024: Personalized prevention using genetics and AI
+[[company]]
+name = "Haplotype Labs"
+website = "https://www.haplotypelabs.com/"
+
+# YC Summer 2021: Multi-targeted therapeutics to treat complex diseases
+[[company]]
+name = "Harmonic Discovery"
+website = "http://harmonicdiscovery.com"
+
+# YC Winter 2017: Next-generation mRNA platform to solve cancer, COVID and climate.
+[[company]]
+name = "Helix Nanotechnologies"
+website = "http://helixnano.com"
+
+# YC Summer 2018: Replacing organ transplant with an infusion
+[[company]]
+name = "Hepatx"
+website = "http://www.hepatx.com"
+
+# YC Winter 2016: Accelerating Histopathology for Cancer Research 
+[[company]]
+name = "HistoWiz"
+website = "http://histowiz.com"
+
+# YC Summer 2012: The Human Diagnosis Project.
+[[company]]
+name = "Human Dx"
+website = "http://humandx.org"
+
+# YC Summer 2021: A platform to make artificial viruses as cancer therapeutics.
+[[company]]
+name = "Humane Genomics"
+website = "https://humanegenomics.com"
+
+# YC Summer 2026: 24/7 Personal Health & Longevity Companion
+[[company]]
+name = "Illume Labs"
+website = "https://www.illumelabs.ai"
+
+# YC Winter 2014: The free HIV vaccine.
+[[company]]
+name = "Immunity Project"
+website = "http://immunityproject.org"
+
+# YC Winter 2017: Enabling T cell immunotherapy discovery, development and manufacturing
+[[company]]
+name = "Indee Labs"
+website = "http://www.indeelabs.com"
+
+# YC Winter 2015: We design and build microbes to make chemicals greener at lower cost.
+[[company]]
+name = "Industrial Microbes"
+website = "http://imicrobes.com"
+
+# YC Spring 2026: Control lab instruments with natural language.
+[[company]]
+name = "Infera"
+website = "https://www.infera.bio"
+
+# YC Summer 2020: Helping Plastic Surgeons Rebuild Fat
+[[company]]
+name = "inSoma Bio"
+website = "https://www.insomabio.com/"
+
+# YC Winter 2019: We built the world's first automated digital pathology lab.
+[[company]]
+name = "Instapath Inc."
+website = "http://instapathbio.com"
+
+# YC Winter 2019: Smart gels for local drug delivery to the gut
+[[company]]
+name = "Intact Therapeutics"
+website = "http://www.intacttherapeutics.com"
+
+# YC Winter 2022: Data analytics software for biomanufacturing.
+[[company]]
+name = "Invert"
+website = "http://www.invertbio.com/"
+
+# YC Summer 2022: AI Diagnosis of  Heart Disease
+[[company]]
+name = "InVision Medical Technology"
+website = "http://invisionmedtech.com/"
+
+# YC Winter 2023: Creating new protein-based drugs at scale
+[[company]]
+name = "Invitris"
+website = "https://invitris.com/"
+
+# YC Winter 2020: Cancer tests based on whole genome and transcriptome data.
+[[company]]
+name = "Isabl"
+website = "http://isabl.io"
+
+# YC Winter 2024: AI Hypothesis Engine for Molecular Discovery
+[[company]]
+name = "Junction Bioscience"
+website = "https://www.junction.bio/"
+
+# YC Summer 2022: KemNet supplies reformulated drugs for specific groups of patients.
+[[company]]
+name = "KemNet"
+website = "https://kemnet.ca/"
+
+# YC Summer 2019: Using DNA to store data.
+[[company]]
+name = "Kern Systems"
+website = "https://www.kernsystems.com"
+
+# YC Summer 2020: Kernal is creating mRNA 2.0 therapies that work in specific cells
+[[company]]
+name = "Kernal Biologics"
+website = "https://www.kernalbio.com/"
+
+# YC Summer 2022: Redefining the Standard of Care for Iron Deficiency Anemia
+[[company]]
+name = "Keylika"
+website = "https://www.keylika.com"
+
+# YC Summer 2020: Clinically-validated ingredients from natural microbes
+[[company]]
+name = "Kingdom"
+website = "https://kingdomsuperculture.com"
+
+# YC Summer 2021: Patent-pending enzymes to break down common dietary triggers
+[[company]]
+name = "Kiwi Biosciences"
+website = "https://www.fodzyme.com"
+
+# YC Summer 2024: Genetically engineered viruses that teach your immune system to kill…
+[[company]]
+name = "Kopra Bio"
+website = "https://kopra.bio"
+
+# YC Summer 2022: Open data platform for traceable, multimodal AI
+[[company]]
+name = "Lamin"
+website = "https://lamin.ai"
+
+# YC Winter 2019: Living therapies for pets first, and their people next
+[[company]]
+name = "LEAH Labs"
+website = "http://www.leahlabs.com"
+
+# YC Summer 2024: Enzyme design models.
+[[company]]
+name = "Ligo Biosciences"
+website = "https://www.ligo.bio"
+
+# YC Winter 2020: maximizing biomass on low quality land
+[[company]]
+name = "Living Carbon"
+website = "https://www.livingcarbon.com"
+
+# YC Winter 2018: Lucy’s mission is to reduce tobacco-related harm to zero. We provide…
+[[company]]
+name = "Lucy Goods, Inc"
+website = "https://lucy.co/"
+
+# YC Winter 2016: Lygos (W16) built and commercialized sustainable, high-performance…
+[[company]]
+name = "Lygos"
+website = "http://www.lygos.com"
+
+# YC Winter 2018: Computational antibody design
+[[company]]
+name = "Macromoltek"
+website = "https://www.macromoltek.com"
+
+# YC Summer 2021: Developing milk-inspired therapeutics for infectious diseases
+[[company]]
+name = "Matrubials"
+website = "https://matrubials.com/"
+
+# YC Summer 2023: Live intelligence for biopharma teams.
+[[company]]
+name = "Maven Bio"
+website = "https://mavenbio.com"
+
+# YC Summer 2021: AI-designed Affinity Reagents
+[[company]]
+name = "Medium Biosciences"
+website = "http://medium.bio"
+
+# YC Winter 2020: Menten AI designs peptide and protein therapeutics using quantum…
+[[company]]
+name = "Menten AI"
+website = "http://menten.ai"
+
+# YC Summer 2023: Higher resolution MRI with faster scan times.
+[[company]]
+name = "MICSI"
+website = "https://www.micsi.co/"
+
+# YC Winter 2018: 
+[[company]]
+name = "Mind Emulation Foundation"
+website = "https://mindemulation.org/"
+
+# YC Summer 2021: Programmable biology company for psychoactive effect design
+[[company]]
+name = "Mindstate Design Labs"
+website = "http://mindstate.design"
+
+# YC Winter 2023: Accelerate clinical trials with real-time, actionable insights
+[[company]]
+name = "Miracle"
+website = "http://www.miracleml.com"
+
+# YC Winter 2023: We teach your immune system to attack and cure cancer
+[[company]]
+name = "Modulari-T"
+website = "https://modularit.bio"
+
+# YC Winter 2021: AI Powered Animal Diagnostics
+[[company]]
+name = "Moichor"
+website = "https://moichor.com/"
+
+# YC Summer 2026: Resistance free pesticides.
+[[company]]
+name = "Molagri"
+website = "https://molagri.com"
+
+# YC Summer 2018: Robotic human cell manufacturing
+[[company]]
+name = "Mytos"
+website = "https://www.mytos.bio"
+
+# YC Summer 2020: We use AI to design antibodies for intractable diseases
+[[company]]
+name = "Nabla Bio"
+website = "https://www.nabla.bio"
+
+# YC Summer 2023: Deliver genes to any cell with AI
+[[company]]
+name = "Nanograb"
+website = "https://nanograb.com"
+
+# YC Winter 2018: Human whole body end-of-life preservation for later revival.
+[[company]]
+name = "Nectome"
+website = "https://nectome.com/"
+
+# YC Summer 2020: Curative genetic medicines for kidney diseases
+[[company]]
+name = "Nephrogen"
+website = "http://www.nephrogenbiotech.com"
+
+# YC Winter 2022: Software to launch and integrate genetics into clinical care
+[[company]]
+name = "Nest Genomics"
+website = "https://nestgenomics.com"
+
+# YC Summer 2026: Building robots to automate wetlabs
+[[company]]
+name = "Neuromorphic"
+website = "https://www.neuromorphic.vision/"
+
+# YC Winter 2020: Nomic is doing for proteins what Illumina has done for DNA
+[[company]]
+name = "Nomic Bio"
+website = "http://www.nomic.bio"
+
+# YC Winter 2023: Empowering every doctor and every patient to participate in research
+[[company]]
+name = "Novelcare"
+website = "https://www.novelcare.com"
+
+# YC Summer 2023: Engineering a future without cancer deaths.
+[[company]]
+name = "Numen"
+website = "https://www.numen.com"
+
+# YC Winter 2015: Artificial intelligence for drug discovery.
+[[company]]
+name = "Numerion Labs"
+website = "https://www.numerionlabs.ai"
+
+# YC Winter 2021: Cell-specific genetic medicines
+[[company]]
+name = "Nuntius Therapeutics"
+website = "http://www.nuntiustx.com"
+
+# YC Fall 2026: The full-stack AI CRO for drug discovery.
+[[company]]
+name = "Nxtcure Labs"
+website = "https://nxtcure.com"
+
+# YC Summer 2023: Genetically engineering plants for disease resistance.
+[[company]]
+name = "Ohmic Biosciences"
+website = "https://ohmicbiosciences.com/"
+
+# YC Summer 2023: Combination therapeutics for the world's toughest diseases
+[[company]]
+name = "Olio Labs"
+website = "https://oliolabs.co/"
+
+# YC Summer 2017: Finding the right cancer drug for each patient. 
+[[company]]
+name = "Oncobox"
+website = "http://oncobox.com"
+
+# YC Winter 2020: A nonprofit stool bank enabling access to fecal transplants.
+[[company]]
+name = "OpenBiome"
+website = "http://openbiome.org"
+
+# YC Winter 2016: We make robots for biologists. 
+[[company]]
+name = "Opentrons"
+website = "http://opentrons.com"
+
+# YC Summer 2020: India's Fastest Diagnostics Service
+[[company]]
+name = "Orange Health Labs"
+website = "http://www.orangehealth.in"
+
+# YC Winter 2022: Oral drugs to halt neurodegeneration
+[[company]]
+name = "Origami Therapeutics, Inc."
+website = "http://origamitherapeutics.com"
+
+# YC Winter 2026: AI and Data for Cancer Therapeutics
+[[company]]
+name = "Origin"
+website = "https://origin.bio/"
+
+# YC Summer 2026: The frontier data platform for aligned health and biological AI
+[[company]]
+name = "Osseus"
+website = "https://osseus.ai/"
+
+# YC Summer 2021: The foundation for the next era of science
+[[company]]
+name = "Output Labs"
+website = "https://www.outputlabs.ai/"
+
+# YC Fall 2025: Biospecimen logistics & operations layer to accelerate drug dev
+[[company]]
+name = "Paceline Bio"
+website = "https://paceline.bio/"
+
+# YC Winter 2023: Gen-AI Designed Enzymes for Pharmaceutical Innovation
+[[company]]
+name = "Pando Bioscience"
+website = "https://pando.bio/"
+
+# YC Summer 2025: The continuous oversight engine for clinical trials
+[[company]]
+name = "Panoptive"
+website = "https://www.panoptive.com"
+
+# YC Summer 2021: Using the immune system to cure disease
+[[company]]
+name = "Parallel Bio"
+website = "http://parallel.bio"
+
+# YC Winter 2024: Elevated mRNA for transformative medicines.
+[[company]]
+name = "ParcelBio"
+website = "https://parcelbio.com/"
+
+# YC Winter 2016: Perlara: building the YC for rare disease parents
+[[company]]
+name = "Perlara"
+website = "http://perlara.com"
+
+# YC Winter 2018: We are using the gut microbiome to end cancer. 
+[[company]]
+name = "Persephone Biosciences"
+website = "http://persephonebiosciences.com/"
+
+# YC Fall 2025: Applied Lab focused on Search in Latent Spaces.
+[[company]]
+name = "Perseus"
+website = "https://perseus.computer"
+
+# YC Winter 2023: Developing long-lasting drug formulations 50% faster
+[[company]]
+name = "Persist AI"
+website = "http://www.persist-ai.com"
+
+# YC Summer 2021: We make injections as easy as pushing a button!
+[[company]]
+name = "Pirouette Pharma"
+website = "https://www.pirouettepharma.com/"
+
+# YC Winter 2020: Medicinal Chemistry powered by Machine Learning
+[[company]]
+name = "PostEra"
+website = "https://postera.ai/"
+
+# YC Fall 2026: Embodied Scientific Intelligence
+[[company]]
+name = "Primordiant"
+website = "https://primordiant.com"
+
+# YC Winter 2019: Patient Intelligence Platform for Genetic Disease 
+[[company]]
+name = "Probably Genetic"
+website = "https://www.probablygenetic.com/"
+
+# YC Summer 2021: A therapeutics platform for curing inflammatory disorders
+[[company]]
+name = "Promakhos Therapeutics"
+website = "https://www.promakhos.com/"
+
+# YC Summer 2022: Your biopharma team, from molecule design to portfolio strategy
+[[company]]
+name = "Quinn"
+website = "https://www.quinnbio.com"
+
+# YC Winter 2016: Empowering women. Period.
+[[company]]
+name = "Qvin"
+website = "https://qvin.com/"
+
+# YC Summer 2020: Elevating mental health to be a part of your daily coffee ritual.
+[[company]]
+name = "Rarebird"
+website = "http://www.rarebird.coffee"
+
+# YC Summer 2026: Making chemicals 100,000x faster
+[[company]]
+name = "Rasyn"
+website = "https://www.rasyn.ai/"
+
+# YC Fall 2024: Agentic AI for knowledge work
+[[company]]
+name = "Raycaster"
+website = "https://eval.raycaster.ai"
+
+# YC Summer 2018: Rebellyous Foods is a food manufacturing technology and production…
+[[company]]
+name = "Rebellyous Foods"
+website = "https://rebellyous.com/"
+
+# YC Winter 2021: Redcliffe Labs is India's Largest Omni-channel Diagnostics platform 
+[[company]]
+name = "Redcliffe Lifetech"
+website = "http://redcliffelabs.com"
+
+# YC Summer 2018: mRNA therapeutics to extend healthspan entering clinical trials
+[[company]]
+name = "Rejuvenation Technologies Inc."
+website = "https://www.rejuvenationtech.com/"
+
+# YC Summer 2022: Platform injectable gel based therapeutic for osteoarthritis
+[[company]]
+name = "Relevium Medical"
+website = "https://relevium-medical.com/"
+
+# YC Winter 2021: Robots that automate the everyday tasks of microbiologists.
+[[company]]
+name = "Reshape Biotech"
+website = "http://reshapebiotech.com/"
+
+# YC Fall 2024: Scaling Genomic AI for Embryo Selection
+[[company]]
+name = "Reticular"
+website = "https://reticular.com"
+
+# YC Summer 2017: Rev is a biotechnology company creating better plants.
+[[company]]
+name = "Rev Genomics"
+website = "https://www.revgenomics.com"
+
+# YC Summer 2026: Full Stack Pharmaceutical Company for Personalized Peptides and GLP-1s
+[[company]]
+name = "RonanRx Inc."
+website = "https://ronanrx.com/"
+
+# YC Winter 2022: Growing micro-organs to find new drugs
+[[company]]
+name = "Rosebud Biosciences"
+website = "https://rosebudbiosciences.com/"
+
+# YC Summer 2021: First ECG AI to go beyond diagnostics and recommend treatment
+[[company]]
+name = "SafeBeat"
+website = "https://safebeat.com"
+
+# YC Winter 2023: The API for Diagnostic Test Analysis (COVID-19, FLU, RSV, STD,…
+[[company]]
+name = "Scanbase"
+website = "https://www.scanbase.com"
+
+# YC Fall 2025: Automating regulatory submissions for life sciences
+[[company]]
+name = "Scoop"
+website = "https://scooplabs.ai"
+
+# YC Winter 2022: The smart testing platform that unlocks digital health at home.
+[[company]]
+name = "Scout"
+website = "http://scouthealth.com"
+
+# YC Winter 2020: Real-World Data for Health Innovation
+[[company]]
+name = "Segmed"
+website = "https://segmed.ai"
+
+# YC Summer 2021: Unlocking the next generation of mRNA medicines
+[[company]]
+name = "Sensible Biotechnologies"
+website = "https://sensible.bio"
+
+# YC Summer 2019: Discovering the true signals of disease to power life-changing drugs.
+[[company]]
+name = "Sequence Bio"
+website = "https://www.sequencebio.com/"
+
+# YC Summer 2022: Combinations therapy by rational design
+[[company]]
+name = "Serinus Biosciences"
+website = "http://www.serinus.bio"
+
+# YC Winter 2021: Genetic Medicine with Small Molecules 
+[[company]]
+name = "Serna Bio"
+website = "http://serna.bio"
+
+# YC Summer 2021: Regulating the immune system to block cancer & autoimmune diseases
+[[company]]
+name = "SFA Therapeutics"
+website = "https://sfatherapeutics.com/"
+
+# YC Summer 2019: Shiru leverages ML to create proteins to feed the world sustainably. 
+[[company]]
+name = "Shiru"
+website = "https://www.shiru.com/"
+
+# YC Winter 2017: Sigma Genetics is a biotechnology company that is building…
+[[company]]
+name = "Sigma Genetics"
+website = "http://www.sigmagenetics.com"
+
+# YC Summer 2022: Simple tests for complex diseases.
+[[company]]
+name = "Signatur Biosciences"
+website = "https://www.signatur.bio/"
+
+# YC Winter 2018: Delivering RNA therapies.
+[[company]]
+name = "Sixfold Bioscience"
+website = "https://www.sixfold.bio"
+
+# YC Winter 2017: Decarbonizing the chemicals industry.
+[[company]]
+name = "Solugen"
+website = "https://solugen.com/"
+
+# YC Summer 2026: We are a multi-strategy trading firm that trains AI traders. 
+[[company]]
+name = "Spectre Intelligence"
+website = "https://www.spectreintelligence.ai"
+
+# YC Winter 2022: At-home diagnostics as a service
+[[company]]
+name = "Spot Health"
+website = "https://spotdx.com"
+
+# YC Winter 2022: AI enabling digital urine diagnostics in the home
+[[company]]
+name = "Starling"
+website = "https://starlingmedical.com/"
+
+# YC Winter 2026: Multimodal foundation models to predict uncollected patient biology
+[[company]]
+name = "Strand AI"
+website = "https://strandai.com"
+
+# YC Summer 2018: Synkrino's AI, SATIS is a powerful, unbiased discovery system for…
+[[company]]
+name = "Synkrino Biotherapeutics"
+website = "http://www.synkrino.bio"
+
+# YC Winter 2024: "If-then" conditional logic for protein drugs
+[[company]]
+name = "SynsoryBio"
+website = "https://www.synsorybio.com/"
+
+# YC Spring 2025: Agentic AI platform for Pharma GTM teams
+[[company]]
+name = "Synthio Labs"
+website = "https://synthiolabs.com/"
+
+# YC Summer 2016: Synvivia applies chemical control over cell behavior
+[[company]]
+name = "Synvivia"
+website = "https://www.synvivia.com"
+
+# YC Summer 2021: Discovering drugs that target the DNA regulome
+[[company]]
+name = "Talus Bio"
+website = "https://www.talus.bio"
+
+# YC Winter 2024: AI Inference Platform for Drug Discovery
+[[company]]
+name = "Tamarind Bio"
+website = "https://www.tamarind.bio"
+
+# YC Summer 2026: Vaccines for any cancer or infection in weeks.
+[[company]]
+name = "TareBio"
+website = "https://tarebio.com/"
+
+# YC Winter 2022: High-precision, closed-loop neuromodulation devices
+[[company]]
+name = "Torpedo Therapeutics"
+website = "https://www.torpedotherapeutics.com"
+
+# YC Winter 2018: Tradewind translates scientific insight into innovative ways of…
+[[company]]
+name = "Tradewind BioScience"
+website = "https://www.tradewindbio.com"
+
+# YC Winter 2021: Bioengineered kidneys for patients with kidney failure
+[[company]]
+name = "Trestle Biotherapeutics"
+website = "http://www.trestlebio.com"
+
+# YC Summer 2025: AI infrastructure for biosecurity
+[[company]]
+name = "TwentyTwo"
+website = "https://twentytwo.bio/"
+
+# YC Winter 2025: A Disease Focused Biotech, Building Multiple Billion Dollar Drugs
+[[company]]
+name = "Uncommon Therapeutics"
+website = "https://uncommontherapeutics.com"
+
+# YC Summer 2024: An AI agent for scientific research
+[[company]]
+name = "Undermind"
+website = "https://www.undermind.ai"
+
+# YC Winter 2020: Foundation models and autonomous chambers for plant biology
+[[company]]
+name = "UrbanKisaan"
+website = "https://www.urbankisaan.com"
+
+# YC Winter 2021: Discovering bispecific antibody drug-conjugates (BsADC) against cancer
+[[company]]
+name = "Valink Therapeutics"
+website = "https://www.valinktx.com/"
+
+# YC Summer 2021: CRISPR powered Diagnostics with results in minutes.
+[[company]]
+name = "VedaBio"
+website = "https://www.vedabio.com"
+
+# YC Winter 2024: Breakthrough medicines unlocking the biology of heme
+[[company]]
+name = "Velorum Therapeutics"
+website = "https://www.velorumtx.com/"
+
+# YC Summer 2015: We use human data and AI to develop better drugs faster.
+[[company]]
+name = "Verge Genomics"
+website = "http://vergegenomics.com"
+
+# YC Winter 2019: Unlocking the utility of genomics for the world.
+[[company]]
+name = "Volta Labs, Inc."
+website = "http://voltalabs.com"
+
+# YC Winter 2022: Unleash the potential of genomic medicine using AI
+[[company]]
+name = "WhiteLab Genomics"
+website = "https://whitelabgx.com"
+
+# YC Summer 2026: Extrapolative AI to unlock First-in-Class drugs
+[[company]]
+name = "WonderTx"
+website = "https://wondertx.ai/"
+
+# YC Winter 2015: Early, pain-free cancer detection. 
+[[company]]
+name = "X-Zell"
+website = "http://www.x-zell.com"
+
+# YC Winter 2019: XGenomes is building the sequencing technology of the future. 
+[[company]]
+name = "XGenomes"
+website = "http://www.xgenomes.com"
+
+# YC Summer 2021: Diversifying precision cancer diagnostics and treatments
+[[company]]
+name = "Yemaachi Biotechnology"
+website = "https://yemaachi.com/"
+
+# YC Winter 2019: YourChoice therapeutics is revolutionizing the contraceptive market…
+[[company]]
+name = "YourChoice Therapeutics"
+website = "http://ychoicetx.com"
+
+# YC Winter 2018: ZBiotics makes genetically engineered probiotics.
+[[company]]
+name = "ZBiotics"
+website = "https://zbiotics.com/"
+
+# YC Summer 2024: Gen AI molecular simulations that reproduce wetlab results
+[[company]]
+name = "Ångström AI"
+website = "https://www.angstrom-ai.com"

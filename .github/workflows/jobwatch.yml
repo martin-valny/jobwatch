@@ -1,0 +1,50 @@
+name: jobwatch
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily, 06:00 UTC
+  workflow_dispatch:       # "Run workflow" button for manual runs
+
+permissions:
+  contents: write          # commit .jobwatch/state.json
+  issues: write            # open an issue when new roles appear
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180     # the monthly Common Crawl discovery can take a while
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh discovered boards (monthly)
+        run: python jobwatch.py discover --if-older-than 30
+        continue-on-error: true   # a slow or down Common Crawl shouldn't block the daily check
+
+      - name: Refresh YC company list (monthly)
+        run: python jobwatch.py import-yc --if-older-than 30
+        continue-on-error: true
+
+      - name: Run jobwatch
+        id: run
+        run: python jobwatch.py run --out report.md
+
+      - name: Open an issue with new roles
+        if: steps.run.outputs.new_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          head -c 60000 report.md > body.md
+          gh issue create \
+            --title "jobwatch: ${{ steps.run.outputs.new_count }} new roles ($(date +%F))" \
+            --body-file body.md
+
+      - name: Commit state
+        run: |
+          git config user.name "jobwatch-bot"
+          git config user.email "jobwatch-bot@users.noreply.github.com"
+          git add .jobwatch/ companies_yc.toml
+          git diff --cached --quiet || git commit -m "jobwatch: update state"
+          git push
