@@ -44857,6 +44857,7 @@
   },
   "recruitee:infotrust": {
    "ats": "recruitee",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "infotrust"
   },
@@ -44968,6 +44969,7 @@
   },
   "recruitee:ironhack": {
    "ats": "recruitee",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "ironhack"
   },
@@ -47137,6 +47139,7 @@
   },
   "recruitee:theroom": {
    "ats": "recruitee",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "theroom"
   },
@@ -47157,6 +47160,7 @@
   },
   "recruitee:thisissoon": {
    "ats": "recruitee",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "thisissoon"
   },
@@ -47217,11 +47221,13 @@
   },
   "recruitee:transperfect": {
    "ats": "recruitee",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "transperfect"
   },
   "recruitee:transperfect4": {
    "ats": "recruitee",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "transperfect4"
   },
@@ -47252,6 +47258,7 @@
   },
   "recruitee:tudelftaitech": {
    "ats": "recruitee",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "tudelftaitech"
   },
@@ -47287,6 +47294,7 @@
   },
   "recruitee:uncharted": {
    "ats": "recruitee",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "uncharted"
   },
@@ -51014,6 +51022,7 @@
   },
   "workable:boohoogroup": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "boohoogroup"
   },
@@ -51089,6 +51098,7 @@
   },
   "workable:bou": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "bou"
   },
@@ -51239,6 +51249,7 @@
   },
   "workable:bridges-si": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "bridges-si"
   },
@@ -51374,6 +51385,7 @@
   },
   "workable:buffalogrid": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "buffalogrid"
   },
@@ -51389,6 +51401,7 @@
   },
   "workable:builders-capital": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "builders-capital"
   },
@@ -51475,6 +51488,7 @@
   },
   "workable:buzzhire": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "buzzhire"
   },
@@ -51640,6 +51654,7 @@
   },
   "workable:campanda-gmbh": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "campanda-gmbh"
   },
@@ -51705,6 +51720,7 @@
   },
   "workable:canwel-building-materials-ltd": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "canwel-building-materials-ltd"
   },
@@ -51795,6 +51811,7 @@
   },
   "workable:carbon-tracker": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "carbon-tracker"
   },
@@ -51940,6 +51957,7 @@
   },
   "workable:caryhealth": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "caryhealth"
   },
@@ -52045,11 +52063,13 @@
   },
   "workable:cdr-maguire": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "cdr-maguire"
   },
   "workable:cebroker": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "cebroker"
   },
@@ -52525,6 +52545,7 @@
   },
   "workable:clients-blackbox-inc": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "clients-blackbox-inc"
   },
@@ -52550,6 +52571,7 @@
   },
   "workable:climatearc": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "climatearc"
   },
@@ -52615,6 +52637,7 @@
   },
   "workable:cloudacademy": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "cloudacademy"
   },
@@ -52805,6 +52828,7 @@
   },
   "workable:cognitivespace": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "cognitivespace"
   },
@@ -52850,6 +52874,7 @@
   },
   "workable:columbia-road": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "columbia-road"
   },
@@ -53115,6 +53140,7 @@
   },
   "workable:contentful": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "contentful"
   },
@@ -53210,6 +53236,7 @@
   },
   "workable:cordys-analytics": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "cordys-analytics"
   },
@@ -53375,6 +53402,7 @@
   },
   "workable:crave": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "crave"
   },
@@ -54810,6 +54838,7 @@
   },
   "workable:edgemony": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "edgemony"
   },
@@ -55962,6 +55991,7 @@
   },
   "workable:fetchrs": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "fetchrs"
   },
@@ -55992,6 +56022,7 @@
   },
   "workable:figured-ltd": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "figured-ltd"
   },
@@ -59772,6 +59803,7 @@
   },
   "workable:knowledge-builders": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "knowledge-builders"
   },
@@ -60422,6 +60454,7 @@
   },
   "workable:logical-media-group": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "logical-media-group"
   },
@@ -61062,6 +61095,7 @@
   },
   "workable:mercier-consultancy-group": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "mercier-consultancy-group"
   },
@@ -61117,6 +61151,7 @@
   },
   "workable:mews": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "mews"
   },
@@ -61662,6 +61697,7 @@
   },
   "workable:multiplicatalent": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "multiplicatalent"
   },
@@ -62473,6 +62509,7 @@
   },
   "workable:onbuy": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "onbuy"
   },
@@ -62548,6 +62585,7 @@
   },
   "workable:oozou": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "oozou"
   },
@@ -63118,6 +63156,7 @@
   },
   "workable:pavago": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "pavago"
   },
@@ -63858,6 +63897,7 @@
   },
   "workable:prolificac": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "prolificac"
   },
@@ -64508,6 +64548,7 @@
   },
   "workable:resource-partners": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "resource-partners"
   },
@@ -64913,6 +64954,7 @@
   },
   "workable:sanction-scanner": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "sanction-scanner"
   },
@@ -65293,6 +65335,7 @@
   },
   "workable:shapeways": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "shapeways"
   },
@@ -65913,6 +65956,7 @@
   },
   "workable:spendesk": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "spendesk"
   },
@@ -67368,6 +67412,7 @@
   },
   "workable:thriva": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "thriva"
   },
@@ -67663,6 +67708,7 @@
   },
   "workable:translucent": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "translucent"
   },
@@ -67738,6 +67784,7 @@
   },
   "workable:trio-scs": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "trio-scs"
   },
@@ -67803,6 +67850,7 @@
   },
   "workable:tryprospect": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "tryprospect"
   },
@@ -68124,6 +68172,7 @@
   },
   "workable:uniuni-logistics": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "uniuni-logistics"
   },
@@ -69449,6 +69498,7 @@
   },
   "workable:zencargo": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "zencargo"
   },
@@ -69479,6 +69529,7 @@
   },
   "workable:zerofox": {
    "ats": "workable",
+   "dead": "2026-10-27",
    "first_seen": "2026-10-27",
    "slug": "zerofox"
   },
