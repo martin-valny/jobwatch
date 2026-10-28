@@ -9,12 +9,11 @@ include_titles = [
   "computational (scientist|biologist)",
   "biostatistic",
   "(genomic|genetic).*(scientist|analyst|engineer)",
-  "(\\bml|machine learning|\\bai\\b|data|computational|deep learning).*\\b(scientist|engineer|researcher|analyst)\\b.*(bio|drug|protein|genom|genetic|molecul|omics|\\bcell|clinical|pharma|therapeut|neuro|immun|oncolog)",
-  "(bio|drug|protein|genom|genetic|molecul|omics|\\bcell|clinical|pharma|therapeut|neuro|immun|oncolog).*(ml|machine learning|\\bai\\b|data|computational|deep learning).*\\b(scientist|engineer|researcher|analyst)\\b",
+  "(\\bml|machine learning|\\bai\\b|data|computational|deep learning).*\\b(scientist|engineer|researcher|analyst)\\b.*(bio(?!metric)|drug|protein|genom|genetic|molecul|omics|\\bcell|pharma|therapeut|neuro|immun|oncolog)",
+  "(bio(?!metric)|drug|protein|genom|genetic|molecul|omics|\\bcell|pharma|therapeut|neuro|immun|oncolog).*(ml|machine learning|\\bai\\b|data|computational|deep learning).*\\b(scientist|engineer|researcher|analyst)\\b",
   "\\b(ai|ml|machine learning|computational) (bio|neuro)\\w*",
-  "research scientist.*(bio|drug|protein|genom|genetic|molecul|omics|\\bcell|clinical|pharma|therapeut|neuro|immun|oncolog)",
+  "research scientist.*(bio(?!metric)|drug|protein|genom|genetic|molecul|omics|\\bcell|pharma|therapeut|neuro|immun|oncolog)",
   "proteomic|transcriptomic|multi-?omic|\\bomics\\b",
-  "scientific software|research software engineer",
 ]
 exclude_titles = ["\\bintern\\b", "internship", "co-?op\\b", "postdoc", "student", "ai trainer", "freelance"]
 
