@@ -12533,6 +12533,7 @@
   },
   "ashby:stainlessapi": {
    "ats": "ashby",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "stainlessapi"
   },
@@ -35443,6 +35444,7 @@
   },
   "personio:earlybirdvc-gmbh": {
    "ats": "personio",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "earlybirdvc-gmbh"
   },
@@ -45686,6 +45688,7 @@
   },
   "recruitee:netdata": {
    "ats": "recruitee",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "netdata"
   },
@@ -45721,6 +45724,7 @@
   },
   "recruitee:nextgenicsbv": {
    "ats": "recruitee",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "nextgenicsbv"
   },
@@ -45746,6 +45750,7 @@
   },
   "recruitee:nodes": {
    "ats": "recruitee",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "nodes"
   },
@@ -53678,6 +53683,7 @@
   },
   "workable:cxg": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "cxg"
   },
@@ -54984,6 +54990,7 @@
   },
   "workable:elementsinteractive": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "elementsinteractive"
   },
@@ -55916,6 +55923,7 @@
   },
   "workable:farohealth": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "farohealth"
   },
@@ -57283,6 +57291,7 @@
   },
   "workable:globalmedicalvirtualassistants": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "globalmedicalvirtualassistants"
   },
@@ -57458,6 +57467,7 @@
   },
   "workable:grafana-labs": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "grafana-labs"
   },
@@ -58768,6 +58778,7 @@
   },
   "workable:incfile-1": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "incfile-1"
   },
@@ -59503,6 +59514,7 @@
   },
   "workable:joincheckmate1": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "joincheckmate1"
   },
@@ -63978,6 +63990,7 @@
   },
   "workable:ps": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "ps"
   },
@@ -65150,6 +65163,7 @@
   },
   "workable:second-bind": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "second-bind"
   },
@@ -66287,6 +66301,7 @@
   },
   "workable:street-team": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "street-team"
   },
@@ -66657,6 +66672,7 @@
   },
   "workable:talanos": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "talanos"
   },
@@ -67553,6 +67569,7 @@
   },
   "workable:toloka-ai": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "toloka-ai"
   },
@@ -67643,6 +67660,7 @@
   },
   "workable:tplgr": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "tplgr"
   },
@@ -69058,6 +69076,7 @@
   },
   "workable:wethecollective": {
    "ats": "workable",
+   "dead": "2026-10-28",
    "first_seen": "2026-10-27",
    "slug": "wethecollective"
   },

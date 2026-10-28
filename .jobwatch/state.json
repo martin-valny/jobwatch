@@ -1896,6 +1896,14 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Research Scientist, Life Sciences (Experimental Biology)",
+   "first_seen": "2026-10-28",
+   "slug": "anthropic",
+   "via": "investor board accel"
+  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -3942,6 +3950,14 @@
    "example": "Staff Data Scientist - Trading & Quant (d/f/m)",
    "first_seen": "2026-10-27",
    "slug": "flexa",
+   "via": "discovered boards"
+  },
+  "recruitee:o2h": {
+   "ats": "recruitee",
+   "company": "o2h",
+   "example": "Associate Research Scientist/Scientist - Biology",
+   "first_seen": "2026-10-28",
+   "slug": "o2h",
    "via": "discovered boards"
   },
   "recruitee:optics11": {
