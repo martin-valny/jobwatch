@@ -2,7 +2,7 @@ name: jobwatch
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # daily, 06:00 UTC
+    - cron: "17 5 * * *"  # daily, 05:17 UTC (off the busy top-of-hour slot)
   workflow_dispatch:       # "Run workflow" button for manual runs
 
 permissions:
