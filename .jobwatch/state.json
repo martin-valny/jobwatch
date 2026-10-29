@@ -1880,6 +1880,14 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Research Scientist, Life Sciences (Experimental Biology)",
+   "first_seen": "2026-10-29",
+   "slug": "anthropic",
+   "via": "investor board index"
+  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",

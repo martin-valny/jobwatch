@@ -3074,6 +3074,7 @@
   },
   "ashby:coreflow": {
    "ats": "ashby",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "coreflow"
   },
@@ -6163,6 +6164,7 @@
   },
   "ashby:hyphametrics": {
    "ats": "ashby",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "hyphametrics"
   },
@@ -42854,6 +42856,7 @@
   },
   "recruitee:applications": {
    "ats": "recruitee",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "applications"
   },
@@ -42864,6 +42867,7 @@
   },
   "recruitee:apside": {
    "ats": "recruitee",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "apside"
   },
@@ -42899,6 +42903,7 @@
   },
   "recruitee:assistme": {
    "ats": "recruitee",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "assistme"
   },
@@ -42945,6 +42950,7 @@
   },
   "recruitee:aulaeducation": {
    "ats": "recruitee",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "aulaeducation"
   },
@@ -42996,6 +43002,7 @@
   },
   "recruitee:aviasales": {
    "ats": "recruitee",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "aviasales"
   },
@@ -43006,6 +43013,7 @@
   },
   "recruitee:ayo": {
    "ats": "recruitee",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "ayo"
   },
@@ -45511,6 +45519,7 @@
   },
   "recruitee:mesosolutions": {
    "ats": "recruitee",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "mesosolutions"
   },
@@ -45531,6 +45540,7 @@
   },
   "recruitee:mindsdigital3": {
    "ats": "recruitee",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "mindsdigital3"
   },
@@ -45571,11 +45581,13 @@
   },
   "recruitee:moovai": {
    "ats": "recruitee",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "moovai"
   },
   "recruitee:morningstarventures": {
    "ats": "recruitee",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "morningstarventures"
   },
@@ -45686,6 +45698,7 @@
   },
   "recruitee:nestio": {
    "ats": "recruitee",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "nestio"
   },
@@ -64010,6 +64023,7 @@
   },
   "workable:ptw-i": {
    "ats": "workable",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "ptw-i"
   },
