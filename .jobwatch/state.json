@@ -392,14 +392,6 @@
    "slug": "confido",
    "via": "discovered boards"
   },
-  "ashby:coreflow": {
-   "ats": "ashby",
-   "company": "coreflow",
-   "example": "Staff Data Scientist (Product)",
-   "first_seen": "2026-10-27",
-   "slug": "coreflow",
-   "via": "discovered boards"
-  },
   "ashby:cuesta-partners": {
    "ats": "ashby",
    "company": "cuesta-partners",
@@ -742,14 +734,6 @@
    "example": "Senior Growth Data Scientist - New Products",
    "first_seen": "2026-10-27",
    "slug": "hinge-health",
-   "via": "discovered boards"
-  },
-  "ashby:hyphametrics": {
-   "ats": "ashby",
-   "company": "hyphametrics",
-   "example": "Data Scientist Lead (Contract to FTE) ",
-   "first_seen": "2026-10-27",
-   "slug": "hyphametrics",
    "via": "discovered boards"
   },
   "ashby:ibotta": {
@@ -1895,14 +1879,6 @@
    "first_seen": "2026-10-27",
    "slug": "anaplan",
    "via": "discovered boards"
-  },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Research Scientist, Life Sciences (Experimental Biology)",
-   "first_seen": "2026-10-28",
-   "slug": "anthropic",
-   "via": "investor board accel"
   },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
@@ -3950,6 +3926,14 @@
    "example": "Staff Data Scientist - Trading & Quant (d/f/m)",
    "first_seen": "2026-10-27",
    "slug": "flexa",
+   "via": "discovered boards"
+  },
+  "personio_com:igtp": {
+   "ats": "personio_com",
+   "company": "igtp",
+   "example": "2026_146_SENIOR BIOINFORMATICIAN",
+   "first_seen": "2026-10-29",
+   "slug": "igtp",
    "via": "discovered boards"
   },
   "recruitee:o2h": {

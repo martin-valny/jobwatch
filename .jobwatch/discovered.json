@@ -1556,6 +1556,7 @@
   },
   "ashby:beaconsoftware": {
    "ats": "ashby",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "beaconsoftware"
   },
@@ -7068,6 +7069,7 @@
   },
   "ashby:lago": {
    "ats": "ashby",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "lago"
   },
@@ -12472,6 +12474,7 @@
   },
   "ashby:squad": {
    "ats": "ashby",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "squad"
   },
@@ -20107,6 +20110,7 @@
   },
   "greenhouse:fractile": {
    "ats": "greenhouse",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "fractile"
   },
@@ -21360,6 +21364,7 @@
   },
   "greenhouse:immunefi": {
    "ats": "greenhouse",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "immunefi"
   },
@@ -21432,6 +21437,7 @@
   },
   "greenhouse:innovid": {
    "ats": "greenhouse",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "innovid"
   },
@@ -25009,6 +25015,7 @@
   },
   "greenhouse:prisma": {
    "ats": "greenhouse",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "prisma"
   },
@@ -28125,6 +28132,7 @@
   },
   "greenhouse:trove": {
    "ats": "greenhouse",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "trove"
   },
@@ -61579,6 +61587,7 @@
   },
   "workable:moro-tecnhology-group": {
    "ats": "workable",
+   "dead": "2026-10-29",
    "first_seen": "2026-10-27",
    "slug": "moro-tecnhology-group"
   },
