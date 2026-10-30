@@ -4633,6 +4633,7 @@
   },
   "ashby:firetiger": {
    "ats": "ashby",
+   "dead": "2026-10-30",
    "first_seen": "2026-10-27",
    "slug": "firetiger"
   },
@@ -22587,6 +22588,7 @@
   },
   "greenhouse:maestroqa": {
    "ats": "greenhouse",
+   "dead": "2026-10-30",
    "first_seen": "2026-10-27",
    "slug": "maestroqa"
   },
@@ -47552,6 +47554,7 @@
   },
   "recruitee:vorfina": {
    "ats": "recruitee",
+   "dead": "2026-10-30",
    "first_seen": "2026-10-27",
    "slug": "vorfina"
   },
@@ -47632,6 +47635,7 @@
   },
   "recruitee:wellabe": {
    "ats": "recruitee",
+   "dead": "2026-10-30",
    "first_seen": "2026-10-27",
    "slug": "wellabe"
   },
@@ -47742,6 +47746,7 @@
   },
   "recruitee:whatagraph": {
    "ats": "recruitee",
+   "dead": "2026-10-30",
    "first_seen": "2026-10-27",
    "slug": "whatagraph"
   },

@@ -672,14 +672,6 @@
    "slug": "happyrobot.ai",
    "via": "discovered boards"
   },
-  "ashby:harvey": {
-   "ats": "ashby",
-   "company": "harvey",
-   "example": "Data Scientist, Product",
-   "first_seen": "2026-10-27",
-   "slug": "harvey",
-   "via": "discovered boards"
-  },
   "ashby:hawk": {
    "ats": "ashby",
    "company": "hawk",
@@ -1879,14 +1871,6 @@
    "first_seen": "2026-10-27",
    "slug": "anaplan",
    "via": "discovered boards"
-  },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Research Scientist, Life Sciences (Experimental Biology)",
-   "first_seen": "2026-10-29",
-   "slug": "anthropic",
-   "via": "investor board index"
   },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
@@ -6320,6 +6304,7 @@
   "ashby:LatchBio:08d47716-b878-4364-ba31-79ec681ec14c": "2026-10-27",
   "ashby:LatchBio:1714598f-f274-4457-be04-861ba7cde7e4": "2026-10-27",
   "ashby:LatchBio:24ae1dd7-e025-4e73-89c1-8c9dd1cc613c": "2026-10-27",
+  "ashby:LatchBio:b45317b9-f95f-4c2d-bfea-8a88a3307ceb": "2026-10-30",
   "ashby:LatchBio:b60fddff-1079-487e-808f-accdff3522f6": "2026-10-27",
   "ashby:LatchBio:ba71439b-6f26-48b5-af5c-5449289274e0": "2026-10-27",
   "ashby:LatchBio:d4a8c4d4-e118-4dc7-a134-0180936e4148": "2026-10-27",
@@ -6379,6 +6364,7 @@
   "url:https://jobs.ashbyhq.com/LatchBio/08d47716-b878-4364-ba31-79ec681ec14c": "2026-10-27",
   "url:https://jobs.ashbyhq.com/LatchBio/1714598f-f274-4457-be04-861ba7cde7e4": "2026-10-27",
   "url:https://jobs.ashbyhq.com/LatchBio/24ae1dd7-e025-4e73-89c1-8c9dd1cc613c": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/LatchBio/b45317b9-f95f-4c2d-bfea-8a88a3307ceb": "2026-10-30",
   "url:https://jobs.ashbyhq.com/LatchBio/b60fddff-1079-487e-808f-accdff3522f6": "2026-10-27",
   "url:https://jobs.ashbyhq.com/LatchBio/ba71439b-6f26-48b5-af5c-5449289274e0": "2026-10-27",
   "url:https://jobs.ashbyhq.com/LatchBio/d4a8c4d4-e118-4dc7-a134-0180936e4148": "2026-10-27",
