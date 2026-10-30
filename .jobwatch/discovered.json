@@ -977,6 +977,7 @@
   },
   "ashby:arch.co": {
    "ats": "ashby",
+   "dead": "2026-10-30",
    "first_seen": "2026-10-27",
    "slug": "arch.co"
   },
@@ -5712,6 +5713,7 @@
   },
   "ashby:harvey": {
    "ats": "ashby",
+   "dead": "2026-10-30",
    "first_seen": "2026-10-27",
    "slug": "harvey"
   },
@@ -13413,6 +13415,7 @@
   },
   "ashby:tilderesearch": {
    "ats": "ashby",
+   "dead": "2026-10-30",
    "first_seen": "2026-10-27",
    "slug": "tilderesearch"
   },
@@ -13423,6 +13426,7 @@
   },
   "ashby:tilt": {
    "ats": "ashby",
+   "dead": "2026-10-30",
    "first_seen": "2026-10-27",
    "slug": "tilt"
   },
@@ -18914,6 +18918,7 @@
   },
   "greenhouse:dnsfilter": {
    "ats": "greenhouse",
+   "dead": "2026-10-30",
    "first_seen": "2026-10-27",
    "slug": "dnsfilter"
   },
@@ -45311,6 +45316,7 @@
   },
   "recruitee:lineup7": {
    "ats": "recruitee",
+   "dead": "2026-10-30",
    "first_seen": "2026-10-27",
    "slug": "lineup7"
   },
@@ -45396,6 +45402,7 @@
   },
   "recruitee:makerdao": {
    "ats": "recruitee",
+   "dead": "2026-10-30",
    "first_seen": "2026-10-27",
    "slug": "makerdao"
   },

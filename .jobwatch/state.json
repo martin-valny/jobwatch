@@ -1872,6 +1872,14 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Senior Engineer, Bioinformatics",
+   "first_seen": "2026-10-30",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
+  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -3438,14 +3446,6 @@
    "example": "Staff Data Scientist",
    "first_seen": "2026-10-27",
    "slug": "usenourish",
-   "via": "discovered boards"
-  },
-  "greenhouse:valtech": {
-   "ats": "greenhouse",
-   "company": "valtech",
-   "example": "Senior Data Scientist ",
-   "first_seen": "2026-10-27",
-   "slug": "valtech",
    "via": "discovered boards"
   },
   "greenhouse:vonage": {
