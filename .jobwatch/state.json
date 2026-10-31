@@ -1872,14 +1872,6 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-10-30",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
-  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
