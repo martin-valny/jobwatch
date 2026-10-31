@@ -58504,6 +58504,7 @@
   },
   "workable:huzzle": {
    "ats": "workable",
+   "dead": "2026-10-31",
    "first_seen": "2026-10-27",
    "slug": "huzzle"
   },
