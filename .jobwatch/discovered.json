@@ -17328,6 +17328,7 @@
   },
   "greenhouse:capellaspace": {
    "ats": "greenhouse",
+   "dead": "2026-11-01",
    "first_seen": "2026-10-27",
    "slug": "capellaspace"
   },
@@ -35311,6 +35312,7 @@
   },
   "personio:digitalsalt": {
    "ats": "personio",
+   "dead": "2026-11-01",
    "first_seen": "2026-10-27",
    "slug": "digitalsalt"
   },
@@ -47459,6 +47461,7 @@
   },
   "recruitee:vdkgroep": {
    "ats": "recruitee",
+   "dead": "2026-11-01",
    "first_seen": "2026-10-27",
    "slug": "vdkgroep"
   },
