@@ -1256,6 +1256,7 @@
   },
   "ashby:atria": {
    "ats": "ashby",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "atria"
   },
@@ -11373,6 +11374,7 @@
   },
   "ashby:rossum.ai": {
    "ats": "ashby",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "rossum.ai"
   },
@@ -25184,6 +25186,7 @@
   },
   "greenhouse:publicrelay": {
    "ats": "greenhouse",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "publicrelay"
   },
@@ -34485,6 +34488,7 @@
   },
   "personio:blazejewski-medi-tech-gmbh": {
    "ats": "personio",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "blazejewski-medi-tech-gmbh"
   },
@@ -47119,6 +47123,7 @@
   },
   "recruitee:tether": {
    "ats": "recruitee",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "tether"
   },
@@ -47134,6 +47139,7 @@
   },
   "recruitee:tgs": {
    "ats": "recruitee",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "tgs"
   },
