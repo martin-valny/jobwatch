@@ -951,24 +951,36 @@ def collect(boards, fetch=fetch_text, workers: int = 16):
     return jobs, failures
 
 
-def render(jobs: list[Job], total: int, n_boards: int, notes, errors, show_all: bool, today: date,
-           discovery_line: str = "") -> str:
-    head = "all current matches" if show_all else "new since last run"
-    out = [f"# jobwatch, {today.isoformat()}",
-           f"{len(jobs)} roles ({head}); {total} matching right now across {n_boards} boards.", ""]
-    if discovery_line:
-        out += [discovery_line, ""]
+def _verdict_groups(jobs: list[Job], level: str) -> list[str]:
+    out = []
     for v, label in VERDICTS.items():
         group = sorted((j for j in jobs if j.verdict == v), key=lambda j: (j.company.lower(), j.title))
         if not group:
             continue
-        out += [f"## {label}", ""]
+        out += [f"{level} {label}", ""]
         for j in group:
             posted = f", posted {j.posted}" if j.posted else ""
             out.append(f"- **[{j.title}]({j.url})**, {j.company} · {'; '.join(j.locations) or 'no location'}{posted}")
             if j.reasons:
                 out.append(f"  - why: {'; '.join(j.reasons)}")
         out.append("")
+    return out
+
+
+def render(jobs: list[Job], total: int, n_boards: int, notes, errors, show_all: bool, today: date,
+           discovery_line: str = "", broad: list[Job] | None = None, broad_left: int = 0) -> str:
+    head = "all current matches" if show_all else "new since last run"
+    extra = f" + {len(broad)} broader matches" if broad else ""
+    out = [f"# jobwatch, {today.isoformat()}",
+           f"{len(jobs)} roles ({head}){extra}; {total} matching right now across {n_boards} boards.", ""]
+    if discovery_line:
+        out += [discovery_line, ""]
+    out += _verdict_groups(jobs, "##")
+    if broad:
+        out += ["## Broader matches (looser title filter, lower relevance)", ""]
+        out += _verdict_groups(broad, "###")
+        if broad_left:
+            out += [f"{broad_left} more broader matches are waiting; they appear in the next runs.", ""]
     if notes:
         out += ["## Board detection", ""] + [f"- {n}" for n in notes] + [""]
     if errors:
@@ -982,6 +994,7 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
     cfg = tomllib.loads(config.read_text())
     f = cfg.get("filters", {})
     include, exclude = f.get("include_titles", []), f.get("exclude_titles", [])
+    broad_include, broad_max = f.get("broad_titles", []), int(f.get("broad_max", 100))
     wanted = set(f.get("verdicts", ["europe-remote", "remote-unclear"]))
     disc_cfg = cfg.get("discovery", {})
     vc_cfg = cfg.get("vc_boards", {})
@@ -1087,11 +1100,33 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
     def url_key(j):
         return f"url:{canon_url(j.url)}" if j.url.startswith("http") else None
 
-    new = [j for j in matches if j.key not in state["seen"] and url_key(j) not in state["seen"]]
-    for j in matches:
-        state["seen"].setdefault(j.key, today.isoformat())
-        if url_key(j):
-            state["seen"].setdefault(url_key(j), today.isoformat())
+    def is_new(j):
+        return j.key not in state["seen"] and url_key(j) not in state["seen"]
+
+    def mark_seen(js):
+        for j in js:
+            state["seen"].setdefault(j.key, today.isoformat())
+            if url_key(j):
+                state["seen"].setdefault(url_key(j), today.isoformat())
+
+    new = [j for j in matches if is_new(j)]
+    mark_seen(matches)
+
+    # Broader matches: titles that only the looser `broad_titles` list accepts. Reported in their own
+    # section; they don't teach new companies. Newest first, at most broad_max new ones per run (the
+    # rest stay unseen and show up in later runs).
+    strict = {id(j) for j in title_hits}
+    broad_matches = [classify(j) for j in by_url.values()
+                     if broad_include and id(j) not in strict and title_matches(j.title, broad_include, exclude)]
+    broad_matches = [j for j in broad_matches if j.verdict in wanted]
+    broad_new = sorted((j for j in broad_matches if is_new(j)), key=lambda j: j.posted or "", reverse=True)
+    if show_all:
+        broad_shown, broad_left = broad_matches, 0
+        broad_count = len(broad_new)
+    else:
+        broad_shown, broad_left = broad_new[:broad_max], max(0, len(broad_new) - broad_max)
+        broad_count = len(broad_shown)
+    mark_seen(broad_shown)
     save_state(state_path, state)
 
     shown = matches if show_all else new
@@ -1099,10 +1134,11 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
     if vc_boards:
         discovery_line = (discovery_line + " " if discovery_line else "") + \
             f"Searched {len(vc_boards)} investor portfolio boards for: {', '.join(keywords)}."
-    report = render(shown, len(matches), n_boards, notes, errors, show_all, today, discovery_line)
+    report = render(shown, len(matches), n_boards, notes, errors, show_all, today, discovery_line,
+                    broad_shown, broad_left)
     if out:
         out.write_text(report)
-    return report, len(new)
+    return report, len(new) + broad_count
 
 
 def _safe(fn, *args):

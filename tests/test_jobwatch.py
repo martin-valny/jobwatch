@@ -558,3 +558,60 @@ def test_load_companies_merges_extra_files_without_duplicates(tmp_path: Path):
     cfg = {"company": [{"name": "Seqera", "website": "https://seqera.io"}],
            "sources": {"company_files": ["extra.toml", "missing.toml"]}}
     assert [c["name"] for c in jw.load_companies(cfg, tmp_path)] == ["Seqera", "Helix Fold"]
+
+
+BROAD_JOBS = {"jobs": [
+    {"id": 20 + i, "title": f"Data Scientist {n}", "location": {"name": "Remote"},
+     "absolute_url": f"https://job-boards.greenhouse.io/acme/jobs/{20 + i}",
+     "content": "&lt;p&gt;Remote from anywhere in Europe (CET hours).&lt;/p&gt;",
+     "updated_at": f"2026-10-1{i}T00:00:00-04:00"}
+    for i, n in enumerate("ABC", start=1)
+] + [GREENHOUSE["jobs"][1]]}
+
+
+def broad_config(extra: str = "") -> str:
+    return f"""
+[filters]
+include_titles = ["computational biolog"]
+broad_titles = ["scientist"]
+{extra}
+verdicts = ["europe-remote", "remote-unclear"]
+[[company]]
+name = "Acme"
+ats = "greenhouse"
+slug = "acme"
+"""
+
+
+def test_broad_titles_get_their_own_section_and_are_reported_once(tmp_path: Path):
+    cfg = tmp_path / "companies.toml"; cfg.write_text(broad_config())
+    state = tmp_path / "state.json"
+    fetch = fake_fetch({("greenhouse", "acme"): GREENHOUSE})
+
+    report, n_new = jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 19))
+    head, _, broad = report.partition("## Broader matches")
+    assert n_new == 1 and "Bioinformatics Scientist" in broad and "Bioinformatics Scientist" not in head
+    assert "### Remote, with a Europe signal" in broad
+    assert "+ 1 broader matches" in report
+    assert "acme" not in json.loads(state.read_text())["learned"]    # broad matches teach nothing
+    assert jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 20))[1] == 0
+
+
+def test_without_broad_titles_nothing_changes(tmp_path: Path):
+    cfg = tmp_path / "companies.toml"; cfg.write_text(broad_config().replace('broad_titles = ["scientist"]', ""))
+    report, n_new = jw.run(cfg, tmp_path / "s.json", None, False, fake_fetch({("greenhouse", "acme"): GREENHOUSE}),
+                           today=date(2026, 10, 19))
+    assert n_new == 0 and "Broader matches" not in report
+
+
+def test_broad_matches_are_capped_newest_first_and_the_rest_wait(tmp_path: Path):
+    cfg = tmp_path / "companies.toml"; cfg.write_text(broad_config("broad_max = 2"))
+    state = tmp_path / "state.json"
+    fetch = fake_fetch({("greenhouse", "acme"): BROAD_JOBS})
+
+    report, n1 = jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 19))
+    assert n1 == 2 and "Data Scientist C" in report and "Data Scientist B" in report
+    assert "Data Scientist A" not in report and "2 more broader matches" in report
+    report2, n2 = jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 20))
+    assert n2 == 2 and "Data Scientist A" in report2 and "Bioinformatics Scientist" in report2 and "more broader" not in report2
+    assert jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 21))[1] == 0

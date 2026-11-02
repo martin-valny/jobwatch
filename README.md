@@ -59,6 +59,10 @@ Easiest is to add `website = "https://..."` and let the first run find the board
 
 Quirks handled: SmartRecruiters' list API has no descriptions (location and remote flag only) and answers even for unknown companies, so the auto-detect never trusts an empty SmartRecruiters board; Workable's widget repeats multi-location jobs, which are merged; Personio serves XML.
 
+## Strict and broader matches
+
+`include_titles` is the strict list (bio-qualified titles). `broad_titles` is a looser list: a role whose title matches it but not the strict list goes into a separate **Broader matches** section of the report, below the strict results. It uses the same remote/Europe sorting and `exclude_titles`, never teaches jobwatch new companies, and shows at most `broad_max` new roles per run (newest first; the rest appear in later runs). Empty `broad_titles` turns the section off. Broader matches count towards the "new roles" total that opens the GitHub issue.
+
 ## How roles are sorted
 
 - **Remote, with a Europe signal**: remote in the ATS flag, location, or description, plus a European place or phrase such as "EMEA", "Europe-based" or "CET".

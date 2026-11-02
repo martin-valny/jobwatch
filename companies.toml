@@ -17,6 +17,18 @@ include_titles = [
 ]
 exclude_titles = ["\\bintern\\b", "internship", "co-?op\\b", "postdoc", "student", "ai trainer", "freelance"]
 
+# Looser patterns: a title that matches one of these but not include_titles is reported in a separate
+# "Broader matches" section (same verdicts and exclude_titles; these never add companies to the learned
+# list). At most broad_max new ones are shown per run, newest first; the rest wait for later runs.
+# Leave broad_titles empty to turn the section off.
+broad_titles = [
+  "data scientist",
+  "(ml|machine learning|ai).*(scientist|biolog)",
+  "scientist.*(computational|data|machine learning|\\bml\\b|\\bai\\b)",
+  "research scientist",
+]
+broad_max = 100
+
 # Which verdicts to report:
 #   europe-remote   remote + a Europe signal in location or description
 #   remote-unclear  remote, no region stated (ask the recruiter)
