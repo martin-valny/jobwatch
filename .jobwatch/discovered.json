@@ -44666,6 +44666,7 @@
   },
   "recruitee:herolabs": {
    "ats": "recruitee",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "herolabs"
   },
@@ -47028,6 +47029,7 @@
   },
   "recruitee:talentgateway": {
    "ats": "recruitee",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "talentgateway"
   },
@@ -47043,6 +47045,7 @@
   },
   "recruitee:tapline": {
    "ats": "recruitee",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "tapline"
   },
@@ -47058,6 +47061,7 @@
   },
   "recruitee:teagueelectric": {
    "ats": "recruitee",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "teagueelectric"
   },
@@ -53362,6 +53366,7 @@
   },
   "workable:cosmote-global-solutions-nv": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "cosmote-global-solutions-nv"
   },
@@ -54249,6 +54254,7 @@
   },
   "workable:digidem": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "digidem"
   },
@@ -54649,6 +54655,7 @@
   },
   "workable:drop": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "drop"
   },
@@ -54864,6 +54871,7 @@
   },
   "workable:ecosia": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "ecosia"
   },
@@ -56896,6 +56904,7 @@
   },
   "workable:fyxer-7": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "fyxer-7"
   },
@@ -59146,6 +59155,7 @@
   },
   "workable:interlay": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "interlay"
   },
@@ -59928,6 +59938,7 @@
   },
   "workable:kreyco": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "kreyco"
   },
@@ -59988,6 +59999,7 @@
   },
   "workable:kupa-global": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "kupa-global"
   },
@@ -60113,6 +60125,7 @@
   },
   "workable:last-call-media": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "last-call-media"
   },
@@ -61160,6 +61173,7 @@
   },
   "workable:mercier-consultancy-md": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "mercier-consultancy-md"
   },
@@ -61621,6 +61635,7 @@
   },
   "workable:moro-tech": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "moro-tech"
   },
@@ -61692,6 +61707,7 @@
   },
   "workable:moviepilot": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "moviepilot"
   },
@@ -62209,6 +62225,7 @@
   },
   "workable:nlcollect-bv": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "nlcollect-bv"
   },
@@ -62509,6 +62526,7 @@
   },
   "workable:ohmconnect": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "ohmconnect"
   },
@@ -62640,6 +62658,7 @@
   },
   "workable:oops": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "oops"
   },
@@ -62936,6 +62955,7 @@
   },
   "workable:overleaf": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "overleaf"
   },
@@ -63242,6 +63262,7 @@
   },
   "workable:paxful-crypto": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "paxful-crypto"
   },
@@ -63362,6 +63383,7 @@
   },
   "workable:perkbox": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "perkbox"
   },
@@ -63627,6 +63649,7 @@
   },
   "workable:playfair-capital": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "playfair-capital"
   },
@@ -64033,6 +64056,7 @@
   },
   "workable:prxco": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "prxco"
   },
@@ -64315,6 +64339,7 @@
   },
   "workable:rainmaking-venture-studio": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "rainmaking-venture-studio"
   },
@@ -64355,6 +64380,7 @@
   },
   "workable:raygun": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "raygun"
   },
@@ -65192,6 +65218,7 @@
   },
   "workable:searchspring": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "searchspring"
   },
@@ -65624,6 +65651,7 @@
   },
   "workable:sky-construction-management": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "sky-construction-management"
   },
@@ -66185,6 +66213,7 @@
   },
   "workable:stafi": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "stafi"
   },
@@ -66706,6 +66735,7 @@
   },
   "workable:tactiqio": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "tactiqio"
   },
@@ -68300,6 +68330,7 @@
   },
   "workable:urban-massage-careers": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "urban-massage-careers"
   },
@@ -69663,6 +69694,7 @@
   },
   "workable:zubi-group": {
    "ats": "workable",
+   "dead": "2026-11-02",
    "first_seen": "2026-10-27",
    "slug": "zubi-group"
   },
