@@ -474,36 +474,56 @@ def bio_connection(job: Job, patterns: list[re.Pattern]) -> list[str]:
 
 
 # Language check. Stop words that are not also common English words, per language; the posting is taken
-# to be in the language with the most hits (at least 4, and more than English has).
+# to be in the language with the most hits (at least 4, and more than English has). Text in a non-Latin
+# script (Cyrillic, Greek, Arabic, Hebrew, Indic, Thai, CJK) counts as another language straight away.
 STOPWORDS = {
     "en": "the and of to with you we our will is are for as be your this that have".split(),
     "es": "los las del para con que una por nuestro nuestros somos su al como más experiencia trabajo".split(),
     "de": "der die das und mit für ist wir sie ein eine nicht auf den von werden bei auch oder uns".split(),
     "fr": "les des et une pour avec vous nous est dans du que sur nos vos sont être".split(),
     "cs": "pro že nebo jsme jsou naše který která kteří pozici pozice hledáme budete jako také ale nabízí týmu práci práce firma studenty".split(),
+    "sk": "pre sme alebo ktorý ktorá hľadáme pozícia tím aj naše práca".split(),
     "nl": "het een van voor met wij ons zijn wordt bij ook naar jij".split(),
     "it": "il che per della nel siamo sono delle degli come alla anche".split(),
     "pt": "os uma não são também você seu nós".split(),
     "pl": "jest dla nasz oraz się lub będzie przez naszym".split(),
+    "sv": "och att som för med på är vi ett inte av till vår dig".split(),
+    "da": "og ikke vores også kan skal til af jeg er vi med som".split(),
+    "fi": "ja että kanssa meidän olet sinun tai myös työ tehtävä sekä".split(),
+    "hu": "és egy hogy vagy csapat munka keresünk számára nem van".split(),
+    "ro": "și pentru este care din sau echipa căutăm noi într".split(),
+    "hr": "tražimo koji koja ili smo našem posao radno iskustvo zaposlenje".split(),
+    "ca": "amb també equip treballar nostre som els".split(),
+    "tr": "ve bir için ile olarak olan takım arıyoruz".split(),
 }
+NON_LATIN = re.compile(r"[\u0370-\u03ff\u0400-\u052f\u0590-\u05ff\u0600-\u06ff\u0900-\u0dff\u0e00-\u0e7f"
+                       r"\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af]")
 LANGUAGE_NAMES = {
-    "en": ["english"], "es": ["spanish", "español", "castellano"], "de": ["german", "deutsch"],
-    "fr": ["french", "français", "francais"], "cs": ["czech", "čeština", "česky"], "nl": ["dutch", "nederlands"],
+    "en": ["english"], "es": ["spanish", "español", "castellano"],
+    "de": ["german", "deutsch", "deutsche sprache", "swiss german"], "fr": ["french", "français", "francais"],
+    "cs": ["czech", "čeština", "česky"], "sk": ["slovak", "slovenčina", "slovensky"], "nl": ["dutch", "nederlands", "flemish"],
     "it": ["italian", "italiano"], "pt": ["portuguese", "português"], "pl": ["polish", "polski"],
-    "sv": ["swedish"], "da": ["danish"], "no": ["norwegian"], "fi": ["finnish"], "ru": ["russian"],
-    "uk": ["ukrainian"], "hu": ["hungarian"], "ro": ["romanian"], "el": ["greek"], "tr": ["turkish"],
-    "ar": ["arabic"], "zh": ["chinese", "mandarin"], "ja": ["japanese"],
+    "sv": ["swedish", "svenska"], "da": ["danish", "dansk"], "no": ["norwegian", "norsk"], "fi": ["finnish", "suomi"],
+    "is": ["icelandic"], "hu": ["hungarian", "magyar"], "ro": ["romanian", "română"], "bg": ["bulgarian"],
+    "el": ["greek"], "hr": ["croatian", "hrvatski"], "sr": ["serbian"], "sl": ["slovene", "slovenian"],
+    "lt": ["lithuanian"], "lv": ["latvian"], "et": ["estonian"], "ca": ["catalan", "català"], "eu": ["basque"],
+    "ru": ["russian"], "uk": ["ukrainian"], "tr": ["turkish", "türkçe"], "ar": ["arabic"], "he": ["hebrew"],
+    "fa": ["persian", "farsi"], "hi": ["hindi"], "ur": ["urdu"], "bn": ["bengali"], "zh": ["chinese", "mandarin", "cantonese"],
+    "ja": ["japanese"], "ko": ["korean"], "vi": ["vietnamese"], "th": ["thai"], "id": ["indonesian"], "ms": ["malay"],
 }
 LANG_REQUIRED = re.compile(r"required|must|mandatory|fluent|fluency|native|proficien|speaker|speaking|"
-                           r"business[- ]level|\bc1\b|\bc2\b|fließend|excellent command")
+                           r"business[- ]level|\bc1\b|\bc2\b|fließend|kenntnisse|erforderlich|vorausgesetzt|exigé|obligatoire|"
+                           r"obligatorio|imprescindible|excellent command")
 LANG_OPTIONAL = re.compile(r"\bplus\b|nice to have|advantage|bonus|preferred|\basset\b|desirable|beneficial")
-WORD = re.compile(r"[a-zà-ÿčďěňřšťůýž]+")
+WORD = re.compile(r"[^\W\d_]+")
 
 
 def language_ok(job: Job, allowed: set[str]) -> bool:
     """False if the posting is written in a language outside `allowed`, or asks for one as a requirement."""
     text = f"{job.title}. {job.text}".lower()
     words = WORD.findall(text)
+    if len(NON_LATIN.findall(text)) >= 0.2 * max(1, sum(len(w) for w in words)):
+        return False
     scores = {lang: sum(1 for w in words if w in set(stop)) for lang, stop in STOPWORDS.items()}
     best = max(scores, key=scores.get)
     if best not in allowed and scores[best] >= 4 and scores[best] > scores["en"]:

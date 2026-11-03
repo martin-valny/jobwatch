@@ -832,3 +832,21 @@ def test_language_filter_applies_to_main_and_broader_sections_when_configured(tm
     report, n = jw.run(cfg, tmp_path / "b.json", None, False, fetch, today=date(2026, 10, 19))
     assert n == 1 and "Bioinformatics Engineer" in report
     assert "Auswertung" not in report and "Bioinformatics Analyst" not in report and "Data Scientist" not in report
+
+
+def test_language_check_covers_languages_beyond_german_french_and_czech():
+    ok = {"en", "es"}
+    swedish = lang_job("Praktikant dataanalys", "Vi söker en praktikant till vårt team. Du kommer att arbeta med data och "
+                       "analys och är en del av vårt team. Vi erbjuder en rolig arbetsplats för dig som vill lära dig mer.")
+    hungarian = lang_job("Adatelemző gyakornok", "Egy gyakornokot keresünk a csapatunkba, aki hogy segít a munka során. "
+                         "Nem szükséges tapasztalat, és a csapat nagyon barátságos.")
+    russian = lang_job("Стажёр аналитик данных", "Мы ищем стажёра в нашу команду аналитиков данных. Вы будете работать с данными.")
+    greek = lang_job("Ασκούμενος αναλυτής", "Αναζητούμε ασκούμενο για την ομάδα δεδομένων μας και θα εργαστείτε με αναλυτές.")
+    for posting in (swedish, hungarian, russian, greek):
+        assert not jw.language_ok(posting, ok)
+    base = "You will join our data team and work with analysts. "
+    assert not jw.language_ok(lang_job("Data Intern", base + "Fluent Swedish is required."), ok)
+    assert not jw.language_ok(lang_job("Data Intern", base + "A Hungarian speaker is a must."), ok)
+    assert not jw.language_ok(lang_job("Data Intern", base + "Good Slovak is mandatory."), ok)
+    assert jw.language_ok(lang_job("Data Intern", base + "Hindi is a plus."), ok)
+    assert jw.language_ok(lang_job("Data Intern", base + "Hungarian is nice to have."), ok)
