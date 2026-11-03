@@ -723,3 +723,42 @@ def test_student_roles_are_capped_newest_first(tmp_path: Path):
     assert n == 1 and "Bioinformatics Working Student" in report and "1 more student/internship" in report
     report2, n2 = jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 20))
     assert n2 == 1 and "Data Analyst Intern" in report2
+
+
+def lang_job(title: str, text: str) -> "jw.Job":
+    return jw.Job("c", "greenhouse", "1", title, [], None, "u", text)
+
+
+def test_language_check_keeps_english_and_spanish_and_drops_the_rest():
+    ok = {"en", "es"}
+    german = lang_job("Werkstudent Datenanalyse (m/w/d)", "Wir suchen ab sofort eine Werkstudentin für unser Team. "
+                      "Du unterstützt uns bei der Auswertung von Daten und der Erstellung von Berichten. Wir bieten dir ein junges Team.")
+    czech = lang_job("Stážista data analytik", "Hledáme stážistu do našeho týmu. Pozice je pro studenty, kteří jsou "
+                     "připraveni pracovat s daty. Naše firma nabízí flexibilní práci a také vzdělávání.")
+    spanish = lang_job("Prácticas análisis de datos", "Buscamos una persona para prácticas en nuestro equipo. "
+                       "Trabajarás con los analistas para crear informes y participarás en los proyectos de la empresa.")
+    english = lang_job("Data Intern", "We are looking for an intern to join our data team and you will work with our analysts.")
+    assert not jw.language_ok(german, ok) and not jw.language_ok(czech, ok)
+    assert jw.language_ok(spanish, ok) and jw.language_ok(english, ok)
+    assert jw.language_ok(lang_job("Data Intern", ""), ok)                      # nothing to judge: keep
+
+
+def test_language_requirements_drop_the_role_but_nice_to_have_does_not():
+    ok = {"en", "es"}
+    assert not jw.language_ok(lang_job("Data Intern", "You will support our team. Fluent German is required for customers."), ok)
+    assert not jw.language_ok(lang_job("Research Intern", "Candidates should be fluent in English and Czech. Lab tasks."), ok)
+    assert jw.language_ok(lang_job("Data Intern", "You will help our data team. German is a plus but not required."), ok)
+    assert jw.language_ok(lang_job("Data Intern", "Fluent English is required. You will join our analysts."), ok)
+
+
+def test_student_section_applies_the_language_filter_only_when_configured(tmp_path: Path):
+    german = dict(STUDENT_JOBS["jobs"][0], id=51, title="Data Analyst Intern",
+                  absolute_url="https://job-boards.greenhouse.io/acme/jobs/51",
+                  content="&lt;p&gt;Wir suchen ab sofort eine Werkstudentin für unser Team. Du unterstützt uns bei der "
+                          "Auswertung von Daten und der Erstellung von Berichten. Wir bieten dir ein junges Team.&lt;/p&gt;")
+    fetch = fake_fetch({("greenhouse", "acme"): {"jobs": [german]}})
+    cfg = tmp_path / "companies.toml"
+    cfg.write_text(student_config())                                            # no `languages`: not filtered
+    assert jw.run(cfg, tmp_path / "a.json", None, False, fetch, today=date(2026, 10, 19))[1] == 1
+    cfg.write_text(student_config().replace("exclude =", 'languages = ["en", "es"]\nexclude ='))
+    assert jw.run(cfg, tmp_path / "b.json", None, False, fetch, today=date(2026, 10, 19))[1] == 0

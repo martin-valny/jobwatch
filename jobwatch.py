@@ -473,6 +473,49 @@ def bio_connection(job: Job, patterns: list[re.Pattern]) -> list[str]:
     return weak[:3] if len(weak) >= 2 else []
 
 
+# Language check. Stop words that are not also common English words, per language; the posting is taken
+# to be in the language with the most hits (at least 4, and more than English has).
+STOPWORDS = {
+    "en": "the and of to with you we our will is are for as be your this that have".split(),
+    "es": "los las del para con que una por nuestro nuestros somos su al como más experiencia trabajo".split(),
+    "de": "der die das und mit für ist wir sie ein eine nicht auf den von werden bei auch oder uns".split(),
+    "fr": "les des et une pour avec vous nous est dans du que sur nos vos sont être".split(),
+    "cs": "pro že nebo jsme jsou naše který která kteří pozici pozice hledáme budete jako také ale nabízí týmu práci práce firma studenty".split(),
+    "nl": "het een van voor met wij ons zijn wordt bij ook naar jij".split(),
+    "it": "il che per della nel siamo sono delle degli come alla anche".split(),
+    "pt": "os uma não são também você seu nós".split(),
+    "pl": "jest dla nasz oraz się lub będzie przez naszym".split(),
+}
+LANGUAGE_NAMES = {
+    "en": ["english"], "es": ["spanish", "español", "castellano"], "de": ["german", "deutsch"],
+    "fr": ["french", "français", "francais"], "cs": ["czech", "čeština", "česky"], "nl": ["dutch", "nederlands"],
+    "it": ["italian", "italiano"], "pt": ["portuguese", "português"], "pl": ["polish", "polski"],
+    "sv": ["swedish"], "da": ["danish"], "no": ["norwegian"], "fi": ["finnish"], "ru": ["russian"],
+    "uk": ["ukrainian"], "hu": ["hungarian"], "ro": ["romanian"], "el": ["greek"], "tr": ["turkish"],
+    "ar": ["arabic"], "zh": ["chinese", "mandarin"], "ja": ["japanese"],
+}
+LANG_REQUIRED = re.compile(r"required|must|mandatory|fluent|fluency|native|proficien|speaker|speaking|"
+                           r"business[- ]level|\bc1\b|\bc2\b|fließend|excellent command")
+LANG_OPTIONAL = re.compile(r"\bplus\b|nice to have|advantage|bonus|preferred|\basset\b|desirable|beneficial")
+WORD = re.compile(r"[a-zà-ÿčďěňřšťůýž]+")
+
+
+def language_ok(job: Job, allowed: set[str]) -> bool:
+    """False if the posting is written in a language outside `allowed`, or asks for one as a requirement."""
+    text = f"{job.title}. {job.text}".lower()
+    words = WORD.findall(text)
+    scores = {lang: sum(1 for w in words if w in set(stop)) for lang, stop in STOPWORDS.items()}
+    best = max(scores, key=scores.get)
+    if best not in allowed and scores[best] >= 4 and scores[best] > scores["en"]:
+        return False
+    banned = [name for lang, names in LANGUAGE_NAMES.items() if lang not in allowed for name in names]
+    named = re.compile(r"\b(" + "|".join(re.escape(n) for n in banned) + r")\b")
+    for clause in re.split(r"[.;\n•]+", text):
+        if named.search(clause) and LANG_REQUIRED.search(clause) and not LANG_OPTIONAL.search(clause):
+            return False
+    return True
+
+
 def student_roles(jobs, cfg: dict, bio_hints: list[re.Pattern]) -> list[Job]:
     """Student and internship roles that fit the profile in [students] and are open to Europe.
 
@@ -484,6 +527,7 @@ def student_roles(jobs, cfg: dict, bio_hints: list[re.Pattern]) -> list[Job]:
     titles, excluded, topics = rx("titles"), rx("exclude"), rx("topics")
     verdicts = set(cfg.get("verdicts", ["europe-remote", "remote-unclear"]))
     local = re.compile(cfg["local"], re.I) if cfg.get("local") else None
+    languages = set(cfg.get("languages", []))
     out = []
     for j in jobs:
         if not any(r.search(j.title) for r in titles) or any(r.search(j.title) for r in excluded):
@@ -491,6 +535,8 @@ def student_roles(jobs, cfg: dict, bio_hints: list[re.Pattern]) -> list[Job]:
         hits = list(dict.fromkeys(h for r in topics if (h := _hit(r, j.title.lower()))))
         bio = bio_connection(j, bio_hints) if bio_hints else []
         if not hits and not bio:
+            continue
+        if languages and not language_ok(j, languages):
             continue
         classify(j)
         near = j.verdict == "europe-onsite" and local and local.search(" | ".join(j.locations))

@@ -63,6 +63,10 @@ topics = [
 ]
 verdicts = ["europe-remote", "remote-unclear"]
 local = "prague|praha"
+# Only English or Spanish postings: roles written in another language, or asking for one ("fluent German
+# required"), are dropped; "German is a plus" is fine. A keyword check, so it can misjudge a few postings.
+# Remove the line to turn the check off.
+languages = ["en", "es"]
 max = 50
 
 [settings]
