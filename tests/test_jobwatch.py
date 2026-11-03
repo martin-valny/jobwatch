@@ -850,3 +850,32 @@ def test_language_check_covers_languages_beyond_german_french_and_czech():
     assert not jw.language_ok(lang_job("Data Intern", base + "Good Slovak is mandatory."), ok)
     assert jw.language_ok(lang_job("Data Intern", base + "Hindi is a plus."), ok)
     assert jw.language_ok(lang_job("Data Intern", base + "Hungarian is nice to have."), ok)
+
+
+def test_czech_is_accepted_when_allowed_but_not_for_english_spanish_only():
+    czech = lang_job("Datový analytik", "Hledáme analytika do našeho týmu. Pozice je pro lidi, kteří jsou připraveni "
+                     "pracovat s daty. Naše firma nabízí flexibilní práci a také vzdělávání.")
+    needs_czech = lang_job("Data Analyst", "You will join our data team and work with analysts. Fluent Czech is required.")
+    assert jw.language_ok(czech, {"en", "es", "cs"}) and jw.language_ok(needs_czech, {"en", "es", "cs"})
+    assert not jw.language_ok(czech, {"en", "es"}) and not jw.language_ok(needs_czech, {"en", "es"})
+    german = lang_job("Datenanalyst", "Wir suchen ab sofort einen Analysten für unser Team. Du unterstützt uns bei der "
+                      "Auswertung von Daten und der Erstellung von Berichten. Wir bieten dir ein junges Team.")
+    assert not jw.language_ok(german, {"en", "es", "cs"})
+
+
+def test_czech_posting_is_kept_in_main_section_but_not_in_students(tmp_path: Path):
+    czech_text = ("&lt;p&gt;Hledáme bioinformatika do našeho týmu. Pozice je pro lidi, kteří jsou připraveni pracovat "
+                  "s daty. Naše firma nabízí flexibilní práci a také vzdělávání.&lt;/p&gt;")
+    jobs = {"jobs": [{"id": 71, "title": "Bioinformatics Intern", "location": {"name": "Remote, Europe"},
+                      "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/71", "content": czech_text},
+                     {"id": 72, "title": "Bioinformatics Scientist", "location": {"name": "Remote, Europe"},
+                      "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/72", "content": czech_text}]}
+    cfg = tmp_path / "companies.toml"
+    cfg.write_text('[filters]\ninclude_titles = ["bioinformatic"]\nexclude_titles = ["\\\\bintern\\\\b"]\n'
+                   'verdicts = ["europe-remote"]\nlanguages = ["en", "es", "cs"]\n'
+                   '[students]\nenabled = true\ntitles = ["\\\\bintern\\\\b"]\ntopics = ["bioinformat"]\n'
+                   'verdicts = ["europe-remote"]\nlanguages = ["en", "es"]\n'
+                   '[[company]]\nname = "Acme"\nats = "greenhouse"\nslug = "acme"\n')
+    report, n = jw.run(cfg, tmp_path / "s.json", None, False, fake_fetch({("greenhouse", "acme"): jobs}),
+                       today=date(2026, 10, 19))
+    assert n == 1 and "Bioinformatics Scientist" in report and "Bioinformatics Intern" not in report

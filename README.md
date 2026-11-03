@@ -63,7 +63,7 @@ Quirks handled: SmartRecruiters' list API has no descriptions (location and remo
 
 `include_titles` is the strict list (bio-qualified titles). `broad_titles` is a looser list: a role whose title matches it but not the strict list goes into a separate **Broader matches** section of the report, below the strict results. It uses the same remote/Europe sorting and `exclude_titles`, never teaches jobwatch new companies, and shows at most `broad_max` new roles per run (newest first; the rest appear in later runs). Empty `broad_titles` turns the section off. Broader matches count towards the "new roles" total that opens the GitHub issue.
 
-`languages = ["en", "es"]` under `[filters]` applies the same language check to both lists: postings written in any language other than English or Spanish (about 20 languages recognised by their common words, plus anything in a non-Latin script), or requiring one ("fluent German required"; some 45 language names are checked), are dropped; "a plus" and "nice to have" are fine. It is a keyword check, so it can misjudge a few postings.
+`languages = ["en", "es"]` under `[filters]` applies the same language check to both lists: postings written in any language other than the allowed ones (English, Spanish and Czech in `[filters]`; English and Spanish only in `[students]`) (about 20 languages recognised by their common words, plus anything in a non-Latin script), or requiring one ("fluent German required"; some 45 language names are checked), are dropped; "a plus" and "nice to have" are fine. It is a keyword check, so it can misjudge a few postings.
 
 ## Student, internship and junior roles
 

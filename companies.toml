@@ -28,10 +28,11 @@ broad_titles = [
   "research scientist",
 ]
 broad_max = 100
-# Only English or Spanish postings in the main and broader sections: roles written in another language, or
-# requiring one ("fluent German required"), are dropped; "German is a plus" is fine. A keyword check, so it
-# can misjudge a few postings. Remove the line to turn the check off. ([students] has its own setting.)
-languages = ["en", "es"]
+# Only English, Spanish or Czech postings in the main and broader sections: roles written in another language,
+# or requiring one ("fluent German required"), are dropped; "German is a plus" is fine. A keyword check, so it
+# can misjudge a few postings. Remove the line to turn the check off. ([students] has its own, stricter
+# setting: English and Spanish only.)
+languages = ["en", "es", "cs"]
 # Broader matches with a soft tie to biology are listed first, in their own sub-section, with the matching
 # terms. A hit in the title or company name counts; in the description it takes two different terms.
 bio_hints = [

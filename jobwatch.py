@@ -482,7 +482,7 @@ STOPWORDS = {
     "de": "der die das und mit für ist wir sie ein eine nicht auf den von werden bei auch oder uns".split(),
     "fr": "les des et une pour avec vous nous est dans du que sur nos vos sont être".split(),
     "cs": "pro že nebo jsme jsou naše který která kteří pozici pozice hledáme budete jako také ale nabízí týmu práci práce firma studenty".split(),
-    "sk": "pre sme alebo ktorý ktorá hľadáme pozícia tím aj naše práca".split(),
+    "sk": "pre sme alebo ktorý ktorá hľadáme pozícia tím aj práca".split(),
     "nl": "het een van voor met wij ons zijn wordt bij ook naar jij".split(),
     "it": "il che per della nel siamo sono delle degli come alla anche".split(),
     "pt": "os uma não são também você seu nós".split(),
