@@ -1113,6 +1113,7 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
     broad_include, broad_max = f.get("broad_titles", []), int(f.get("broad_max", 100))
     bio_hints = [re.compile(p, re.I) for p in f.get("bio_hints", [])]
     stu = cfg.get("students", {})
+    languages = set(f.get("languages", []))
     wanted = set(f.get("verdicts", ["europe-remote", "remote-unclear"]))
     disc_cfg = cfg.get("discovery", {})
     vc_cfg = cfg.get("vc_boards", {})
@@ -1219,7 +1220,7 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
     student_ids = {id(j) for j in students_all}
 
     matches = [classify(j) for j in title_hits if id(j) not in student_ids]
-    matches = [j for j in matches if j.verdict in wanted]
+    matches = [j for j in matches if j.verdict in wanted and (not languages or language_ok(j, languages))]
     def url_key(j):
         return f"url:{canon_url(j.url)}" if j.url.startswith("http") else None
 
@@ -1241,7 +1242,7 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
     strict = {id(j) for j in title_hits} | student_ids
     broad_matches = [classify(j) for j in by_url.values()
                      if broad_include and id(j) not in strict and title_matches(j.title, broad_include, exclude)]
-    broad_matches = [j for j in broad_matches if j.verdict in wanted]
+    broad_matches = [j for j in broad_matches if j.verdict in wanted and (not languages or language_ok(j, languages))]
     for j in broad_matches:
         j.bio = bio_connection(j, bio_hints) if bio_hints else []
     # Bio-connected roles first (so the cap never delays them), then newest first.

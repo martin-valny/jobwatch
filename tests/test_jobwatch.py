@@ -803,3 +803,32 @@ def test_germany_tied_and_other_language_postings_are_dropped_for_junior_roles()
     assert not early("Junior Data Analyst", ["Remote, EMEA"], True, ENGLISH + "Fluent German is required.")
     assert not early("Junior Data Analyst", ["Remote, EMEA"], True, ENGLISH + "French required.")
     assert early("Junior Data Analyst", ["Remote, EMEA"], True, ENGLISH + "German is a plus.")
+
+
+GERMAN_TEXT = ("&lt;p&gt;Wir suchen ab sofort eine Bioinformatikerin für unser Team. Du unterstützt uns bei der "
+               "Auswertung von Daten und der Erstellung von Berichten. Wir bieten dir ein junges Team.&lt;/p&gt;")
+
+
+def test_language_filter_applies_to_main_and_broader_sections_when_configured(tmp_path: Path):
+    jobs = {"jobs": [
+        {"id": 61, "title": "Bioinformatics Scientist", "location": {"name": "Remote, Europe"},
+         "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/61", "content": GERMAN_TEXT},
+        {"id": 62, "title": "Data Scientist", "location": {"name": "Remote, Europe"},
+         "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/62", "content": GERMAN_TEXT},
+        {"id": 63, "title": "Bioinformatics Analyst", "location": {"name": "Remote, Europe"},
+         "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/63",
+         "content": "&lt;p&gt;Fluent German is required. You will join our team and work with our scientists.&lt;/p&gt;"},
+        {"id": 64, "title": "Bioinformatics Engineer", "location": {"name": "Remote, Europe"},
+         "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/64",
+         "content": "&lt;p&gt;We are a team of scientists and you will build pipelines for our lab.&lt;/p&gt;"},
+    ]}
+    cfg = tmp_path / "companies.toml"
+    base = ('[filters]\ninclude_titles = ["bioinformatic"]\nbroad_titles = ["data scientist"]\n'
+            'verdicts = ["europe-remote"]\n{}\n[[company]]\nname = "Acme"\nats = "greenhouse"\nslug = "acme"\n')
+    fetch = fake_fetch({("greenhouse", "acme"): jobs})
+    cfg.write_text(base.format(""))
+    assert jw.run(cfg, tmp_path / "a.json", None, False, fetch, today=date(2026, 10, 19))[1] == 4     # nothing filtered
+    cfg.write_text(base.format('languages = ["en", "es"]'))
+    report, n = jw.run(cfg, tmp_path / "b.json", None, False, fetch, today=date(2026, 10, 19))
+    assert n == 1 and "Bioinformatics Engineer" in report
+    assert "Auswertung" not in report and "Bioinformatics Analyst" not in report and "Data Scientist" not in report
