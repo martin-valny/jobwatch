@@ -28,6 +28,14 @@ broad_titles = [
   "research scientist",
 ]
 broad_max = 100
+# Broader matches with a soft tie to biology are listed first, in their own sub-section, with the matching
+# terms. A hit in the title or company name counts; in the description it takes two different terms.
+bio_hints = [
+  "\\bbio\\b", "biolog", "bioinformat", "biotech", "biomed", "biosignal", "biostat",
+  "genom", "genetic", "proteom", "protein", "single[- ]cell", "molecul",
+  "drug discovery", "pharma", "therapeutic", "clinical (trial|data|research)", "life scienc",
+  "healthcare", "patient", "medic(al|ine)", "neuroscien",
+]
 
 # Which verdicts to report:
 #   europe-remote   remote + a Europe signal in location or description

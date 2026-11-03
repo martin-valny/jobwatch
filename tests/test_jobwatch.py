@@ -615,3 +615,36 @@ def test_broad_matches_are_capped_newest_first_and_the_rest_wait(tmp_path: Path)
     report2, n2 = jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 20))
     assert n2 == 2 and "Data Scientist A" in report2 and "Bioinformatics Scientist" in report2 and "more broader" not in report2
     assert jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 21))[1] == 0
+
+
+def test_broad_matches_with_a_bio_connection_are_listed_first(tmp_path: Path):
+    jobs = {"jobs": [
+        {"id": 31, "title": "Data Scientist", "location": {"name": "Remote"},
+         "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/31",
+         "content": "&lt;p&gt;Remote in Europe. We analyse genomics data for drug discovery.&lt;/p&gt;",
+         "updated_at": "2026-10-10T00:00:00-04:00"},
+        {"id": 32, "title": "Data Scientist, Pricing", "location": {"name": "Remote"},
+         "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/32",
+         "content": "&lt;p&gt;Remote in Europe. Pricing for a payments app; one genomics mention.&lt;/p&gt;",
+         "updated_at": "2026-10-12T00:00:00-04:00"},
+        {"id": 33, "title": "Biostatistics Scientist", "location": {"name": "Remote"},
+         "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/33",
+         "content": "&lt;p&gt;Remote in Europe.&lt;/p&gt;", "updated_at": "2026-10-11T00:00:00-04:00"},
+    ]}
+    fetch = fake_fetch({("greenhouse", "acme"): jobs})
+    hints = 'bio_hints = ["biostat", "genom", "drug discovery"]\n'
+    state = tmp_path / "state.json"
+
+    # Cap of 1: the slot goes to a bio-connected role, although the pricing job is the newest.
+    cfg = tmp_path / "companies.toml"; cfg.write_text(broad_config(hints + "broad_max = 1"))
+    report, n = jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 19))
+    assert n == 1 and "Pricing" not in report and "(1 with a possible bio connection)" in report
+    assert "### Possible bio connection" in report and "Other broader matches" not in report
+
+    # No cap: the rest follow. A single description hit ("genomics" once) is not a bio connection.
+    cfg.write_text(broad_config(hints + "broad_max = 10"))
+    report2, n2 = jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 20))
+    assert n2 == 2
+    bio_part, _, other_part = report2.partition("### Other broader matches")
+    assert "### Possible bio connection" in bio_part and "Pricing" not in bio_part and "Pricing" in other_part
+    assert "bio connection:" not in other_part

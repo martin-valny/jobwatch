@@ -52,6 +52,7 @@ class Job:
     posted: str = ""
     verdict: str = ""
     reasons: list[str] = field(default_factory=list)
+    bio: list[str] = field(default_factory=list)  # soft bio connection found (broader matches only)
 
     @property
     def key(self) -> str:
@@ -458,6 +459,17 @@ def classify(job: Job) -> Job:
         job.verdict = "other"
     job.reasons = r
     return job
+
+
+def bio_connection(job: Job, patterns: list[re.Pattern]) -> list[str]:
+    """Terms that tie a role to biology: any hit in the title or company name, or two different ones in the description."""
+    def hits(s: str) -> list[str]:
+        return list(dict.fromkeys(h for rx in patterns if (h := _hit(rx, s))))
+    strong = hits(f"{job.title} {job.company}".lower())
+    if strong:
+        return strong
+    weak = hits(job.text.lower())
+    return weak[:3] if len(weak) >= 2 else []
 
 
 def title_matches(title: str, include: list[str], exclude: list[str]) -> bool:
@@ -963,6 +975,8 @@ def _verdict_groups(jobs: list[Job], level: str) -> list[str]:
             out.append(f"- **[{j.title}]({j.url})**, {j.company} · {'; '.join(j.locations) or 'no location'}{posted}")
             if j.reasons:
                 out.append(f"  - why: {'; '.join(j.reasons)}")
+            if j.bio:
+                out.append(f"  - bio connection: {', '.join(j.bio)}")
         out.append("")
     return out
 
@@ -970,7 +984,10 @@ def _verdict_groups(jobs: list[Job], level: str) -> list[str]:
 def render(jobs: list[Job], total: int, n_boards: int, notes, errors, show_all: bool, today: date,
            discovery_line: str = "", broad: list[Job] | None = None, broad_left: int = 0) -> str:
     head = "all current matches" if show_all else "new since last run"
-    extra = f" + {len(broad)} broader matches" if broad else ""
+    extra = ""
+    if broad:
+        n_bio = sum(1 for j in broad if j.bio)
+        extra = f" + {len(broad)} broader matches" + (f" ({n_bio} with a possible bio connection)" if n_bio else "")
     out = [f"# jobwatch, {today.isoformat()}",
            f"{len(jobs)} roles ({head}){extra}; {total} matching right now across {n_boards} boards.", ""]
     if discovery_line:
@@ -978,7 +995,13 @@ def render(jobs: list[Job], total: int, n_boards: int, notes, errors, show_all: 
     out += _verdict_groups(jobs, "##")
     if broad:
         out += ["## Broader matches (looser title filter, lower relevance)", ""]
-        out += _verdict_groups(broad, "###")
+        flagged, rest = [j for j in broad if j.bio], [j for j in broad if not j.bio]
+        if flagged:
+            out += ["### Possible bio connection", ""] + _verdict_groups(flagged, "####")
+            if rest:
+                out += ["### Other broader matches", ""] + _verdict_groups(rest, "####")
+        else:
+            out += _verdict_groups(broad, "###")
         if broad_left:
             out += [f"{broad_left} more broader matches are waiting; they appear in the next runs.", ""]
     if notes:
@@ -995,6 +1018,7 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
     f = cfg.get("filters", {})
     include, exclude = f.get("include_titles", []), f.get("exclude_titles", [])
     broad_include, broad_max = f.get("broad_titles", []), int(f.get("broad_max", 100))
+    bio_hints = [re.compile(p, re.I) for p in f.get("bio_hints", [])]
     wanted = set(f.get("verdicts", ["europe-remote", "remote-unclear"]))
     disc_cfg = cfg.get("discovery", {})
     vc_cfg = cfg.get("vc_boards", {})
@@ -1119,7 +1143,11 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
     broad_matches = [classify(j) for j in by_url.values()
                      if broad_include and id(j) not in strict and title_matches(j.title, broad_include, exclude)]
     broad_matches = [j for j in broad_matches if j.verdict in wanted]
+    for j in broad_matches:
+        j.bio = bio_connection(j, bio_hints) if bio_hints else []
+    # Bio-connected roles first (so the cap never delays them), then newest first.
     broad_new = sorted((j for j in broad_matches if is_new(j)), key=lambda j: j.posted or "", reverse=True)
+    broad_new.sort(key=lambda j: not j.bio)
     if show_all:
         broad_shown, broad_left = broad_matches, 0
         broad_count = len(broad_new)
