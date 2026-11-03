@@ -833,6 +833,7 @@
   },
   "ashby:anything": {
    "ats": "ashby",
+   "dead": "2026-11-03",
    "first_seen": "2026-10-27",
    "slug": "anything"
   },
@@ -15414,6 +15415,7 @@
   },
   "greenhouse:advertisementstrikeltd": {
    "ats": "greenhouse",
+   "dead": "2026-11-03",
    "first_seen": "2026-10-27",
    "slug": "advertisementstrikeltd"
   },
@@ -18927,6 +18929,7 @@
   },
   "greenhouse:doctolib": {
    "ats": "greenhouse",
+   "dead": "2026-11-03",
    "first_seen": "2026-10-27",
    "slug": "Doctolib"
   },
@@ -23340,6 +23343,7 @@
   },
   "greenhouse:nansen": {
    "ats": "greenhouse",
+   "dead": "2026-11-03",
    "first_seen": "2026-10-27",
    "slug": "nansen"
   },
@@ -24244,6 +24248,7 @@
   },
   "greenhouse:overstory": {
    "ats": "greenhouse",
+   "dead": "2026-11-03",
    "first_seen": "2026-10-27",
    "slug": "overstory"
   },
@@ -51951,6 +51956,7 @@
   },
   "workable:caring-hand-home-health-solutions": {
    "ats": "workable",
+   "dead": "2026-11-03",
    "first_seen": "2026-10-27",
    "slug": "caring-hand-home-health-solutions"
   },
