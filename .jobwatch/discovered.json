@@ -43501,6 +43501,7 @@
   },
   "recruitee:clickables": {
    "ats": "recruitee",
+   "dead": "2026-11-03",
    "first_seen": "2026-10-27",
    "slug": "clickables"
   },
@@ -43546,6 +43547,7 @@
   },
   "recruitee:cobibike": {
    "ats": "recruitee",
+   "dead": "2026-11-03",
    "first_seen": "2026-10-27",
    "slug": "cobibike"
   },
@@ -46769,6 +46771,7 @@
   },
   "recruitee:slingshotgroup1": {
    "ats": "recruitee",
+   "dead": "2026-11-03",
    "first_seen": "2026-10-27",
    "slug": "slingshotgroup1"
   },
@@ -57131,6 +57134,7 @@
   },
   "workable:geoblink": {
    "ats": "workable",
+   "dead": "2026-11-03",
    "first_seen": "2026-10-27",
    "slug": "geoblink"
   },
@@ -62716,6 +62720,7 @@
   },
   "workable:openlistings": {
    "ats": "workable",
+   "dead": "2026-11-03",
    "first_seen": "2026-10-27",
    "slug": "openlistings"
   },
