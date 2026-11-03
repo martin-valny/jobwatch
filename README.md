@@ -65,7 +65,7 @@ Quirks handled: SmartRecruiters' list API has no descriptions (location and remo
 
 ## Student and internship roles
 
-The `[students]` block in `companies.toml` adds a third section for internships, working-student, trainee and thesis roles that fit a profile you describe (here: biology background, lab experience, MSc in economic data analysis). A role needs a student-type title (`titles`, minus `exclude`), a profile topic in the title (`topics`) or a bio connection (`bio_hints`), and a Europe-friendly verdict (`verdicts`); on-site roles also count when the location matches `local` (set to Prague/Czechia). These roles appear only in this section, are capped at `max` new ones per run, and count towards the "new roles" total. `enabled = false` turns the section off.
+The `[students]` block in `companies.toml` adds a third section for internships, working-student, trainee and thesis roles that fit a profile you describe (here: biology background, lab experience, MSc in economic data analysis). A role needs a student-type title (`titles`, minus `exclude`), a profile topic in the title (`topics`) or a bio connection (`bio_hints`), and a Europe-friendly verdict (`verdicts`); on-site roles also count when the location matches `local` (set to Prague only). These roles appear only in this section, are capped at `max` new ones per run, and count towards the "new roles" total. `enabled = false` turns the section off.
 
 ## How roles are sorted
 

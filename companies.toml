@@ -62,7 +62,7 @@ topics = [
   "clinical", "health", "epidemiolog", "heor", "market access", "r&d", "modell?ing", "python", "\\bsql\\b",
 ]
 verdicts = ["europe-remote", "remote-unclear"]
-local = "prague|praha|czech|brno"
+local = "prague|praha"
 max = 50
 
 [settings]
