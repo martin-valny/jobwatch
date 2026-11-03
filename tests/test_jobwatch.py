@@ -648,3 +648,78 @@ def test_broad_matches_with_a_bio_connection_are_listed_first(tmp_path: Path):
     bio_part, _, other_part = report2.partition("### Other broader matches")
     assert "### Possible bio connection" in bio_part and "Pricing" not in bio_part and "Pricing" in other_part
     assert "bio connection:" not in other_part
+
+
+STUDENT_JOBS = {"jobs": [
+    {"id": 41, "title": "Data Analyst Intern", "location": {"name": "Remote, Europe"},
+     "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/41", "content": "", "updated_at": "2026-10-10T00:00:00-04:00"},
+    {"id": 42, "title": "Marketing Intern", "location": {"name": "Remote, Europe"},
+     "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/42", "content": "", "updated_at": "2026-10-11T00:00:00-04:00"},
+    {"id": 43, "title": "Bioinformatics Working Student", "location": {"name": "Prague, Czechia"},
+     "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/43", "content": "", "updated_at": "2026-10-12T00:00:00-04:00"},
+    {"id": 44, "title": "Data Science Intern", "location": {"name": "Remote"},
+     "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/44",
+     "content": "&lt;p&gt;You must be authorized to work in the United States.&lt;/p&gt;", "updated_at": "2026-10-13T00:00:00-04:00"},
+    {"id": 45, "title": "Research Intern", "location": {"name": "Berlin, Germany"},
+     "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/45", "content": "", "updated_at": "2026-10-14T00:00:00-04:00"},
+    {"id": 46, "title": "Senior Data Analyst Intern", "location": {"name": "Remote, Europe"},
+     "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/46", "content": "", "updated_at": "2026-10-15T00:00:00-04:00"},
+]}
+
+STUDENTS = """
+[students]
+enabled = true
+titles = ["\\\\bintern(ship)?s?\\\\b", "working student"]
+exclude = ["senior"]
+topics = ["data", "bioinformat", "research"]
+local = "prague|praha|czech"
+"""
+
+
+def student_config(extra: str = "") -> str:
+    return f"""
+[filters]
+include_titles = ["bioinformatic"]
+exclude_titles = ["\\\\bintern\\\\b"]
+verdicts = ["europe-remote", "remote-unclear"]
+{STUDENTS}{extra}
+[[company]]
+name = "Acme"
+ats = "greenhouse"
+slug = "acme"
+"""
+
+
+def test_student_section_picks_profile_roles_in_europe_or_prague(tmp_path: Path):
+    cfg = tmp_path / "companies.toml"; cfg.write_text(student_config())
+    report, n = jw.run(cfg, tmp_path / "s.json", None, False, fake_fetch({("greenhouse", "acme"): STUDENT_JOBS}),
+                       today=date(2026, 10, 19))
+    head, _, section = report.partition("## Student and internship roles (Europe-friendly)")
+    assert n == 2 and "+ 2 student/internship roles" in report
+    assert "Data Analyst Intern" in section and "profile match: data" in section
+    assert "Bioinformatics Working Student" in section and "### European office, not flagged remote" in section
+    for left_out in ("Marketing Intern", "Data Science Intern", "Research Intern", "Senior Data Analyst Intern"):
+        assert left_out not in report                  # no profile topic / US-only / Berlin on-site / excluded word
+    assert head.count("Bioinformatics Working Student") == 0   # a student role is not repeated in the main section
+
+
+def test_student_section_is_off_unless_enabled_and_reports_each_role_once(tmp_path: Path):
+    cfg = tmp_path / "companies.toml"; cfg.write_text(student_config().replace("enabled = true", "enabled = false"))
+    report, _ = jw.run(cfg, tmp_path / "s.json", None, False, fake_fetch({("greenhouse", "acme"): STUDENT_JOBS}),
+                       today=date(2026, 10, 19))
+    assert "Student and internship" not in report
+    cfg.write_text(student_config())
+    state = tmp_path / "state.json"
+    fetch = fake_fetch({("greenhouse", "acme"): STUDENT_JOBS})
+    assert jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 19))[1] == 2
+    assert jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 20))[1] == 0
+
+
+def test_student_roles_are_capped_newest_first(tmp_path: Path):
+    cfg = tmp_path / "companies.toml"; cfg.write_text(student_config().replace("local =", "max = 1\nlocal ="))
+    state = tmp_path / "state.json"
+    fetch = fake_fetch({("greenhouse", "acme"): STUDENT_JOBS})
+    report, n = jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 19))
+    assert n == 1 and "Bioinformatics Working Student" in report and "1 more student/internship" in report
+    report2, n2 = jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 20))
+    assert n2 == 1 and "Data Analyst Intern" in report2

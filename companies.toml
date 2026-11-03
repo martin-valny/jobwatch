@@ -44,6 +44,27 @@ bio_hints = [
 #   us-remote       remote but US-only wording
 verdicts = ["europe-remote", "remote-unclear"]
 
+# Student and internship roles that fit a profile (biology BSc, bench-science experience, now an MSc in
+# economic data analysis), reported in their own section. Regexes are case-insensitive. A role needs a
+# student-type title (and none of `exclude`), a profile topic in the title or a bio connection (see
+# bio_hints above), and Europe-friendly remote work; on-site roles count too when the location matches
+# `local`. These roles are left out of the other sections. At most `max` new ones per run.
+[students]
+enabled = true
+titles = [
+  "\\bintern(ship)?s?\\b", "working student", "werkstudent", "\\bstudent\\b", "\\btrainee\\b",
+  "\\bthesis\\b", "co-?op\\b", "praktik", "stagiaire", "apprentice",
+]
+exclude = ["postdoc", "\\bphd\\b", "ph\\.d", "senior", "\\blead\\b", "principal", "director", "head of"]
+topics = [
+  "data", "analy", "statistic", "bioinformat", "biolog", "genom", "laborator", "\\blab\\b", "research",
+  "scien", "econom", "quantitative", "machine learning", "\\bml\\b", "\\bai\\b", "biotech", "pharma",
+  "clinical", "health", "epidemiolog", "heor", "market access", "r&d", "modell?ing", "python", "\\bsql\\b",
+]
+verdicts = ["europe-remote", "remote-unclear"]
+local = "prague|praha|czech|brno"
+max = 50
+
 [settings]
 max_workers = 16   # parallel requests when checking boards
 

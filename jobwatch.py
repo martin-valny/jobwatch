@@ -53,6 +53,7 @@ class Job:
     verdict: str = ""
     reasons: list[str] = field(default_factory=list)
     bio: list[str] = field(default_factory=list)  # soft bio connection found (broader matches only)
+    profile: list[str] = field(default_factory=list)  # profile topics found in the title (student roles only)
 
     @property
     def key(self) -> str:
@@ -470,6 +471,33 @@ def bio_connection(job: Job, patterns: list[re.Pattern]) -> list[str]:
         return strong
     weak = hits(job.text.lower())
     return weak[:3] if len(weak) >= 2 else []
+
+
+def student_roles(jobs, cfg: dict, bio_hints: list[re.Pattern]) -> list[Job]:
+    """Student and internship roles that fit the profile in [students] and are open to Europe.
+
+    A role needs a student-type title (and none of the excluded words), a topic from the profile in the
+    title or a bio connection, and an accepted verdict; on-site roles also count when the location matches
+    `local`."""
+    def rx(key: str) -> list[re.Pattern]:
+        return [re.compile(p, re.I) for p in cfg.get(key, [])]
+    titles, excluded, topics = rx("titles"), rx("exclude"), rx("topics")
+    verdicts = set(cfg.get("verdicts", ["europe-remote", "remote-unclear"]))
+    local = re.compile(cfg["local"], re.I) if cfg.get("local") else None
+    out = []
+    for j in jobs:
+        if not any(r.search(j.title) for r in titles) or any(r.search(j.title) for r in excluded):
+            continue
+        hits = list(dict.fromkeys(h for r in topics if (h := _hit(r, j.title.lower()))))
+        bio = bio_connection(j, bio_hints) if bio_hints else []
+        if not hits and not bio:
+            continue
+        classify(j)
+        near = j.verdict == "europe-onsite" and local and local.search(" | ".join(j.locations))
+        if j.verdict in verdicts or near:
+            j.profile, j.bio = hits, bio
+            out.append(j)
+    return out
 
 
 def title_matches(title: str, include: list[str], exclude: list[str]) -> bool:
@@ -977,22 +1005,31 @@ def _verdict_groups(jobs: list[Job], level: str) -> list[str]:
                 out.append(f"  - why: {'; '.join(j.reasons)}")
             if j.bio:
                 out.append(f"  - bio connection: {', '.join(j.bio)}")
+            if j.profile:
+                out.append(f"  - profile match: {', '.join(j.profile)}")
         out.append("")
     return out
 
 
 def render(jobs: list[Job], total: int, n_boards: int, notes, errors, show_all: bool, today: date,
-           discovery_line: str = "", broad: list[Job] | None = None, broad_left: int = 0) -> str:
+           discovery_line: str = "", broad: list[Job] | None = None, broad_left: int = 0,
+           students: list[Job] | None = None, students_left: int = 0) -> str:
     head = "all current matches" if show_all else "new since last run"
     extra = ""
     if broad:
         n_bio = sum(1 for j in broad if j.bio)
         extra = f" + {len(broad)} broader matches" + (f" ({n_bio} with a possible bio connection)" if n_bio else "")
+    if students:
+        extra += f" + {len(students)} student/internship roles"
     out = [f"# jobwatch, {today.isoformat()}",
            f"{len(jobs)} roles ({head}){extra}; {total} matching right now across {n_boards} boards.", ""]
     if discovery_line:
         out += [discovery_line, ""]
     out += _verdict_groups(jobs, "##")
+    if students:
+        out += ["## Student and internship roles (Europe-friendly)", ""] + _verdict_groups(students, "###")
+        if students_left:
+            out += [f"{students_left} more student/internship roles are waiting; they appear in the next runs.", ""]
     if broad:
         out += ["## Broader matches (looser title filter, lower relevance)", ""]
         flagged, rest = [j for j in broad if j.bio], [j for j in broad if not j.bio]
@@ -1019,6 +1056,7 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
     include, exclude = f.get("include_titles", []), f.get("exclude_titles", [])
     broad_include, broad_max = f.get("broad_titles", []), int(f.get("broad_max", 100))
     bio_hints = [re.compile(p, re.I) for p in f.get("bio_hints", [])]
+    stu = cfg.get("students", {})
     wanted = set(f.get("verdicts", ["europe-remote", "remote-unclear"]))
     disc_cfg = cfg.get("discovery", {})
     vc_cfg = cfg.get("vc_boards", {})
@@ -1119,7 +1157,12 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
                  f"they're checked every run from now on (`python jobwatch.py learned` lists them as "
                  f"companies.toml entries):"] + learned_now + notes
 
-    matches = [classify(j) for j in title_hits]
+    # Student and internship roles that fit the configured profile. Handled first, so a role shows up in
+    # one section only.
+    students_all = student_roles(by_url.values(), stu, bio_hints) if stu.get("enabled") else []
+    student_ids = {id(j) for j in students_all}
+
+    matches = [classify(j) for j in title_hits if id(j) not in student_ids]
     matches = [j for j in matches if j.verdict in wanted]
     def url_key(j):
         return f"url:{canon_url(j.url)}" if j.url.startswith("http") else None
@@ -1139,7 +1182,7 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
     # Broader matches: titles that only the looser `broad_titles` list accepts. Reported in their own
     # section; they don't teach new companies. Newest first, at most broad_max new ones per run (the
     # rest stay unseen and show up in later runs).
-    strict = {id(j) for j in title_hits}
+    strict = {id(j) for j in title_hits} | student_ids
     broad_matches = [classify(j) for j in by_url.values()
                      if broad_include and id(j) not in strict and title_matches(j.title, broad_include, exclude)]
     broad_matches = [j for j in broad_matches if j.verdict in wanted]
@@ -1155,6 +1198,16 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
         broad_shown, broad_left = broad_new[:broad_max], max(0, len(broad_new) - broad_max)
         broad_count = len(broad_shown)
     mark_seen(broad_shown)
+
+    students_new = sorted((j for j in students_all if is_new(j)), key=lambda j: j.posted or "", reverse=True)
+    stu_max = int(stu.get("max", 50))
+    if show_all:
+        students_shown, students_left = students_all, 0
+        students_count = len(students_new)
+    else:
+        students_shown, students_left = students_new[:stu_max], max(0, len(students_new) - stu_max)
+        students_count = len(students_shown)
+    mark_seen(students_shown)
     save_state(state_path, state)
 
     shown = matches if show_all else new
@@ -1163,10 +1216,10 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
         discovery_line = (discovery_line + " " if discovery_line else "") + \
             f"Searched {len(vc_boards)} investor portfolio boards for: {', '.join(keywords)}."
     report = render(shown, len(matches), n_boards, notes, errors, show_all, today, discovery_line,
-                    broad_shown, broad_left)
+                    broad_shown, broad_left, students_shown, students_left)
     if out:
         out.write_text(report)
-    return report, len(new) + broad_count
+    return report, len(new) + broad_count + students_count
 
 
 def _safe(fn, *args):
