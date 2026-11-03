@@ -879,3 +879,50 @@ def test_czech_posting_is_kept_in_main_section_but_not_in_students(tmp_path: Pat
     report, n = jw.run(cfg, tmp_path / "s.json", None, False, fake_fetch({("greenhouse", "acme"): jobs}),
                        today=date(2026, 10, 19))
     assert n == 1 and "Bioinformatics Scientist" in report and "Bioinformatics Intern" not in report
+
+
+def ashby_job(**kw) -> "jw.Job":
+    base = {"id": "x1", "title": "Computational Biologist", "location": "London", "isListed": True,
+            "jobUrl": "https://jobs.ashbyhq.com/acme/x1", "descriptionPlain": "Join the team.", "publishedAt": "2026-10-01T00:00:00Z"}
+    return jw.classify(jw.parse_ashby("Acme", {"jobs": [{**base, **kw}]}, "ashby", "acme")[0])
+
+
+def test_ashby_remote_flag_alone_is_not_trusted():
+    j = ashby_job(isRemote=True)                                   # office city, no workplaceType
+    assert j.verdict == "flag-only" and not j.remote_flag and "office" in " ".join(j.reasons)
+    assert ashby_job(isRemote=True, workplaceType="Hybrid").verdict == "europe-onsite"
+    assert ashby_job(isRemote=True, workplaceType="OnSite").verdict == "europe-onsite"
+    assert ashby_job(isRemote=True, workplaceType="Remote").verdict == "europe-remote"
+    assert ashby_job(workplaceType="Remote").verdict == "europe-remote"
+    assert ashby_job(isRemote=True, location="London; Remote").verdict == "europe-remote"   # the location says it too
+    assert ashby_job(isRemote=False).verdict == "europe-onsite"
+
+
+def test_hybrid_location_overrides_remote_wording_in_the_description():
+    hybrid = jw.Job("c", "greenhouse", "1", "Data Scientist", ["Hybrid - Helsinki, Finland"], None, "u",
+                    "This is a remote role for the right person.")
+    assert jw.classify(hybrid).verdict == "europe-onsite"
+    both = jw.Job("c", "greenhouse", "2", "Data Scientist", ["Hybrid - Helsinki; Remote, Finland"], None, "u", "")
+    assert jw.classify(both).verdict == "europe-remote"
+    titled = jw.Job("c", "greenhouse", "3", "Data Scientist (Hybrid)", ["Paris, France"], None, "u", "Work remotely sometimes.")
+    assert jw.classify(titled).verdict == "europe-onsite"
+
+
+def test_flag_only_roles_are_hidden_but_counted_and_can_be_enabled(tmp_path: Path):
+    ashby = {"jobs": [
+        {"id": "f1", "title": "Computational Biologist", "location": "London", "isListed": True, "isRemote": True,
+         "jobUrl": "https://jobs.ashbyhq.com/acme/f1", "descriptionPlain": ""},
+        {"id": "f2", "title": "Bioinformatics Scientist", "location": "Remote, Europe", "isListed": True,
+         "workplaceType": "Remote", "jobUrl": "https://jobs.ashbyhq.com/acme/f2", "descriptionPlain": ""},
+    ]}
+    cfg = tmp_path / "companies.toml"
+    base = ('[filters]\ninclude_titles = ["computational biolog", "bioinformatic"]\nverdicts = [{}]\n'
+            '[[company]]\nname = "Acme"\nats = "ashby"\nslug = "acme"\n')
+    fetch = fake_fetch({("ashby", "acme"): ashby})
+    cfg.write_text(base.format('"europe-remote", "remote-unclear"'))
+    report, n = jw.run(cfg, tmp_path / "a.json", None, False, fetch, today=date(2026, 10, 19))
+    assert n == 1 and "Bioinformatics Scientist" in report and "Computational Biologist" not in report
+    assert "1 matching roles are hidden" in report
+    cfg.write_text(base.format('"europe-remote", "remote-unclear", "flag-only"'))
+    report2, n2 = jw.run(cfg, tmp_path / "b.json", None, False, fetch, today=date(2026, 10, 19))
+    assert n2 == 2 and "Remote flag only, office location (verify)" in report2 and "hidden" not in report2

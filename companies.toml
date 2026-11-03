@@ -46,6 +46,8 @@ bio_hints = [
 #   europe-remote   remote + a Europe signal in location or description
 #   remote-unclear  remote, no region stated (ask the recruiter)
 #   europe-onsite   European office, not flagged remote
+#   flag-only       only Ashby's isRemote flag says remote, and the location is an office (hidden by default:
+#                   that flag also comes with hybrid and office roles)
 #   us-remote       remote but US-only wording
 verdicts = ["europe-remote", "remote-unclear"]
 

@@ -54,6 +54,7 @@ class Job:
     reasons: list[str] = field(default_factory=list)
     bio: list[str] = field(default_factory=list)  # soft bio connection found (broader matches only)
     profile: list[str] = field(default_factory=list)  # profile topics found in the title (student roles only)
+    remote_weak: bool = False  # only a flag that is known to over-report (Ashby's isRemote) says remote
 
     @property
     def key(self) -> str:
@@ -171,13 +172,16 @@ def parse_ashby(company: str, data, ats: str, slug: str) -> list[Job]:
         if j.get("isListed") is False:
             continue
         locs = [j.get("location")] + [s.get("location") for s in (j.get("secondaryLocations") or [])]
-        wt = (j.get("workplaceType") or "").lower()
-        remote = True if (j.get("isRemote") or wt == "remote") else None
+        wt = (j.get("workplaceType") or "").lower().replace("-", "").replace(" ", "")
+        # workplaceType is explicit; isRemote alone also comes with office and hybrid roles, so it only counts
+        # as weak evidence (see classify).
+        remote = True if wt == "remote" else None
+        weak = bool(j.get("isRemote")) and wt not in ("remote", "hybrid", "onsite")
         jobs.append(Job(
             company, ats, str(j.get("id", "")), j.get("title", ""), _dedupe(locs), remote,
             j.get("jobUrl") or j.get("applyUrl") or "",
             j.get("descriptionPlain") or strip_html(j.get("descriptionHtml")),
-            (j.get("publishedAt") or "")[:10],
+            (j.get("publishedAt") or "")[:10], remote_weak=weak,
         ))
     return jobs
 
@@ -403,6 +407,7 @@ EUROPE_LOC = re.compile(
     r"czech|prague|praha|brno|slovakia|bratislava|slovenia|croatia|hungary|budapest|romania|bucharest|bulgaria|"
     r"serbia|ukraine|greece|athens|cyprus|malta|iceland|estonia|tallinn|latvia|riga|lithuania|vilnius|luxembourg"
 )
+HYBRID = re.compile(r"hybrid|on-?site|in[- ]office|office[- ]based")
 US_LOC = re.compile(r"\bus\b|\busa\b|u\.s\.|united states|north america|canada|americas")
 EUROPE_TXT = re.compile(
     r"(remote(ly)?|work) (from|in|within|across) (anywhere in )?(europe|the eu|emea)|"
@@ -419,6 +424,7 @@ VERDICTS = {
     "europe-remote": "Remote, with a Europe signal",
     "remote-unclear": "Remote, region unclear (ask the recruiter)",
     "europe-onsite": "European office, not flagged remote",
+    "flag-only": "Remote flag only, office location (verify)",
     "us-remote": "Remote, US-only signal",
     "other": "Other",
 }
@@ -436,10 +442,17 @@ def classify(job: Job) -> Job:
     remote = bool(job.remote_flag)
     if remote:
         r.append("ATS flags it remote")
-    if (h := _hit(REMOTE_LOC, loc)):
-        remote = True; r.append(f"location says '{h}'")
-    if not remote and (h := _hit(REMOTE_TXT, text)):
+    loc_remote = _hit(REMOTE_LOC, loc)
+    if loc_remote:
+        remote = True; r.append(f"location says '{loc_remote}'")
+    # "Hybrid - Helsinki" with a remote-friendly description is still an office job.
+    office = bool(HYBRID.search(f"{loc} | {job.title.lower()}")) and not loc_remote
+    if not remote and not office and (h := _hit(REMOTE_TXT, text)):
         remote = True; r.append(f"description says '{h}'")
+    if not remote and job.remote_weak and not office:
+        remote_weak_only = True
+    else:
+        remote_weak_only = False
 
     eu_loc, eu_txt = _hit(EUROPE_LOC, loc), _hit(EUROPE_TXT, text)
     us_loc, us_txt = _hit(US_LOC, loc), _hit(US_ONLY_TXT, text)
@@ -448,7 +461,10 @@ def classify(job: Job) -> Job:
     if us_loc: r.append(f"location mentions '{us_loc}'")
     if us_txt: r.append(f"description has US-only wording '{us_txt}'")
 
-    if remote and (eu_loc or eu_txt):
+    if remote_weak_only:
+        r.append("only Ashby's remote flag says remote, and the location is an office")
+        job.verdict = "flag-only"
+    elif remote and (eu_loc or eu_txt):
         job.verdict = "europe-remote"
     elif remote and (us_loc or us_txt):
         job.verdict = "us-remote"
@@ -1240,6 +1256,7 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
     student_ids = {id(j) for j in students_all}
 
     matches = [classify(j) for j in title_hits if id(j) not in student_ids]
+    flag_only = sum(1 for j in matches if j.verdict == "flag-only") if "flag-only" not in wanted else 0
     matches = [j for j in matches if j.verdict in wanted and (not languages or language_ok(j, languages))]
     def url_key(j):
         return f"url:{canon_url(j.url)}" if j.url.startswith("http") else None
@@ -1292,6 +1309,10 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
     if vc_boards:
         discovery_line = (discovery_line + " " if discovery_line else "") + \
             f"Searched {len(vc_boards)} investor portfolio boards for: {', '.join(keywords)}."
+    if flag_only:
+        discovery_line = (discovery_line + " " if discovery_line else "") + (
+            f"{flag_only} matching roles are hidden: only Ashby's remote flag backs them and they have an office "
+            f"location. Add \"flag-only\" to verdicts to see them.")
     report = render(shown, len(matches), n_boards, notes, errors, show_all, today, discovery_line,
                     broad_shown, broad_left, students_shown, students_left)
     if out:
