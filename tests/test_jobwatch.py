@@ -694,8 +694,8 @@ def test_student_section_picks_profile_roles_in_europe_or_prague(tmp_path: Path)
     cfg = tmp_path / "companies.toml"; cfg.write_text(student_config())
     report, n = jw.run(cfg, tmp_path / "s.json", None, False, fake_fetch({("greenhouse", "acme"): STUDENT_JOBS}),
                        today=date(2026, 10, 19))
-    head, _, section = report.partition("## Student and internship roles (Europe-friendly)")
-    assert n == 2 and "+ 2 student/internship roles" in report
+    head, _, section = report.partition("## Student, internship and junior roles (Europe-friendly)")
+    assert n == 2 and "+ 2 student/junior roles" in report
     assert "Data Analyst Intern" in section and "profile match: data" in section
     assert "Bioinformatics Working Student" in section and "### European office, not flagged remote" in section
     for left_out in ("Marketing Intern", "Data Science Intern", "Research Intern", "Senior Data Analyst Intern"):
@@ -707,7 +707,7 @@ def test_student_section_is_off_unless_enabled_and_reports_each_role_once(tmp_pa
     cfg = tmp_path / "companies.toml"; cfg.write_text(student_config().replace("enabled = true", "enabled = false"))
     report, _ = jw.run(cfg, tmp_path / "s.json", None, False, fake_fetch({("greenhouse", "acme"): STUDENT_JOBS}),
                        today=date(2026, 10, 19))
-    assert "Student and internship" not in report
+    assert "Student, internship and junior" not in report
     cfg.write_text(student_config())
     state = tmp_path / "state.json"
     fetch = fake_fetch({("greenhouse", "acme"): STUDENT_JOBS})
@@ -720,7 +720,7 @@ def test_student_roles_are_capped_newest_first(tmp_path: Path):
     state = tmp_path / "state.json"
     fetch = fake_fetch({("greenhouse", "acme"): STUDENT_JOBS})
     report, n = jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 19))
-    assert n == 1 and "Bioinformatics Working Student" in report and "1 more student/internship" in report
+    assert n == 1 and "Bioinformatics Working Student" in report and "1 more student/junior" in report
     report2, n2 = jw.run(cfg, state, None, False, fetch, today=date(2026, 10, 20))
     assert n2 == 1 and "Data Analyst Intern" in report2
 
@@ -762,3 +762,44 @@ def test_student_section_applies_the_language_filter_only_when_configured(tmp_pa
     assert jw.run(cfg, tmp_path / "a.json", None, False, fetch, today=date(2026, 10, 19))[1] == 1
     cfg.write_text(student_config().replace("exclude =", 'languages = ["en", "es"]\nexclude ='))
     assert jw.run(cfg, tmp_path / "b.json", None, False, fetch, today=date(2026, 10, 19))[1] == 0
+
+
+EARLY_CAREER = {
+    "titles": ["\\bintern(ship)?s?\\b", "\\bjunior\\b", "entry[- ]level", "\\bgraduate\\b"],
+    "exclude": ["senior"], "topics": ["data", "analy", "biolog", "research"],
+    "verdicts": ["europe-remote", "remote-unclear"],
+    "region_ok": "europe|european|\\beu\\b|emea|czech|prague|praha|worldwide|anywhere|global",
+    "exclude_text": ["germany[- ]based", "based in germany"], "local": "prague|praha", "languages": ["en", "es"],
+}
+ENGLISH = "We are a small team and you will work with our analysts on data projects for our customers. "
+
+
+def early(title: str, locations: list[str], remote: bool | None, text: str = ENGLISH) -> bool:
+    return bool(jw.student_roles([jw.Job("c", "greenhouse", "1", title, locations, remote, "u", text)], EARLY_CAREER, []))
+
+
+def test_junior_and_entry_level_titles_count_when_they_fit_the_profile():
+    assert early("Junior Data Analyst", ["Remote, Europe"], True)
+    assert early("Graduate Research Scientist, Biology", ["Remote, Europe"], True)
+    assert early("Entry-level Health Research Analyst", ["Remote, EMEA"], True)
+    assert not early("Junior Backend Developer", ["Remote, Europe"], True)       # no profile topic
+    assert not early("Senior Data Analyst", ["Remote, Europe"], True)            # excluded word
+
+
+def test_remote_must_be_open_across_europe_not_limited_to_one_country():
+    assert early("Junior Data Analyst", ["Remote, Europe"], True)
+    assert early("Junior Data Analyst", ["Remote - Czechia"], True)
+    assert early("Junior Data Analyst", ["Remote, Anywhere"], True)
+    assert not early("Junior Data Analyst", ["Remote, Germany"], True)
+    assert not early("Junior Data Analyst", ["Berlin, Germany"], None)
+    assert not early("Junior Data Analyst", ["Remote, Hungary; Remote, Poland; Remote, Serbia"], True)
+    assert not early("Junior Data Analyst", ["Remote"], True)                    # region not stated
+    assert early("Junior Data Analyst", ["Prague, Czechia"], None)               # on-site in Prague still counts
+    assert early("Junior Data Analyst", ["Remote"], True, ENGLISH + "Work remotely from anywhere in Europe.")
+
+
+def test_germany_tied_and_other_language_postings_are_dropped_for_junior_roles():
+    assert not early("Junior Data Analyst", ["Remote, EU"], True, ENGLISH + "The role is Germany-based.")
+    assert not early("Junior Data Analyst", ["Remote, EMEA"], True, ENGLISH + "Fluent German is required.")
+    assert not early("Junior Data Analyst", ["Remote, EMEA"], True, ENGLISH + "French required.")
+    assert early("Junior Data Analyst", ["Remote, EMEA"], True, ENGLISH + "German is a plus.")

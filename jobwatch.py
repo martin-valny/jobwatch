@@ -517,9 +517,9 @@ def language_ok(job: Job, allowed: set[str]) -> bool:
 
 
 def student_roles(jobs, cfg: dict, bio_hints: list[re.Pattern]) -> list[Job]:
-    """Student and internship roles that fit the profile in [students] and are open to Europe.
+    """Student, internship and junior roles that fit the profile in [students] and are open across Europe.
 
-    A role needs a student-type title (and none of the excluded words), a topic from the profile in the
+    A role needs a student- or junior-type title (and none of the excluded words), a topic from the profile in the
     title or a bio connection, and an accepted verdict; on-site roles also count when the location matches
     `local`."""
     def rx(key: str) -> list[re.Pattern]:
@@ -528,6 +528,8 @@ def student_roles(jobs, cfg: dict, bio_hints: list[re.Pattern]) -> list[Job]:
     verdicts = set(cfg.get("verdicts", ["europe-remote", "remote-unclear"]))
     local = re.compile(cfg["local"], re.I) if cfg.get("local") else None
     languages = set(cfg.get("languages", []))
+    region = re.compile(cfg["region_ok"], re.I) if cfg.get("region_ok") else None
+    blocked = [re.compile(p, re.I) for p in cfg.get("exclude_text", [])]
     out = []
     for j in jobs:
         if not any(r.search(j.title) for r in titles) or any(r.search(j.title) for r in excluded):
@@ -538,11 +540,19 @@ def student_roles(jobs, cfg: dict, bio_hints: list[re.Pattern]) -> list[Job]:
             continue
         if languages and not language_ok(j, languages):
             continue
+        if any(r.search(f"{j.title} {j.text}") for r in blocked):
+            continue
         classify(j)
-        near = j.verdict == "europe-onsite" and local and local.search(" | ".join(j.locations))
-        if j.verdict in verdicts or near:
-            j.profile, j.bio = hits, bio
-            out.append(j)
+        loc = " | ".join(j.locations)
+        near = j.verdict == "europe-onsite" and local and local.search(loc)
+        if not (j.verdict in verdicts or near):
+            continue
+        # Remote across Europe: the posting must name Europe/EU/EMEA (or Czechia, or anywhere), not just
+        # some other single country such as "Remote, Germany".
+        if region and not near and not (region.search(loc) or EUROPE_TXT.search(j.text.lower())):
+            continue
+        j.profile, j.bio = hits, bio
+        out.append(j)
     return out
 
 
@@ -1066,16 +1076,16 @@ def render(jobs: list[Job], total: int, n_boards: int, notes, errors, show_all: 
         n_bio = sum(1 for j in broad if j.bio)
         extra = f" + {len(broad)} broader matches" + (f" ({n_bio} with a possible bio connection)" if n_bio else "")
     if students:
-        extra += f" + {len(students)} student/internship roles"
+        extra += f" + {len(students)} student/junior roles"
     out = [f"# jobwatch, {today.isoformat()}",
            f"{len(jobs)} roles ({head}){extra}; {total} matching right now across {n_boards} boards.", ""]
     if discovery_line:
         out += [discovery_line, ""]
     out += _verdict_groups(jobs, "##")
     if students:
-        out += ["## Student and internship roles (Europe-friendly)", ""] + _verdict_groups(students, "###")
+        out += ["## Student, internship and junior roles (Europe-friendly)", ""] + _verdict_groups(students, "###")
         if students_left:
-            out += [f"{students_left} more student/internship roles are waiting; they appear in the next runs.", ""]
+            out += [f"{students_left} more student/junior roles are waiting; they appear in the next runs.", ""]
     if broad:
         out += ["## Broader matches (looser title filter, lower relevance)", ""]
         flagged, rest = [j for j in broad if j.bio], [j for j in broad if not j.bio]
@@ -1203,7 +1213,7 @@ def run(config: Path, state_path: Path, out: Path | None, show_all: bool, fetch=
                  f"they're checked every run from now on (`python jobwatch.py learned` lists them as "
                  f"companies.toml entries):"] + learned_now + notes
 
-    # Student and internship roles that fit the configured profile. Handled first, so a role shows up in
+    # Student, internship and junior roles that fit the configured profile. Handled first, so a role shows up in
     # one section only.
     students_all = student_roles(by_url.values(), stu, bio_hints) if stu.get("enabled") else []
     student_ids = {id(j) for j in students_all}

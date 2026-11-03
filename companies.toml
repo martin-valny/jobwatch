@@ -44,16 +44,18 @@ bio_hints = [
 #   us-remote       remote but US-only wording
 verdicts = ["europe-remote", "remote-unclear"]
 
-# Student and internship roles that fit a profile (biology BSc, bench-science experience, now an MSc in
-# economic data analysis), reported in their own section. Regexes are case-insensitive. A role needs a
-# student-type title (and none of `exclude`), a profile topic in the title or a bio connection (see
-# bio_hints above), and Europe-friendly remote work; on-site roles count too when the location matches
-# `local`. These roles are left out of the other sections. At most `max` new ones per run.
+# Student, internship and junior roles that fit a profile (biology BSc, bench-science experience, now an MSc
+# in economic data analysis), reported in their own section. Regexes are case-insensitive. A role needs a
+# student- or junior-type title (and none of `exclude`), a profile topic in the title or a bio connection
+# (see bio_hints above), remote work that is open across Europe (see region_ok), and a posting in an accepted
+# language. On-site roles count only when the location matches `local`. These roles are left out of the other
+# sections. At most `max` new ones per run.
 [students]
 enabled = true
 titles = [
   "\\bintern(ship)?s?\\b", "working student", "werkstudent", "\\bstudent\\b", "\\btrainee\\b",
   "\\bthesis\\b", "co-?op\\b", "praktik", "stagiaire", "apprentice",
+  "\\bjunior\\b", "\\bjr\\b", "entry[- ]level", "\\bgraduate\\b", "early[- ]career", "\\bassociate (data|analyst|scientist)",
 ]
 exclude = ["postdoc", "\\bphd\\b", "ph\\.d", "senior", "\\blead\\b", "principal", "director", "head of"]
 topics = [
@@ -62,10 +64,15 @@ topics = [
   "clinical", "health", "epidemiolog", "heor", "market access", "r&d", "modell?ing", "python", "\\bsql\\b",
 ]
 verdicts = ["europe-remote", "remote-unclear"]
+# Remote roles must name one of these (in the location or the description's remote wording); a role limited
+# to "Remote, Germany" or a list of other countries is dropped.
+region_ok = "europe|european|\\beu\\b|emea|\\bcet\\b|\\bcest\\b|czech|prague|praha|worldwide|anywhere|global"
+# Postings that tie the job to Germany whatever the location says.
+exclude_text = ["germany[- ]based", "based in germany", "located in germany", "resident (in|of) germany"]
 local = "prague|praha"
 # Only English or Spanish postings: roles written in another language, or asking for one ("fluent German
-# required"), are dropped; "German is a plus" is fine. A keyword check, so it can misjudge a few postings.
-# Remove the line to turn the check off.
+# required", "French required"), are dropped; "German is a plus" is fine. A keyword check, so it can misjudge
+# a few postings. Remove the line to turn the check off.
 languages = ["en", "es"]
 max = 50
 

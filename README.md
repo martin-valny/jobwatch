@@ -63,9 +63,16 @@ Quirks handled: SmartRecruiters' list API has no descriptions (location and remo
 
 `include_titles` is the strict list (bio-qualified titles). `broad_titles` is a looser list: a role whose title matches it but not the strict list goes into a separate **Broader matches** section of the report, below the strict results. It uses the same remote/Europe sorting and `exclude_titles`, never teaches jobwatch new companies, and shows at most `broad_max` new roles per run (newest first; the rest appear in later runs). Empty `broad_titles` turns the section off. Broader matches count towards the "new roles" total that opens the GitHub issue.
 
-## Student and internship roles
+## Student, internship and junior roles
 
-The `[students]` block in `companies.toml` adds a third section for internships, working-student, trainee and thesis roles that fit a profile you describe (here: biology background, lab experience, MSc in economic data analysis). A role needs a student-type title (`titles`, minus `exclude`), a profile topic in the title (`topics`) or a bio connection (`bio_hints`), and a Europe-friendly verdict (`verdicts`); on-site roles also count when the location matches `local` (set to Prague only). `languages = ["en", "es"]` keeps only postings written in those languages and drops ones that require another ("fluent German required"; "German is a plus" is fine); it is a keyword check, so it can misjudge a few postings. These roles appear only in this section, are capped at `max` new ones per run, and count towards the "new roles" total. `enabled = false` turns the section off.
+The `[students]` block in `companies.toml` adds a section for internships, working-student, trainee, thesis, junior, entry-level and graduate roles that fit a profile you describe (here: biology background, lab experience, MSc in economic data analysis). A role needs:
+
+- a student- or junior-type title (`titles`, minus `exclude` such as senior/lead);
+- a profile topic in the title (`topics`) or a bio connection (`bio_hints`);
+- remote work that is open across Europe: the location or the description must name Europe, the EU, EMEA, Czechia or anywhere (`region_ok`), so "Remote, Germany" or a list of other countries is dropped. On-site roles count only when the location matches `local` (Prague). `exclude_text` drops postings tied to Germany whatever the location says;
+- a posting in an accepted language (`languages = ["en", "es"]`): roles written in another language, or that require one ("fluent German required"), are dropped; "German is a plus" is fine. It is a keyword check, so it can misjudge a few postings.
+
+These roles appear only in this section, are capped at `max` new ones per run (newest first), and count towards the "new roles" total. `enabled = false` turns the section off.
 
 ## How roles are sorted
 
