@@ -11189,6 +11189,7 @@
   },
   "ashby:revic": {
    "ats": "ashby",
+   "dead": "2026-11-04",
    "first_seen": "2026-10-27",
    "slug": "revic"
   },
@@ -26636,6 +26637,7 @@
   },
   "greenhouse:skysafe": {
    "ats": "greenhouse",
+   "dead": "2026-11-04",
    "first_seen": "2026-10-27",
    "slug": "skysafe"
   },
@@ -36766,6 +36768,7 @@
   },
   "personio:infoscan-gmbh": {
    "ats": "personio",
+   "dead": "2026-11-04",
    "first_seen": "2026-10-27",
    "slug": "infoscan-gmbh"
   },
@@ -37250,6 +37253,7 @@
   },
   "personio:lantenhammer": {
    "ats": "personio",
+   "dead": "2026-11-04",
    "first_seen": "2026-10-27",
    "slug": "lantenhammer"
   },
@@ -44223,6 +44227,7 @@
   },
   "recruitee:ffw": {
    "ats": "recruitee",
+   "dead": "2026-11-04",
    "first_seen": "2026-10-27",
    "slug": "ffw"
   },
@@ -44343,6 +44348,7 @@
   },
   "recruitee:frontify": {
    "ats": "recruitee",
+   "dead": "2026-11-04",
    "first_seen": "2026-10-27",
    "slug": "frontify"
   },
