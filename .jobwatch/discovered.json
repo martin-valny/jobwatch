@@ -15630,6 +15630,7 @@
   },
   "greenhouse:allencontrolsystems": {
    "ats": "greenhouse",
+   "dead": "2026-11-04",
    "first_seen": "2026-10-27",
    "slug": "allencontrolsystems"
   },
@@ -28450,6 +28451,7 @@
   },
   "greenhouse:urbansportsclub": {
    "ats": "greenhouse",
+   "dead": "2026-11-04",
    "first_seen": "2026-10-27",
    "slug": "urbansportsclub"
   },
@@ -45294,6 +45296,7 @@
   },
   "recruitee:leomike": {
    "ats": "recruitee",
+   "dead": "2026-11-04",
    "first_seen": "2026-10-27",
    "slug": "leomike"
   },
@@ -66964,6 +66967,7 @@
   },
   "workable:techsaga": {
    "ats": "workable",
+   "dead": "2026-11-04",
    "first_seen": "2026-10-27",
    "slug": "techsaga"
   },
