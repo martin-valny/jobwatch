@@ -53,7 +53,7 @@ class Job:
     verdict: str = ""
     reasons: list[str] = field(default_factory=list)
     bio: list[str] = field(default_factory=list)  # soft bio connection found (broader matches only)
-    profile: list[str] = field(default_factory=list)  # profile topics found in the title (student roles only)
+    profile: list[str] = field(default_factory=list)  # profile topics found in the title or description (student roles only)
     remote_weak: bool = False  # only a flag that is known to over-report (Ashby's isRemote) says remote
 
     @property
@@ -556,7 +556,7 @@ def student_roles(jobs, cfg: dict, bio_hints: list[re.Pattern]) -> list[Job]:
     """Student, internship and junior roles that fit the profile in [students] and are open across Europe.
 
     A role needs a student- or junior-type title (and none of the excluded words), a topic from the profile in the
-    title or a bio connection, and an accepted verdict; on-site roles also count when the location matches
+    title or description, or a bio connection, and an accepted verdict; on-site roles also count when the location matches
     `local`."""
     def rx(key: str) -> list[re.Pattern]:
         return [re.compile(p, re.I) for p in cfg.get(key, [])]
@@ -570,7 +570,9 @@ def student_roles(jobs, cfg: dict, bio_hints: list[re.Pattern]) -> list[Job]:
     for j in jobs:
         if not any(r.search(j.title) for r in titles) or any(r.search(j.title) for r in excluded):
             continue
-        hits = list(dict.fromkeys(h for r in topics if (h := _hit(r, j.title.lower()))))
+        title_l, text_l = j.title.lower(), j.text.lower()
+        hits = list(dict.fromkeys(h for r in topics
+                                  if (h := _hit(r, title_l)) or (h := _hit(r, text_l))))
         bio = bio_connection(j, bio_hints) if bio_hints else []
         if not hits and not bio:
             continue

@@ -70,7 +70,7 @@ Quirks handled: SmartRecruiters' list API has no descriptions (location and remo
 The `[students]` block in `companies.toml` adds a section for internships, working-student, trainee, thesis, junior, entry-level and graduate roles that fit a profile you describe (here: biology background, lab experience, MSc in economic data analysis). A role needs:
 
 - a student- or junior-type title (`titles`, minus `exclude` such as senior/lead);
-- a profile topic in the title (`topics`) or a bio connection (`bio_hints`);
+- a profile topic in the title or description (`topics`) or a bio connection (`bio_hints`);
 - remote work that is open across Europe: the location or the description must name Europe, the EU, EMEA, Czechia or anywhere (`region_ok`), so "Remote, Germany" or a list of other countries is dropped. On-site roles count only when the location matches `local` (Prague). `exclude_text` drops postings tied to Germany whatever the location says;
 - a posting in an accepted language (`languages = ["en", "es"]`): roles written in another language, or that require one ("fluent German required"), are dropped; "German is a plus" is fine. It is a keyword check, so it can misjudge a few postings.
 

@@ -782,7 +782,8 @@ def test_junior_and_entry_level_titles_count_when_they_fit_the_profile():
     assert early("Junior Data Analyst", ["Remote, Europe"], True)
     assert early("Graduate Research Scientist, Biology", ["Remote, Europe"], True)
     assert early("Entry-level Health Research Analyst", ["Remote, EMEA"], True)
-    assert not early("Junior Backend Developer", ["Remote, Europe"], True)       # no profile topic
+    assert not early("Junior Backend Developer", ["Remote, Europe"], True, "You will build web services. ")  # no topic
+    assert early("Junior Associate", ["Remote, Europe"], True)                   # topic only in the description
     assert not early("Senior Data Analyst", ["Remote, Europe"], True)            # excluded word
 
 

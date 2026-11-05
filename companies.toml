@@ -53,7 +53,7 @@ verdicts = ["europe-remote", "remote-unclear"]
 
 # Student, internship and junior roles that fit a profile (biology BSc, bench-science experience, now an MSc
 # in economic data analysis), reported in their own section. Regexes are case-insensitive. A role needs a
-# student- or junior-type title (and none of `exclude`), a profile topic in the title or a bio connection
+# student- or junior-type title (and none of `exclude`), a profile topic in the title or description, or a bio connection
 # (see bio_hints above), remote work that is open across Europe (see region_ok), and a posting in an accepted
 # language. On-site roles count only when the location matches `local`. These roles are left out of the other
 # sections. At most `max` new ones per run.
