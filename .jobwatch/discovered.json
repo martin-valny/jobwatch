@@ -20572,6 +20572,7 @@
   },
   "greenhouse:gr8tech": {
    "ats": "greenhouse",
+   "dead": "2026-11-05",
    "first_seen": "2026-10-27",
    "slug": "gr8tech"
   },
@@ -21877,6 +21878,7 @@
   },
   "greenhouse:kayak": {
    "ats": "greenhouse",
+   "dead": "2026-11-05",
    "first_seen": "2026-10-27",
    "slug": "kayak"
   },
@@ -32250,6 +32252,7 @@
   },
   "lever:cesiumastro": {
    "ats": "lever",
+   "dead": "2026-11-05",
    "first_seen": "2026-10-27",
    "slug": "CesiumAstro"
   },

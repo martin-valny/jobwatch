@@ -1288,6 +1288,14 @@
    "slug": "prior-labs",
    "via": "discovered boards"
   },
+  "ashby:protege": {
+   "ats": "ashby",
+   "company": "protege",
+   "example": "Strategic Partnerships Manager, Omics and Genomics",
+   "first_seen": "2026-11-05",
+   "slug": "protege",
+   "via": "discovered boards"
+  },
   "ashby:proxima-fusion": {
    "ats": "ashby",
    "company": "proxima-fusion",
@@ -1871,14 +1879,6 @@
    "first_seen": "2026-10-27",
    "slug": "anaplan",
    "via": "discovered boards"
-  },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-04",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
   },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
@@ -3934,6 +3934,14 @@
    "example": "Partial Discharge Data Scientist",
    "first_seen": "2026-10-27",
    "slug": "optics11",
+   "via": "discovered boards"
+  },
+  "recruitee:patsnap": {
+   "ats": "recruitee",
+   "company": "patsnap",
+   "example": "Small Molecule Data Analyst",
+   "first_seen": "2026-11-05",
+   "slug": "patsnap",
    "via": "discovered boards"
   },
   "workable:abtrace": {
@@ -6328,6 +6336,7 @@
   "ashby:SASH:8407d60d-ea29-4414-834a-998343af4863": "2026-11-02",
   "ashby:SASH:a5101c4c-527e-48c1-9db3-8494d2a9fd89": "2026-11-02",
   "ashby:Seqera:293aac10-51c3-4af1-9eff-7dcc07e3f7f9": "2026-10-27",
+  "ashby:Solvd:37b3e5db-f990-47b0-a574-fa4750f2450f": "2026-11-05",
   "ashby:Solvd:83c2fba7-da71-4a75-a364-ec1dc6adc92f": "2026-11-02",
   "ashby:Strava:09ab60f0-de73-4bde-9de2-f5b6809f8dce": "2026-11-02",
   "ashby:Strava:f39b4232-33e1-4853-af84-163d1bcdef69": "2026-11-02",
@@ -6427,6 +6436,7 @@
   "ashby:pluralis-research:b5a10115-0386-47c5-80f2-9c382e606dfd": "2026-11-02",
   "ashby:pluralis-research:c86697dd-aacf-4112-b2e2-08dd69d50430": "2026-11-02",
   "ashby:prosus:0e900995-e270-4dbd-9c92-448af821b442": "2026-11-03",
+  "ashby:protege:5d3ddab9-5a02-4343-bfcb-d263a7793c88": "2026-11-05",
   "ashby:resolution:65704205-7ccd-4df6-a7d1-3e3338bd80a8": "2026-11-02",
   "ashby:revelrobotics:f8b76581-38c6-42df-96c7-1e3ede387835": "2026-11-03",
   "ashby:rivianvw.tech:30c3af69-2dfc-4224-9abc-b2d9c0c41048": "2026-11-03",
@@ -6468,6 +6478,7 @@
   "greenhouse:Freenome:8658848002": "2026-10-27",
   "greenhouse:Freenome:8752452002": "2026-10-27",
   "greenhouse:Freenome:8842728002": "2026-10-27",
+  "greenhouse:Freenome:8920182002": "2026-11-05",
   "greenhouse:alfredbeneschco:5240276007": "2026-11-03",
   "greenhouse:ardentmc:7948301": "2026-11-03",
   "greenhouse:axle:5274568007": "2026-10-27",
@@ -6597,6 +6608,7 @@
   "url:https://job-boards.greenhouse.io/freenome/jobs/8658848002": "2026-10-27",
   "url:https://job-boards.greenhouse.io/freenome/jobs/8752452002": "2026-10-27",
   "url:https://job-boards.greenhouse.io/freenome/jobs/8842728002": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/freenome/jobs/8920182002": "2026-11-05",
   "url:https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6163325004": "2026-11-03",
   "url:https://job-boards.greenhouse.io/givedirectly/jobs/4748456005": "2026-11-02",
   "url:https://job-boards.greenhouse.io/gradientai/jobs/7826343003": "2026-10-27",
@@ -6682,6 +6694,7 @@
   "url:https://jobs.ashbyhq.com/SASH/8407d60d-ea29-4414-834a-998343af4863": "2026-11-02",
   "url:https://jobs.ashbyhq.com/SASH/a5101c4c-527e-48c1-9db3-8494d2a9fd89": "2026-11-02",
   "url:https://jobs.ashbyhq.com/ScribdInc/5c1fd186-f4e7-40d0-ae0a-d55bc4a1a47d": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Solvd/37b3e5db-f990-47b0-a574-fa4750f2450f": "2026-11-05",
   "url:https://jobs.ashbyhq.com/Solvd/83c2fba7-da71-4a75-a364-ec1dc6adc92f": "2026-11-02",
   "url:https://jobs.ashbyhq.com/Solvd/f2bd28d6-d0e4-4e10-8c52-8aec532f2952": "2026-10-27",
   "url:https://jobs.ashbyhq.com/Strava/09ab60f0-de73-4bde-9de2-f5b6809f8dce": "2026-11-02",
@@ -6914,6 +6927,7 @@
   "url:https://jobs.ashbyhq.com/preply/f6853afa-618f-4387-a184-f6b0fffce9f9": "2026-10-27",
   "url:https://jobs.ashbyhq.com/probablygenetic/38b04bbc-0526-44f6-9502-07772f3a1164": "2026-10-27",
   "url:https://jobs.ashbyhq.com/prosus/0e900995-e270-4dbd-9c92-448af821b442": "2026-11-03",
+  "url:https://jobs.ashbyhq.com/protege/5d3ddab9-5a02-4343-bfcb-d263a7793c88": "2026-11-05",
   "url:https://jobs.ashbyhq.com/proxima/2443af21-e439-4ec7-910e-0a5872e1749a": "2026-10-27",
   "url:https://jobs.ashbyhq.com/proxima/b6e64420-4055-42c7-8a87-b9648a906203": "2026-10-27",
   "url:https://jobs.ashbyhq.com/rain/d801cb1d-0500-487f-8732-39a4afe3c741": "2026-10-27",
