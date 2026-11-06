@@ -17522,6 +17522,7 @@
   },
   "greenhouse:centurycomplete": {
    "ats": "greenhouse",
+   "dead": "2026-11-06",
    "first_seen": "2026-10-27",
    "slug": "centurycomplete"
   },
@@ -17772,6 +17773,7 @@
   },
   "greenhouse:cleargov": {
    "ats": "greenhouse",
+   "dead": "2026-11-06",
    "first_seen": "2026-10-27",
    "slug": "cleargov"
   },
@@ -24424,6 +24426,7 @@
   },
   "greenhouse:parloa": {
    "ats": "greenhouse",
+   "dead": "2026-11-06",
    "first_seen": "2026-10-27",
    "slug": "parloa"
   },
@@ -42744,6 +42747,7 @@
   },
   "recruitee:againbio": {
    "ats": "recruitee",
+   "dead": "2026-11-06",
    "first_seen": "2026-10-27",
    "slug": "againbio"
   },
@@ -46190,6 +46194,7 @@
   },
   "recruitee:playsoncareers": {
    "ats": "recruitee",
+   "dead": "2026-11-06",
    "first_seen": "2026-10-27",
    "slug": "playsoncareers"
   },
@@ -46270,6 +46275,7 @@
   },
   "recruitee:projectivegroup": {
    "ats": "recruitee",
+   "dead": "2026-11-06",
    "first_seen": "2026-10-27",
    "slug": "projectivegroup"
   },
@@ -68813,6 +68819,7 @@
   },
   "workable:vitally": {
    "ats": "workable",
+   "dead": "2026-11-06",
    "first_seen": "2026-10-27",
    "slug": "vitally"
   },
