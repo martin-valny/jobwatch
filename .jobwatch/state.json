@@ -1880,14 +1880,6 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-06",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
-  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -6546,6 +6538,7 @@
   "personio:stenon-gmbh:2866917": "2026-11-02",
   "personio_com:1komma5grad:2859433": "2026-11-03",
   "personio_com:apheris:2823682": "2026-10-27",
+  "recruitee:deephealth:2758379": "2026-11-07",
   "url:https://1komma5grad.jobs.personio.com/job/2859433": "2026-11-03",
   "url:https://1komma5grad.jobs.personio.de/job/2859433": "2026-11-03",
   "url:https://7learnings.jobs.personio.com/job/2675894": "2026-10-27",
@@ -6592,6 +6585,7 @@
   "url:https://boards.greenhouse.io/honor/jobs/8531886002": "2026-10-27",
   "url:https://boards.greenhouse.io/opensesame/jobs/8313424": "2026-11-03",
   "url:https://careers.gofasti.com/job-application/6227581004": "2026-10-27",
+  "url:https://deephealth.recruitee.com/o/senior-research-scientist": "2026-11-07",
   "url:https://edri.jobs.personio.com/job/2848914": "2026-10-27",
   "url:https://giant-swarm.jobs.personio.de/job/2848213": "2026-11-03",
   "url:https://job-boards.eu.greenhouse.io/bybit/jobs/4974605101": "2026-11-03",

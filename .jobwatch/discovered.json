@@ -11551,6 +11551,7 @@
   },
   "ashby:sana-roles": {
    "ats": "ashby",
+   "dead": "2026-11-07",
    "first_seen": "2026-10-27",
    "slug": "sana-roles"
   },
@@ -46346,6 +46347,7 @@
   },
   "recruitee:ralphhv": {
    "ats": "recruitee",
+   "dead": "2026-11-07",
    "first_seen": "2026-10-27",
    "slug": "ralphhv"
   },
@@ -46366,6 +46368,7 @@
   },
   "recruitee:reborrn": {
    "ats": "recruitee",
+   "dead": "2026-11-07",
    "first_seen": "2026-10-27",
    "slug": "reborrn"
   },
@@ -46401,6 +46404,7 @@
   },
   "recruitee:reimannwurstliebhabergmbh": {
    "ats": "recruitee",
+   "dead": "2026-11-07",
    "first_seen": "2026-10-27",
    "slug": "reimannwurstliebhabergmbh"
   },
