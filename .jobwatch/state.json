@@ -1880,6 +1880,14 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Senior Engineer, Bioinformatics",
+   "first_seen": "2026-11-08",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
+  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -4455,19 +4463,6 @@
    "ats": null,
    "checked": "2026-11-03"
   },
-  "Blank Bio": {
-   "ats": "recruitee",
-   "checked": "2026-11-03",
-   "confident": true,
-   "exact": false,
-   "n_jobs": 10,
-   "sample": [
-    "EUC Technician",
-    "Service Desk Team Lead",
-    "Escalation / 3rd Line /  IT Support / Service Desk"
-   ],
-   "slug": "blank"
-  },
   "Boltz": {
    "ats": null,
    "checked": "2026-11-03"
@@ -6011,6 +6006,15 @@
    "ats": null,
    "checked": "2026-11-03"
   },
+  "Standard BioTools": {
+   "ats": "workable",
+   "checked": "2026-11-08",
+   "confident": false,
+   "exact": false,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "standard"
+  },
   "Starling": {
    "ats": null,
    "checked": "2026-11-03"
@@ -6544,9 +6548,11 @@
   "url:https://apply.workable.com/j/62EB93F458": "2026-11-03",
   "url:https://apply.workable.com/j/666F94C6E7": "2026-11-02",
   "url:https://apply.workable.com/j/66963EDD8A": "2026-11-02",
+  "url:https://apply.workable.com/j/739CC757DB": "2026-11-08",
   "url:https://apply.workable.com/j/748B0AD186": "2026-11-03",
   "url:https://apply.workable.com/j/80776E3E29": "2026-11-02",
   "url:https://apply.workable.com/j/85799E457F": "2026-11-02",
+  "url:https://apply.workable.com/j/AB2A46514F": "2026-11-08",
   "url:https://apply.workable.com/j/B4BF37E5E7": "2026-11-02",
   "url:https://apply.workable.com/j/B78966FB2C": "2026-11-03",
   "url:https://apply.workable.com/j/BC12DEA35D": "2026-11-02",
@@ -7031,11 +7037,13 @@
   "workable:futuresearch:80776E3E29": "2026-11-02",
   "workable:human-intelligence:F65B470341": "2026-11-02",
   "workable:intetics-2:B4BF37E5E7": "2026-11-02",
+  "workable:meridia:739CC757DB": "2026-11-08",
   "workable:mrsool-3:BD157A01E2": "2026-11-02",
   "workable:plainconcepts:0B8AEA13CD": "2026-11-02",
   "workable:prox-works:C3552E6CE0": "2026-11-02",
   "workable:quanticate:440659E104": "2026-10-27",
   "workable:realadvisor:F2F338265C": "2026-11-02",
+  "workable:salla:AB2A46514F": "2026-11-08",
   "workable:tiger-analytics:B78966FB2C": "2026-11-03",
   "workable:weekday-1:85799E457F": "2026-11-02"
  }
