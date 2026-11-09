@@ -1880,14 +1880,6 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-08",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
-  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -4462,6 +4454,15 @@
   "Birch Biosciences": {
    "ats": null,
    "checked": "2026-11-03"
+  },
+  "Blank Bio": {
+   "ats": "workable",
+   "checked": "2026-11-09",
+   "confident": false,
+   "exact": false,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "blank"
   },
   "Boltz": {
    "ats": null,

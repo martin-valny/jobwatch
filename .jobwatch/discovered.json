@@ -14124,6 +14124,7 @@
   },
   "ashby:vidrush": {
    "ats": "ashby",
+   "dead": "2026-11-09",
    "first_seen": "2026-10-27",
    "slug": "vidrush"
   },
@@ -56636,6 +56637,7 @@
   },
   "workable:fractal-labs": {
    "ats": "workable",
+   "dead": "2026-11-09",
    "first_seen": "2026-10-27",
    "slug": "fractal-labs"
   },
@@ -58172,6 +58174,7 @@
   },
   "workable:hertilityhealth": {
    "ats": "workable",
+   "dead": "2026-11-09",
    "first_seen": "2026-10-27",
    "slug": "hertilityhealth"
   },
@@ -58412,6 +58415,7 @@
   },
   "workable:houseful": {
    "ats": "workable",
+   "dead": "2026-11-09",
    "first_seen": "2026-10-27",
    "slug": "houseful"
   },
@@ -59165,6 +59169,7 @@
   },
   "workable:intellum-inc": {
    "ats": "workable",
+   "dead": "2026-11-09",
    "first_seen": "2026-10-27",
    "slug": "intellum-inc"
   },
