@@ -1880,6 +1880,14 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Senior Engineer, Bioinformatics",
+   "first_seen": "2026-11-10",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
+  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -3286,6 +3294,14 @@
    "example": "Data Scientist II | Estrat\u00e9gia e Cr\u00e9dito",
    "first_seen": "2026-10-27",
    "slug": "stone",
+   "via": "discovered boards"
+  },
+  "greenhouse:summittherapeutics": {
+   "ats": "greenhouse",
+   "company": "summittherapeutics",
+   "example": "Director, Biostatistics",
+   "first_seen": "2026-11-10",
+   "slug": "summittherapeutics",
    "via": "discovered boards"
   },
   "greenhouse:swayable": {
@@ -6520,6 +6536,7 @@
   "lever:Yassir:9caf7e04-195a-4011-9b55-e1105615c0a2": "2026-11-03",
   "lever:moonpay:49338068-2f4d-4cbb-b55d-176b2ed2f89e": "2026-11-02",
   "lever:spotify:0eebb462-b5a2-4e3a-b830-d8ef7505b014": "2026-11-02",
+  "lever:spotify:1bbaf909-5ff3-4ed6-87ca-f7ff007a169c": "2026-11-10",
   "lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d": "2026-11-10",
   "lever:spotify:6eb9ce0e-5372-4a4f-b2fa-d005f9426750": "2026-11-02",
   "lever:spotify:819f584f-84a5-485d-8082-3412545f6c8a": "2026-11-02",
@@ -6564,6 +6581,7 @@
   "url:https://apply.workable.com/j/C3552E6CE0": "2026-11-02",
   "url:https://apply.workable.com/j/F039DF377B": "2026-10-27",
   "url:https://apply.workable.com/j/F2F338265C": "2026-11-02",
+  "url:https://apply.workable.com/j/F31C6EE84F": "2026-11-10",
   "url:https://apply.workable.com/j/F65B470341": "2026-11-02",
   "url:https://apply.workable.com/j/FFE8159B05": "2026-10-27",
   "url:https://boards.greenhouse.io/ardentmc/jobs/7948301": "2026-11-03",
@@ -7021,6 +7039,7 @@
   "url:https://jobs.lever.co/outreach/4ef30219-4dd5-4f40-b3b8-76c3c2277ebb": "2026-10-27",
   "url:https://jobs.lever.co/outreach/cc0715d3-8bbf-4a5c-bd32-7d12c243e2c9": "2026-10-27",
   "url:https://jobs.lever.co/spotify/0eebb462-b5a2-4e3a-b830-d8ef7505b014": "2026-11-02",
+  "url:https://jobs.lever.co/spotify/1bbaf909-5ff3-4ed6-87ca-f7ff007a169c": "2026-11-10",
   "url:https://jobs.lever.co/spotify/56ea6f2e-f20b-4e46-ab94-d3eb0a89482d": "2026-11-10",
   "url:https://jobs.lever.co/spotify/6eb9ce0e-5372-4a4f-b2fa-d005f9426750": "2026-11-02",
   "url:https://jobs.lever.co/spotify/819f584f-84a5-485d-8082-3412545f6c8a": "2026-11-02",
@@ -7043,6 +7062,7 @@
   "workable:avomind:62EB93F458": "2026-11-03",
   "workable:capgemini-insurance:666F94C6E7": "2026-11-02",
   "workable:capgemini-insurance:66963EDD8A": "2026-11-02",
+  "workable:capgemini-insurance:F31C6EE84F": "2026-11-10",
   "workable:european-dynamics:BC12DEA35D": "2026-11-02",
   "workable:futuresearch:80776E3E29": "2026-11-02",
   "workable:human-intelligence:F65B470341": "2026-11-02",
