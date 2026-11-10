@@ -1880,14 +1880,6 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-10",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
-  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -3294,14 +3286,6 @@
    "example": "Data Scientist II | Estrat\u00e9gia e Cr\u00e9dito",
    "first_seen": "2026-10-27",
    "slug": "stone",
-   "via": "discovered boards"
-  },
-  "greenhouse:summittherapeutics": {
-   "ats": "greenhouse",
-   "company": "summittherapeutics",
-   "example": " Sr. Clinical Data Scientist",
-   "first_seen": "2026-10-27",
-   "slug": "summittherapeutics",
    "via": "discovered boards"
   },
   "greenhouse:swayable": {
@@ -6337,6 +6321,7 @@
   "ashby:LatchBio:c5acb583-8dc6-4010-9b08-23e8f14b24fd": "2026-11-03",
   "ashby:LatchBio:d4a8c4d4-e118-4dc7-a134-0180936e4148": "2026-10-27",
   "ashby:LatchBio:d8c04604-21db-4715-a476-14d9fb581e0f": "2026-10-27",
+  "ashby:LatchBio:ed615702-246d-4738-aa0c-36fc8e3375d1": "2026-11-10",
   "ashby:LatchBio:f1ee974f-e6ab-4b75-a07b-b2af0d9d7e7e": "2026-11-03",
   "ashby:LatchBio:f2f4defb-20e8-4d02-a30e-d7ab94b3ae22": "2026-11-04",
   "ashby:Owkin:f588cde0-efa9-4dc1-9501-a24525110450": "2026-10-27",
@@ -6520,6 +6505,7 @@
   "greenhouse:precisionmedicinegroup:6184742004": "2026-10-27",
   "greenhouse:precisionmedicinegroup:6190088004": "2026-11-02",
   "greenhouse:precisionmedicinegroup:6231840004": "2026-10-27",
+  "greenhouse:precisionmedicinegroup:6254007004": "2026-11-10",
   "greenhouse:swayable:5053179007": "2026-11-03",
   "greenhouse:swayable:5056112007": "2026-11-03",
   "greenhouse:swayable:5056114007": "2026-11-03",
@@ -6534,6 +6520,7 @@
   "lever:Yassir:9caf7e04-195a-4011-9b55-e1105615c0a2": "2026-11-03",
   "lever:moonpay:49338068-2f4d-4cbb-b55d-176b2ed2f89e": "2026-11-02",
   "lever:spotify:0eebb462-b5a2-4e3a-b830-d8ef7505b014": "2026-11-02",
+  "lever:spotify:56ea6f2e-f20b-4e46-ab94-d3eb0a89482d": "2026-11-10",
   "lever:spotify:6eb9ce0e-5372-4a4f-b2fa-d005f9426750": "2026-11-02",
   "lever:spotify:819f584f-84a5-485d-8082-3412545f6c8a": "2026-11-02",
   "lever:spotify:9e3bdb48-67eb-49d9-ae0b-a337ba69a05f": "2026-11-02",
@@ -6661,6 +6648,7 @@
   "url:https://job-boards.greenhouse.io/precisionmedicinegroup/jobs/6184742004": "2026-10-27",
   "url:https://job-boards.greenhouse.io/precisionmedicinegroup/jobs/6190088004": "2026-11-02",
   "url:https://job-boards.greenhouse.io/precisionmedicinegroup/jobs/6231840004": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/precisionmedicinegroup/jobs/6254007004": "2026-11-10",
   "url:https://job-boards.greenhouse.io/robotsandpencils/jobs/5457403008": "2026-10-27",
   "url:https://job-boards.greenhouse.io/swayable/jobs/5053179007": "2026-11-03",
   "url:https://job-boards.greenhouse.io/swayable/jobs/5056112007": "2026-11-03",
@@ -6706,6 +6694,7 @@
   "url:https://jobs.ashbyhq.com/LatchBio/c5acb583-8dc6-4010-9b08-23e8f14b24fd": "2026-11-03",
   "url:https://jobs.ashbyhq.com/LatchBio/d4a8c4d4-e118-4dc7-a134-0180936e4148": "2026-10-27",
   "url:https://jobs.ashbyhq.com/LatchBio/d8c04604-21db-4715-a476-14d9fb581e0f": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/LatchBio/ed615702-246d-4738-aa0c-36fc8e3375d1": "2026-11-10",
   "url:https://jobs.ashbyhq.com/LatchBio/f1ee974f-e6ab-4b75-a07b-b2af0d9d7e7e": "2026-11-03",
   "url:https://jobs.ashbyhq.com/LatchBio/f2f4defb-20e8-4d02-a30e-d7ab94b3ae22": "2026-11-04",
   "url:https://jobs.ashbyhq.com/Lemonade/db4cc9bb-e4c3-4b1a-b287-0d52d99a248c": "2026-10-27",
@@ -7032,6 +7021,7 @@
   "url:https://jobs.lever.co/outreach/4ef30219-4dd5-4f40-b3b8-76c3c2277ebb": "2026-10-27",
   "url:https://jobs.lever.co/outreach/cc0715d3-8bbf-4a5c-bd32-7d12c243e2c9": "2026-10-27",
   "url:https://jobs.lever.co/spotify/0eebb462-b5a2-4e3a-b830-d8ef7505b014": "2026-11-02",
+  "url:https://jobs.lever.co/spotify/56ea6f2e-f20b-4e46-ab94-d3eb0a89482d": "2026-11-10",
   "url:https://jobs.lever.co/spotify/6eb9ce0e-5372-4a4f-b2fa-d005f9426750": "2026-11-02",
   "url:https://jobs.lever.co/spotify/819f584f-84a5-485d-8082-3412545f6c8a": "2026-11-02",
   "url:https://jobs.lever.co/spotify/9e3bdb48-67eb-49d9-ae0b-a337ba69a05f": "2026-11-02",
