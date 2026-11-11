@@ -7330,6 +7330,7 @@
   },
   "ashby:libra": {
    "ats": "ashby",
+   "dead": "2026-11-11",
    "first_seen": "2026-10-27",
    "slug": "libra"
   },
@@ -46437,6 +46438,7 @@
   },
   "recruitee:rheingaufoundersportfolio": {
    "ats": "recruitee",
+   "dead": "2026-11-11",
    "first_seen": "2026-10-27",
    "slug": "rheingaufoundersportfolio"
   },
@@ -46467,6 +46469,7 @@
   },
   "recruitee:riscure": {
    "ats": "recruitee",
+   "dead": "2026-11-11",
    "first_seen": "2026-10-27",
    "slug": "riscure"
   },
@@ -46497,6 +46500,7 @@
   },
   "recruitee:rockencantechcarreiras": {
    "ats": "recruitee",
+   "dead": "2026-11-11",
    "first_seen": "2026-10-27",
    "slug": "rockencantechcarreiras"
   },

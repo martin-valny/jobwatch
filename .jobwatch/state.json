@@ -1880,14 +1880,6 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-10",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
-  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -6480,6 +6472,7 @@
   "ashby:swarmer:168331f3-fe33-4e3c-b91a-383cf4ab8819": "2026-11-02",
   "ashby:tenex:92439d53-0749-4486-b50b-dc908169676f": "2026-11-03",
   "ashby:thorit:c525ea45-418e-4771-ba06-e16ed257e284": "2026-11-03",
+  "ashby:thumbtack:0b760f61-107f-4464-9913-30752fde85a9": "2026-11-11",
   "ashby:thumbtack:5c82c34a-9cbc-4073-99fc-bacfc2ef8853": "2026-11-02",
   "ashby:tilthq:2ee3cc88-bcc2-40c6-b6a1-8422e331ae53": "2026-11-02",
   "ashby:tilthq:d6913ad2-5009-4f5b-b7de-953dad31ed85": "2026-11-02",
@@ -7013,6 +7006,7 @@
   "url:https://jobs.ashbyhq.com/tenex/92439d53-0749-4486-b50b-dc908169676f": "2026-11-03",
   "url:https://jobs.ashbyhq.com/teya/ee402538-d23e-47b8-8da8-69e6b1d35e1a": "2026-10-27",
   "url:https://jobs.ashbyhq.com/thorit/c525ea45-418e-4771-ba06-e16ed257e284": "2026-11-03",
+  "url:https://jobs.ashbyhq.com/thumbtack/0b760f61-107f-4464-9913-30752fde85a9": "2026-11-11",
   "url:https://jobs.ashbyhq.com/thumbtack/5c82c34a-9cbc-4073-99fc-bacfc2ef8853": "2026-11-02",
   "url:https://jobs.ashbyhq.com/tilthq/2ee3cc88-bcc2-40c6-b6a1-8422e331ae53": "2026-11-02",
   "url:https://jobs.ashbyhq.com/tilthq/d6913ad2-5009-4f5b-b7de-953dad31ed85": "2026-11-02",
