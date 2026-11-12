@@ -2641,6 +2641,7 @@
   },
   "ashby:cleric": {
    "ats": "ashby",
+   "dead": "2026-11-12",
    "first_seen": "2026-10-27",
    "slug": "Cleric"
   },
