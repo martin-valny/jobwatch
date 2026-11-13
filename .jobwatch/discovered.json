@@ -13062,6 +13062,7 @@
   },
   "ashby:tavily": {
    "ats": "ashby",
+   "dead": "2026-11-13",
    "first_seen": "2026-10-27",
    "slug": "tavily"
   },
@@ -44994,6 +44995,7 @@
   },
   "recruitee:intent1": {
    "ats": "recruitee",
+   "dead": "2026-11-13",
    "first_seen": "2026-10-27",
    "slug": "intent1"
   },

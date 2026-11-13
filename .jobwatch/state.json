@@ -1872,14 +1872,6 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-13",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
-  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -6526,9 +6518,11 @@
   "greenhouse:axle:5274568007": "2026-10-27",
   "greenhouse:axle:5274573007": "2026-10-27",
   "greenhouse:axle:5286265007": "2026-11-05",
+  "greenhouse:axle:5294604007": "2026-11-13",
   "greenhouse:bybit:4974605101": "2026-11-03",
   "greenhouse:eclinicalsolutions:5214677007": "2026-10-27",
   "greenhouse:faire:8870975002": "2026-11-03",
+  "greenhouse:faire:8942108002": "2026-11-13",
   "greenhouse:figure:8934097002": "2026-11-13",
   "greenhouse:galaxydigitalservices:6163325004": "2026-11-03",
   "greenhouse:givedirectly:4748456005": "2026-11-02",
@@ -6609,6 +6603,7 @@
   "url:https://apply.workable.com/j/748B0AD186": "2026-11-03",
   "url:https://apply.workable.com/j/80776E3E29": "2026-11-02",
   "url:https://apply.workable.com/j/83D823412A": "2026-11-11",
+  "url:https://apply.workable.com/j/8443CA9664": "2026-11-13",
   "url:https://apply.workable.com/j/85799E457F": "2026-11-02",
   "url:https://apply.workable.com/j/94E1DA5F7D": "2026-11-11",
   "url:https://apply.workable.com/j/AB2A46514F": "2026-11-08",
@@ -6639,6 +6634,7 @@
   "url:https://boards.greenhouse.io/faire/jobs/8845103002": "2026-10-27",
   "url:https://boards.greenhouse.io/faire/jobs/8856357002": "2026-10-27",
   "url:https://boards.greenhouse.io/faire/jobs/8870975002": "2026-11-03",
+  "url:https://boards.greenhouse.io/faire/jobs/8942108002": "2026-11-13",
   "url:https://boards.greenhouse.io/honor/jobs/8531886002": "2026-10-27",
   "url:https://boards.greenhouse.io/opensesame/jobs/8313424": "2026-11-03",
   "url:https://careers.gofasti.com/job-application/6227581004": "2026-10-27",
@@ -6661,6 +6657,7 @@
   "url:https://job-boards.greenhouse.io/axle/jobs/5274568007": "2026-10-27",
   "url:https://job-boards.greenhouse.io/axle/jobs/5274573007": "2026-10-27",
   "url:https://job-boards.greenhouse.io/axle/jobs/5286265007": "2026-11-05",
+  "url:https://job-boards.greenhouse.io/axle/jobs/5294604007": "2026-11-13",
   "url:https://job-boards.greenhouse.io/bluefishai/jobs/5286942008": "2026-10-27",
   "url:https://job-boards.greenhouse.io/clearstreet/jobs/8223266": "2026-10-27",
   "url:https://job-boards.greenhouse.io/clearstreet/jobs/8296144": "2026-10-27",
@@ -7128,6 +7125,7 @@
   "workable:quanticate:440659E104": "2026-10-27",
   "workable:realadvisor:F2F338265C": "2026-11-02",
   "workable:salla:AB2A46514F": "2026-11-08",
+  "workable:scalepex:8443CA9664": "2026-11-13",
   "workable:tiger-analytics:B78966FB2C": "2026-11-03",
   "workable:weekday-1:85799E457F": "2026-11-02"
  }
