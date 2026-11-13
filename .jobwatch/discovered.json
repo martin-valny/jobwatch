@@ -3091,6 +3091,7 @@
   },
   "ashby:corridor": {
    "ats": "ashby",
+   "dead": "2026-11-13",
    "first_seen": "2026-10-27",
    "slug": "corridor"
   },
@@ -7799,6 +7800,7 @@
   },
   "ashby:maple": {
    "ats": "ashby",
+   "dead": "2026-11-13",
    "first_seen": "2026-10-27",
    "slug": "maple"
   },
@@ -9137,6 +9139,7 @@
   },
   "ashby:offstream": {
    "ats": "ashby",
+   "dead": "2026-11-13",
    "first_seen": "2026-10-27",
    "slug": "offstream"
   },
@@ -17762,6 +17765,7 @@
   },
   "greenhouse:classpass": {
    "ats": "greenhouse",
+   "dead": "2026-11-13",
    "first_seen": "2026-10-27",
    "slug": "classpass"
   },
@@ -27326,6 +27330,7 @@
   },
   "greenhouse:surgerypartners": {
    "ats": "greenhouse",
+   "dead": "2026-11-13",
    "first_seen": "2026-10-27",
    "slug": "surgerypartners"
   },

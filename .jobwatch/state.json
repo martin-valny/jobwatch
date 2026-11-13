@@ -1568,14 +1568,6 @@
    "slug": "talkiatry",
    "via": "discovered boards"
   },
-  "ashby:tavily": {
-   "ats": "ashby",
-   "company": "tavily",
-   "example": "Data Scientist ",
-   "first_seen": "2026-10-27",
-   "slug": "tavily",
-   "via": "discovered boards"
-  },
   "ashby:teamworks": {
    "ats": "ashby",
    "company": "teamworks",
@@ -1879,6 +1871,14 @@
    "first_seen": "2026-10-27",
    "slug": "anaplan",
    "via": "discovered boards"
+  },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Senior Engineer, Bioinformatics",
+   "first_seen": "2026-11-13",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
   },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
@@ -4054,6 +4054,14 @@
    "example": "Data Scientist",
    "first_seen": "2026-10-27",
    "slug": "azumo",
+   "via": "discovered boards"
+  },
+  "workable:bask-health-1": {
+   "ats": "workable",
+   "company": "bask-health-1",
+   "example": "AI Product Engineer, Clinical & Pharmacy Workflows",
+   "first_seen": "2026-11-13",
+   "slug": "bask-health-1",
    "via": "discovered boards"
   },
   "workable:berry-street": {
@@ -6448,6 +6456,7 @@
   "ashby:midjourney:9beaa654-e136-4e6d-b51b-4c5b3ccb7e2b": "2026-10-27",
   "ashby:mirelo:55090c78-9dee-4fa3-bf29-c06ad65c0f02": "2026-11-03",
   "ashby:mirelo:fb449786-cdb8-4000-8586-3df00c826095": "2026-11-03",
+  "ashby:mistral.ai:d040f4c6-ed98-4370-b6e9-460c359a5e2a": "2026-11-13",
   "ashby:nano-qt:07f49c7e-1fa4-4fe1-9779-8058ae19bd47": "2026-11-03",
   "ashby:nano-qt:518cfb63-c9d8-4eb7-b312-c7006cb9bd24": "2026-11-03",
   "ashby:nash:472354ab-cc88-4716-8663-896da3f1e5b0": "2026-11-06",
@@ -6520,6 +6529,7 @@
   "greenhouse:bybit:4974605101": "2026-11-03",
   "greenhouse:eclinicalsolutions:5214677007": "2026-10-27",
   "greenhouse:faire:8870975002": "2026-11-03",
+  "greenhouse:figure:8934097002": "2026-11-13",
   "greenhouse:galaxydigitalservices:6163325004": "2026-11-03",
   "greenhouse:givedirectly:4748456005": "2026-11-02",
   "greenhouse:jumio:4664041005": "2026-10-27",
@@ -6565,9 +6575,11 @@
   "lever_eu:prima:5df3ae85-e2db-4e2a-b868-16e57d193a47": "2026-11-03",
   "lever_eu:westernacher:20daba5c-3e04-4dc4-b474-d64ff67caaf5": "2026-11-02",
   "personio:1komma5grad:2859433": "2026-11-03",
+  "personio:7learnings:2886444": "2026-11-13",
   "personio:giant-swarm:2848213": "2026-11-03",
   "personio:stenon-gmbh:2866917": "2026-11-02",
   "personio_com:1komma5grad:2859433": "2026-11-03",
+  "personio_com:7learnings:2886444": "2026-11-13",
   "personio_com:apheris:2823682": "2026-10-27",
   "recruitee:deephealth:2758379": "2026-11-07",
   "url:https://1komma5grad.jobs.personio.com/job/2859433": "2026-11-03",
@@ -6575,9 +6587,11 @@
   "url:https://7learnings.jobs.personio.com/job/2675894": "2026-10-27",
   "url:https://7learnings.jobs.personio.com/job/2793420": "2026-10-27",
   "url:https://7learnings.jobs.personio.com/job/2819017": "2026-10-27",
+  "url:https://7learnings.jobs.personio.com/job/2886444": "2026-11-13",
   "url:https://7learnings.jobs.personio.de/job/2675894": "2026-10-27",
   "url:https://7learnings.jobs.personio.de/job/2793420": "2026-10-27",
   "url:https://7learnings.jobs.personio.de/job/2819017": "2026-10-27",
+  "url:https://7learnings.jobs.personio.de/job/2886444": "2026-11-13",
   "url:https://apheris.jobs.personio.com/job/2739261": "2026-10-27",
   "url:https://apheris.jobs.personio.com/job/2823682": "2026-10-27",
   "url:https://apply.workable.com/j/0B8AEA13CD": "2026-11-02",
@@ -6653,6 +6667,7 @@
   "url:https://job-boards.greenhouse.io/coderoad/jobs/4458093009": "2026-10-27",
   "url:https://job-boards.greenhouse.io/eclinicalsolutions/jobs/5214677007": "2026-10-27",
   "url:https://job-boards.greenhouse.io/evio/jobs/4723802005": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/figure/jobs/8934097002": "2026-11-13",
   "url:https://job-boards.greenhouse.io/focalsystems/jobs/6016008004": "2026-10-27",
   "url:https://job-boards.greenhouse.io/fourkites/jobs/8146559": "2026-10-27",
   "url:https://job-boards.greenhouse.io/freenome/jobs/8627491002": "2026-10-27",
@@ -6928,6 +6943,7 @@
   "url:https://jobs.ashbyhq.com/mistral.ai/9873f968-d5b2-4fb0-b268-7a274a4a2029": "2026-10-27",
   "url:https://jobs.ashbyhq.com/mistral.ai/9fc579c8-784c-4b91-bcd0-392f35d13100": "2026-10-27",
   "url:https://jobs.ashbyhq.com/mistral.ai/bc659575-b7c2-406c-825b-fdd58c503594": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/mistral.ai/d040f4c6-ed98-4370-b6e9-460c359a5e2a": "2026-11-13",
   "url:https://jobs.ashbyhq.com/mistral.ai/f090ef1d-372e-40dc-bf46-ce0bf2850204": "2026-10-27",
   "url:https://jobs.ashbyhq.com/monday.com/9de6a3e3-2b7d-4208-949f-b3b9de936bd3": "2026-10-27",
   "url:https://jobs.ashbyhq.com/monday.com/c63d83ff-8462-48f6-8c27-692f903c28a5": "2026-10-27",
