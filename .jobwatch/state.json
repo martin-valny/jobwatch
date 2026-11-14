@@ -1872,6 +1872,14 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Senior Engineer, Bioinformatics",
+   "first_seen": "2026-11-14",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
+  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -3430,6 +3438,14 @@
    "example": "Staff Data Scientist",
    "first_seen": "2026-10-27",
    "slug": "usenourish",
+   "via": "discovered boards"
+  },
+  "greenhouse:veracyte": {
+   "ats": "greenhouse",
+   "company": "veracyte",
+   "example": "Bioinformatics Scientist II",
+   "first_seen": "2026-11-14",
+   "slug": "veracyte",
    "via": "discovered boards"
   },
   "greenhouse:vonage": {
@@ -6351,6 +6367,7 @@
   "ashby:LatchBio:b7a5fe69-ee66-4748-bf35-06a85438434e": "2026-11-03",
   "ashby:LatchBio:ba71439b-6f26-48b5-af5c-5449289274e0": "2026-10-27",
   "ashby:LatchBio:c5acb583-8dc6-4010-9b08-23e8f14b24fd": "2026-11-03",
+  "ashby:LatchBio:d0a50576-fab7-488c-8250-f533a5c37bc6": "2026-11-14",
   "ashby:LatchBio:d4a8c4d4-e118-4dc7-a134-0180936e4148": "2026-10-27",
   "ashby:LatchBio:d8c04604-21db-4715-a476-14d9fb581e0f": "2026-10-27",
   "ashby:LatchBio:ed615702-246d-4738-aa0c-36fc8e3375d1": "2026-11-10",
@@ -6749,6 +6766,7 @@
   "url:https://jobs.ashbyhq.com/LatchBio/b7a5fe69-ee66-4748-bf35-06a85438434e": "2026-11-03",
   "url:https://jobs.ashbyhq.com/LatchBio/ba71439b-6f26-48b5-af5c-5449289274e0": "2026-10-27",
   "url:https://jobs.ashbyhq.com/LatchBio/c5acb583-8dc6-4010-9b08-23e8f14b24fd": "2026-11-03",
+  "url:https://jobs.ashbyhq.com/LatchBio/d0a50576-fab7-488c-8250-f533a5c37bc6": "2026-11-14",
   "url:https://jobs.ashbyhq.com/LatchBio/d4a8c4d4-e118-4dc7-a134-0180936e4148": "2026-10-27",
   "url:https://jobs.ashbyhq.com/LatchBio/d8c04604-21db-4715-a476-14d9fb581e0f": "2026-10-27",
   "url:https://jobs.ashbyhq.com/LatchBio/ed615702-246d-4738-aa0c-36fc8e3375d1": "2026-11-10",
