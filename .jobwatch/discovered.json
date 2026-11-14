@@ -6832,6 +6832,7 @@
   },
   "ashby:kinetic": {
    "ats": "ashby",
+   "dead": "2026-11-14",
    "first_seen": "2026-10-27",
    "slug": "kinetic"
   },
@@ -63029,6 +63030,7 @@
   },
   "workable:outschool": {
    "ats": "workable",
+   "dead": "2026-11-14",
    "first_seen": "2026-10-27",
    "slug": "outschool"
   },
