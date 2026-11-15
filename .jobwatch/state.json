@@ -1816,14 +1816,6 @@
    "slug": "airbnb",
    "via": "discovered boards"
   },
-  "greenhouse:aisquared": {
-   "ats": "greenhouse",
-   "company": "AISquared",
-   "example": "Data Scientist ",
-   "first_seen": "2026-10-27",
-   "slug": "AISquared",
-   "via": "discovered boards"
-  },
   "greenhouse:allenintegratedsolutions": {
    "ats": "greenhouse",
    "company": "allenintegratedsolutions",
@@ -1871,6 +1863,14 @@
    "first_seen": "2026-10-27",
    "slug": "anaplan",
    "via": "discovered boards"
+  },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Senior Engineer, Bioinformatics",
+   "first_seen": "2026-11-15",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
   },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
