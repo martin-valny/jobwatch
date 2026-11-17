@@ -1864,14 +1864,6 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-16",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
-  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -4203,44 +4195,74 @@
  },
  "resolved": {
   "10x Genomics": {
-   "ats": null,
-   "checked": "2026-11-10"
+   "ats": "workable",
+   "checked": "2026-11-17",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "10xgenomics"
   },
   "10x Science": {
-   "ats": null,
-   "checked": "2026-11-10"
+   "ats": "workable",
+   "checked": "2026-11-17",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "10xscience"
   },
   "1849 bio": {
-   "ats": null,
-   "checked": "2026-11-10"
+   "ats": "workable",
+   "checked": "2026-11-17",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "1849biobio"
   },
   "1910": {
-   "ats": null,
-   "checked": "2026-11-10"
+   "ats": "workable",
+   "checked": "2026-11-17",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "1910ai"
   },
   "64x Bio": {
-   "ats": null,
-   "checked": "2026-11-10"
+   "ats": "workable",
+   "checked": "2026-11-17",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "64xbio"
   },
   "ACX": {
-   "ats": null,
-   "checked": "2026-11-10"
+   "ats": "workable",
+   "checked": "2026-11-17",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "acx"
   },
   "ALT TEX": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "AOA Dx": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "AbInitio Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Abalone Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Absci": {
    "ats": "ashby",
@@ -4272,35 +4294,35 @@
   },
   "Adialante": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Adravision": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Adventris Pharmaceuticals": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Akoya Biosciences": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Alga Biosciences": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Algen Biotechnologies": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Alixia": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Altay Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Altos Labs": {
    "ats": "greenhouse",
@@ -4318,11 +4340,11 @@
   },
   "AminoAnalytica": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Andson Biotech": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Ansa Biotechnologies": {
    "ats": "greenhouse",
@@ -4354,11 +4376,11 @@
   },
   "Anto Biosciences": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Aqemia": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Arc Institute": {
    "ats": "greenhouse",
@@ -4376,15 +4398,15 @@
   },
   "Ardigen": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Arpeggio Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Asher Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Asimov": {
    "ats": "ashby",
@@ -4402,7 +4424,7 @@
   },
   "Astek Diagnostics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Atlas Discovery": {
    "ats": "ashby",
@@ -4428,11 +4450,11 @@
   },
   "Avro Life Science": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "BLUUMBIO": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Basecamp Research": {
    "ats": "ashby",
@@ -4460,15 +4482,15 @@
   },
   "BigHat Biosciences": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Biocartesian": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Biodock": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Biomodal": {
    "ats": "greenhouse",
@@ -4481,11 +4503,11 @@
   },
   "Bioptimus": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Birch Biosciences": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Blank Bio": {
    "ats": "workable",
@@ -4507,19 +4529,19 @@
   },
   "BrainKey": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Bramante": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Brown Foods": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "C16 Biosciences": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "CB Therapeutics": {
    "ats": "recruitee",
@@ -4535,8 +4557,13 @@
    "slug": "cb"
   },
   "CHARM Therapeutics": {
-   "ats": null,
-   "checked": "2026-11-10"
+   "ats": "workable",
+   "checked": "2026-11-17",
+   "confident": false,
+   "exact": false,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "charm"
   },
   "Caire Health": {
    "ats": "greenhouse",
@@ -4562,11 +4589,11 @@
   },
   "CellChorus": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "CellType": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Cellarity": {
    "ats": "greenhouse",
@@ -4595,31 +4622,31 @@
   },
   "Circumvent": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Cisterna Biologics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Clear Gene": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Cofactor Genomics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Congenica": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Constructive Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Convexia": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Culture Biosciences": {
    "ats": "greenhouse",
@@ -4649,7 +4676,7 @@
   },
   "Darmiyan": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Data Driven Bioscience": {
    "ats": "smartrecruiters",
@@ -4680,19 +4707,19 @@
   },
   "Delee": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Delineate": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Diffuse Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Digistain": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Ditto Biosciences": {
    "ats": "ashby",
@@ -4734,7 +4761,7 @@
   },
   "Eden": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Element Biosciences": {
    "ats": "greenhouse",
@@ -4752,15 +4779,15 @@
   },
   "Elucidata": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Enjamb Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Entelexo Biotherapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Enveda": {
    "ats": "lever",
@@ -4777,27 +4804,27 @@
   },
   "Epinoma": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Equator Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Eris Biotech": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Eugit Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "EvolutionaryScale": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Evolvere BioSciences": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Excepgen": {
    "ats": "smartrecruiters",
@@ -4812,19 +4839,19 @@
   },
   "Exin Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Exonic": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "FinalDose": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Forever Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Form Bio": {
    "ats": "ashby",
@@ -4853,11 +4880,11 @@
   },
   "Frekil": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Future Fields": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "FutureHouse": {
    "ats": "ashby",
@@ -4870,15 +4897,15 @@
   },
   "GEn1E Lifesciences": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Gamgee": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Genecis Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "General Proximity": {
    "ats": "greenhouse",
@@ -4923,19 +4950,19 @@
   },
   "Genomelink": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Gilgamesh Pharmaceuticals": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Gleam": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "GloGlo": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Grail": {
    "ats": "lever",
@@ -4953,27 +4980,32 @@
   },
   "Granza Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Guardant Health": {
-   "ats": null,
-   "checked": "2026-11-10"
+   "ats": "workable",
+   "checked": "2026-11-17",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "guardant-health"
   },
   "Guardian Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Gutgutgoose": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Halmos Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Haplotype Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Harmonic Discovery": {
    "ats": "ashby",
@@ -5001,23 +5033,23 @@
   },
   "Helix Nanotechnologies": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Hepatx": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "HistoWiz": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Human Dx": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Humane Genomics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Iambic Therapeutics": {
    "ats": "ashby",
@@ -5035,19 +5067,19 @@
   },
   "Iktos": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Illume Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Immunity Project": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "InVision Medical Technology": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Inceptive": {
    "ats": "greenhouse",
@@ -5065,11 +5097,11 @@
   },
   "Indee Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Industrial Microbes": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Infera": {
    "ats": "ashby",
@@ -5092,16 +5124,21 @@
    "slug": "insilico"
   },
   "InstaDeep": {
-   "ats": null,
-   "checked": "2026-11-10"
+   "ats": "workable",
+   "checked": "2026-11-17",
+   "confident": false,
+   "exact": true,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "instadeep"
   },
   "Instapath Inc.": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Intact Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Invert": {
    "ats": "ashby",
@@ -5132,7 +5169,7 @@
   },
   "Isabl": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Isomorphic Labs": {
    "ats": "greenhouse",
@@ -5163,11 +5200,11 @@
   },
   "KemNet": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Kern Systems": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Kernal Biologics": {
    "ats": "greenhouse",
@@ -5185,7 +5222,7 @@
   },
   "Keylika": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Kingdom": {
    "ats": "ashby",
@@ -5216,11 +5253,11 @@
   },
   "Kopra Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "LEAH Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "LabGenius": {
    "ats": "workable",
@@ -5233,7 +5270,7 @@
   },
   "Lamin": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "LatchBio": {
    "ats": "ashby",
@@ -5251,7 +5288,7 @@
   },
   "Ligo Biosciences": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Lila Sciences": {
    "ats": "greenhouse",
@@ -5278,19 +5315,19 @@
   },
   "Lucy Goods, Inc": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Lygos": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "MICSI": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Macromoltek": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Manifold Bio": {
    "ats": "greenhouse",
@@ -5308,7 +5345,7 @@
   },
   "Matrubials": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Maven Bio": {
    "ats": "ashby",
@@ -5337,35 +5374,35 @@
   },
   "Menten AI": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Mind Emulation Foundation": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Mindstate Design Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Miracle": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Mission Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Modulari-T": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Moichor": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Molagri": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Monte Rosa Therapeutics": {
    "ats": "workable",
@@ -5414,23 +5451,23 @@
   },
   "Nautilus Biotechnology": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Nectome": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Nephrogen": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Nest Genomics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Neuromorphic": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "New Limit": {
    "ats": "greenhouse",
@@ -5476,11 +5513,11 @@
   },
   "Novelcare": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Nucleome Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Nuclera": {
    "ats": "workable",
@@ -5498,15 +5535,15 @@
   },
   "Numen": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Numerion Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Nuntius Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Nurix Therapeutics": {
    "ats": "greenhouse",
@@ -5524,11 +5561,16 @@
   },
   "Nxtcure Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Ochre Bio": {
-   "ats": null,
-   "checked": "2026-11-10"
+   "ats": "workable",
+   "checked": "2026-11-17",
+   "confident": false,
+   "exact": false,
+   "n_jobs": 0,
+   "sample": [],
+   "slug": "ochre"
   },
   "Ohmic Biosciences": {
    "ats": "greenhouse",
@@ -5541,27 +5583,27 @@
   },
   "Olio Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Oncobox": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "OpenBiome": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Opentrons": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Orange Health Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Origami Therapeutics, Inc.": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Origin": {
    "ats": "ashby",
@@ -5578,7 +5620,7 @@
   },
   "Osseus": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Output Labs": {
    "ats": "ashby",
@@ -5609,7 +5651,7 @@
   },
   "Oxford Nanopore Technologies": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Paceline Bio": {
    "ats": "lever",
@@ -5634,7 +5676,7 @@
   },
   "Panoptive": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Parallel Bio": {
    "ats": "ashby",
@@ -5651,7 +5693,7 @@
   },
   "ParcelBio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Parse Biosciences": {
    "ats": "greenhouse",
@@ -5691,11 +5733,11 @@
   },
   "Perlara": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Persephone Biosciences": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Perseus": {
    "ats": "personio",
@@ -5712,11 +5754,11 @@
   },
   "Persist AI": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Pirouette Pharma": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "PostEra": {
    "ats": "lever",
@@ -5732,7 +5774,7 @@
   },
   "Primordiant": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Probably Genetic": {
    "ats": "ashby",
@@ -5763,31 +5805,31 @@
   },
   "Promakhos Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Quinn": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Qvin": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Rarebird": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Rasyn": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Raycaster": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Rebellyous Foods": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Recursion": {
    "ats": "greenhouse",
@@ -5805,11 +5847,11 @@
   },
   "Redcliffe Lifetech": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Rejuvenation Technologies Inc.": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Relation Therapeutics": {
    "ats": "ashby",
@@ -5827,15 +5869,15 @@
   },
   "Relevium Medical": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Reshape Biotech": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Reticular": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Retro Biosciences": {
    "ats": "lever",
@@ -5864,7 +5906,7 @@
   },
   "RonanRx Inc.": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Rosebud Biosciences": {
    "ats": "greenhouse",
@@ -5892,19 +5934,19 @@
   },
   "SafeBeat": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Scanbase": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Scienta Lab": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Scoop": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Scout": {
    "ats": "ashby",
@@ -5928,11 +5970,11 @@
   },
   "Segmed": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Sensible Biotechnologies": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Seqera": {
    "ats": "ashby",
@@ -5963,11 +6005,11 @@
   },
   "Serinus Biosciences": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Serna Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Shift Bioscience": {
    "ats": "ashby",
@@ -5995,11 +6037,11 @@
   },
   "Sigma Genetics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Signatur Biosciences": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Sixfold Bioscience": {
    "ats": "greenhouse",
@@ -6016,7 +6058,7 @@
   },
   "Solugen": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Somite.ai": {
    "ats": "ashby",
@@ -6033,16 +6075,25 @@
    "via": "website"
   },
   "Sophia Genetics": {
-   "ats": null,
-   "checked": "2026-11-10"
+   "ats": "workable",
+   "checked": "2026-11-17",
+   "confident": true,
+   "exact": true,
+   "n_jobs": 26,
+   "sample": [
+    "Clinical Solutions Engineer (Subject Matter Expert) - West Coast",
+    "Corporate Strategy Associate",
+    "Corporate Systems Analyst Intern - IT & Business Applications"
+   ],
+   "slug": "sophia-genetics"
   },
   "Spectre Intelligence": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Spot Health": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Standard BioTools": {
    "ats": "workable",
@@ -6055,35 +6106,35 @@
   },
   "Starling": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Strand AI": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Synkrino Biotherapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "SynsoryBio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Synthio Labs": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Synvivia": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Tahoe Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Talus Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Tamarind Bio": {
    "ats": "ashby",
@@ -6101,27 +6152,27 @@
   },
   "TareBio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Tempus": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Terray Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Torpedo Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Tradewind BioScience": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Trestle Biotherapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "TwentyTwo": {
    "ats": "ashby",
@@ -6152,11 +6203,11 @@
   },
   "Uncommon Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Undermind": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Unlearn": {
    "ats": "ashby",
@@ -6174,11 +6225,11 @@
   },
   "UrbanKisaan": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Valink Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Valo Health": {
    "ats": "greenhouse",
@@ -6195,11 +6246,11 @@
   },
   "VedaBio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Velorum Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Velsera": {
    "ats": "workable",
@@ -6230,7 +6281,7 @@
   },
   "Vizgen": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Volta Labs, Inc.": {
    "ats": "lever",
@@ -6259,15 +6310,15 @@
   },
   "WonderTx": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "X-Zell": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "XGenomes": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "Xaira Therapeutics": {
    "ats": "greenhouse",
@@ -6285,11 +6336,11 @@
   },
   "Yemaachi Biotechnology": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "YourChoice Therapeutics": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "ZBiotics": {
    "ats": "greenhouse",
@@ -6319,7 +6370,7 @@
   },
   "inSoma Bio": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   },
   "insitro": {
    "ats": "ashby",
@@ -6336,7 +6387,7 @@
   },
   "\u00c5ngstr\u00f6m AI": {
    "ats": null,
-   "checked": "2026-11-10"
+   "checked": "2026-11-17"
   }
  },
  "seen": {
@@ -6531,6 +6582,7 @@
   "greenhouse:axle:5274573007": "2026-10-27",
   "greenhouse:axle:5286265007": "2026-11-05",
   "greenhouse:axle:5294604007": "2026-11-13",
+  "greenhouse:blockchain:7386870": "2026-11-17",
   "greenhouse:bybit:4974605101": "2026-11-03",
   "greenhouse:eclinicalsolutions:5214677007": "2026-10-27",
   "greenhouse:faire:8870975002": "2026-11-03",
@@ -6587,6 +6639,7 @@
   "personio_com:1komma5grad:2859433": "2026-11-03",
   "personio_com:7learnings:2886444": "2026-11-13",
   "personio_com:apheris:2823682": "2026-10-27",
+  "recruitee:almavivadebelgique:2828461": "2026-11-17",
   "recruitee:deephealth:2758379": "2026-11-07",
   "recruitee:gsbsolutions1:2824407": "2026-11-16",
   "url:https://1komma5grad.jobs.personio.com/job/2859433": "2026-11-03",
@@ -6599,6 +6652,7 @@
   "url:https://7learnings.jobs.personio.de/job/2793420": "2026-10-27",
   "url:https://7learnings.jobs.personio.de/job/2819017": "2026-10-27",
   "url:https://7learnings.jobs.personio.de/job/2886444": "2026-11-13",
+  "url:https://almavivadebelgique.be/o/data-scientist-remote-from-eu-deadline-231126": "2026-11-17",
   "url:https://apheris.jobs.personio.com/job/2739261": "2026-10-27",
   "url:https://apheris.jobs.personio.com/job/2823682": "2026-10-27",
   "url:https://apply.workable.com/j/0B8AEA13CD": "2026-11-02",
@@ -6672,6 +6726,7 @@
   "url:https://job-boards.greenhouse.io/axle/jobs/5274573007": "2026-10-27",
   "url:https://job-boards.greenhouse.io/axle/jobs/5286265007": "2026-11-05",
   "url:https://job-boards.greenhouse.io/axle/jobs/5294604007": "2026-11-13",
+  "url:https://job-boards.greenhouse.io/blockchain/jobs/7386870": "2026-11-17",
   "url:https://job-boards.greenhouse.io/bluefishai/jobs/5286942008": "2026-10-27",
   "url:https://job-boards.greenhouse.io/clearstreet/jobs/8223266": "2026-10-27",
   "url:https://job-boards.greenhouse.io/clearstreet/jobs/8296144": "2026-10-27",
