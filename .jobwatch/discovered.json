@@ -20891,6 +20891,7 @@
   },
   "greenhouse:headoutcareers": {
    "ats": "greenhouse",
+   "dead": "2026-11-17",
    "first_seen": "2026-10-27",
    "slug": "headoutcareers"
   },
@@ -25313,6 +25314,7 @@
   },
   "greenhouse:quip": {
    "ats": "greenhouse",
+   "dead": "2026-11-17",
    "first_seen": "2026-10-27",
    "slug": "quip"
   },
@@ -39187,6 +39189,7 @@
   },
   "personio_com:alleo": {
    "ats": "personio_com",
+   "dead": "2026-11-17",
    "first_seen": "2026-10-27",
    "slug": "alleo"
   },
@@ -39292,6 +39295,7 @@
   },
   "personio_com:angsa-robotics": {
    "ats": "personio_com",
+   "dead": "2026-11-17",
    "first_seen": "2026-10-27",
    "slug": "angsa-robotics"
   },

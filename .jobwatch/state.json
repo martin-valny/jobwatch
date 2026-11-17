@@ -1040,14 +1040,6 @@
    "slug": "neara",
    "via": "discovered boards"
   },
-  "ashby:nectar-social": {
-   "ats": "ashby",
-   "company": "nectar-social",
-   "example": "Founding Data Scientist ",
-   "first_seen": "2026-10-27",
-   "slug": "nectar-social",
-   "via": "discovered boards"
-  },
   "ashby:neo-tax": {
    "ats": "ashby",
    "company": "neo-tax",
@@ -1863,14 +1855,6 @@
    "first_seen": "2026-10-27",
    "slug": "anaplan",
    "via": "discovered boards"
-  },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-17",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
   },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
