@@ -8936,6 +8936,7 @@
   },
   "ashby:norm-ai": {
    "ats": "ashby",
+   "dead": "2026-11-18",
    "first_seen": "2026-10-27",
    "slug": "norm-ai"
   },
@@ -16772,6 +16773,7 @@
   },
   "greenhouse:bitreactor": {
    "ats": "greenhouse",
+   "dead": "2026-11-18",
    "first_seen": "2026-10-27",
    "slug": "bitreactor"
   },
@@ -35785,6 +35787,7 @@
   },
   "personio:esentri": {
    "ats": "personio",
+   "dead": "2026-11-18",
    "first_seen": "2026-10-27",
    "slug": "esentri"
   },
@@ -44491,6 +44494,7 @@
   },
   "recruitee:ggzcentraal": {
    "ats": "recruitee",
+   "dead": "2026-11-18",
    "first_seen": "2026-10-27",
    "slug": "ggzcentraal"
   },

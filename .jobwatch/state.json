@@ -1856,14 +1856,6 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-18",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
-  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -6592,6 +6584,7 @@
   "greenhouse:figure:8934097002": "2026-11-13",
   "greenhouse:galaxydigitalservices:6163325004": "2026-11-03",
   "greenhouse:givedirectly:4748456005": "2026-11-02",
+  "greenhouse:honor:8950134002": "2026-11-18",
   "greenhouse:jumio:4664041005": "2026-10-27",
   "greenhouse:kairospower:6163824004": "2026-10-27",
   "greenhouse:moniepoint:4736488101": "2026-11-02",
@@ -6706,6 +6699,7 @@
   "url:https://boards.greenhouse.io/faire/jobs/8870975002": "2026-11-03",
   "url:https://boards.greenhouse.io/faire/jobs/8942108002": "2026-11-13",
   "url:https://boards.greenhouse.io/honor/jobs/8531886002": "2026-10-27",
+  "url:https://boards.greenhouse.io/honor/jobs/8950134002": "2026-11-18",
   "url:https://boards.greenhouse.io/opensesame/jobs/8313424": "2026-11-03",
   "url:https://careers.gofasti.com/job-application/6227581004": "2026-10-27",
   "url:https://deephealth.recruitee.com/o/senior-research-scientist": "2026-11-07",
