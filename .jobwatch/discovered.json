@@ -1637,6 +1637,7 @@
   },
   "ashby:beside": {
    "ats": "ashby",
+   "dead": "2026-11-18",
    "first_seen": "2026-10-27",
    "slug": "beside"
   },
@@ -2504,6 +2505,7 @@
   },
   "ashby:chief": {
    "ats": "ashby",
+   "dead": "2026-11-18",
    "first_seen": "2026-10-27",
    "slug": "chief"
   },
@@ -3900,6 +3902,7 @@
   },
   "ashby:echo": {
    "ats": "ashby",
+   "dead": "2026-11-18",
    "first_seen": "2026-10-27",
    "slug": "echo"
   },
@@ -8640,6 +8643,7 @@
   },
   "ashby:nectar-social": {
    "ats": "ashby",
+   "dead": "2026-11-18",
    "first_seen": "2026-10-27",
    "slug": "nectar-social"
   },
@@ -19362,6 +19366,7 @@
   },
   "greenhouse:engineeringatgigs": {
    "ats": "greenhouse",
+   "dead": "2026-11-18",
    "first_seen": "2026-10-27",
    "slug": "engineeringatgigs"
   },
@@ -20383,6 +20388,7 @@
   },
   "greenhouse:gigs": {
    "ats": "greenhouse",
+   "dead": "2026-11-18",
    "first_seen": "2026-10-27",
    "slug": "gigs"
   },
@@ -47667,6 +47673,7 @@
   },
   "recruitee:vpteam": {
    "ats": "recruitee",
+   "dead": "2026-11-18",
    "first_seen": "2026-10-27",
    "slug": "vpteam"
   },

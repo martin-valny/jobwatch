@@ -1856,6 +1856,14 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Senior Engineer, Bioinformatics",
+   "first_seen": "2026-11-18",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
+  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -6602,6 +6610,7 @@
   "greenhouse:precisionmedicinegroup:6190088004": "2026-11-02",
   "greenhouse:precisionmedicinegroup:6231840004": "2026-10-27",
   "greenhouse:precisionmedicinegroup:6254007004": "2026-11-10",
+  "greenhouse:similarweb:7959679": "2026-11-18",
   "greenhouse:swayable:5053179007": "2026-11-03",
   "greenhouse:swayable:5056112007": "2026-11-03",
   "greenhouse:swayable:5056114007": "2026-11-03",
@@ -6770,6 +6779,7 @@
   "url:https://job-boards.greenhouse.io/precisionmedicinegroup/jobs/6231840004": "2026-10-27",
   "url:https://job-boards.greenhouse.io/precisionmedicinegroup/jobs/6254007004": "2026-11-10",
   "url:https://job-boards.greenhouse.io/robotsandpencils/jobs/5457403008": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/similarweb/jobs/7959679": "2026-11-18",
   "url:https://job-boards.greenhouse.io/swayable/jobs/5053179007": "2026-11-03",
   "url:https://job-boards.greenhouse.io/swayable/jobs/5056112007": "2026-11-03",
   "url:https://job-boards.greenhouse.io/swayable/jobs/5056114007": "2026-11-03",
