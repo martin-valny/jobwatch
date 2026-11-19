@@ -1576,6 +1576,14 @@
    "slug": "tenex",
    "via": "discovered boards"
   },
+  "ashby:terac": {
+   "ats": "ashby",
+   "company": "terac",
+   "example": "Computational Biologists (Wet Lab): Building Research Tasks for AI Training",
+   "first_seen": "2026-11-19",
+   "slug": "terac",
+   "via": "discovered boards"
+  },
   "ashby:teya": {
    "ats": "ashby",
    "company": "teya",
@@ -1855,14 +1863,6 @@
    "first_seen": "2026-10-27",
    "slug": "anaplan",
    "via": "discovered boards"
-  },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-19",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
   },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
@@ -6478,6 +6478,7 @@
   "ashby:doctolib:f3605428-4d4f-414c-88d1-787b55518e1c": "2026-11-03",
   "ashby:edited:0c669cd9-57fb-4021-bb86-628b04ab4da7": "2026-11-03",
   "ashby:elevenlabs:257f24da-83db-4bad-a6dc-37793a1a0bac": "2026-11-06",
+  "ashby:elevenlabs:41b892ba-b530-44cb-9ae1-178908fc324c": "2026-11-19",
   "ashby:faculty:a3cebc63-07df-426b-8156-4526481f488c": "2026-11-02",
   "ashby:faculty:e6e788ad-706d-433e-8a33-356f90fcff31": "2026-11-02",
   "ashby:fireworks:5bae43a4-aa7b-4b56-821a-a03ede683d0f": "2026-11-02",
@@ -6593,6 +6594,7 @@
   "greenhouse:galaxydigitalservices:6163325004": "2026-11-03",
   "greenhouse:givedirectly:4748456005": "2026-11-02",
   "greenhouse:honor:8950134002": "2026-11-18",
+  "greenhouse:intercom:8403398": "2026-11-19",
   "greenhouse:jumio:4664041005": "2026-10-27",
   "greenhouse:kairospower:6163824004": "2026-10-27",
   "greenhouse:moniepoint:4736488101": "2026-11-02",
@@ -6752,6 +6754,7 @@
   "url:https://job-boards.greenhouse.io/givedirectly/jobs/4748456005": "2026-11-02",
   "url:https://job-boards.greenhouse.io/gradientai/jobs/7826343003": "2026-10-27",
   "url:https://job-boards.greenhouse.io/gusto/jobs/7656216": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/intercom/jobs/8403398": "2026-11-19",
   "url:https://job-boards.greenhouse.io/jumio/jobs/4664041005": "2026-10-27",
   "url:https://job-boards.greenhouse.io/kairospower/jobs/6163824004": "2026-10-27",
   "url:https://job-boards.greenhouse.io/monzo/jobs/6180814": "2026-10-27",
@@ -6807,6 +6810,7 @@
   "url:https://jobs.ashbyhq.com/DatologyAI/d5090b17-8b58-42ee-afa6-fd9162e55372": "2026-11-02",
   "url:https://jobs.ashbyhq.com/DivineResearch/ca551089-7027-4918-9f52-f1e6a20d06b5": "2026-10-27",
   "url:https://jobs.ashbyhq.com/ElevenLabs/257f24da-83db-4bad-a6dc-37793a1a0bac": "2026-11-06",
+  "url:https://jobs.ashbyhq.com/ElevenLabs/41b892ba-b530-44cb-9ae1-178908fc324c": "2026-11-19",
   "url:https://jobs.ashbyhq.com/Epistemix/2cf258de-d6ff-4c32-9f78-a4d9f2913b61": "2026-10-27",
   "url:https://jobs.ashbyhq.com/Fundamental/11f7810f-926f-4f9a-b59f-2a7542169cde": "2026-10-27",
   "url:https://jobs.ashbyhq.com/Jerry.ai/18efcfbf-bfb6-4186-9109-323cfda29f13": "2026-11-02",
