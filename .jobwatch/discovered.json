@@ -932,6 +932,7 @@
   },
   "ashby:arbiter-ai": {
    "ats": "ashby",
+   "dead": "2026-11-19",
    "first_seen": "2026-10-27",
    "slug": "arbiter-ai"
   },
@@ -3302,6 +3303,7 @@
   },
   "ashby:cylinderhealth": {
    "ats": "ashby",
+   "dead": "2026-11-19",
    "first_seen": "2026-10-27",
    "slug": "CylinderHealth"
   },
@@ -28290,6 +28292,7 @@
   },
   "greenhouse:tula": {
    "ats": "greenhouse",
+   "dead": "2026-11-19",
    "first_seen": "2026-10-27",
    "slug": "tula"
   },
