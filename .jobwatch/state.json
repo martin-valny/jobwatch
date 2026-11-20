@@ -1864,6 +1864,14 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Senior Engineer, Bioinformatics",
+   "first_seen": "2026-11-20",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
+  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -3910,6 +3918,14 @@
    "example": "2026_146_SENIOR BIOINFORMATICIAN",
    "first_seen": "2026-10-29",
    "slug": "igtp",
+   "via": "discovered boards"
+  },
+  "recruitee:cscfi": {
+   "ats": "recruitee",
+   "company": "cscfi",
+   "example": "Bioinformatics Specialist for HPC Environments",
+   "first_seen": "2026-11-20",
+   "slug": "cscfi",
    "via": "discovered boards"
   },
   "recruitee:o2h": {
@@ -6667,6 +6683,7 @@
   "url:https://apply.workable.com/j/2D0DC00EF9": "2026-10-27",
   "url:https://apply.workable.com/j/30FFCD2A8E": "2026-11-11",
   "url:https://apply.workable.com/j/440659E104": "2026-10-27",
+  "url:https://apply.workable.com/j/49059502E0": "2026-11-20",
   "url:https://apply.workable.com/j/4B3FEC11A5": "2026-11-11",
   "url:https://apply.workable.com/j/4E2B222E88": "2026-10-27",
   "url:https://apply.workable.com/j/62EB93F458": "2026-11-03",
@@ -6692,6 +6709,7 @@
   "url:https://apply.workable.com/j/F2F338265C": "2026-11-02",
   "url:https://apply.workable.com/j/F31C6EE84F": "2026-11-10",
   "url:https://apply.workable.com/j/F65B470341": "2026-11-02",
+  "url:https://apply.workable.com/j/FFA8D753D5": "2026-11-20",
   "url:https://apply.workable.com/j/FFE8159B05": "2026-10-27",
   "url:https://boards.greenhouse.io/ardentmc/jobs/7948301": "2026-11-03",
   "url:https://boards.greenhouse.io/faire/jobs/7953217002": "2026-10-27",
@@ -7211,6 +7229,8 @@
   "workable:realadvisor:F2F338265C": "2026-11-02",
   "workable:salla:AB2A46514F": "2026-11-08",
   "workable:scalepex:8443CA9664": "2026-11-13",
+  "workable:sedona-digital:49059502E0": "2026-11-20",
+  "workable:sedona-digital:FFA8D753D5": "2026-11-20",
   "workable:tiger-analytics:B78966FB2C": "2026-11-03",
   "workable:weekday-1:85799E457F": "2026-11-02"
  }

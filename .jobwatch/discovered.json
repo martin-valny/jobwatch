@@ -46436,6 +46436,7 @@
   },
   "recruitee:recharge": {
    "ats": "recruitee",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "recharge"
   },
@@ -62225,6 +62226,7 @@
   },
   "workable:new-vector": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "new-vector"
   },
@@ -62377,6 +62379,7 @@
   },
   "workable:nogigiddy": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "nogigiddy"
   },
@@ -63027,6 +63030,7 @@
   },
   "workable:otsae": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "otsae"
   },
@@ -63364,6 +63368,7 @@
   },
   "workable:patrique-mercier-recruitment-1": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "patrique-mercier-recruitment-1"
   },
@@ -65020,6 +65025,7 @@
   },
   "workable:roll20": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "roll20"
   },
@@ -65306,6 +65312,7 @@
   },
   "workable:scope-healthcare-limited": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "scope-healthcare-limited"
   },
@@ -65594,6 +65601,7 @@
   },
   "workable:shipyard": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "shipyard"
   },
@@ -65960,6 +65968,7 @@
   },
   "workable:social-venture-partners-connecticut-1": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "social-venture-partners-connecticut-1"
   },
@@ -66015,6 +66024,7 @@
   },
   "workable:solarvest": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "solarvest"
   },
@@ -66125,6 +66135,7 @@
   },
   "workable:spalding": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "spalding"
   },
@@ -66336,6 +66347,7 @@
   },
   "workable:staff4me": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "staff4me"
   },
@@ -66920,6 +66932,7 @@
   },
   "workable:talent3600": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "talent3600"
   },
@@ -67446,6 +67459,7 @@
   },
   "workable:thedirksgroup": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "thedirksgroup"
   },
@@ -67677,6 +67691,7 @@
   },
   "workable:tierra-climate": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "tierra-climate"
   },
@@ -67843,6 +67858,7 @@
   },
   "workable:towill-shigeokaand-associates-inc": {
    "ats": "workable",
+   "dead": "2026-11-20",
    "first_seen": "2026-10-27",
    "slug": "towill-shigeokaand-associates-inc"
   },
