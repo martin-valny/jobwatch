@@ -1864,14 +1864,6 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-21",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
-  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -6669,6 +6661,7 @@
   "recruitee:almavivadebelgique:2836220": "2026-11-20",
   "recruitee:deephealth:2758379": "2026-11-07",
   "recruitee:gsbsolutions1:2824407": "2026-11-16",
+  "recruitee:makersitegmbh:2530165": "2026-11-21",
   "url:https://1komma5grad.jobs.personio.com/job/2859433": "2026-11-03",
   "url:https://1komma5grad.jobs.personio.de/job/2859433": "2026-11-03",
   "url:https://7learnings.jobs.personio.com/job/2675894": "2026-10-27",
@@ -7201,6 +7194,7 @@
   "url:https://jobs.lever.co/spotify/9e3bdb48-67eb-49d9-ae0b-a337ba69a05f": "2026-11-02",
   "url:https://jobs.lever.co/spotify/a4c49acb-a095-4452-ad9e-69e4b778c256": "2026-11-02",
   "url:https://jobs.lever.co/spotify/babebec3-0061-4c39-a4ad-c51a54d23567": "2026-11-06",
+  "url:https://makersite.io/o/senior-data-scientist-research-euuk-mfx": "2026-11-21",
   "url:https://sproutsocial.com/careers/open-positions/7861888": "2026-10-27",
   "url:https://sproutsocial.com/careers/open-positions/8156297": "2026-10-27",
   "url:https://sproutsocial.com/careers/open-positions/8260823": "2026-10-27",
