@@ -2203,6 +2203,7 @@
   },
   "ashby:capimoney": {
    "ats": "ashby",
+   "dead": "2026-11-21",
    "first_seen": "2026-10-27",
    "slug": "capimoney"
   },
@@ -46751,6 +46752,7 @@
   },
   "recruitee:sevdesk": {
    "ats": "recruitee",
+   "dead": "2026-11-21",
    "first_seen": "2026-10-27",
    "slug": "sevdesk"
   },
