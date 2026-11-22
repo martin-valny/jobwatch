@@ -3993,6 +3993,7 @@
   },
   "ashby:electronx": {
    "ats": "ashby",
+   "dead": "2026-11-22",
    "first_seen": "2026-10-27",
    "slug": "electronx"
   },
@@ -10704,6 +10705,7 @@
   },
   "ashby:qualified": {
    "ats": "ashby",
+   "dead": "2026-11-22",
    "first_seen": "2026-10-27",
    "slug": "qualified"
   },
