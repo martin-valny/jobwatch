@@ -9572,6 +9572,7 @@
   },
   "ashby:p2p.org": {
    "ats": "ashby",
+   "dead": "2026-11-23",
    "first_seen": "2026-10-27",
    "slug": "p2p.org"
   },
@@ -44219,11 +44220,13 @@
   },
   "recruitee:evbox": {
    "ats": "recruitee",
+   "dead": "2026-11-23",
    "first_seen": "2026-10-27",
    "slug": "evbox"
   },
   "recruitee:eveimages": {
    "ats": "recruitee",
+   "dead": "2026-11-23",
    "first_seen": "2026-10-27",
    "slug": "eveimages"
   },
@@ -44244,6 +44247,7 @@
   },
   "recruitee:expetowireless": {
    "ats": "recruitee",
+   "dead": "2026-11-23",
    "first_seen": "2026-10-27",
    "slug": "expetowireless"
   },
