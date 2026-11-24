@@ -1864,6 +1864,14 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Senior Engineer, Bioinformatics",
+   "first_seen": "2026-11-24",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
+  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -4022,6 +4030,14 @@
    "example": "Senior Machine Learning Scientist",
    "first_seen": "2026-10-27",
    "slug": "araic",
+   "via": "discovered boards"
+  },
+  "workable:ascendis-pharma": {
+   "ats": "workable",
+   "company": "ascendis-pharma",
+   "example": "Director, Biostatistics - Job ID: 2093",
+   "first_seen": "2026-11-24",
+   "slug": "ascendis-pharma",
    "via": "discovered boards"
   },
   "workable:atria-health": {
@@ -6545,6 +6561,7 @@
   "ashby:pluralis-research:8fbc6d1a-eac7-4c1e-91e6-e2a68b7d9368": "2026-11-02",
   "ashby:pluralis-research:b5a10115-0386-47c5-80f2-9c382e606dfd": "2026-11-02",
   "ashby:pluralis-research:c86697dd-aacf-4112-b2e2-08dd69d50430": "2026-11-02",
+  "ashby:posthog:f154781c-0777-4374-8108-5140de5f3871": "2026-11-24",
   "ashby:prosus:0e900995-e270-4dbd-9c92-448af821b442": "2026-11-03",
   "ashby:protege:5d3ddab9-5a02-4343-bfcb-d263a7793c88": "2026-11-05",
   "ashby:resolution:65704205-7ccd-4df6-a7d1-3e3338bd80a8": "2026-11-02",
@@ -6609,6 +6626,7 @@
   "greenhouse:givedirectly:4748456005": "2026-11-02",
   "greenhouse:honor:8950134002": "2026-11-18",
   "greenhouse:intercom:8403398": "2026-11-19",
+  "greenhouse:intrinsicrobotics:6268573004": "2026-11-24",
   "greenhouse:jumio:4664041005": "2026-10-27",
   "greenhouse:kairospower:6163824004": "2026-10-27",
   "greenhouse:moniepoint:4736488101": "2026-11-02",
@@ -6731,6 +6749,7 @@
   "url:https://boards.greenhouse.io/faire/jobs/8957560002": "2026-11-21",
   "url:https://boards.greenhouse.io/honor/jobs/8531886002": "2026-10-27",
   "url:https://boards.greenhouse.io/honor/jobs/8950134002": "2026-11-18",
+  "url:https://boards.greenhouse.io/intrinsicrobotics/jobs/6268573004": "2026-11-24",
   "url:https://boards.greenhouse.io/opensesame/jobs/8313424": "2026-11-03",
   "url:https://careers.gofasti.com/job-application/6227581004": "2026-10-27",
   "url:https://deephealth.recruitee.com/o/senior-research-scientist": "2026-11-07",
@@ -6865,6 +6884,7 @@
   "url:https://jobs.ashbyhq.com/Nash/472354ab-cc88-4716-8663-896da3f1e5b0": "2026-11-06",
   "url:https://jobs.ashbyhq.com/OBRIO/aef6f2ab-df56-459d-a0b5-b7ee7d613e95": "2026-10-27",
   "url:https://jobs.ashbyhq.com/Polarsteps/b31dfe4d-d4f1-45fa-8c86-61697142ffe9": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/PostHog/f154781c-0777-4374-8108-5140de5f3871": "2026-11-24",
   "url:https://jobs.ashbyhq.com/Pyyne/96085095-908a-47a0-9cea-15beb53c80b3": "2026-10-27",
   "url:https://jobs.ashbyhq.com/Pyyne/dfbe0e7d-750c-4978-bf8e-92de7b58a4f6": "2026-10-27",
   "url:https://jobs.ashbyhq.com/Ramp/aa5512b1-d973-4d74-9d10-d56446ecf803": "2026-10-27",
