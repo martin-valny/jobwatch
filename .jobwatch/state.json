@@ -1872,6 +1872,14 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Senior Engineer, Bioinformatics",
+   "first_seen": "2026-11-26",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
+  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -4262,6 +4270,14 @@
    "example": "Clinical Data Scientist - Digital Twins & AI/ML",
    "first_seen": "2026-10-27",
    "slug": "workana-premium",
+   "via": "discovered boards"
+  },
+  "workable:zifo": {
+   "ats": "workable",
+   "company": "zifo",
+   "example": "Bioinformatics Workflow Developer",
+   "first_seen": "2026-11-26",
+   "slug": "zifo",
    "via": "discovered boards"
   }
  },
@@ -6738,6 +6754,7 @@
   "personio:apheris:2823682": "2026-11-26",
   "personio:giant-swarm:2848213": "2026-11-03",
   "personio:stenon-gmbh:2866917": "2026-11-02",
+  "personio:tngtech:83492": "2026-11-26",
   "personio_com:1komma5grad:2859433": "2026-11-03",
   "personio_com:7learnings:2886444": "2026-11-13",
   "personio_com:apheris:2823682": "2026-10-27",
@@ -6747,6 +6764,7 @@
   "recruitee:deephealth:2758379": "2026-11-07",
   "recruitee:gsbsolutions1:2824407": "2026-11-16",
   "recruitee:makersitegmbh:2530165": "2026-11-21",
+  "recruitee:makersitegmbh:2841413": "2026-11-26",
   "recruitee:nucsai:2704308": "2026-11-25",
   "url:https://1komma5grad.jobs.personio.com/job/2859433": "2026-11-03",
   "url:https://1komma5grad.jobs.personio.de/job/2859433": "2026-11-03",
@@ -7302,12 +7320,14 @@
   "url:https://jobs.lever.co/spotify/a4c49acb-a095-4452-ad9e-69e4b778c256": "2026-11-02",
   "url:https://jobs.lever.co/spotify/babebec3-0061-4c39-a4ad-c51a54d23567": "2026-11-06",
   "url:https://makersite.io/o/senior-data-scientist-research-euuk-mfx": "2026-11-21",
+  "url:https://makersite.io/o/senior-data-scientist-research-euuk-mfx-1": "2026-11-26",
   "url:https://nucsai.recruitee.com/o/data-scientist-data-engineer": "2026-11-25",
   "url:https://sproutsocial.com/careers/open-positions/7861888": "2026-10-27",
   "url:https://sproutsocial.com/careers/open-positions/8156297": "2026-10-27",
   "url:https://sproutsocial.com/careers/open-positions/8260823": "2026-10-27",
   "url:https://sproutsocial.com/careers/open-positions/8312707": "2026-10-27",
   "url:https://stenon-gmbh.jobs.personio.de/job/2866917": "2026-11-02",
+  "url:https://tngtech.jobs.personio.de/job/83492": "2026-11-26",
   "url:https://www.benesch.com/job-openings/5240276007": "2026-11-03",
   "url:https://www.coinbase.com/careers/positions/8147917": "2026-10-27",
   "url:https://www.coinbase.com/careers/positions/8206668": "2026-10-27",
