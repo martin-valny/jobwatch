@@ -432,6 +432,14 @@
    "slug": "dave",
    "via": "discovered boards"
   },
+  "ashby:dayhoff-labs": {
+   "ats": "ashby",
+   "company": "dayhoff-labs",
+   "example": "Computational Scientist, Biocatalysis",
+   "first_seen": "2026-11-26",
+   "slug": "dayhoff-labs",
+   "via": "discovered boards"
+  },
   "ashby:decagon": {
    "ats": "ashby",
    "company": "decagon",
@@ -1808,6 +1816,14 @@
    "slug": "airbnb",
    "via": "discovered boards"
   },
+  "greenhouse:alamarbiosciences": {
+   "ats": "greenhouse",
+   "company": "alamarbiosciences",
+   "example": "Senior Scientist I, Biostatistics",
+   "first_seen": "2026-11-26",
+   "slug": "alamarbiosciences",
+   "via": "discovered boards"
+  },
   "greenhouse:allenintegratedsolutions": {
    "ats": "greenhouse",
    "company": "allenintegratedsolutions",
@@ -1855,14 +1871,6 @@
    "first_seen": "2026-10-27",
    "slug": "anaplan",
    "via": "discovered boards"
-  },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-25",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
   },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
@@ -1952,6 +1960,14 @@
    "slug": "bettyjobboard",
    "via": "discovered boards"
   },
+  "greenhouse:billiontoone": {
+   "ats": "greenhouse",
+   "company": "billiontoone",
+   "example": "Bioinformatics Associate, Prenatal",
+   "first_seen": "2026-11-26",
+   "slug": "billiontoone",
+   "via": "discovered boards"
+  },
   "greenhouse:biohub": {
    "ats": "greenhouse",
    "company": "EvolutionaryScale",
@@ -2008,12 +2024,28 @@
    "slug": "boulevard",
    "via": "discovered boards"
   },
+  "greenhouse:braveheartbio": {
+   "ats": "greenhouse",
+   "company": "braveheartbio",
+   "example": "Senior Director, Biostatistics",
+   "first_seen": "2026-11-26",
+   "slug": "braveheartbio",
+   "via": "discovered boards"
+  },
   "greenhouse:brex": {
    "ats": "greenhouse",
    "company": "brex",
    "example": "Data Scientist II, Applied ML",
    "first_seen": "2026-10-27",
    "slug": "brex",
+   "via": "discovered boards"
+  },
+  "greenhouse:bridgebio": {
+   "ats": "greenhouse",
+   "company": "bridgebio",
+   "example": "Associate Director, Biostatistics & AI",
+   "first_seen": "2026-11-26",
+   "slug": "bridgebio",
    "via": "discovered boards"
   },
   "greenhouse:c3iot": {
@@ -2470,6 +2502,14 @@
    "example": "Senior Data Scientist, Mobile Marketing Analytics",
    "first_seen": "2026-10-27",
    "slug": "gametimeunited",
+   "via": "discovered boards"
+  },
+  "greenhouse:genscript": {
+   "ats": "greenhouse",
+   "company": "genscript",
+   "example": "Senior Scientist / Research Scientist, Molecular Biology",
+   "first_seen": "2026-11-26",
+   "slug": "genscript",
    "via": "discovered boards"
   },
   "greenhouse:gleanwork": {
@@ -3816,6 +3856,14 @@
    "slug": "alexander-thamm-gmbh",
    "via": "discovered boards"
   },
+  "personio:apheris": {
+   "ats": "personio",
+   "company": "apheris",
+   "example": "ML Engineer - Large Molecules",
+   "first_seen": "2026-11-26",
+   "slug": "apheris",
+   "via": "discovered boards"
+  },
   "personio:dida": {
    "ats": "personio",
    "company": "dida",
@@ -3838,6 +3886,14 @@
    "example": "Data Scientist (f/m/d)",
    "first_seen": "2026-10-27",
    "slug": "pair",
+   "via": "discovered boards"
+  },
+  "personio:proteros-biostructures-gmbh": {
+   "ats": "personio",
+   "company": "proteros-biostructures-gmbh",
+   "example": "Research Scientist Biologics (gn)",
+   "first_seen": "2026-11-26",
+   "slug": "proteros-biostructures-gmbh",
    "via": "discovered boards"
   },
   "personio_com:7learnings": {
@@ -6415,6 +6471,7 @@
   "ashby:Fundamental:11f7810f-926f-4f9a-b59f-2a7542169cde": "2026-11-06",
   "ashby:Jerry.ai:0081a0a9-e34a-4932-bf55-f6737a17b46a": "2026-11-20",
   "ashby:Jerry.ai:18efcfbf-bfb6-4186-9109-323cfda29f13": "2026-11-02",
+  "ashby:Jerry.ai:312844bc-5e59-4ad7-8b4a-99281bafef3e": "2026-11-26",
   "ashby:Jerry.ai:33c4eb49-6536-434d-8a17-814990fa64f8": "2026-11-02",
   "ashby:Jerry.ai:67b832c4-8d9f-4953-ba43-ba892d06fe8a": "2026-11-20",
   "ashby:Jerry.ai:81fcaf5e-3203-4a9d-88cd-fb01c7edf1ea": "2026-11-10",
@@ -6486,6 +6543,8 @@
   "ashby:collective:416cbdb8-4acb-4f79-8b5c-27a4509c0ac6": "2026-11-02",
   "ashby:constructor:047c4189-1c39-4686-a24c-f506cb9896b7": "2026-11-05",
   "ashby:counsel:5c1c6f18-339a-4d5d-804b-57cb1b3444de": "2026-11-02",
+  "ashby:deaa6ad2-d184-436b-b69e-17f761da1d94:6e492d84-25dd-4386-b670-b30f1f8180a4": "2026-11-26",
+  "ashby:deaa6ad2-d184-436b-b69e-17f761da1d94:a3a2e826-7709-4fb9-af54-bcd264a56bbf": "2026-11-26",
   "ashby:devsavant:0467dbf1-e774-4403-a186-69dcd5630981": "2026-11-24",
   "ashby:differential.bio:c2e3b1f1-38c3-4901-9686-675a5edb8933": "2026-11-02",
   "ashby:doctolib:0ec84e52-5047-440c-9a67-e0d0898c9783": "2026-11-03",
@@ -6503,6 +6562,7 @@
   "ashby:faculty:e6e788ad-706d-433e-8a33-356f90fcff31": "2026-11-02",
   "ashby:fireworks:5bae43a4-aa7b-4b56-821a-a03ede683d0f": "2026-11-02",
   "ashby:gen-digital:428e123e-8440-4fce-82f7-6b3733d694c8": "2026-11-03",
+  "ashby:hang:c497f91c-9495-45ec-b4d5-8c76a9ef62e2": "2026-11-26",
   "ashby:happyrobot.ai:effe1dbd-e22d-426a-a142-a3281a4f5d76": "2026-11-02",
   "ashby:hawk:3b98f79d-a111-4b5d-a699-937fffdcccec": "2026-11-02",
   "ashby:hawk:6192c093-d6df-411b-8f1b-0f411b3ffd2f": "2026-11-02",
@@ -6600,21 +6660,30 @@
   "greenhouse:Freenome:8752452002": "2026-10-27",
   "greenhouse:Freenome:8842728002": "2026-10-27",
   "greenhouse:Freenome:8920182002": "2026-11-05",
+  "greenhouse:abinbev:8920270002": "2026-11-26",
+  "greenhouse:affirmedrxpbc:5489923008": "2026-11-26",
   "greenhouse:alfredbeneschco:5240276007": "2026-11-03",
   "greenhouse:ardentmc:7948301": "2026-11-03",
   "greenhouse:axle:5274568007": "2026-10-27",
   "greenhouse:axle:5274573007": "2026-10-27",
   "greenhouse:axle:5286265007": "2026-11-05",
   "greenhouse:axle:5294604007": "2026-11-13",
+  "greenhouse:binance:5002575101": "2026-11-26",
+  "greenhouse:binance:5002635101": "2026-11-26",
+  "greenhouse:binance:5002729101": "2026-11-26",
+  "greenhouse:binance:5032464101": "2026-11-26",
   "greenhouse:blockchain:7386870": "2026-11-17",
+  "greenhouse:braveheartbio:4512662009": "2026-11-26",
   "greenhouse:bybit:4974605101": "2026-11-03",
   "greenhouse:civisanalytics:8407000": "2026-11-24",
   "greenhouse:eclinicalsolutions:5214677007": "2026-10-27",
+  "greenhouse:eclipse:4981191008": "2026-11-26",
   "greenhouse:faire:8870975002": "2026-11-03",
   "greenhouse:faire:8942108002": "2026-11-13",
   "greenhouse:faire:8957560002": "2026-11-21",
   "greenhouse:figure:8934097002": "2026-11-13",
   "greenhouse:galaxydigitalservices:6163325004": "2026-11-03",
+  "greenhouse:gensyn:4579609101": "2026-11-26",
   "greenhouse:givedirectly:4748456005": "2026-11-02",
   "greenhouse:honor:8950134002": "2026-11-18",
   "greenhouse:intercom:8403398": "2026-11-19",
@@ -6665,11 +6734,14 @@
   "lever_eu:westernacher:20daba5c-3e04-4dc4-b474-d64ff67caaf5": "2026-11-02",
   "personio:1komma5grad:2859433": "2026-11-03",
   "personio:7learnings:2886444": "2026-11-13",
+  "personio:apheris:2739261": "2026-11-26",
+  "personio:apheris:2823682": "2026-11-26",
   "personio:giant-swarm:2848213": "2026-11-03",
   "personio:stenon-gmbh:2866917": "2026-11-02",
   "personio_com:1komma5grad:2859433": "2026-11-03",
   "personio_com:7learnings:2886444": "2026-11-13",
   "personio_com:apheris:2823682": "2026-10-27",
+  "recruitee:addepto:2054257": "2026-11-26",
   "recruitee:almavivadebelgique:2828461": "2026-11-17",
   "recruitee:almavivadebelgique:2836220": "2026-11-20",
   "recruitee:deephealth:2758379": "2026-11-07",
@@ -6686,10 +6758,13 @@
   "url:https://7learnings.jobs.personio.de/job/2793420": "2026-10-27",
   "url:https://7learnings.jobs.personio.de/job/2819017": "2026-10-27",
   "url:https://7learnings.jobs.personio.de/job/2886444": "2026-11-13",
+  "url:https://addepto.recruitee.com/o/data-scientist-ai-engineer": "2026-11-26",
   "url:https://almavivadebelgique.be/o/data-scientist-deadline-remote-from-eu-deadline-301126": "2026-11-20",
   "url:https://almavivadebelgique.be/o/data-scientist-remote-from-eu-deadline-231126": "2026-11-17",
   "url:https://apheris.jobs.personio.com/job/2739261": "2026-10-27",
   "url:https://apheris.jobs.personio.com/job/2823682": "2026-10-27",
+  "url:https://apheris.jobs.personio.de/job/2739261": "2026-11-26",
+  "url:https://apheris.jobs.personio.de/job/2823682": "2026-11-26",
   "url:https://apply.workable.com/j/0B8AEA13CD": "2026-11-02",
   "url:https://apply.workable.com/j/0E382C512E": "2026-11-11",
   "url:https://apply.workable.com/j/1DDF11D151": "2026-11-11",
@@ -6749,7 +6824,12 @@
   "url:https://edri.jobs.personio.com/job/2848914": "2026-10-27",
   "url:https://giant-swarm.jobs.personio.de/job/2848213": "2026-11-03",
   "url:https://gsb.lat/o/data-scientist-quality-workstream-remote-in-mexico": "2026-11-16",
+  "url:https://job-boards.eu.greenhouse.io/binance/jobs/5002575101": "2026-11-26",
+  "url:https://job-boards.eu.greenhouse.io/binance/jobs/5002635101": "2026-11-26",
+  "url:https://job-boards.eu.greenhouse.io/binance/jobs/5002729101": "2026-11-26",
+  "url:https://job-boards.eu.greenhouse.io/binance/jobs/5032464101": "2026-11-26",
   "url:https://job-boards.eu.greenhouse.io/bybit/jobs/4974605101": "2026-11-03",
+  "url:https://job-boards.eu.greenhouse.io/gensyn/jobs/4579609101": "2026-11-26",
   "url:https://job-boards.eu.greenhouse.io/moniepoint/jobs/4736488101": "2026-11-02",
   "url:https://job-boards.eu.greenhouse.io/moniepoint/jobs/4737173101": "2026-11-02",
   "url:https://job-boards.eu.greenhouse.io/moniepoint/jobs/4808999101": "2026-10-27",
@@ -6759,6 +6839,8 @@
   "url:https://job-boards.eu.greenhouse.io/moniepoint/jobs/4941105101": "2026-11-02",
   "url:https://job-boards.eu.greenhouse.io/moniepoint/jobs/5008330101": "2026-10-27",
   "url:https://job-boards.eu.greenhouse.io/orcristtechnologies/jobs/4976566101": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/abinbev/jobs/8920270002": "2026-11-26",
+  "url:https://job-boards.greenhouse.io/affirmedrxpbc/jobs/5489923008": "2026-11-26",
   "url:https://job-boards.greenhouse.io/alxafrica/jobs/8046119": "2026-10-27",
   "url:https://job-boards.greenhouse.io/apartmentiq/jobs/8049313": "2026-10-27",
   "url:https://job-boards.greenhouse.io/axle/jobs/5175582007": "2026-10-27",
@@ -6768,11 +6850,13 @@
   "url:https://job-boards.greenhouse.io/axle/jobs/5294604007": "2026-11-13",
   "url:https://job-boards.greenhouse.io/blockchain/jobs/7386870": "2026-11-17",
   "url:https://job-boards.greenhouse.io/bluefishai/jobs/5286942008": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/braveheartbio/jobs/4512662009": "2026-11-26",
   "url:https://job-boards.greenhouse.io/civisanalytics/jobs/8407000": "2026-11-24",
   "url:https://job-boards.greenhouse.io/clearstreet/jobs/8223266": "2026-10-27",
   "url:https://job-boards.greenhouse.io/clearstreet/jobs/8296144": "2026-10-27",
   "url:https://job-boards.greenhouse.io/coderoad/jobs/4458093009": "2026-10-27",
   "url:https://job-boards.greenhouse.io/eclinicalsolutions/jobs/5214677007": "2026-10-27",
+  "url:https://job-boards.greenhouse.io/eclipse/jobs/4981191008": "2026-11-26",
   "url:https://job-boards.greenhouse.io/evio/jobs/4723802005": "2026-10-27",
   "url:https://job-boards.greenhouse.io/figure/jobs/8934097002": "2026-11-13",
   "url:https://job-boards.greenhouse.io/focalsystems/jobs/6016008004": "2026-10-27",
@@ -6847,9 +6931,11 @@
   "url:https://jobs.ashbyhq.com/ElevenLabs/41b892ba-b530-44cb-9ae1-178908fc324c": "2026-11-19",
   "url:https://jobs.ashbyhq.com/Epistemix/2cf258de-d6ff-4c32-9f78-a4d9f2913b61": "2026-10-27",
   "url:https://jobs.ashbyhq.com/Fundamental/11f7810f-926f-4f9a-b59f-2a7542169cde": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Hang/c497f91c-9495-45ec-b4d5-8c76a9ef62e2": "2026-11-26",
   "url:https://jobs.ashbyhq.com/Jerry.ai/0081a0a9-e34a-4932-bf55-f6737a17b46a": "2026-11-20",
   "url:https://jobs.ashbyhq.com/Jerry.ai/18efcfbf-bfb6-4186-9109-323cfda29f13": "2026-11-02",
   "url:https://jobs.ashbyhq.com/Jerry.ai/271b73bc-2b1a-4be6-b3dc-d72d806b8e35": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/Jerry.ai/312844bc-5e59-4ad7-8b4a-99281bafef3e": "2026-11-26",
   "url:https://jobs.ashbyhq.com/Jerry.ai/33c4eb49-6536-434d-8a17-814990fa64f8": "2026-11-02",
   "url:https://jobs.ashbyhq.com/Jerry.ai/67b832c4-8d9f-4953-ba43-ba892d06fe8a": "2026-11-20",
   "url:https://jobs.ashbyhq.com/Jerry.ai/74b5781f-8834-4e74-be8d-8be0fe895b99": "2026-10-27",
@@ -6951,6 +7037,8 @@
   "url:https://jobs.ashbyhq.com/cuesta-partners/0c715680-1684-42b1-b4e9-29528015ae3a": "2026-10-27",
   "url:https://jobs.ashbyhq.com/dandelionhealth/1c0f71a9-6519-4d0f-bb79-5c55022335e4": "2026-10-27",
   "url:https://jobs.ashbyhq.com/dandelionhealth/90056e96-44ad-4deb-a3a7-56e3f691eb10": "2026-10-27",
+  "url:https://jobs.ashbyhq.com/deaa6ad2-d184-436b-b69e-17f761da1d94/6e492d84-25dd-4386-b670-b30f1f8180a4": "2026-11-26",
+  "url:https://jobs.ashbyhq.com/deaa6ad2-d184-436b-b69e-17f761da1d94/a3a2e826-7709-4fb9-af54-bcd264a56bbf": "2026-11-26",
   "url:https://jobs.ashbyhq.com/demandbase/7dbe602e-c291-4d3b-b6e1-6ad51441eb84": "2026-10-27",
   "url:https://jobs.ashbyhq.com/devsavant/0467dbf1-e774-4403-a186-69dcd5630981": "2026-11-24",
   "url:https://jobs.ashbyhq.com/differential.bio/c2e3b1f1-38c3-4901-9686-675a5edb8933": "2026-11-02",
