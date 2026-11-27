@@ -1872,6 +1872,14 @@
    "slug": "anaplan",
    "via": "discovered boards"
   },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Senior Engineer, Bioinformatics",
+   "first_seen": "2026-11-27",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
+  },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
    "company": "apartmentiq",
@@ -3094,14 +3102,6 @@
    "example": "Data Scientist",
    "first_seen": "2026-10-27",
    "slug": "prove",
-   "via": "discovered boards"
-  },
-  "greenhouse:purestorage": {
-   "ats": "greenhouse",
-   "company": "purestorage",
-   "example": "Data Scientist Engineer, Digital Experience",
-   "first_seen": "2026-10-27",
-   "slug": "purestorage",
    "via": "discovered boards"
   },
   "greenhouse:queracomputinginc": {
