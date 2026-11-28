@@ -392,14 +392,6 @@
    "slug": "cuesta-partners",
    "via": "discovered boards"
   },
-  "ashby:cygnify": {
-   "ats": "ashby",
-   "company": "cygnify",
-   "example": "Data Scientist \u2013 AI Fintech",
-   "first_seen": "2026-10-27",
-   "slug": "cygnify",
-   "via": "discovered boards"
-  },
   "ashby:dandelionhealth": {
    "ats": "ashby",
    "company": "dandelionhealth",
@@ -1863,6 +1855,14 @@
    "first_seen": "2026-10-27",
    "slug": "anaplan",
    "via": "discovered boards"
+  },
+  "greenhouse:anthropic": {
+   "ats": "greenhouse",
+   "company": "Anthropic",
+   "example": "Senior Engineer, Bioinformatics",
+   "first_seen": "2026-11-28",
+   "slug": "anthropic",
+   "via": "investor board generalcatalyst"
   },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
