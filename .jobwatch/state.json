@@ -264,14 +264,6 @@
    "slug": "biggergames",
    "via": "discovered boards"
   },
-  "ashby:bio": {
-   "ats": "ashby",
-   "company": "bio",
-   "example": "Computational Biologist",
-   "first_seen": "2026-10-27",
-   "slug": "bio",
-   "via": "discovered boards"
-  },
   "ashby:bonfireanalytics": {
    "ats": "ashby",
    "company": "bonfireanalytics",
@@ -1871,14 +1863,6 @@
    "first_seen": "2026-10-27",
    "slug": "anaplan",
    "via": "discovered boards"
-  },
-  "greenhouse:anthropic": {
-   "ats": "greenhouse",
-   "company": "Anthropic",
-   "example": "Senior Engineer, Bioinformatics",
-   "first_seen": "2026-11-27",
-   "slug": "anthropic",
-   "via": "investor board generalcatalyst"
   },
   "greenhouse:apartmentiq": {
    "ats": "greenhouse",
@@ -6729,6 +6713,7 @@
   "greenhouse:wavemm1:6222404004": "2026-11-02",
   "lever:Yassir:9ca82566-8bac-471e-9545-baa8ef759d1f": "2026-11-03",
   "lever:Yassir:9caf7e04-195a-4011-9b55-e1105615c0a2": "2026-11-03",
+  "lever:ciandt:df5e1c27-5672-4914-8c2c-9a2e7e6f75b0": "2026-11-28",
   "lever:ciandt:e7de1475-a9a0-4cb1-86d0-6bf3bf0914a7": "2026-11-24",
   "lever:moonpay:49338068-2f4d-4cbb-b55d-176b2ed2f89e": "2026-11-02",
   "lever:spotify:0eebb462-b5a2-4e3a-b830-d8ef7505b014": "2026-11-02",
@@ -6755,8 +6740,10 @@
   "recruitee:addepto:2054257": "2026-11-26",
   "recruitee:almavivadebelgique:2828461": "2026-11-17",
   "recruitee:almavivadebelgique:2836220": "2026-11-20",
+  "recruitee:decircletalentpartner:2090714": "2026-11-28",
   "recruitee:deephealth:2758379": "2026-11-07",
   "recruitee:gsbsolutions1:2824407": "2026-11-16",
+  "recruitee:jimmytechnologies:2842849": "2026-11-28",
   "recruitee:makersitegmbh:2530165": "2026-11-21",
   "recruitee:makersitegmbh:2841413": "2026-11-26",
   "recruitee:nucsai:2704308": "2026-11-25",
@@ -7300,10 +7287,12 @@
   "url:https://jobs.eu.lever.co/sportalliance/a0b01f5c-42e8-47ab-9b2e-4278c1ba3401": "2026-10-27",
   "url:https://jobs.eu.lever.co/sportalliance/f0595641-411d-4761-8403-1e366650dee6": "2026-10-27",
   "url:https://jobs.eu.lever.co/westernacher/20daba5c-3e04-4dc4-b474-d64ff67caaf5": "2026-11-02",
+  "url:https://jobs.fromjimmy.com/o/senior-data-scientist-healthcare": "2026-11-28",
   "url:https://jobs.lever.co/Yassir/9ca82566-8bac-471e-9545-baa8ef759d1f": "2026-11-03",
   "url:https://jobs.lever.co/Yassir/9caf7e04-195a-4011-9b55-e1105615c0a2": "2026-11-03",
   "url:https://jobs.lever.co/airalo/dd4643aa-12f5-47fe-a30c-741f4e8d03df": "2026-10-27",
   "url:https://jobs.lever.co/brillio-2/11ec26f4-eb09-40fb-bb7b-d3458ab93e58": "2026-10-27",
+  "url:https://jobs.lever.co/ciandt/df5e1c27-5672-4914-8c2c-9a2e7e6f75b0": "2026-11-28",
   "url:https://jobs.lever.co/ciandt/e7de1475-a9a0-4cb1-86d0-6bf3bf0914a7": "2026-11-24",
   "url:https://jobs.lever.co/jumpcloud/60f9796e-9f63-416e-8c7b-8e16cd2ee3dc": "2026-10-27",
   "url:https://jobs.lever.co/moonpay/49338068-2f4d-4cbb-b55d-176b2ed2f89e": "2026-11-02",
@@ -7325,6 +7314,7 @@
   "url:https://sproutsocial.com/careers/open-positions/8260823": "2026-10-27",
   "url:https://sproutsocial.com/careers/open-positions/8312707": "2026-10-27",
   "url:https://stenon-gmbh.jobs.personio.de/job/2866917": "2026-11-02",
+  "url:https://talent.makerdao.network/o/archon-labs-data-scientist": "2026-11-28",
   "url:https://thecodest.recruitee.com/o/senior-data-scientist-3": "2026-11-27",
   "url:https://tngtech.jobs.personio.de/job/83492": "2026-11-26",
   "url:https://www.benesch.com/job-openings/5240276007": "2026-11-03",
